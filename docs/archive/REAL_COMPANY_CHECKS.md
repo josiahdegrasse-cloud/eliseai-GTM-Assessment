@@ -1,3 +1,5 @@
+> Historical record. Version numbers, results and “current” statements below apply to the recorded release. See [current evaluation](../EVALUATION.md) and [documentation index](../README.md).
+
 # Real-company integration checks
 
 September 29, 2026. These checks used the built Worker, an isolated local Cloudflare runtime and database, and actual keyless Jina Reader, Census, GLEIF and USGS requests. They did not create production leads or send messages. Test contacts use `example.invalid`; the five additional records intentionally contain no property address.
@@ -133,7 +135,7 @@ These are surrounding-tract survey estimates, not the three properties’ asking
 
 A browser CSV upload of three explicitly fictional Acme contacts automatically completed all three research jobs without opening each contact. The brief showed local-market estimates and the separate restriction-verification prompt. The **210-test** suite also verifies source geography, missing/sentinel values, distinct denominators, cache reuse, failure preservation, session ownership, automatic candidate selection and no score/email changes from area context.
 
-No unattended 9 a.m. scheduler or property-level restriction determination was enabled. See [automation and context boundaries](AUTOMATION_AND_MARKET_CONTEXT.md).
+No unattended 9 a.m. scheduler or property-level restriction determination was enabled. See [automation and context boundaries](../AUTOMATION_AND_MARKET_CONTEXT.md).
 
 
 ## Reviewer recovery release — September 29, 2026

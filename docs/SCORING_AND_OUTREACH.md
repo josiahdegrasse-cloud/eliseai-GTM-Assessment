@@ -85,7 +85,7 @@ Earlier rep-qualification calculations remain internal/legacy compatibility data
 
 ## Validation boundaries
 
-Regression checks cover source attribution, wrong-company/customer claims, mixed businesses, missing and conflicting evidence, stable category sorting, API/export consistency, deterministic writing, concise single-ask messages and preservation of edits. Captured research and synthetic copy checks are not independent SDR approval or evidence of conversion lift. Live company retrieval remains incomplete; see [the evaluation](EVALUATION.md).
+Regression checks cover source attribution, wrong-company/customer claims, mixed businesses, missing and conflicting evidence, stable category sorting, API/export consistency, deterministic writing, concise single-ask messages and preservation of edits. Captured research and synthetic copy checks are not independent SDR approval or evidence of conversion lift. Live company retrieval remains incomplete; see [the evaluation](archive/EVALUATION.md).
 
 
 ## Transparent review priority (inbound-priority-v2)

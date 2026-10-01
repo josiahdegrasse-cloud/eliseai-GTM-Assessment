@@ -8,7 +8,7 @@ Manual intake and file imports mark each new lead pending. Company/address edits
 
 Pending flags live in the visitor’s database records. Returning to the same unexpired session resumes pending work. Closing or hiding the browser pauses dispatch; a request already underway may finish. Browser sessions expire after 24 hours; connected Sheets use a separate 90-day workspace/connection lifecycle. This upload/edit trigger satisfies the assessment’s trigger alternative.
 
-Google Sheets also supports unattended ingestion through the user-installed Apps Script: edit/time triggers send rows to a scoped webhook, deduplicate imports, and process a bounded batch. The browser does not need to stay open for those Sheets requests. See [README](../README.md) for that separate path.
+Google Sheets also supports unattended ingestion through the user-installed Apps Script: edit/time triggers send rows to a scoped webhook, deduplicate imports, and process a bounded batch. The browser does not need to stay open for those Sheets requests. See [README](OPERATING_GUIDE.md) for that separate path.
 
 **No 9 a.m. application-wide schedule is configured.** The current Sites tools do not expose a scheduler, and the public app has visitor-scoped, temporary workspaces rather than a persistent sales-team account. A production daily job needs a persistent workspace, authorized service writer and cloud scheduler. It should enqueue stale records at 9 a.m. in a named IANA timezone (for example America/New_York), honor daylight saving time, deduplicate per workspace/date, and retain the existing provider budgets. A browser clock is not an unattended scheduler.
 

@@ -1,6 +1,8 @@
+> Historical record. Version numbers, results and “current” statements below apply to the recorded release. See [current evaluation](../EVALUATION.md) and [documentation index](../README.md).
+
 # 30-company live benchmark
 
-This records the earlier baseline and development runs. See [Research reliability repair](RESEARCH_RECOVERY.md) for the subsequent final-version live recheck and a separate 12-company first pass.
+This records the earlier baseline and development runs. See [Research reliability repair](../RESEARCH_RECOVERY.md) for the subsequent final-version live recheck and a separate 12-company first pass.
 
 30 previously unused company cases, 10 per cohort. Labels researched from official sources before processing. Only input is submitted; label sources and expected roles are withheld. Inquiry text and all email addresses are synthetic. 9 publicly named professional contacts are a separate role-coverage subset; 21 TEST names are negative controls. No property is submitted: this measures company classification and limited contact research, not property coverage or real conversion. One attempt per case, fixed sequence, no manual rescue or quota reset. This is a convenience sample, not a random estimate of all leads.
 

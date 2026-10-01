@@ -72,7 +72,7 @@ Current Google Sheets rep feedback remains attached to actual lead/draft revisio
 - No measured improvement on the automated objective; every proposed wording option tied on the checks it encountered.
 - No production email change, independent human quality result, sales lift or live retrieval improvement is claimed.
 
-[Recorded report](gepa-experiment.html) · [Raw result](../test-data/gepa-verified-run.json). The [original 28-evaluation run](../test-data/gepa-first-run.json) is retained for traceability; the current runner compares proposals over the full training set.
+[Recorded report](archive/gepa-experiment.html) · [Raw result](../test-data/gepa-verified-run.json). The [original 28-evaluation run](../test-data/gepa-first-run.json) is retained for traceability; the current runner compares proposals over the full training set.
 
 ## Promotion and interview explanation
 

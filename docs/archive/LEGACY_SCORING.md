@@ -1,6 +1,8 @@
+> Historical record. Version numbers, results and “current” statements below apply to the recorded release. See [current evaluation](../EVALUATION.md) and [documentation index](../README.md).
+
 # Archived scoring and outreach specifications
 
-Historical reference only. These superseded models do not describe the current interface or primary CSV score. See [current specification](SCORING_AND_OUTREACH.md).
+Historical reference only. These superseded models do not describe the current interface or primary CSV score. See [current specification](../SCORING_AND_OUTREACH.md).
 
 # Current rep-facing company fit
 
@@ -157,7 +159,7 @@ A passing test suite proves specified behavior on tested cases, not predictive s
 
 ## Deterministic decision layer
 
-See [decision specification](DECISION_RULES.md) for inputs, precedence, review windows, product mapping, evidence limitations and tests. Version `sales-action-v1` runs beside the 50/50 rubric. It never adds numeric points for operational metrics, system names, property demographics, account relationship, logos or buyer-trigger text. Those fields inform the next action and product suggestion only.
+See [decision specification](../DECISION_RULES.md) for inputs, precedence, review windows, product mapping, evidence limitations and tests. Version `sales-action-v1` runs beside the 50/50 rubric. It never adds numeric points for operational metrics, system names, property demographics, account relationship, logos or buyer-trigger text. Those fields inform the next action and product suggestion only.
 
 Product-specific draft wording uses an explicitly selected, dated buyer workflow and active need. For a qualified new prospect, the draft uses the same next question as the action card. Edited/reviewed wording is preserved and flagged when relevant inputs change.
 

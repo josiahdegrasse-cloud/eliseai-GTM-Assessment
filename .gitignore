@@ -13,3 +13,8 @@ dist/
 .quality-reports/
 
 .venv-gepa/
+
+# Generated handoff artifacts
+/SUBMISSION_MANIFEST.json
+*.zip
+.DS_Store

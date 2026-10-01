@@ -1,3 +1,5 @@
+> Historical record. Version numbers, results and “current” statements below apply to the recorded release. See [current evaluation](../EVALUATION.md) and [documentation index](../README.md).
+
 # Free research validation · September 30, 2026
 
 A paired, local Worker check ran the previous free implementation and the improved implementation on the same six public professionals across six companies, plus two deliberately wrong-employer pairs. Both runs used fresh isolated databases and live public pages; no production visitor data, research credentials or paid services were used. The runner restricts outbound requests to the sample company domains, anonymous Reader and public DNS, and rejects authorization headers. Expected titles and source URLs were withheld from the application.
