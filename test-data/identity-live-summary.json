@@ -1,0 +1,134 @@
+{
+  "generated_at": "2026-09-30T01:42:37.528Z",
+  "mode": "live anonymous-provider smoke check",
+  "limitations": "Eight known-domain public companies, not a representative 50-lead benchmark. Domain discovery, contact enrichment and independently audited claim accuracy are not measured. No production credentials or paid provider used. Saved snapshots are not fresh live successes. Local runtime/network performance may differ from production. The run began before the copyright-footer compatibility fix; raw results retain the tested evidence.",
+  "tested": 8,
+  "current_company_evidence": 6,
+  "current_with_three_company_facts": 3,
+  "median_elapsed_ms": 35525,
+  "total_provider_requests": 42,
+  "measured_cost": null,
+  "rows": [
+    {
+      "company": "Greystar",
+      "identity": "confirmed",
+      "current_company_evidence": true,
+      "saved_snapshot": false,
+      "sources": 2,
+      "company_facts": 4,
+      "elapsed_ms": 10364,
+      "provider_requests": 5,
+      "repeat_requests": 0,
+      "source_urls": [
+        "https://greystar.com/",
+        "https://www.greystar.com/business"
+      ]
+    },
+    {
+      "company": "Camden Property Trust",
+      "identity": "confirmed",
+      "current_company_evidence": true,
+      "saved_snapshot": false,
+      "sources": 3,
+      "company_facts": 4,
+      "elapsed_ms": 17481,
+      "provider_requests": 6,
+      "repeat_requests": 0,
+      "source_urls": [
+        "https://investors.camdenliving.com/investors/corporate-overview/corporate-profile/default.aspx",
+        "https://camdenliving.com/",
+        "https://camdenliving.com/contact-us"
+      ]
+    },
+    {
+      "company": "AMLI",
+      "identity": "confirmed",
+      "current_company_evidence": true,
+      "saved_snapshot": false,
+      "sources": 2,
+      "company_facts": 4,
+      "elapsed_ms": 25897,
+      "provider_requests": 6,
+      "repeat_requests": 0,
+      "source_urls": [
+        "https://amli.com/about-us",
+        "https://amli.com/"
+      ]
+    },
+    {
+      "company": "AvalonBay Communities",
+      "identity": "confirmed",
+      "current_company_evidence": true,
+      "saved_snapshot": false,
+      "sources": 4,
+      "company_facts": 1,
+      "elapsed_ms": 35969,
+      "provider_requests": 5,
+      "repeat_requests": 0,
+      "source_urls": [
+        "https://investors.avalonbay.com/",
+        "https://investors.avalonbay.com/company-information",
+        "https://avalonbay.com/",
+        "https://contact.avalonbay.com/"
+      ]
+    },
+    {
+      "company": "Equity Residential",
+      "identity": "unresolved",
+      "current_company_evidence": false,
+      "saved_snapshot": false,
+      "sources": 0,
+      "company_facts": 0,
+      "elapsed_ms": 35755,
+      "provider_requests": 5,
+      "repeat_requests": 0,
+      "source_urls": []
+    },
+    {
+      "company": "MAA",
+      "identity": "unresolved",
+      "current_company_evidence": false,
+      "saved_snapshot": false,
+      "sources": 0,
+      "company_facts": 0,
+      "elapsed_ms": 35295,
+      "provider_requests": 5,
+      "repeat_requests": 0,
+      "source_urls": []
+    },
+    {
+      "company": "Bozzuto",
+      "identity": "confirmed",
+      "current_company_evidence": true,
+      "saved_snapshot": false,
+      "sources": 4,
+      "company_facts": 2,
+      "elapsed_ms": 36501,
+      "provider_requests": 5,
+      "repeat_requests": 0,
+      "source_urls": [
+        "https://bozzuto.com/about-us",
+        "https://bozzuto.com/about-us/leadership",
+        "https://bozzuto.com/property-management",
+        "https://bozzuto.com/"
+      ]
+    },
+    {
+      "company": "RealPage",
+      "identity": "confirmed",
+      "current_company_evidence": true,
+      "saved_snapshot": false,
+      "sources": 4,
+      "company_facts": 1,
+      "elapsed_ms": 36331,
+      "provider_requests": 5,
+      "repeat_requests": 0,
+      "source_urls": [
+        "https://realpage.com/",
+        "https://realpage.com/contact-center/",
+        "https://realpage.com/ebooks/build-a-better-contact-center/",
+        "https://realpage.com/client-login/contact-center/"
+      ]
+    }
+  ]
+}

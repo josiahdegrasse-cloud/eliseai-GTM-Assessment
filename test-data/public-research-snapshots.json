@@ -1,0 +1,121 @@
+{
+  "census:{\"street\":\"1731 tupelo hill lane\",\"city\":\"raleigh\",\"state\":\"nc\",\"benchmark\":\"public_ar_current\",\"vintage\":\"current_current\",\"format\":\"json\"}": {
+    "provider": "U.S. Census Bureau",
+    "date": "2026-09-29T15:13:09.092Z",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/address?street=1731+Tupelo+Hill+Lane&city=Raleigh&state=NC&benchmark=Public_AR_Current&vintage=Current_Current&format=json",
+    "cached": false,
+    "status": "matched",
+    "address": "1731 TUPELO HILL LN, RALEIGH, NC, 27607",
+    "county": "Wake County",
+    "tract": "37183051502",
+    "coordinates": {
+      "x": -78.690589647961,
+      "y": 35.812090176255
+    },
+    "message": "Address-range match. Does not establish building existence, ownership, unit count, or a link to this company.",
+    "cache_fetched_at": "2026-09-29T15:13:09.092Z",
+    "cache_fresh_until": null,
+    "retry_after": null,
+    "stale": false,
+    "sample_snapshot": true
+  },
+  "census:{\"street\":\"1800 boren ave\",\"city\":\"seattle\",\"state\":\"wa\",\"benchmark\":\"public_ar_current\",\"vintage\":\"current_current\",\"format\":\"json\"}": {
+    "provider": "U.S. Census Bureau",
+    "date": "2026-09-29T15:16:10.309Z",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/address?street=1800+Boren+Ave&city=Seattle&state=WA&benchmark=Public_AR_Current&vintage=Current_Current&format=json",
+    "cached": false,
+    "status": "matched",
+    "address": "1800 BOREN AVE, SEATTLE, WA, 98101",
+    "county": "King County",
+    "tract": "53033007302",
+    "coordinates": {
+      "x": -122.331425564348,
+      "y": 47.616249854292
+    },
+    "message": "Address-range match. Does not establish building existence, ownership, unit count, or a link to this company.",
+    "cache_fetched_at": "2026-09-29T15:16:10.309Z",
+    "cache_fresh_until": null,
+    "retry_after": null,
+    "stale": false,
+    "sample_snapshot": true
+  },
+  "census:{\"street\":\"309 e morehead st\",\"city\":\"charlotte\",\"state\":\"nc\",\"benchmark\":\"public_ar_current\",\"vintage\":\"current_current\",\"format\":\"json\"}": {
+    "provider": "U.S. Census Bureau",
+    "date": "2026-09-29T15:16:06.835Z",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/address?street=309+E+Morehead+St&city=Charlotte&state=NC&benchmark=Public_AR_Current&vintage=Current_Current&format=json",
+    "cached": false,
+    "status": "matched",
+    "address": "309 E MOREHEAD ST, CHARLOTTE, NC, 28202",
+    "county": "Mecklenburg County",
+    "tract": "37119000101",
+    "coordinates": {
+      "x": -80.849186053469,
+      "y": 35.219148552874
+    },
+    "message": "Address-range match. Does not establish building existence, ownership, unit count, or a link to this company.",
+    "cache_fetched_at": "2026-09-29T15:16:06.835Z",
+    "cache_fresh_until": null,
+    "retry_after": null,
+    "stale": false,
+    "sample_snapshot": true
+  },
+  "exa:amli.com|amli": {
+    "evidence": [
+      {
+        "title": "AMLI · About us",
+        "url": "https://www.amli.com/about-us",
+        "text": "We currently own and manage over 25,000 apartment homes in eight U.S. markets.",
+        "date": "2026-09-29T15:16:17.694Z",
+        "verified": true,
+        "kind": "Company website",
+        "provider": "Exa"
+      }
+    ],
+    "matched": true,
+    "message": "Saved public-company source excerpt.",
+    "cache_fetched_at": "2026-09-29T15:16:17.694Z",
+    "cache_fresh_until": null,
+    "sample_snapshot": true
+  },
+  "exa:greystar.com|greystar": {
+    "evidence": [
+      {
+        "title": "Greystar · About us",
+        "url": "https://www.greystar.com/business/about-greystar/about",
+        "text": "With more than 1.1 million multifamily units and student beds under management globally",
+        "date": "2026-09-29T15:13:17Z",
+        "verified": true,
+        "kind": "Company website",
+        "provider": "Exa"
+      }
+    ],
+    "matched": true,
+    "message": "Saved public-company source excerpt.",
+    "cache_fetched_at": "2026-09-29T15:13:17Z",
+    "cache_fresh_until": null,
+    "sample_snapshot": true
+  },
+  "exa:camdenliving.com|camden property trust": {
+    "evidence": [
+      {
+        "title": "Camden Property Trust - Investor Relations",
+        "text": "Camden Property Trust, an S&P 500 Company, is one of the largest publicly-traded multifamily companies in the United States. Structured as a Real Estate Investment Trust (REIT), the company is primarily engaged in the ownership, management, development, redevelopment, acquisition, and construction of multifamily apartment communities. Camden’s workforce totals approximately 1,600 employees and the Company is headquartered in Houston. As of August 31, 2026, Camden Property Trust owned and operated 168 properties containing 56,995 apartment homes across the United States. Latest Quarter Q2 2026",
+        "url": "https://investors.camdenliving.com/home/",
+        "date": "2026-09-29T18:26:30.823Z",
+        "published_date": null,
+        "verified": true,
+        "kind": "Company website",
+        "provider": "Jina Reader"
+      }
+    ],
+    "matched": true,
+    "cached": false,
+    "message": "Saved public company research. Live refresh unavailable.",
+    "cache_fetched_at": "2026-09-29T18:26:30.823Z",
+    "cache_fresh_until": null,
+    "retry_after": null,
+    "stale": false,
+    "sample_snapshot": true,
+    "engine": "reader-v2"
+  }
+}

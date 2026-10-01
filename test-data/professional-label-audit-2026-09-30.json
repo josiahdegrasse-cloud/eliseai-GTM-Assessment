@@ -1,0 +1,23 @@
+{
+  "audited_at": "2026-09-30",
+  "purpose": "Record independently discovered benchmark-label drift without changing the original fixed-corpus denominator or feeding answers into runtime research.",
+  "runtime_input": false,
+  "findings": [
+    {
+      "name": "Mark J. Parrell",
+      "original_company": "Equity Residential",
+      "original_expected_role": "Chief Executive Officer",
+      "finding": "Original current-role expectation is outdated. The August 17, 2026 closing filing states that Parrell ceased to serve as an officer at the merger's effective time. He must not be counted as a verified current CEO merely because an older directory still lists that role.",
+      "effective_date": "2026-08-17",
+      "source": "https://www.sec.gov/Archives/edgar/data/906107/000114036126033377/ef20080318_8k.htm"
+    },
+    {
+      "name": "Michael L. Manelis",
+      "original_company": "Equity Residential",
+      "original_expected_role": "Chief Operating Officer",
+      "finding": "The role continues at successor company Vivmark Residential following the August 17, 2026 merger. The original employer/domain input needs a corroborated successor-identity update. A role at the successor is not silently assigned to the original input.",
+      "effective_date": "2026-08-17",
+      "source": "https://investors.vivmarkresidential.com/news-events/press-releases/detail/113/vivmark-residential-launches-as-one-of-the-countrys-leading-real-estate-companies"
+    }
+  ]
+}

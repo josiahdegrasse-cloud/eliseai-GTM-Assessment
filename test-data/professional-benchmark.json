@@ -1,0 +1,153 @@
+{
+  "description": "12 source-audited public professionals across five housing companies plus four mismatched-employer controls. Senior-leader biased, not representative of ordinary inbound leads. Source labels are an audit reference; never product facts.",
+  "cases": [
+    {
+      "name": "Bob Faith",
+      "company": "Greystar",
+      "website": "greystar.com",
+      "expected_role": "chief executive officer|ceo",
+      "source": "https://www.greystar.com/contact-us/our-people/bob-faith",
+      "expected": "role",
+      "audited_at": "2026-09-30"
+    },
+    {
+      "name": "Toni Eubanks",
+      "company": "Greystar",
+      "website": "greystar.com",
+      "expected_role": "executive managing director",
+      "source": "https://www.greystar.com/contact-us/our-people/toni-eubanks",
+      "expected": "role",
+      "audited_at": "2026-09-30"
+    },
+    {
+      "name": "Derek Ramsey",
+      "company": "Greystar",
+      "website": "greystar.com",
+      "expected_role": "chief financial officer|cfo",
+      "source": "https://www.greystar.com/contact-us/our-people/derek-ramsey",
+      "expected": "role",
+      "audited_at": "2026-09-30"
+    },
+    {
+      "name": "Toby Bozzuto",
+      "company": "Bozzuto",
+      "website": "bozzuto.com",
+      "expected_role": "chief executive officer|ceo",
+      "source": "https://www.bozzuto.com/about-us/leadership",
+      "expected": "role",
+      "audited_at": "2026-09-30"
+    },
+    {
+      "name": "Julie A. Smith",
+      "company": "Bozzuto",
+      "website": "bozzuto.com",
+      "expected_role": "chief administrative officer",
+      "source": "https://www.bozzuto.com/about-us/leadership",
+      "expected": "role",
+      "audited_at": "2026-09-30"
+    },
+    {
+      "name": "Stephanie L. Williams",
+      "company": "Bozzuto",
+      "website": "bozzuto.com",
+      "expected_role": "president",
+      "source": "https://www.bozzuto.com/about-us/leadership",
+      "expected": "role",
+      "audited_at": "2026-09-30"
+    },
+    {
+      "name": "Brad Hill",
+      "company": "MAA",
+      "website": "maac.com",
+      "expected_role": "chief executive officer|ceo",
+      "source": "https://ir.maac.com/news-events/press-releases/news-details/2026/MAA-to-Participate-in-the-2026-Citi-Global-Property-CEO-Conference/default.aspx",
+      "expected": "role",
+      "audited_at": "2026-09-30"
+    },
+    {
+      "name": "Alexander J. Jessett",
+      "company": "Camden Property Trust",
+      "website": "camdenliving.com",
+      "expected_role": "chief executive officer|ceo",
+      "source": "https://www.sec.gov/Archives/edgar/data/906345/000119312526127725/d55686dex995.htm",
+      "expected": "role",
+      "audited_at": "2026-09-30"
+    },
+    {
+      "name": "Richard J. Campo",
+      "company": "Camden Property Trust",
+      "website": "camdenliving.com",
+      "expected_role": "executive chairman",
+      "source": "https://www.sec.gov/Archives/edgar/data/906345/000119312526127725/d55686dex995.htm",
+      "expected": "role",
+      "audited_at": "2026-09-30"
+    },
+    {
+      "name": "Laurie A. Baker",
+      "company": "Camden Property Trust",
+      "website": "camdenliving.com",
+      "expected_role": "president|chief operating officer",
+      "source": "https://www.sec.gov/Archives/edgar/data/906345/000119312526127725/d55686dex995.htm",
+      "expected": "role",
+      "audited_at": "2026-09-30"
+    },
+    {
+      "name": "Mark J. Parrell",
+      "company": "Equity Residential",
+      "website": "equityapartments.com",
+      "expected_role": "chief executive officer|ceo",
+      "source": "https://investors.equityapartments.com/overview/officers-and-trustees/person-details/default.aspx?ItemId=8fe766c1-8a8f-42ce-b582-8cb597088a88",
+      "expected": "role",
+      "audited_at": "2026-09-30"
+    },
+    {
+      "name": "Michael L. Manelis",
+      "company": "Equity Residential",
+      "website": "equityapartments.com",
+      "expected_role": "chief operating officer|coo",
+      "source": "https://investors.equityapartments.com/overview/officers-and-trustees/person-details/default.aspx?itemid=c5becd8c-fb4b-4155-a3f0-552c8d5b208d",
+      "expected": "role",
+      "audited_at": "2026-09-30"
+    },
+    {
+      "name": "Bob Faith",
+      "company": "MAA",
+      "website": "maac.com",
+      "expected_role": "",
+      "source": "https://www.greystar.com/contact-us/our-people/bob-faith",
+      "expected": "no_current_match",
+      "audited_at": "2026-09-30",
+      "note": "Deliberately mismatched employer; source supports the actual role at a different company."
+    },
+    {
+      "name": "Toby Bozzuto",
+      "company": "Camden Property Trust",
+      "website": "camdenliving.com",
+      "expected_role": "",
+      "source": "https://www.bozzuto.com/about-us/leadership",
+      "expected": "no_current_match",
+      "audited_at": "2026-09-30",
+      "note": "Deliberately mismatched employer; source supports the actual role at a different company."
+    },
+    {
+      "name": "Mark J. Parrell",
+      "company": "Greystar",
+      "website": "greystar.com",
+      "expected_role": "",
+      "source": "https://investors.equityapartments.com/overview/officers-and-trustees/person-details/default.aspx?ItemId=8fe766c1-8a8f-42ce-b582-8cb597088a88",
+      "expected": "no_current_match",
+      "audited_at": "2026-09-30",
+      "note": "Deliberately mismatched employer; source supports the actual role at a different company."
+    },
+    {
+      "name": "Derek Ramsey",
+      "company": "Bozzuto",
+      "website": "bozzuto.com",
+      "expected_role": "",
+      "source": "https://www.greystar.com/contact-us/our-people/derek-ramsey",
+      "expected": "no_current_match",
+      "audited_at": "2026-09-30",
+      "note": "Deliberately mismatched employer; source supports the actual role at a different company."
+    }
+  ]
+}

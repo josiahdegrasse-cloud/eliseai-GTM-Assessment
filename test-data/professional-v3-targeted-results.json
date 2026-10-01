@@ -1,0 +1,597 @@
+{
+  "started_at": "2026-09-30T03:13:35.989Z",
+  "limitations": "Public-profile convenience sample, not representative of all inbound contacts; expected roles and source URLs are not sent to research. Titles are checked against pre-audited labels; unresolved cases are not counted as correct matches.",
+  "results": [
+    {
+      "case_index": 2,
+      "name": "Derek Ramsey",
+      "company": "Greystar",
+      "website": "greystar.com",
+      "expected_role": "chief financial officer|cfo",
+      "source": "https://www.greystar.com/contact-us/our-people/derek-ramsey",
+      "expected": "role",
+      "audited_at": "2026-09-30",
+      "cohort": "executive_baseline",
+      "status": "complete",
+      "match": "name_company_match",
+      "elapsed_ms": 34438,
+      "polls": 3,
+      "current_roles": [
+        "Chief Financial Officer"
+      ],
+      "outcome": "role_found",
+      "professional_context": {
+        "version": 3,
+        "input_key": "derek ramsey|greystar|greystar.com",
+        "people": [
+          {
+            "url": "https://www.greystar.com/contact-us/our-people/derek-ramsey",
+            "quote": "Derek Ramsey is the Chief Financial Officer",
+            "title": "Derek Ramsey | Greystar",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T03:11:49.248Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Derek Ramsey",
+            "company": "Greystar",
+            "role": "Chief Financial Officer",
+            "historical": false
+          }
+        ],
+        "insights": [
+          {
+            "url": "https://www.greystar.com/contact-us/our-people/derek-ramsey",
+            "quote": "Derek Ramsey is the Chief Financial Officer and leads Greystar\u2019s North American Development and Construction business.",
+            "title": "Derek Ramsey | Greystar",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T03:11:49.248Z",
+            "recovered": false,
+            "employer_supported": true,
+            "kind": "responsibility"
+          }
+        ],
+        "company_facts": [
+          {
+            "url": "https://pitchbook.com/profiles/company/50923-90",
+            "quote": "Greystar Real Estate Partners was founded in 1993. Where is Greystar Real Estate Partners headquartered?",
+            "title": "Greystar Real Estate Partners 2026 Company Profile: Valuation, Funding & Investors | PitchBook",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T03:11:50.725Z",
+            "basis": "External published source"
+          }
+        ],
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T03:11:49.248Z",
+        "cost_dollars": 0.035,
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [
+            {
+              "reason": "excerpt_not_on_page",
+              "url": "https://www.greystar.com/business/about-greystar/newsroom/michael-joyce-appointed-to-greystar-global-investment-committee",
+              "role": ""
+            },
+            {
+              "reason": "excerpt_not_on_page",
+              "url": "https://www.greystar.com/business/about-greystar/our-leadership",
+              "role": ""
+            },
+            {
+              "reason": "excerpt_not_on_page",
+              "url": "https://www.greystar.com/business/about-greystar/newsroom/michael-joyce-appointed-to-greystar-global-investment-committee",
+              "role": ""
+            }
+          ],
+          "passes": 1
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Chief Financial Officer, which operational process would you most like to improve?",
+          "source_url": "https://www.greystar.com/contact-us/our-people/derek-ramsey",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "agent_cost_dollars": 0.025,
+        "content_cost_dollars": 0.003,
+        "external_cost_dollars": 0.007,
+        "cache_fetched_at": "2026-09-30T03:11:50.944Z",
+        "cache_fresh_until": "2026-10-01T03:11:50.944Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "case_index": 32,
+      "name": "Tori Casero",
+      "company": "Nxt Property Management",
+      "website": "nxtmgt.com",
+      "expected_role": "regional\\s+vice\\s+president",
+      "expected": "role",
+      "source": "https://www.nxtmgt.com/our-team",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Regional Vice President",
+      "status": "complete",
+      "match": "unresolved",
+      "elapsed_ms": 76162,
+      "polls": 6,
+      "current_roles": [],
+      "outcome": "unresolved",
+      "professional_context": {
+        "version": 3,
+        "input_key": "tori casero|nxt property management|nxtmgt.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [
+          {
+            "url": "https://linkedin.com/company/nxt-property-management",
+            "quote": "Nxt Property Management is a Real Estate company.",
+            "title": "nxt property management",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T03:12:32.349Z",
+            "basis": "External published source"
+          }
+        ],
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T03:12:31.973Z",
+        "cost_dollars": 0.139,
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "employer_mismatch",
+              "url": "https://www.linkedin.com/posts/nxt-property-management_nxtpropertymanagement-servingyoulikefamily-activity-7505657981653426177-Rre4",
+              "role": "Regional Vice President"
+            }
+          ],
+          "passes": 2,
+          "initial": {
+            "candidates": 1,
+            "accepted": 0,
+            "rejections": [
+              {
+                "reason": "name_mismatch",
+                "url": "https://www.linkedin.com/in/tori-casero-cpm-8811a1b7",
+                "role": "Regional Vice President"
+              },
+              {
+                "reason": "excerpt_not_on_page",
+                "url": "https://www.nxtmgt.com/about",
+                "role": ""
+              }
+            ]
+          }
+        },
+        "match": "unresolved",
+        "agent_cost_dollars": 0.125,
+        "content_cost_dollars": 0.007,
+        "external_cost_dollars": 0.007,
+        "cache_fetched_at": "2026-09-30T03:12:32.603Z",
+        "cache_fresh_until": "2026-10-01T03:12:32.603Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "case_index": 1,
+      "name": "Toni Eubanks",
+      "company": "Greystar",
+      "website": "greystar.com",
+      "expected_role": "executive managing director",
+      "source": "https://www.greystar.com/contact-us/our-people/toni-eubanks",
+      "expected": "role",
+      "audited_at": "2026-09-30",
+      "cohort": "executive_baseline",
+      "status": "complete",
+      "match": "name_company_match",
+      "elapsed_ms": 91592,
+      "polls": 7,
+      "current_roles": [
+        "Executive Managing Director"
+      ],
+      "outcome": "role_found",
+      "professional_context": {
+        "version": 3,
+        "input_key": "toni eubanks|greystar|greystar.com",
+        "people": [
+          {
+            "url": "https://www.greystar.com/contact-us/our-people/toni-eubanks",
+            "quote": "Toni Eubanks is an Executive Managing Director leading Greystar\u2019s Management Services business, where she oversees the company\u2019s owned and managed property portfolios throughout the United States and Canada.",
+            "title": "Toni Eubanks | Greystar",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T03:12:47.925Z",
+            "recovered": true,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Toni Eubanks",
+            "company": "Greystar",
+            "role": "Executive Managing Director",
+            "historical": false
+          }
+        ],
+        "insights": [
+          {
+            "url": "https://www.greystar.com/contact-us/our-people/toni-eubanks",
+            "quote": "Toni Eubanks is an Executive Managing Director leading Greystar\u2019s Management Services business, where she oversees the company\u2019s owned and managed property portfolios throughout the United States and Canada.",
+            "title": "Toni Eubanks | Greystar",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T03:12:47.925Z",
+            "recovered": false,
+            "employer_supported": true,
+            "kind": "responsibility"
+          }
+        ],
+        "company_facts": [
+          {
+            "url": "https://pitchbook.com/profiles/company/50923-90",
+            "quote": "Greystar Real Estate Partners was founded in 1993. Where is Greystar Real Estate Partners headquartered?",
+            "title": "Greystar Real Estate Partners 2026 Company Profile: Valuation, Funding & Investors | PitchBook",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T03:11:50.725Z",
+            "basis": "External published source"
+          }
+        ],
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T03:12:47.925Z",
+        "cost_dollars": 0.129,
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "passes": 2,
+          "initial": {
+            "candidates": 1,
+            "accepted": 0,
+            "rejections": [
+              {
+                "reason": "name_role_not_associated",
+                "url": "https://www.greystar.com/contact-us/our-people/toni-eubanks",
+                "role": "Executive Managing Director, Greystar Management Services"
+              }
+            ]
+          }
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Executive Managing Director, which operational process would you most like to improve?",
+          "source_url": "https://www.greystar.com/contact-us/our-people/toni-eubanks",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "agent_cost_dollars": 0.125,
+        "content_cost_dollars": 0.004,
+        "external_cost_dollars": 0,
+        "cache_fetched_at": "2026-09-30T03:12:48.106Z",
+        "cache_fresh_until": "2026-10-01T03:12:48.106Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "case_index": 11,
+      "name": "Michael L. Manelis",
+      "company": "Equity Residential",
+      "website": "equityapartments.com",
+      "expected_role": "chief operating officer|coo",
+      "source": "https://investors.equityapartments.com/overview/officers-and-trustees/person-details/default.aspx?itemid=c5becd8c-fb4b-4155-a3f0-552c8d5b208d",
+      "expected": "role",
+      "audited_at": "2026-09-30",
+      "cohort": "executive_baseline",
+      "status": "complete",
+      "match": "historical",
+      "elapsed_ms": 108311,
+      "polls": 8,
+      "current_roles": [],
+      "outcome": "unresolved",
+      "professional_context": {
+        "version": 3,
+        "input_key": "michael l manelis|equity residential|equityapartments.com",
+        "people": [
+          {
+            "url": "https://investors.equityapartments.com/overview/officers-and-trustees/person-details/default.aspx?itemid=c5becd8c-fb4b-4155-a3f0-552c8d5b208d",
+            "quote": "Michael L. Manelis, Executive Vice President and Chief Operating Officer Michael L. Manelis, 56, has been Executive Vice President and Chief Operating Officer of the Company since July 2018.",
+            "title": "Overview - Officers and Trustees - Person Details | Equity Residential",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T03:11:50.674Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Source publication date and wording",
+            "name": "Michael L. Manelis",
+            "company": "Equity Residential",
+            "role": "Executive Vice President and Chief Operating Officer",
+            "historical": true
+          }
+        ],
+        "insights": [],
+        "company_facts": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/906107/000119312526051433/eqr-20251231.htm",
+            "quote": "Equity Residential\u2019s sustainability program actively manages environmental impacts and utility costs through optimized, financially responsible capital investments and technologies which we believe increases our portfolio value.",
+            "title": "See Item 1,  Business , for discussion regarding the Company\u2019s business objectives and operating and investing strategies.",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T03:13:04.437Z",
+            "basis": "Company announcement on an external site"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/906107/000095017025019894/eqr-20241231.htm",
+            "quote": "At Equity Residential, corporate responsibility is integrated into every aspect of our business, as we aim to minimize environmental impact, manage climate and environmental risks and position the Company as an attractive investment.",
+            "title": "10-K",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T03:13:04.437Z",
+            "basis": "Company announcement on an external site"
+          }
+        ],
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T03:13:03.947Z",
+        "cost_dollars": 0.14100000000000001,
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "employer_mismatch",
+              "url": "https://www.linkedin.com/in/michael-manelis-3ba2a76",
+              "role": "Executive Vice President & Chief Operating Officer"
+            }
+          ],
+          "passes": 2,
+          "initial": {
+            "candidates": 2,
+            "accepted": 1,
+            "rejections": [
+              {
+                "reason": "excerpt_not_on_page",
+                "url": "https://www.sec.gov/Archives/edgar/data/906107/000114036126033377/ef20080318_ex99-1.htm",
+                "role": "Executive Vice President and Chief Operating Officer"
+              },
+              {
+                "reason": "page_unavailable",
+                "url": "https://investors.avalonbay.com/sec-filings/all-sec-filings/content/0001104659-26-097833/0001104659-26-097833.pdf",
+                "role": ""
+              }
+            ]
+          }
+        },
+        "match": "historical",
+        "agent_cost_dollars": 0.125,
+        "content_cost_dollars": 0.009000000000000001,
+        "external_cost_dollars": 0.007,
+        "cache_fetched_at": "2026-09-30T03:13:04.663Z",
+        "cache_fresh_until": "2026-10-01T03:13:04.663Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "case_index": 50,
+      "name": "Bob Faith",
+      "company": "MAA",
+      "website": "maac.com",
+      "expected_role": "",
+      "expected": "abstain",
+      "source": "https://www.greystar.com/contact-us/our-people/bob-faith",
+      "audited_at": "2026-09-30",
+      "cohort": "wrong_employer",
+      "actual_company": "Greystar",
+      "status": "complete",
+      "match": "unresolved",
+      "elapsed_ms": 76635,
+      "polls": 6,
+      "current_roles": [],
+      "outcome": "correct_abstention",
+      "professional_context": {
+        "version": 3,
+        "input_key": "bob faith|maa|maac.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1581776/000095017025016287/maa-20241231.htm",
+            "quote": "enhances investors\u2019 understanding of MAA and the Operating Partnership by enabling investors to view the business as a whole in the same manner that management views and operates the business;",
+            "title": "10-K",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T03:13:07.298Z",
+            "basis": "Company announcement on an external site"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/912595/000119312526251471/maa-ex99_1.htm",
+            "quote": "MAA believes Net Debt is a helpful tool in evaluating its debt position.",
+            "title": "Maa ex99 1.htm",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T03:13:07.298Z",
+            "basis": "Company announcement on an external site"
+          }
+        ],
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T03:13:05.934Z",
+        "cost_dollars": 0.138,
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "employer_mismatch",
+              "url": "https://www.greystar.com/business/about-greystar/our-leadership",
+              "role": "Founder, Chairman, and CEO"
+            }
+          ],
+          "passes": 2,
+          "initial": {
+            "candidates": 1,
+            "accepted": 0,
+            "rejections": [
+              {
+                "reason": "employer_mismatch",
+                "url": "https://www.greystar.com/contact-us/our-people/bob-faith",
+                "role": "Founder, Chairman, and CEO"
+              },
+              {
+                "reason": "excerpt_not_on_page",
+                "url": "https://www.greystar.com/contact-us/our-people/bob-faith",
+                "role": ""
+              }
+            ]
+          }
+        },
+        "match": "unresolved",
+        "agent_cost_dollars": 0.125,
+        "content_cost_dollars": 0.006,
+        "external_cost_dollars": 0.007,
+        "cache_fetched_at": "2026-09-30T03:13:07.514Z",
+        "cache_fresh_until": "2026-10-01T03:13:07.514Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "case_index": 51,
+      "name": "Toby Bozzuto",
+      "company": "Greystar",
+      "website": "greystar.com",
+      "expected_role": "",
+      "expected": "abstain",
+      "source": "https://www.bozzuto.com/about-us/leadership",
+      "audited_at": "2026-09-30",
+      "cohort": "wrong_employer",
+      "actual_company": "Bozzuto",
+      "status": "complete",
+      "match": "unresolved",
+      "elapsed_ms": 63012,
+      "polls": 5,
+      "current_roles": [],
+      "outcome": "correct_abstention",
+      "professional_context": {
+        "version": 3,
+        "input_key": "toby bozzuto|greystar|greystar.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [
+          {
+            "url": "https://pitchbook.com/profiles/company/50923-90",
+            "quote": "Greystar Real Estate Partners was founded in 1993. Where is Greystar Real Estate Partners headquartered?",
+            "title": "Greystar Real Estate Partners 2026 Company Profile: Valuation, Funding & Investors | PitchBook",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T03:11:50.725Z",
+            "basis": "External published source"
+          }
+        ],
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T03:13:35.461Z",
+        "cost_dollars": 0.13,
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "passes": 2,
+          "initial": {
+            "candidates": 1,
+            "accepted": 0,
+            "rejections": [
+              {
+                "reason": "employer_mismatch",
+                "url": "https://www.bozzuto.com/about-us/leadership/toby-bozzuto",
+                "role": "President & Chief Executive Officer"
+              },
+              {
+                "reason": "excerpt_not_on_page",
+                "url": "https://www.nmhc.org/research-insight/the-nmhc-50/top-50-lists/2026-top-managers/",
+                "role": ""
+              }
+            ]
+          }
+        },
+        "match": "unresolved",
+        "agent_cost_dollars": 0.125,
+        "content_cost_dollars": 0.005,
+        "external_cost_dollars": 0,
+        "cache_fetched_at": "2026-09-30T03:13:35.685Z",
+        "cache_fresh_until": "2026-10-01T03:13:35.685Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    }
+  ],
+  "release": 40,
+  "commit": "6c5c627439caf9b6fd7fcdc0054fda15912a9b78",
+  "summary": {
+    "tested": 6,
+    "positive_cases": 4,
+    "correct_roles": 2,
+    "coverage": 0.5,
+    "returned_role_cases": 2,
+    "observed_role_precision": 1,
+    "role_review_cases": 0,
+    "ready_matches": 2,
+    "negative_controls": 2,
+    "completed_negative_controls": 2,
+    "unassessed_controls": 0,
+    "false_current_matches": 0,
+    "unresolved": 2,
+    "role_mismatches": [],
+    "median_seconds": 76.635,
+    "p95_seconds": 108.311,
+    "reported_cost_dollars": 0.7120000000000001,
+    "costs_known": 6,
+    "costs_unknown": 0,
+    "second_passes": 5,
+    "second_pass_recoveries": 1,
+    "with_insights": 2,
+    "with_external_company_context": 4,
+    "cohorts": {
+      "executive_baseline": {
+        "tested": 3,
+        "matched": 2,
+        "unresolved": 1,
+        "incorrect": 0
+      },
+      "operations_and_management": {
+        "tested": 1,
+        "matched": 0,
+        "unresolved": 1,
+        "incorrect": 0
+      },
+      "wrong_employer": {
+        "tested": 2,
+        "matched": 0,
+        "unresolved": 0,
+        "incorrect": 0
+      }
+    },
+    "unresolved_reasons": {
+      "employer_mismatch": 2
+    }
+  },
+  "purpose": "Targeted recheck of four previously unresolved contacts and two wrong-employer controls after bounded parser fixes. Do not substitute into the full benchmark."
+}

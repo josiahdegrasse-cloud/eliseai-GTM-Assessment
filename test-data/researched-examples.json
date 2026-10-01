@@ -1,0 +1,1420 @@
+[
+  {
+    "name": "Carrie King",
+    "email": "carrie@herzogapartments.com",
+    "company": "Herzog Property Management",
+    "website": "https://www.herzogapartments.com",
+    "property_address": "1825 Oakview Avenue Southeast",
+    "city": "Alexandria",
+    "state": "MN",
+    "research_url": "https://www.herzogapartments.com/about/",
+    "contact_source": "https://www.herzogapartments.com/team/",
+    "property_name": "Hillside I",
+    "property_source": "https://www.herzogapartments.com/location/alexandria-mn/",
+    "country": "United States",
+    "inquiry": "Hi EliseAI team, we are exploring ways to answer apartment inquiries outside office hours and help prospects schedule tours. Could you show us how your leasing assistant works and how a handoff to our team would happen?",
+    "evidence": [
+      {
+        "title": "About - Herzog Property Management",
+        "text": "Welcome to Herzog Property Management, where property management is not just a service; it's a commitment to integrity, going above and beyond, and enriching our team. We pride ourselves on a relentless dedication to quality tenant experiences, viewing each property from an owner's perspective.\n\nWe manage properties in the following cities:\n\nWe specialize in Apartment Complex Developments that offer modern amenities like:",
+        "url": "https://www.herzogapartments.com/about/",
+        "date": "2026-10-01T17:53:59.214196+00:00",
+        "published_date": null,
+        "verified": true,
+        "identity": {
+          "version": 2,
+          "status": "confirmed",
+          "reason": "Company name is corroborated on the supplied domain.",
+          "signals": [
+            "supplied_domain",
+            "name_in_page_title",
+            "name_in_source_text"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      },
+      {
+        "title": "Herzog Property Management",
+        "text": "We manage properties in the following cities:\n\nExplore apartment communities by location, amenities, and available floor plans.\n\nI got a tour today with Joyce, she was extremely professional and friendly and I loved the property I got to see, I really hope I get the apartment that I looked at\n\nWe are honored to be able to make impactful contributions to local nonprofit charities in the communities that we serve.",
+        "url": "https://www.herzogapartments.com/",
+        "date": "2026-10-01T17:53:59.185872+00:00",
+        "published_date": null,
+        "verified": true,
+        "identity": {
+          "version": 2,
+          "status": "confirmed",
+          "reason": "Company name is corroborated on the supplied domain.",
+          "signals": [
+            "supplied_domain",
+            "name_in_page_title"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      },
+      {
+        "title": "Alexandria, MN - Herzog Property Management",
+        "text": "Alexandria, MN - Herzog Property Management",
+        "url": "https://www.herzogapartments.com/location/alexandria-mn/",
+        "date": "2026-10-01T17:53:59.251367+00:00",
+        "published_date": null,
+        "verified": true,
+        "identity": {
+          "version": 2,
+          "status": "confirmed",
+          "reason": "Company name is corroborated on the supplied domain.",
+          "signals": [
+            "supplied_domain",
+            "name_in_page_title",
+            "name_in_source_text"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      }
+    ],
+    "professional_context": {
+      "version": 9,
+      "input_key": "carrie king|herzog property management|herzogapartments.com",
+      "status": "complete",
+      "partial": false,
+      "people": [
+        {
+          "url": "https://www.herzogapartments.com/team/",
+          "quote": "Carrie King Director of Management",
+          "title": "Our Team - Herzog Property Management",
+          "official": true,
+          "published_at": null,
+          "retrieved_at": "2026-10-01T17:53:59.162978+00:00",
+          "recovered": false,
+          "employer_supported": true,
+          "freshness_basis": "Current official directory listing; page publication date may predate this role",
+          "name": "Carrie King",
+          "company": "Herzog Property Management",
+          "role": "Director of Management",
+          "historical": false
+        }
+      ],
+      "insights": [],
+      "company_facts": [],
+      "checked_at": "2026-10-01T17:55:23.875Z",
+      "cost_dollars": null,
+      "research_diagnostics": {
+        "candidates": 1,
+        "accepted": 1,
+        "rejections": []
+      },
+      "match": "name_company_match",
+      "conversation_starter": {
+        "text": "In your role as Director of Management, which operational process would you most like to improve?",
+        "source_url": "https://www.herzogapartments.com/team/",
+        "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+      },
+      "snapshot": true
+    },
+    "property_context": {
+      "provider": "U.S. Census Bureau",
+      "date": "2026-10-01T17:55:24.158Z",
+      "url": "https://geocoding.geo.census.gov/geocoder/geographies/address?street=1825+Oakview+Avenue+Southeast&city=Alexandria&state=MN&benchmark=Public_AR_Current&vintage=Current_Current&format=json",
+      "cached": false,
+      "status": "unmatched",
+      "message": "No Census address match. Check the street, city and state."
+    },
+    "area_context": {
+      "version": 1,
+      "status": "not_assessed"
+    },
+    "processed_at": "2026-10-01T17:55:23.875Z",
+    "company_fetched_at": "2026-10-01T17:53:59.214196+00:00",
+    "company_engine": "reader-v2",
+    "company_location_version": 1,
+    "company_brief_version": 3,
+    "company_locations": [],
+    "sample_lead": true,
+    "sample_key": "sheet-0",
+    "sample_set_version": 5,
+    "sample_retrieved_at": "2026-10-01T17:55:23.875Z",
+    "research_state": "complete",
+    "automation_pending": false,
+    "company_snapshot": true,
+    "company_stale": false,
+    "draft_version": 0,
+    "sample_focus": "Sample inbound message",
+    "sample_email_kind": "public_work_contact",
+    "sample_property": {
+      "name": "Hillside I",
+      "url": "https://www.herzogapartments.com/location/alexandria-mn/",
+      "retrieved_at": "2026-10-01T17:55:23.875Z"
+    },
+    "sample_source": "Google Sheets Leads · matched 2026-10-01",
+    "sample_previous_inquiries": [
+      "[SYNTHETIC INBOUND EMAIL — DEMO ONLY; not a real message from this person] Subject: After-hours leasing inquiries. Hi EliseAI team, we are exploring ways to answer apartment inquiries outside office hours and help prospects schedule tours. Could you show us how your leasing assistant works and how a handoff to our team would happen?",
+      "Hi EliseAI team, we are exploring ways to answer apartment inquiries outside office hours and help prospects schedule tours. Could you show us how your leasing assistant works and how a handoff to our team would happen?"
+    ],
+    "sample_grounded_draft": true
+  },
+  {
+    "name": "Morgan Lerner",
+    "email": "MLerner@TrimarkPM.com",
+    "company": "Trimark Property Management",
+    "website": "https://www.trimarkpm.com",
+    "property_address": "1111 25th St NW",
+    "city": "Washington",
+    "state": "DC",
+    "research_url": "https://www.trimarkpm.com/our-services/residential-property-management/",
+    "contact_source": "https://www.trimarkpm.com/contact-us/",
+    "property_name": "Atlas Condominium",
+    "property_source": "https://www.trimarkpm.com/service-request/",
+    "country": "United States",
+    "inquiry": "",
+    "evidence": [
+      {
+        "title": "Residential Property",
+        "text": "Managing residential condominiums involves balancing the needs of the condo board and residents. Our team of knowledgeable, proactive managers goes above and beyond what you’d expect from typical property management companies. Our hands-on approach ensures that your investment is being appropriately cared for.\n\nTrimark Property Management handles the challenges of residential property management by effectively working with all parties involved. Our expertise extends to local laws and governance that may affect your residential property. With in-house expertise across divisions, maintenance is always taken care of well in advance. In addition to this, our transparent, accurate accounting ensures that you can make smart decisions for the financial health of your investment.\n\nIf you’re looking for a proactive, responsive management firm that has the expertise to care for your property, contact us today.\n\nTrimark Property Management Main Office",
+        "url": "https://www.trimarkpm.com/our-services/residential-property-management/",
+        "date": "2026-10-01T17:53:59.054625+00:00",
+        "published_date": null,
+        "verified": false,
+        "identity": {
+          "version": 2,
+          "status": "needs_confirmation",
+          "reason": "The company is mentioned, but the page does not establish its identity.",
+          "signals": [
+            "supplied_domain",
+            "name_in_source_text"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      },
+      {
+        "title": "Trimark Property Management",
+        "text": "For commercial or residential property management that always keeps you in the know, choose Trimark’s team of highly responsive experts.\n\nTrimark provides property management services for office buildings, retail strip centers, mixed-use projects and warehouse/flex properties.\n\nHands-on property management firm in Northern Virginia, Maryland, and Washington, DC serving both residential and commercial properties. At Trimark Property Management, our team of responsive property managers has the expertise and proven ability to effectively manage properties of all types. Proactive, responsive property management company by Trimark Property Management minimizes expenses and enhances economic value. Most of all, it gives property owners the peace of mind that their investment is in the hands of proactive experts who are always responsive.\n\nFinally. Proactive property management that’s always responsive.\n\nNicole, Trimark Property Management\n\nTrimark places great emphasis on tenant relationships, tenant retention, and responsive property management services.\n\nTrimark Property Management Main Office",
+        "url": "https://www.trimarkpm.com/",
+        "date": "2026-10-01T17:53:59.045969+00:00",
+        "published_date": null,
+        "verified": true,
+        "identity": {
+          "version": 2,
+          "status": "confirmed",
+          "reason": "Company name is corroborated on the supplied domain.",
+          "signals": [
+            "supplied_domain",
+            "name_in_page_title",
+            "name_in_source_text"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      },
+      {
+        "title": "Request Service",
+        "text": "Select a property8003 Forbes Place, Springfield, VAAmerican Medical Group Association, Alexandria, VAAmerican Statistical Association, Alexandria, VAAtlas Condominium, Washington, DCBill Page Plaza, Falls Church, VABirch Office Condominiums, Vienna, VADocStone Commons, Stafford, VADogwood Office Condominiums, Vienna, VADulles South Business Park Land Unit 2 Condo, Chantilly, VADuke St Square Owners Assoc, Alexandria, VAFPSA Building, McLean, VAGlyndon Shopping Center, Vienna, VAGreat World Plaza, Annandale, VAJacobson-Banks Vienna Venture, Vienna, VAJuniper Lane Townhomes, Falls Church, VAHarrison Lee Property, Arlington, VALeadership Institute, Arlington, VALorcom House Condominiums, Arlington, VALorton Professional Center, Lorton, VAMark Building, Falls Church, VAMcILvaine Building, Falls Church, VAMcLean Shopping Center, McLean, VAMerrion Square Condos, Annandale, VANational Right to Work Bldg, Springfield, VAOld Town Village Plaza, Fairfax, VAPathway, 4010 University Drive, Fairfax, VAPhoenix Condominiums, Arlington, VAPoplar Office Condominiums, Vienna, VARolling Mill Professional Park, Springfield, VARoundhouse Square Condominiums, Alexandria, VASouth Cherry Plaza, Falls Church, VASterling Crossroads Office Park, Sterling, VAStonewall Square Condominiums, Fairfax, VATowerview Commerce Center, Herndon, VATown of Dumfries, Dumfries, VATysons Springhill LP, McLean, VATysons West Assemblage, Vienna, VAVienna Oaks Office Center Codominium, Vienna, VAWalnut Street Prof Cntr, Fairfax, VAWoodbridge Shopping Center aka Great Falls Cntr, Woodbridge, VAWRI Gateway/West Alex, Alexandria, VA\n\nTrimark Property Management Main Office",
+        "url": "https://www.trimarkpm.com/service-request/",
+        "date": "2026-10-01T17:53:59.347585+00:00",
+        "published_date": null,
+        "verified": false,
+        "identity": {
+          "version": 2,
+          "status": "needs_confirmation",
+          "reason": "The company is mentioned, but the page does not establish its identity.",
+          "signals": [
+            "supplied_domain",
+            "name_in_source_text"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      }
+    ],
+    "professional_context": {
+      "version": 9,
+      "input_key": "morgan lerner|trimark property management|trimarkpm.com",
+      "status": "complete",
+      "partial": false,
+      "people": [],
+      "insights": [],
+      "company_facts": [],
+      "checked_at": "2026-10-01T17:55:23.875Z",
+      "cost_dollars": null,
+      "research_diagnostics": {
+        "candidates": 0,
+        "accepted": 0,
+        "rejections": [
+          {
+            "reason": "no_candidate",
+            "url": "",
+            "role": ""
+          }
+        ]
+      },
+      "match": "unresolved",
+      "snapshot": true
+    },
+    "property_context": {
+      "provider": "U.S. Census Bureau",
+      "date": "2026-10-01T17:55:24.525Z",
+      "url": "https://geocoding.geo.census.gov/geocoder/geographies/address?street=1111+25th+St+NW&city=Washington&state=DC&benchmark=Public_AR_Current&vintage=Current_Current&format=json",
+      "cached": false,
+      "status": "matched",
+      "address": "1111 25TH ST NW, WASHINGTON, DC, 20037",
+      "city": "WASHINGTON",
+      "state": "DC",
+      "postal_code": "20037",
+      "county": "District of Columbia",
+      "tract": "11001005503",
+      "coordinates": {
+        "x": -77.05322138284,
+        "y": 38.904563152658
+      },
+      "message": "Address-range match. Does not establish building existence, ownership, unit count, or a link to this company."
+    },
+    "area_context": {
+      "version": 1,
+      "status": "not_assessed"
+    },
+    "processed_at": "2026-10-01T17:55:23.875Z",
+    "company_fetched_at": "2026-10-01T17:53:59.054625+00:00",
+    "company_engine": "reader-v2",
+    "company_location_version": 1,
+    "company_brief_version": 3,
+    "company_locations": [],
+    "sample_lead": true,
+    "sample_key": "sheet-1",
+    "sample_set_version": 5,
+    "sample_retrieved_at": "2026-10-01T17:55:23.875Z",
+    "research_state": "complete",
+    "automation_pending": false,
+    "company_snapshot": true,
+    "company_stale": false,
+    "draft_version": 0,
+    "sample_focus": "No inbound email context",
+    "sample_email_kind": "public_work_contact",
+    "sample_property": {
+      "name": "Atlas Condominium",
+      "url": "https://www.trimarkpm.com/service-request/",
+      "retrieved_at": "2026-10-01T17:55:23.875Z"
+    },
+    "sample_source": "Google Sheets Leads · matched 2026-10-01",
+    "sample_previous_inquiries": [
+      ""
+    ],
+    "sample_grounded_draft": true
+  },
+  {
+    "name": "Asia Connors",
+    "email": "asiac@cpmanagement.com",
+    "company": "CPManagement",
+    "website": "https://www.cpmanagement.com",
+    "property_address": "175 Monadnock Highway",
+    "city": "East Swanzey",
+    "state": "NH",
+    "research_url": "https://www.cpmanagement.com/services/multifamily-management",
+    "contact_source": "https://www.cpmanagement.com/about-us/team",
+    "property_name": "Monadnock Place",
+    "property_source": "https://www.cpmanagement.com/news/detail/cpmanagements-multifamily-portfolio-is-expanding",
+    "country": "United States",
+    "inquiry": "Hello, we would like to understand whether EliseAI could help with prospect follow-up and tour scheduling across communities. What information would you need to scope a small pilot? We have not chosen a timeline or budget.",
+    "evidence": [
+      {
+        "title": "Multifamily Property Management Leader | 1,000+ Units",
+        "text": "Multifamily Property Management Leader | 1,000+ Units\n\nCPManagement manages over 2,000 multifamily apartment units throughout Northern New England. This includes loft, townhouse, garden, and mixed-use buildings across property classes with 35 to 250+ units.\n\nMonths before building turnover or construction completion we create a marketing and leasing strategy that includes unit pricing recommendations, marketing budgets, visual branding, internet listings, social media posts, and all advertising collateral. The leasing goal is always to minimize vacancy through resident retention and efficient marketing investments. Our high-quality management and leasing experience allow us to grow net operating income while increasing resident satisfaction.\n\nDepending on unit count our residential buildings are remotely managed or maintain an on-site staff that includes a property manager, leasing agent, and maintenance supervisor. These teams are supported and overseen by the Director of Mutlifamily Operations, and our headquarters in Exeter, NH where our senior management as well as full accounting and administrative teams sit. Our residential management includes:\n\nManagement of day-to-day operations\n\nCreation and management of annual operating budget\n\nEnhancing the value of your portfolio.\n\nMonthly leasing and financial reporting",
+        "url": "https://www.cpmanagement.com/services/multifamily-management",
+        "date": "2026-10-01T17:54:00.799474+00:00",
+        "published_date": null,
+        "verified": true,
+        "identity": {
+          "version": 2,
+          "status": "confirmed",
+          "reason": "Company name is corroborated on the supplied domain.",
+          "signals": [
+            "supplied_domain",
+            "name_in_source_text",
+            "company_self_description"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      },
+      {
+        "title": "Property Management Leader in Northern New England | CP Management",
+        "text": "Thank you for your service request to CPManagement. We will review your request and get back to you shortly. If you require immediate assistance, please call (603) 778-6300.\n\nAt CP we treat every property as if it were our own. Our diverse industry knowledge, consistency of clients/employees, and high-quality standards set us apart from competitors. We never cut corners and are constantly focused on preserving and growing the value of your property.\n\nProperty Management Leader in Northern New England | CP Management\n\nProperty Management Leader Throughout Northern New England\n\nEnhancing the value of your portfolio.",
+        "url": "https://www.cpmanagement.com/",
+        "date": "2026-10-01T17:54:00.559166+00:00",
+        "published_date": null,
+        "verified": false,
+        "identity": {
+          "version": 2,
+          "status": "needs_confirmation",
+          "reason": "The company is mentioned, but the page does not establish its identity.",
+          "signals": [
+            "supplied_domain",
+            "name_in_source_text"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      },
+      {
+        "title": "CPManagement's MultiFamily Portfolio is Expanding!",
+        "text": "CPManagement's MultiFamily Portfolio is Expanding!\n\nCPManagement Expands Residential Portfolio with Three Exciting Multifamily Additions\n\nExeter, NH – April 3, 2025 – CPManagement is pleased to announce the expansion of its residential portfolio with the addition of three dynamic multifamily properties in New Hampshire and Massachusetts. These new communities reinforce CPManagement’s commitment to delivering exceptional living experiences across the region.\n\nEllis Factory Lofts, Haverhill, MA – This vibrant mixed-use property located in the heart of downtown Haverhill, was purchased by SMC Management Corp, in October of 2024. The property features 59 market rate multifamily homes and three commercial live-work spaces, this property is designed to foster an active and connected lifestyle. With unique micro-amenities and a prime location, residents will experience the best of Haverhill’s thriving dining, shopping and entertainment scene. To learn more about this pet-friendly and smoke free community, visit www.ellisfactorylofts.com\n\nTo find out how CPManagement can assist with your property management requirements, visit www.cpmanagement.com or contact us at 603-778-6300 (New Hampshire/Massachusetts), or 401-648-2520 (Rhode Island).\n\nEnhancing the value of your portfolio.",
+        "url": "https://www.cpmanagement.com/news/detail/cpmanagements-multifamily-portfolio-is-expanding",
+        "date": "2026-10-01T17:54:00.789904+00:00",
+        "published_date": null,
+        "verified": true,
+        "identity": {
+          "version": 2,
+          "status": "confirmed",
+          "reason": "Company name is corroborated on the supplied domain.",
+          "signals": [
+            "supplied_domain",
+            "name_in_page_title",
+            "name_in_source_text",
+            "company_self_description"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      }
+    ],
+    "professional_context": {
+      "version": 9,
+      "input_key": "asia connors|cpmanagement|cpmanagement.com",
+      "status": "complete",
+      "partial": false,
+      "people": [
+        {
+          "url": "https://www.cpmanagement.com/about-us/team",
+          "quote": "Asia Connors Director of Multifamily Operations",
+          "title": "Knowledgeable and Responsive Property Managers | Consistent Staff",
+          "official": true,
+          "published_at": null,
+          "retrieved_at": "2026-10-01T17:53:59.617625+00:00",
+          "recovered": false,
+          "employer_supported": true,
+          "freshness_basis": "Current official directory listing; page publication date may predate this role",
+          "name": "Asia Connors",
+          "company": "CPManagement",
+          "role": "Director of Multifamily Operations",
+          "historical": false
+        }
+      ],
+      "insights": [],
+      "company_facts": [],
+      "checked_at": "2026-10-01T17:55:23.875Z",
+      "cost_dollars": null,
+      "research_diagnostics": {
+        "candidates": 1,
+        "accepted": 1,
+        "rejections": []
+      },
+      "match": "name_company_match",
+      "conversation_starter": {
+        "text": "In your role as Director of Multifamily Operations, which operational process would you most like to improve?",
+        "source_url": "https://www.cpmanagement.com/about-us/team",
+        "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+      },
+      "snapshot": true
+    },
+    "property_context": {
+      "provider": "U.S. Census Bureau",
+      "date": "2026-10-01T17:55:24.797Z",
+      "url": "https://geocoding.geo.census.gov/geocoder/geographies/address?street=175+Monadnock+Highway&city=East+Swanzey&state=NH&benchmark=Public_AR_Current&vintage=Current_Current&format=json",
+      "cached": false,
+      "status": "matched",
+      "address": "175 MONADNOCK HWY, SWANZEY, NH, 03446",
+      "city": "SWANZEY",
+      "state": "NH",
+      "postal_code": "03446",
+      "county": "Cheshire County",
+      "tract": "33005970901",
+      "coordinates": {
+        "x": -72.253498678234,
+        "y": 42.900788867251
+      },
+      "message": "Address-range match. Does not establish building existence, ownership, unit count, or a link to this company."
+    },
+    "area_context": {
+      "version": 1,
+      "status": "not_assessed"
+    },
+    "processed_at": "2026-10-01T17:55:23.875Z",
+    "company_fetched_at": "2026-10-01T17:54:00.799474+00:00",
+    "company_engine": "reader-v2",
+    "company_location_version": 1,
+    "company_brief_version": 3,
+    "company_locations": [],
+    "sample_lead": true,
+    "sample_key": "sheet-2",
+    "sample_set_version": 5,
+    "sample_retrieved_at": "2026-10-01T17:55:23.875Z",
+    "research_state": "complete",
+    "automation_pending": false,
+    "company_snapshot": true,
+    "company_stale": false,
+    "draft_version": 0,
+    "sample_focus": "Sample inbound message",
+    "sample_email_kind": "public_work_contact",
+    "sample_property": {
+      "name": "Monadnock Place",
+      "url": "https://www.cpmanagement.com/news/detail/cpmanagements-multifamily-portfolio-is-expanding",
+      "retrieved_at": "2026-10-01T17:55:23.875Z"
+    },
+    "sample_source": "Google Sheets Leads · matched 2026-10-01",
+    "sample_previous_inquiries": [
+      "[SYNTHETIC INBOUND EMAIL — DEMO ONLY; not a real message from this person] Subject: Exploring a leasing pilot. Hello, we would like to understand whether EliseAI could help with prospect follow-up and tour scheduling across communities. What information would you need to scope a small pilot? We have not chosen a timeline or budget.",
+      "Hello, we would like to understand whether EliseAI could help with prospect follow-up and tour scheduling across communities. What information would you need to scope a small pilot? We have not chosen a timeline or budget."
+    ],
+    "sample_grounded_draft": true
+  },
+  {
+    "name": "Deanna Schmidt",
+    "email": "deanna.schmidt@aamci.com",
+    "company": "AAMCI",
+    "website": "https://aamci.com",
+    "property_address": "364 Cedar View Way",
+    "city": "Knoxville",
+    "state": "TN",
+    "research_url": "https://aamci.com/about-us/",
+    "contact_source": "https://aamci.com/about-us/our-team/",
+    "property_name": "Cedar Springs",
+    "property_source": "https://aamci.com/communities/tennessee/",
+    "country": "United States",
+    "inquiry": "Hi, could you explain how your assistant handles routine resident questions and escalates sensitive or complex requests to staff? We would also like to understand support for multilingual communication.",
+    "evidence": [
+      {
+        "title": "About Us - AAMCI",
+        "text": "AAMCI was chartered in 1972 with the sole purpose of managing multifamily housing",
+        "url": "https://aamci.com/about-us/",
+        "date": "2026-10-01T17:55:23.875Z",
+        "published_date": null,
+        "verified": true,
+        "identity": {
+          "version": 2,
+          "status": "confirmed",
+          "reason": "Company name is corroborated on the supplied domain.",
+          "signals": [
+            "supplied_domain",
+            "name_in_page_title",
+            "name_in_source_text"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source excerpt"
+      }
+    ],
+    "professional_context": {
+      "version": 9,
+      "input_key": "deanna schmidt|aamci|aamci.com",
+      "status": "complete",
+      "partial": false,
+      "people": [
+        {
+          "url": "https://aamci.com/about-us/our-team/",
+          "quote": "Deanna Schmidt Regional Director of Operations",
+          "title": "AAMCI | Our Team",
+          "official": true,
+          "published_at": null,
+          "retrieved_at": "2026-10-01T17:55:23.875Z",
+          "recovered": false,
+          "employer_supported": true,
+          "freshness_basis": "Current official directory listing; page publication date may predate this role",
+          "name": "Deanna Schmidt",
+          "company": "AAMCI",
+          "role": "Regional Director of Operations",
+          "historical": false
+        }
+      ],
+      "insights": [],
+      "company_facts": [],
+      "checked_at": "2026-10-01T17:55:23.875Z",
+      "cost_dollars": null,
+      "research_diagnostics": {
+        "candidates": 1,
+        "accepted": 1,
+        "rejections": []
+      },
+      "match": "name_company_match",
+      "conversation_starter": {
+        "text": "In your role as Regional Director of Operations, which operational process would you most like to improve?",
+        "source_url": "https://aamci.com/about-us/our-team/",
+        "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+      },
+      "snapshot": true
+    },
+    "property_context": {
+      "provider": "U.S. Census Bureau",
+      "date": "2026-10-01T17:55:25.031Z",
+      "url": "https://geocoding.geo.census.gov/geocoder/geographies/address?street=364+Cedar+View+Way&city=Knoxville&state=TN&benchmark=Public_AR_Current&vintage=Current_Current&format=json",
+      "cached": false,
+      "status": "matched",
+      "address": "364 CEDAR VIEW WAY, KNOXVILLE, TN, 37919",
+      "city": "KNOXVILLE",
+      "state": "TN",
+      "postal_code": "37919",
+      "county": "Knox County",
+      "tract": "47093004403",
+      "coordinates": {
+        "x": -84.058457733878,
+        "y": 35.917086925989
+      },
+      "message": "Address-range match. Does not establish building existence, ownership, unit count, or a link to this company."
+    },
+    "area_context": {
+      "version": 1,
+      "status": "not_assessed"
+    },
+    "processed_at": "2026-10-01T17:55:23.875Z",
+    "company_fetched_at": "2026-10-01T17:55:23.875Z",
+    "company_engine": "reader-v2",
+    "company_location_version": 1,
+    "company_brief_version": 3,
+    "company_locations": [],
+    "sample_lead": true,
+    "sample_key": "sheet-3",
+    "sample_set_version": 5,
+    "sample_retrieved_at": "2026-10-01T17:55:23.875Z",
+    "research_state": "complete",
+    "automation_pending": false,
+    "company_snapshot": true,
+    "company_stale": false,
+    "draft_version": 0,
+    "sample_focus": "Sample inbound message",
+    "sample_email_kind": "public_work_contact",
+    "sample_property": {
+      "name": "Cedar Springs",
+      "url": "https://aamci.com/communities/tennessee/",
+      "retrieved_at": "2026-10-01T17:55:23.875Z"
+    },
+    "sample_source": "Google Sheets Leads · matched 2026-10-01",
+    "sample_previous_inquiries": [
+      "[SYNTHETIC INBOUND EMAIL — DEMO ONLY; not a real message from this person] Subject: Resident communication questions. Hi, could you explain how your assistant handles routine resident questions and escalates sensitive or complex requests to staff? We would also like to understand support for multilingual communication.",
+      "Hi, could you explain how your assistant handles routine resident questions and escalates sensitive or complex requests to staff? We would also like to understand support for multilingual communication."
+    ],
+    "sample_grounded_draft": true
+  },
+  {
+    "name": "Doretta Cramer",
+    "email": "dcramer@dkdpmco.com",
+    "company": "DKD Property Management Company",
+    "website": "https://dkdproperties.com",
+    "property_address": "1543 Ambergrove Drive",
+    "city": "San Jose",
+    "state": "CA",
+    "research_url": "https://dkdproperties.com/",
+    "contact_source": "https://dkdproperties.com/contact-us/",
+    "property_name": "Amberwood Apartments",
+    "property_source": "https://dkdproperties.com/south-bay/",
+    "country": "United States",
+    "inquiry": "",
+    "evidence": [
+      {
+        "title": "Home - DKD Property Management Company",
+        "text": "The heartbeat of the Bay – DKD manages lovely apartment communities throughout the East and Northern Bay Area with communities located in Fremont, Hayward, Novato, Napa and Santa Rosa, California. Explore the wonderful communities we manage and let us help you to find your next home.\n\nCentered in the Silicon Valley, DKD’s robust South Bay Area portfolio has apartment communities in the beautiful cities of Campbell, San Jose and Santa Cruz, California. Explore the delightful communities we manage and let us help you to find your next home.\n\nCalifornia’s Central Valley in one of the most picturesque locations in the state with beautiful scenery year round. DKD manages apartment homes in this cities of Coalinga, Hanford, Reedley, Oakhurst, San Joaquin, and Stockton. Explore the charming communities we manage and let us help you to find your next home.\n\nHome - DKD Property Management Company\n\nDKD Property Management Company is dedicated to delivering superior operational and financial management of your property. Our fully integrated team of experienced and skilled specialists will work with you to achieve your goals.\n\nThe owner of this website has made a commitment to accessibility and inclusion, please report any problems that you encounter using the contact form on this website. This site uses the WP ADA Compliance Check plugin to enhance accessibility.",
+        "url": "https://dkdproperties.com/",
+        "date": "2026-10-01T17:54:03.536262+00:00",
+        "published_date": null,
+        "verified": true,
+        "identity": {
+          "version": 2,
+          "status": "confirmed",
+          "reason": "Company name is corroborated on the supplied domain.",
+          "signals": [
+            "supplied_domain",
+            "name_in_page_title",
+            "name_in_source_text",
+            "company_self_description"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      },
+      {
+        "title": "South Bay - DKD Property Management Company",
+        "text": "South Bay - DKD Property Management Company\n\nThe owner of this website has made a commitment to accessibility and inclusion, please report any problems that you encounter using the contact form on this website. This site uses the WP ADA Compliance Check plugin to enhance accessibility.",
+        "url": "https://dkdproperties.com/south-bay/",
+        "date": "2026-10-01T17:54:03.176493+00:00",
+        "published_date": null,
+        "verified": true,
+        "identity": {
+          "version": 2,
+          "status": "confirmed",
+          "reason": "Company name is corroborated on the supplied domain.",
+          "signals": [
+            "supplied_domain",
+            "name_in_page_title",
+            "name_in_source_text"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      }
+    ],
+    "professional_context": {
+      "version": 9,
+      "input_key": "doretta cramer|dkd property management company|dkdproperties.com",
+      "status": "complete",
+      "partial": false,
+      "people": [],
+      "insights": [],
+      "company_facts": [],
+      "checked_at": "2026-10-01T17:55:23.875Z",
+      "cost_dollars": null,
+      "research_diagnostics": {
+        "candidates": 0,
+        "accepted": 0,
+        "rejections": [
+          {
+            "reason": "no_candidate",
+            "url": "",
+            "role": ""
+          }
+        ]
+      },
+      "match": "unresolved",
+      "snapshot": true
+    },
+    "property_context": {
+      "provider": "U.S. Census Bureau",
+      "date": "2026-10-01T17:55:25.223Z",
+      "url": "https://geocoding.geo.census.gov/geocoder/geographies/address?street=1543+Ambergrove+Drive&city=San+Jose&state=CA&benchmark=Public_AR_Current&vintage=Current_Current&format=json",
+      "cached": false,
+      "status": "matched",
+      "address": "1543 AMBERGROVE DR, SAN JOSE, CA, 95131",
+      "city": "SAN JOSE",
+      "state": "CA",
+      "postal_code": "95131",
+      "county": "Santa Clara County",
+      "tract": "06085504311",
+      "coordinates": {
+        "x": -121.88093931127,
+        "y": 37.381830959951
+      },
+      "message": "Address-range match. Does not establish building existence, ownership, unit count, or a link to this company."
+    },
+    "area_context": {
+      "version": 1,
+      "status": "not_assessed"
+    },
+    "processed_at": "2026-10-01T17:55:23.875Z",
+    "company_fetched_at": "2026-10-01T17:54:03.536262+00:00",
+    "company_engine": "reader-v2",
+    "company_location_version": 1,
+    "company_brief_version": 3,
+    "company_locations": [],
+    "sample_lead": true,
+    "sample_key": "sheet-4",
+    "sample_set_version": 5,
+    "sample_retrieved_at": "2026-10-01T17:55:23.875Z",
+    "research_state": "complete",
+    "automation_pending": false,
+    "company_snapshot": true,
+    "company_stale": false,
+    "draft_version": 0,
+    "sample_focus": "No inbound email context",
+    "sample_email_kind": "public_work_contact",
+    "sample_property": {
+      "name": "Amberwood Apartments",
+      "url": "https://dkdproperties.com/south-bay/",
+      "retrieved_at": "2026-10-01T17:55:23.875Z"
+    },
+    "sample_source": "Google Sheets Leads · matched 2026-10-01",
+    "sample_previous_inquiries": [
+      ""
+    ],
+    "sample_grounded_draft": true
+  },
+  {
+    "name": "Denise Weaver",
+    "email": "dweaver@dimarcogroup.com",
+    "company": "Baldwin Real Estate Corporation",
+    "website": "https://www.baldwinrealestatecorp.com",
+    "property_address": "150 Wexford Place",
+    "city": "Webster",
+    "state": "NY",
+    "research_url": "https://www.baldwinrealestatecorp.com/property-management",
+    "contact_source": "https://www.baldwinrealestatecorp.com/about-us/meet-our-team",
+    "property_name": "Daniel’s Creek Luxury Apartments",
+    "property_source": "https://www.baldwinrealestatecorp.com/real-estate-portfolio?cid=0",
+    "country": "United States",
+    "inquiry": "",
+    "evidence": [
+      {
+        "title": "Property Management: What We Do",
+        "text": "Baldwin manages nearly 4,000 residential units and 2.5 million square feet of commercial space. We are uniquely qualified to handle difficult property management challenges, and continually emphasize reliable customer service. Our approach adapts proven management strategies to the unique needs of each managed property. From luxury market-rate apartment homes, and senior residential properties to premier retail centers, and class-A office buildings, Baldwin Real Estate Corporation brings a depth of unequaled experience and innovation to the market.\n\nCommercial / Residential Property Development and Management\n\nHigh Performance Property Management\n\nAt Baldwin Real Estate Corporation, we strive to balance resident and tenant requirements with our clients’ investment goals. We tailor our strategies to effectively manage each individual property. With extensive regional knowledge and experience, our team consistently delivers superior bottom-line results for property owners, resulting in excellent resident and tenant retention rates.\n\nOur organization is committed to the highest standards of honesty, integrity, and ethical business practices. One of the largest property management firms in Western New York, Baldwin has been recognized as an Accredited Management Organization® (AMO®) by the Institute of Real Estate Management.\n\nProperty management that produces results!",
+        "url": "https://www.baldwinrealestatecorp.com/property-management",
+        "date": "2026-10-01T17:54:01.272616+00:00",
+        "published_date": null,
+        "verified": true,
+        "identity": {
+          "version": 2,
+          "status": "confirmed",
+          "reason": "Full company name and an explicit self-description agree with the supplied brand domain.",
+          "signals": [
+            "supplied_domain",
+            "name_in_source_text",
+            "brand_domain",
+            "company_self_description"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      },
+      {
+        "title": "Baldwin Real Estate Corporation",
+        "text": "Our formula for success begins with satisfied residents. Baldwin employees are sensitive to the needs of those individuals who live, shop or work in the properties we manage.\n\nview our portfolio of communities >\n\nCommercial / Residential Property Development and Management\n\n“I love the Fairport location because everything is close by and convenient. I like the modern, updated apartment - the condition of the building and grounds is well maintained and beautiful!”",
+        "url": "https://www.baldwinrealestatecorp.com/",
+        "date": "2026-10-01T17:54:01.431088+00:00",
+        "published_date": null,
+        "verified": true,
+        "identity": {
+          "version": 2,
+          "status": "confirmed",
+          "reason": "Company name is corroborated on the supplied domain.",
+          "signals": [
+            "supplied_domain",
+            "name_in_page_title"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      },
+      {
+        "title": "Real Estate Portfolio",
+        "text": "© 2026 Baldwin Real Estate Corporation. All Rights Reserved.\n\n770 Canning Parkway/Canning Industrial Park is an active office-industrial district in Victor, NY in close proximity to Rt. 490 and the NY State Thruway. Sitting on 8.10 Acres, the building houses DealerDOCX, who specializes in secure cloud-based document management and Bristol Instruments.\n\nWelcome to Bayshore North Apartments in Brewerton, NY! Bayshore North Apartments is an affordable family community offering one, two and three bedroom apartments, that shares land with Bayshore Senior Apartments. Apartment amenities include on-site laundry in each building, playground areas, basketball court, and on site management.\n\nWelcome to Bayshore Senior Apartments! Bayshore Senior Apartments is a 24-unit affordable senior housing community located in Brewerton, NY, that is shared with Bayshore Apartments. Apartment amenities include on site laundry in each building, playground areas, basketball court, on site management and maintenance team including emergency after hour maintenance on call service.\n\nWelcome to Park Hills & Hammond Place Apartments! Park Hills & Hammond Place Apartments is a 56-unit affordable housing community located in Dansville, NY. Each apartment unit has a spacious floor plan. The community features on-site laundry facilities, playgrounds, affordable rent prices and on-site management!\n\nCommercial / Residential Property Development and Management\n\nADMAR Construction Equipment and Supplies is the largest independently owned provider of construction equipment and supplies throughout New York, Ohio and Pennsylvania. We supply contractors, landscapers, municipalities, and do-it-yourselfers with the Equipment You Need, When You Need It.\n\nADMAR Construction Equipment and Supplies (Rochester) is the first ADMAR location and home to the corporate headquarters. ADMAR is the largest independently owned provider of construction equipment and supplies throughout New York, Ohio and Pennsylvania. We supply contractors, landscapers, municipalities, and do-it-yourselfers with the Equipment You Need, When You Need It.",
+        "url": "https://www.baldwinrealestatecorp.com/real-estate-portfolio?cid=0",
+        "date": "2026-10-01T17:54:03.593264+00:00",
+        "published_date": null,
+        "verified": true,
+        "identity": {
+          "version": 2,
+          "status": "confirmed",
+          "reason": "Company name is corroborated on the supplied domain.",
+          "signals": [
+            "supplied_domain",
+            "name_in_source_text",
+            "copyright_owner"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      },
+      {
+        "title": "Real Estate Portfolio",
+        "text": "Welcome to Emjay Place Apartments in Carthage, NY! This 40-unit affordable living community features impressive & generously spacious residences. The open floor plan encompasses two-three bedrooms with plenty of room for storage. The expansive dining room flows into the living room. The master bedroom, complete with walk-in closet, ensures your own private space.",
+        "url": "https://www.baldwinrealestatecorp.com/real-estate-portfolio?cid=0",
+        "date": "2026-10-01T17:54:03.593264+00:00",
+        "published_date": null,
+        "verified": true,
+        "identity": {
+          "version": 2,
+          "status": "confirmed",
+          "reason": "Company name is corroborated on the supplied domain.",
+          "signals": [
+            "supplied_domain",
+            "name_in_source_text",
+            "copyright_owner"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      }
+    ],
+    "professional_context": {
+      "version": 9,
+      "input_key": "denise weaver|baldwin real estate corporation|baldwinrealestatecorp.com",
+      "status": "complete",
+      "partial": false,
+      "people": [
+        {
+          "url": "https://www.baldwinrealestatecorp.com/about-us/meet-our-team",
+          "quote": "Denise Weaver Vice President | Market Rate Housing",
+          "title": "Meet Our Team",
+          "official": true,
+          "published_at": null,
+          "retrieved_at": "2026-10-01T17:54:01.533489+00:00",
+          "recovered": false,
+          "employer_supported": true,
+          "freshness_basis": "Current official directory listing; page publication date may predate this role",
+          "name": "Denise Weaver",
+          "company": "Baldwin Real Estate Corporation",
+          "role": "Vice President | Market Rate Housing",
+          "historical": false
+        }
+      ],
+      "insights": [],
+      "company_facts": [],
+      "checked_at": "2026-10-01T17:55:23.875Z",
+      "cost_dollars": null,
+      "research_diagnostics": {
+        "candidates": 1,
+        "accepted": 1,
+        "rejections": []
+      },
+      "match": "name_company_match",
+      "conversation_starter": {
+        "text": "In your role as Vice President | Market Rate Housing, which operational process would you most like to improve?",
+        "source_url": "https://www.baldwinrealestatecorp.com/about-us/meet-our-team",
+        "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+      },
+      "snapshot": true
+    },
+    "property_context": {
+      "provider": "U.S. Census Bureau",
+      "date": "2026-10-01T17:55:25.411Z",
+      "url": "https://geocoding.geo.census.gov/geocoder/geographies/address?street=150+Wexford+Place&city=Webster&state=NY&benchmark=Public_AR_Current&vintage=Current_Current&format=json",
+      "cached": false,
+      "status": "unmatched",
+      "message": "No Census address match. Check the street, city and state."
+    },
+    "area_context": {
+      "version": 1,
+      "status": "not_assessed"
+    },
+    "processed_at": "2026-10-01T17:55:23.875Z",
+    "company_fetched_at": "2026-10-01T17:54:01.272616+00:00",
+    "company_engine": "reader-v2",
+    "company_location_version": 1,
+    "company_brief_version": 3,
+    "company_locations": [],
+    "sample_lead": true,
+    "sample_key": "sheet-5",
+    "sample_set_version": 6,
+    "sample_retrieved_at": "2026-10-01T17:55:23.875Z",
+    "research_state": "complete",
+    "automation_pending": false,
+    "company_snapshot": true,
+    "company_stale": false,
+    "draft_version": 0,
+    "sample_focus": "No inbound email context",
+    "sample_email_kind": "public_work_contact",
+    "sample_property": {
+      "name": "Daniel’s Creek Luxury Apartments",
+      "url": "https://www.baldwinrealestatecorp.com/real-estate-portfolio?cid=0",
+      "retrieved_at": "2026-10-01T17:55:23.875Z"
+    },
+    "sample_source": "Google Sheets Leads · matched 2026-10-01",
+    "sample_previous_inquiries": [
+      "[SYNTHETIC INBOUND EMAIL — DEMO ONLY; not a real message from this person] Subject: Tour follow-up workflow. Hello EliseAI, we are comparing options for following up with prospective residents after tours. Could you share how the workflow connects with an existing property-management system and what setup involves?",
+      "Hello EliseAI, we are comparing options for following up with prospective residents after tours. Could you share how the workflow connects with an existing property-management system and what setup involves?"
+    ],
+    "sample_grounded_draft": true,
+    "sample_response_type": "intro"
+  },
+  {
+    "name": "John Habermann",
+    "email": "john.habermann@calibercompany.com",
+    "company": "Caliber Property Management",
+    "website": "https://calibercompany.com",
+    "property_address": "1155 SW Prairie Trail Pkwy",
+    "city": "Ankeny",
+    "state": "IA",
+    "research_url": "https://calibercompany.com/property-management/",
+    "contact_source": "https://calibercompany.com/property-management/team",
+    "property_name": "The Standard at Prairie Trail",
+    "property_source": "https://calibercompany.com/property-management/",
+    "country": "United States",
+    "inquiry": "Hi EliseAI team, I would like an introductory demo focused on leasing inquiries and appointment scheduling. We are in an early research stage and would like to understand capabilities before discussing a rollout.",
+    "evidence": [
+      {
+        "title": "Property Management | Caliber Company",
+        "text": "Property Management | Caliber Company\n\nFrom upscale condos to townhomes spanning Ankeny, Des Moines, West Des Moines, and Waukee, you are sure to find your next home in one of Caliber Property Management's many residences available for rent.\n\nGood Steward of Client Capital and Reputation (When Ownership Wins, CPM Wins)\n\nCaliber Property Management Proven Process\n\nCaliber Property Management residents may log in to the Resident Portal for online payments, maintenance requests, and other available documentation.\n\nExplore the epitome of urban living at Prairie Trail's prime locale, The District, nestled in Ankeny, Iowa's vibrant heart. Caliber presents an exquisite array of six distinct styles of rental units scattered throughout the area. Each unit promises more than mere accommodation—it's an immersive experience. With effortless access to live concerts, unique shopping excursions, and delectable culinary offerings from local eateries, all within walking distance, The District ensures a lifestyle of convenience and community.",
+        "url": "https://calibercompany.com/property-management/",
+        "date": "2026-10-01T17:54:02.206183+00:00",
+        "published_date": null,
+        "verified": true,
+        "identity": {
+          "version": 2,
+          "status": "confirmed",
+          "reason": "Full company name and an explicit self-description agree with the supplied brand domain.",
+          "signals": [
+            "supplied_domain",
+            "name_in_source_text",
+            "brand_domain",
+            "company_self_description"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      },
+      {
+        "title": "Caliber Company",
+        "text": "We are a real estate development company that specializes in land development, architecture, construction, property management, custom home building and realty. Learn more about the diversity of our services, project and the team of professionals that bring it all together.\n\nAt Caliber Property Management, we foster community with rental homes for all stages of life. Our portfolio spans apartments, townhomes and single family homes, offering beautifully designed and functional rental options in some of the metro’s best locations.\n\nOur capabilities range from development, to design and general contracting, property management and leasing, real estate brokerage and single-family home construction.\n\nThe team at Caliber Company has a long history in the real estate industry specializing in development, architecture, design, construction, property management, and realty within both the residential and commercial markets.\n\nCaliber Realty specializes in brokerage of Commercial and Residential Real Estate focused on building relationships and identifying solutions to be a trusted partner for your real estate needs.\n\nCaliber Company is a vertically integrated real estate owner, operator and developer.\n\nWith an expansive and diverse portfolio\n\nCaliber Company's apartment complex, The Windsor, has been awarded the Multifamily Development of the Year for Des Moines.",
+        "url": "https://calibercompany.com/",
+        "date": "2026-10-01T17:54:03.977620+00:00",
+        "published_date": null,
+        "verified": false,
+        "identity": {
+          "version": 2,
+          "status": "needs_confirmation",
+          "reason": "The company is mentioned, but the page does not establish its identity.",
+          "signals": [
+            "supplied_domain",
+            "name_in_source_text"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      }
+    ],
+    "professional_context": {
+      "version": 9,
+      "input_key": "john habermann|caliber property management|calibercompany.com",
+      "status": "complete",
+      "partial": false,
+      "people": [],
+      "insights": [],
+      "company_facts": [],
+      "checked_at": "2026-10-01T17:55:23.875Z",
+      "cost_dollars": null,
+      "research_diagnostics": {
+        "candidates": 0,
+        "accepted": 0,
+        "rejections": [
+          {
+            "reason": "no_candidate",
+            "url": "",
+            "role": ""
+          }
+        ]
+      },
+      "match": "unresolved",
+      "snapshot": true
+    },
+    "property_context": {
+      "provider": "U.S. Census Bureau",
+      "date": "2026-10-01T17:55:25.532Z",
+      "url": "https://geocoding.geo.census.gov/geocoder/geographies/address?street=1155+SW+Prairie+Trail+Pkwy&city=Ankeny&state=IA&benchmark=Public_AR_Current&vintage=Current_Current&format=json",
+      "cached": false,
+      "status": "unmatched",
+      "message": "No Census address match. Check the street, city and state."
+    },
+    "area_context": {
+      "version": 1,
+      "status": "not_assessed"
+    },
+    "processed_at": "2026-10-01T17:55:23.875Z",
+    "company_fetched_at": "2026-10-01T17:54:02.206183+00:00",
+    "company_engine": "reader-v2",
+    "company_location_version": 1,
+    "company_brief_version": 3,
+    "company_locations": [],
+    "sample_lead": true,
+    "sample_key": "sheet-6",
+    "sample_set_version": 5,
+    "sample_retrieved_at": "2026-10-01T17:55:23.875Z",
+    "research_state": "complete",
+    "automation_pending": false,
+    "company_snapshot": true,
+    "company_stale": false,
+    "draft_version": 0,
+    "sample_focus": "Sample inbound message",
+    "sample_email_kind": "public_work_contact",
+    "sample_property": {
+      "name": "The Standard at Prairie Trail",
+      "url": "https://calibercompany.com/property-management/",
+      "retrieved_at": "2026-10-01T17:55:23.875Z"
+    },
+    "sample_source": "Google Sheets Leads · matched 2026-10-01",
+    "sample_previous_inquiries": [
+      "[SYNTHETIC INBOUND EMAIL — DEMO ONLY; not a real message from this person] Subject: Introductory demo request. Hi EliseAI team, I would like an introductory demo focused on leasing inquiries and appointment scheduling. We are in an early research stage and would like to understand capabilities before discussing a rollout.",
+      "Hi EliseAI team, I would like an introductory demo focused on leasing inquiries and appointment scheduling. We are in an early research stage and would like to understand capabilities before discussing a rollout."
+    ],
+    "sample_grounded_draft": true
+  },
+  {
+    "name": "Michael Francisco",
+    "email": "Mfrancisco@cccnyc.com",
+    "company": "Carlyle Property Management",
+    "website": "https://www.carlylepropertymanagement.com",
+    "property_address": "200 East 72nd Street",
+    "city": "New York",
+    "state": "NY",
+    "research_url": "https://www.carlylepropertymanagement.com/",
+    "contact_source": "https://www.carlylepropertymanagement.com/contact-us/",
+    "property_name": "The Wellesley",
+    "property_source": "https://www.carlylepropertymanagement.com/nyc/the-wellesley/",
+    "country": "United States",
+    "inquiry": "",
+    "evidence": [
+      {
+        "title": "Carlyle Property Management – NYC & Philadelphia Apartments – New York City & Philadelphia Residential Apartments for Rent",
+        "text": "Carlyle provides full and comprehensive management services for properties ranging from 10 units to over 500 units. As Managers, we will always strive to provide our clients with the service and results they deserve. Since 2012, Carlyle has been actively expanding its portfolio of properties in Philadelphia through its subsidiary, Carlyle Philadelphia Apartments. Luxury properties have been acquired in the Old City, Northern Liberties and Ardmore area of Philadelphia. The firm plans to continue to expand its portfolio of properties in the Philadelphia area.\n\nCarlyle Property Management – NYC & Philadelphia Apartments – New York City & Philadelphia Residential Apartments for Rent\n\nIrving Dimson, his father in-law, Isadore Feldman, and his brother in-law, Harry Feldman, founded Carlyle Construction Corporation in 1946. During the 1940’s and 1950’s, the company’s focus was on the development of garden apartments and single family homes in New York, New Jersey, Ohio and Georgia. In the 1960’s, Carlyle’s focus changed to the development and management of luxury high-rise apartment buildings and commercial properties. Some of the properties developed and managed by Carlyle in Manhattan were Regency Towers, Regency South, Gracie Towne House, Ambassador East and Carlton Towers. Carlyle also developed and managed Harbor Towers in Boston and 4 Penn Center in Philadelphia.\n\nA Message from Carlyle Property Management Regarding COVID-19 Questions/Concerns? Contact a member of our team today.\n\nManaging Manhattan and Philadelphia’s Finest Rentals",
+        "url": "https://www.carlylepropertymanagement.com/",
+        "date": "2026-10-01T17:54:04.336143+00:00",
+        "published_date": null,
+        "verified": true,
+        "identity": {
+          "version": 2,
+          "status": "confirmed",
+          "reason": "Company name is corroborated on the supplied domain.",
+          "signals": [
+            "supplied_domain",
+            "name_in_page_title",
+            "name_in_source_text"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      },
+      {
+        "title": "The Wellesley – Carlyle Property Management – NYC & Philadelphia Apartments",
+        "text": "The Wellesley – Carlyle Property Management – NYC & Philadelphia Apartments\n\nThe Wellesley is a 35 story luxury building off of Third Avenue on Manhattan’s upper east side. The amenities include a 24 hour doorman, a fitness center, a roof garden and laundry facilities on every floor. A parking garage is available. The building is in a busy residential area near shopping and transportation, and is only a few blocks from beautiful Central Park.\n\nConveniently situated on the cross streets of 72nd and 3rd Avenue, The Wellesley apartment building is located in the midst of many of the multi-conveniences and service centers that New York City offers.\n\nThe staff in the building is superb. One needn’t leave the premises to feel pampered, secure, and cared for. From the minute you fill out your rental application and every day you call The Wellesley your home….you will be surrounded by loyal staff members who have been part of the Wellesley family for more than 20 years. They have been on board and have the expertise to provide you with every comfort you deserve in fine apartment living.",
+        "url": "https://www.carlylepropertymanagement.com/nyc/the-wellesley/",
+        "date": "2026-10-01T17:54:04.258351+00:00",
+        "published_date": null,
+        "verified": true,
+        "identity": {
+          "version": 2,
+          "status": "confirmed",
+          "reason": "Company name is corroborated on the supplied domain.",
+          "signals": [
+            "supplied_domain",
+            "name_in_page_title",
+            "name_in_source_text"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      }
+    ],
+    "professional_context": {
+      "version": 9,
+      "input_key": "michael francisco|carlyle property management|carlylepropertymanagement.com",
+      "status": "complete",
+      "partial": false,
+      "people": [
+        {
+          "url": "https://www.carlylepropertymanagement.com/contact-us/",
+          "quote": "Michael Francisco Director of Operations",
+          "title": "Contact Us – Carlyle Property Management – NYC & Philadelphia Apartments",
+          "official": true,
+          "published_at": null,
+          "retrieved_at": "2026-10-01T17:54:04.555682+00:00",
+          "recovered": false,
+          "employer_supported": true,
+          "freshness_basis": "Source publication date and wording",
+          "name": "Michael Francisco",
+          "company": "Carlyle Property Management",
+          "role": "Director of Operations",
+          "historical": false
+        }
+      ],
+      "insights": [],
+      "company_facts": [],
+      "checked_at": "2026-10-01T17:55:23.875Z",
+      "cost_dollars": null,
+      "research_diagnostics": {
+        "candidates": 1,
+        "accepted": 1,
+        "rejections": []
+      },
+      "match": "name_company_match",
+      "conversation_starter": {
+        "text": "In your role as Director of Operations, which operational process would you most like to improve?",
+        "source_url": "https://www.carlylepropertymanagement.com/contact-us/",
+        "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+      },
+      "snapshot": true
+    },
+    "property_context": {
+      "provider": "U.S. Census Bureau",
+      "date": "2026-10-01T17:55:25.725Z",
+      "url": "https://geocoding.geo.census.gov/geocoder/geographies/address?street=200+East+72nd+Street&city=New+York&state=NY&benchmark=Public_AR_Current&vintage=Current_Current&format=json",
+      "cached": false,
+      "status": "matched",
+      "address": "200 E 72ND ST, NEW YORK, NY, 10021",
+      "city": "NEW YORK",
+      "state": "NY",
+      "postal_code": "10021",
+      "county": "New York County",
+      "tract": "36061012602",
+      "coordinates": {
+        "x": -73.960572839913,
+        "y": 40.769671028243
+      },
+      "message": "Address-range match. Does not establish building existence, ownership, unit count, or a link to this company."
+    },
+    "area_context": {
+      "version": 1,
+      "status": "not_assessed"
+    },
+    "processed_at": "2026-10-01T17:55:23.875Z",
+    "company_fetched_at": "2026-10-01T17:54:04.336143+00:00",
+    "company_engine": "reader-v2",
+    "company_location_version": 1,
+    "company_brief_version": 3,
+    "company_locations": [],
+    "sample_lead": true,
+    "sample_key": "sheet-7",
+    "sample_set_version": 5,
+    "sample_retrieved_at": "2026-10-01T17:55:23.875Z",
+    "research_state": "complete",
+    "automation_pending": false,
+    "company_snapshot": true,
+    "company_stale": false,
+    "draft_version": 0,
+    "sample_focus": "No inbound email context",
+    "sample_email_kind": "public_work_contact",
+    "sample_property": {
+      "name": "The Wellesley",
+      "url": "https://www.carlylepropertymanagement.com/nyc/the-wellesley/",
+      "retrieved_at": "2026-10-01T17:55:23.875Z"
+    },
+    "sample_source": "Google Sheets Leads · matched 2026-10-01",
+    "sample_previous_inquiries": [
+      ""
+    ],
+    "sample_grounded_draft": true
+  },
+  {
+    "name": "Jordan Example (TEST)",
+    "email": "yardi-demo@example.invalid",
+    "company": "Yardi",
+    "website": "https://www.yardi.com",
+    "research_url": "https://www.yardi.com/company/about-us/",
+    "property_address": "",
+    "city": "",
+    "state": "",
+    "country": "US",
+    "inquiry": "",
+    "evidence": [
+      {
+        "title": "About Us - Yardi",
+        "url": "https://www.yardi.com/company/about-us/",
+        "text": "Yardi has grown into the leading provider of high-performance software for the real estate industry.",
+        "date": "2026-10-01T18:12:52.927Z",
+        "verified": true,
+        "provider": "Official company website · saved demo research",
+        "kind": "Company website"
+      }
+    ],
+    "professional_context": {
+      "version": 9,
+      "status": "skipped",
+      "people": [],
+      "insights": [],
+      "checked_at": "2026-10-01T18:12:52.927Z",
+      "match": "unconfirmed"
+    },
+    "property_context": {
+      "status": "incomplete"
+    },
+    "area_context": {
+      "status": "unavailable"
+    },
+    "processed_at": "2026-10-01T18:12:52.927Z",
+    "company_fetched_at": "2026-10-01T18:12:52.927Z",
+    "company_engine": "reader-v2",
+    "company_location_version": 1,
+    "company_brief_version": 3,
+    "company_locations": [],
+    "sample_lead": true,
+    "sample_key": "rubric-yardi",
+    "sample_set_version": 6,
+    "sample_retrieved_at": "2026-10-01T18:12:52.927Z",
+    "research_state": "complete",
+    "automation_pending": false,
+    "company_snapshot": true,
+    "company_stale": false,
+    "draft_version": 0,
+    "sample_focus": "No inbound email context",
+    "sample_email_kind": "Synthetic inbound inquiry",
+    "sample_source": "https://www.yardi.com/company/about-us/",
+    "sample_previous_inquiries": [
+      "[SYNTHETIC INBOUND EMAIL — DEMO ONLY] We would like to discuss an API integration between our software platform and EliseAI.",
+      "We would like to discuss an API integration between our software platform and EliseAI."
+    ],
+    "sample_response_type": "intro"
+  },
+  {
+    "name": "Avery Morgan (TEST)",
+    "email": "greystar.qa@example.invalid",
+    "company": "Greystar",
+    "website": "https://www.greystar.com",
+    "property_address": "1731 Tupelo Hill Lane",
+    "city": "Raleigh",
+    "state": "NC",
+    "research_url": "https://www.greystar.com/business",
+    "contact_source": "",
+    "property_name": "The Marlowe Lake Boone",
+    "property_source": "https://www.greystar.com/the-marlowe-lake-boone-apartments-raleigh-nc/p_15226",
+    "country": "United States",
+    "inquiry": "",
+    "evidence": [
+      {
+        "title": "Business | Greystar",
+        "text": "Headquartered in Charleston, South Carolina, Greystar-affiliated companies manage and operate approximately $350 billion of real estate in approximately 260 markets worldwide. With offices across North America, Europe, South America, and the Asia-Pacific region, our global platform is designed to meet the evolving needs of institutional rental housing, wherever they arise.\n\nGreystar is a leading, fully integrated real estate platform offering expertise in investment management, development, and management of rental housing properties globally. We own, operate, and develop a diverse range of rental housing types, including traditional multifamily, mixed-use, student housing and university partnerships, active adult, single family rental, modular, and logistics.\n\nWith approximately 1.1 million multifamily units and student beds under management globally, Greystar is the largest operator of apartments in the United States. We bring deep experience in managing all product types and serving a wide range of institutional clients.\n\nProfessionally managed purpose-built rental homes that give additional options to renters who are seeking more space in community-oriented areas with shared amenities.\n\nGreystar believes that energy management and sustainable practices enhance the financial value of the communities we manage – and help to preserve the environment for future generations. We are committed to minimizing environmental impacts through continuous improvement of our energy performance and through sustainable operating practices.\n\nGreystar supports a robust institutional investment management platform with over $79 billion in assets under management. Our global investment strategy is built on local market expertise and long-standing relationships that unlock high-quality opportunities.",
+        "url": "https://www.greystar.com/business",
+        "date": "2026-10-01T17:54:05.046547+00:00",
+        "published_date": null,
+        "verified": true,
+        "identity": {
+          "version": 2,
+          "status": "confirmed",
+          "reason": "Company name is corroborated on the supplied domain.",
+          "signals": [
+            "supplied_domain",
+            "name_in_page_title",
+            "name_in_source_text",
+            "company_self_description"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      },
+      {
+        "title": "Business | Greystar",
+        "text": "Information is as of end of Q1 26. The AUM referenced herein should not be used when providing AUM information in conjunction with Greystar Investment Group (“GIG”). AUM includes the investment advisors’ regulatory assets under management, real estate investments organized by affiliates of Greystar Real Estate Partners (“GREP”), and real estate projects where affiliates of GREP are the primary developer, manager or operator. Assets under management are calculated at gross asset value and include estimate total project costs for real estate investments and projects that have not been completed. The investment advisors’ regulatory assets under management were $36.5 billion as of March 31, 2026.\n\nFully Integrated Real Estate Management",
+        "url": "https://www.greystar.com/business",
+        "date": "2026-10-01T17:54:05.046547+00:00",
+        "published_date": null,
+        "verified": true,
+        "identity": {
+          "version": 2,
+          "status": "confirmed",
+          "reason": "Company name is corroborated on the supplied domain.",
+          "signals": [
+            "supplied_domain",
+            "name_in_page_title",
+            "name_in_source_text",
+            "company_self_description"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      },
+      {
+        "title": "Apartments & Homes for Rent | Greystar",
+        "text": "With global expertise and deep market knowledge, we’re more than just a property management company—we’re a partner dedicated to your success. From construction and development to management and investment, we have the platforms and relationships to create lasting value. Together, let’s build communities that thrive for the long term.\n\nYou’re seeing Total Monthly Leasing Prices, which include base rent and mandatory monthly costs. Explore each listing for a detailed breakdown.\n\nFinding the right place to live has never been easier, with communities for every chapter of life.\n\nWe find ways to add to the rental experience, including rewards and perks for being a resident.\n\nWhether you want an apartment in the San Fernando Valley or Echo Park, LA has something for everyone.\n\nOur guides help you discover the best of your community, from hidden gems to must-visit destinations, ensuring you make the most of your apartment rental experience wherever you call home.\n\nTiming is everything when apartment hunting. The right moment can unlock better options and more savings.\n\nDon't let rental scams turn your apartment hunt into a costly nightmare. These tips will help you avoid them.",
+        "url": "https://www.greystar.com/",
+        "date": "2026-10-01T17:54:05.055059+00:00",
+        "published_date": null,
+        "verified": true,
+        "identity": {
+          "version": 2,
+          "status": "confirmed",
+          "reason": "Company name is corroborated on the supplied domain.",
+          "signals": [
+            "supplied_domain",
+            "name_in_page_title"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      },
+      {
+        "title": "The Marlowe Lake Boone Apartments in Raleigh, NC",
+        "text": "greystar\n\nAt The Marlowe Lake Boone you can live, work and play in the heart of Raleigh! Marlowe residents have a quiet home with amenities for an active lifestyle. The Marlowe is walking distance to the best schools in the Raleigh area: Lacy Elementary; Leroy Martin Gifted and Talented Magnet Middle School; and Broughton High School. Conveniently located just inside the I-440 Beltline off Lake Boone Trail, our apartment homes are minutes away from the area's top employers such as: Red Hat, Citrix, Cisco, UNC Rex Hospital and 200 other businesses in the Research Triangle Park. Kick back on the rooftop of the world's largest beer garden, catch a live show at any of the 80-plus world-class music venues, or do your own exploring while hopping between downtown Raleigh's five, walkable entertainment districts. At The Marlowe Lake Boone you will find yourself in an oasis at the heart of the city. Whether you're reclining on your own private terrace or strolling through the House Creek Greenway Trail, you can breathe easy knowing you're home.\n\nYou’re seeing Total Monthly Leasing Prices, which include base rent and mandatory monthly costs.\n\nYou’re seeing total monthly leasing prices which include base rent, all mandatory monthly costs and any user-selected optional add-ons. Excludes variable or usage-based costs and required charges due at or prior to move-in or at move-out.\n\nFloor plans are artist’s rendering. Dimensions are approximate. Actual product and specifications may vary in dimension or detail. Not all features are available in every rental home.",
+        "url": "https://www.greystar.com/the-marlowe-lake-boone-apartments-raleigh-nc/p_15226",
+        "date": "2026-10-01T17:54:05.281514+00:00",
+        "published_date": null,
+        "verified": false,
+        "identity": {
+          "version": 2,
+          "status": "needs_confirmation",
+          "reason": "The company is mentioned, but the page does not establish its identity.",
+          "signals": [
+            "supplied_domain",
+            "name_in_source_text"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      },
+      {
+        "title": "The Marlowe Lake Boone Apartments in Raleigh, NC",
+        "text": "Total Monthly Leasing Price includes base rent, all monthly mandatory and any user-selected optional add-ons. Excludes variable, usage-based, and required charges due at or prior to move-in or at move-out. Security Deposit may change based on screening results, but total will not exceed legal maximums. Some items may be taxed under applicable law. Some costs may not apply to rental homes subject to an affordable program. All costs are subject to application and/or lease terms. Prices and availability subject to change. Resident is responsible for damages beyond ordinary wear and tear. Resident may need to maintain insurance and to activate and maintain utility services, including but not limited to electricity, water, gas, and internet, per the lease. Additional costs may apply as detailed in the application and/or lease agreement, which can be requested prior to applying.",
+        "url": "https://www.greystar.com/the-marlowe-lake-boone-apartments-raleigh-nc/p_15226",
+        "date": "2026-10-01T17:54:05.281514+00:00",
+        "published_date": null,
+        "verified": false,
+        "identity": {
+          "version": 2,
+          "status": "needs_confirmation",
+          "reason": "The company is mentioned, but the page does not establish its identity.",
+          "signals": [
+            "supplied_domain",
+            "name_in_source_text"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      }
+    ],
+    "professional_context": {
+      "version": 9,
+      "input_key": "avery morgan test|greystar|greystar.com",
+      "status": "not_assessed",
+      "partial": false,
+      "people": [],
+      "insights": [],
+      "company_facts": [],
+      "checked_at": "2026-10-01T17:55:23.875Z",
+      "cost_dollars": null,
+      "research_diagnostics": {
+        "candidates": 0,
+        "accepted": 0,
+        "rejections": [
+          {
+            "reason": "no_candidate",
+            "url": "",
+            "role": ""
+          }
+        ]
+      },
+      "match": "unresolved",
+      "snapshot": true
+    },
+    "property_context": {
+      "provider": "U.S. Census Bureau",
+      "date": "2026-10-01T17:55:27.243Z",
+      "url": "https://geocoding.geo.census.gov/geocoder/geographies/address?street=1731+Tupelo+Hill+Lane&city=Raleigh&state=NC&benchmark=Public_AR_Current&vintage=Current_Current&format=json",
+      "cached": false,
+      "status": "matched",
+      "address": "1731 TUPELO HILL LN, RALEIGH, NC, 27607",
+      "city": "RALEIGH",
+      "state": "NC",
+      "postal_code": "27607",
+      "county": "Wake County",
+      "tract": "37183051502",
+      "coordinates": {
+        "x": -78.690589647961,
+        "y": 35.812090176255
+      },
+      "message": "Address-range match. Does not establish building existence, ownership, unit count, or a link to this company."
+    },
+    "area_context": {
+      "version": 1,
+      "status": "not_assessed"
+    },
+    "processed_at": "2026-10-01T17:55:23.875Z",
+    "company_fetched_at": "2026-10-01T17:54:05.046547+00:00",
+    "company_engine": "reader-v2",
+    "company_location_version": 1,
+    "company_brief_version": 3,
+    "company_locations": [],
+    "sample_lead": true,
+    "sample_key": "sheet-9",
+    "sample_set_version": 5,
+    "sample_retrieved_at": "2026-10-01T17:55:23.875Z",
+    "research_state": "complete",
+    "automation_pending": false,
+    "company_snapshot": true,
+    "company_stale": false,
+    "draft_version": 0,
+    "sample_focus": "No inbound email context",
+    "sample_email_kind": "synthetic",
+    "sample_property": {
+      "name": "The Marlowe Lake Boone",
+      "url": "https://www.greystar.com/the-marlowe-lake-boone-apartments-raleigh-nc/p_15226",
+      "retrieved_at": "2026-10-01T17:55:23.875Z"
+    },
+    "sample_source": "Google Sheets Leads · matched 2026-10-01",
+    "sample_previous_inquiries": [
+      ""
+    ],
+    "sample_grounded_draft": true
+  }
+]

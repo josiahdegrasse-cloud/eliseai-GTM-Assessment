@@ -1,0 +1,164 @@
+{
+  "generated_at": "2026-10-01T04:47:52.703Z",
+  "method": "30 previously unused company cases, 10 per cohort. Labels researched from official sources before processing. Only input is submitted; label sources and expected roles are withheld. Inquiry text and all email addresses are synthetic. 9 publicly named professional contacts are a separate role-coverage subset; 21 TEST names are negative controls. No property is submitted: this measures company classification and limited contact research, not property coverage or real conversion. One attempt per case, fixed sequence, no manual rescue or quota reset. This is a convenience sample, not a random estimate of all leads.",
+  "limitations": "Convenience sample. First-pass results are preserved; development rechecks reuse cases after fixes and are not independent accuracy estimates. No property coverage or conversion was measured. Contact denominator is 9. Would-send judgments require human review.",
+  "runs": [
+    {
+      "file": "test-data/holdout-first-pass-2026-10-01T04-24-06-124Z.json",
+      "started_at": "2026-10-01T04:24:06.124Z",
+      "finished_at": "2026-10-01T04:32:18.654Z",
+      "baseline_deployment": "version80",
+      "fixture_sha256": "5f09e9d214ee1ae190081119763d030aaa0d0c297b1213021a61a5ef1ab9d038",
+      "cleanup": "Isolated visitor deleted.",
+      "metrics": {
+        "total": 30,
+        "classified": 2,
+        "correct": 2,
+        "wrong_label": 0,
+        "unresolved": 28,
+        "errors": 0,
+        "accuracy_among_classified": 1,
+        "contact_roles_matched": 2,
+        "contact_cases": 9,
+        "median_attempt_seconds": 4.8,
+        "p90_attempt_seconds": 9.9,
+        "cohorts": {
+          "large": {
+            "total": 10,
+            "classified": 2,
+            "correct": 2,
+            "wrong_label": 0,
+            "unresolved": 8,
+            "errors": 0
+          },
+          "local": {
+            "total": 10,
+            "classified": 0,
+            "correct": 0,
+            "wrong_label": 0,
+            "unresolved": 10,
+            "errors": 0
+          },
+          "nonfit": {
+            "total": 10,
+            "classified": 0,
+            "correct": 0,
+            "wrong_label": 0,
+            "unresolved": 10,
+            "errors": 0
+          }
+        }
+      }
+    },
+    {
+      "file": "test-data/holdout-development-recheck-2026-10-01T04-38-55-086Z.json",
+      "started_at": "2026-10-01T04:38:55.086Z",
+      "finished_at": "2026-10-01T04:46:58.137Z",
+      "baseline_deployment": "development recheck after fixes",
+      "fixture_sha256": "5f09e9d214ee1ae190081119763d030aaa0d0c297b1213021a61a5ef1ab9d038",
+      "cleanup": "Isolated visitor deleted.",
+      "research_service_before": {
+        "mode": "direct_only",
+        "message": "The app’s Reader allowance is exhausted. Research uses direct public company pages; coverage varies by website.",
+        "app_request_limit": 400,
+        "app_requests_remaining": 0,
+        "provider_balance_known": false
+      },
+      "research_service_after": {
+        "mode": "direct_only",
+        "message": "The app’s Reader allowance is exhausted. Research uses direct public company pages; coverage varies by website.",
+        "app_request_limit": 400,
+        "app_requests_remaining": 0,
+        "provider_balance_known": false
+      },
+      "metrics": {
+        "total": 30,
+        "classified": 17,
+        "correct": 16,
+        "wrong_label": 1,
+        "unresolved": 13,
+        "errors": 0,
+        "accuracy_among_classified": 0.9411764705882353,
+        "contact_roles_matched": 3,
+        "contact_cases": 9,
+        "median_attempt_seconds": 5.1,
+        "p90_attempt_seconds": 8.3,
+        "cohorts": {
+          "large": {
+            "total": 10,
+            "classified": 4,
+            "correct": 4,
+            "wrong_label": 0,
+            "unresolved": 6,
+            "errors": 0
+          },
+          "local": {
+            "total": 10,
+            "classified": 6,
+            "correct": 6,
+            "wrong_label": 0,
+            "unresolved": 4,
+            "errors": 0
+          },
+          "nonfit": {
+            "total": 10,
+            "classified": 7,
+            "correct": 6,
+            "wrong_label": 1,
+            "unresolved": 3,
+            "errors": 0
+          }
+        }
+      }
+    },
+    {
+      "file": "test-data/holdout-final-rules-replay.json",
+      "started_at": "2026-10-01T04:47:52.546Z",
+      "finished_at": "2026-10-01T04:47:52.546Z",
+      "baseline_deployment": "Final rules replayed against archived version81 evidence; no new retrieval",
+      "fixture_sha256": "5f09e9d214ee1ae190081119763d030aaa0d0c297b1213021a61a5ef1ab9d038",
+      "cleanup": "No workspace created; archived data only.",
+      "research_service_before": null,
+      "research_service_after": null,
+      "metrics": {
+        "total": 30,
+        "classified": 19,
+        "correct": 19,
+        "wrong_label": 0,
+        "unresolved": 11,
+        "errors": 0,
+        "accuracy_among_classified": 1,
+        "contact_roles_matched": 3,
+        "contact_cases": 9,
+        "median_attempt_seconds": 0,
+        "p90_attempt_seconds": 0,
+        "cohorts": {
+          "large": {
+            "total": 10,
+            "classified": 6,
+            "correct": 6,
+            "wrong_label": 0,
+            "unresolved": 4,
+            "errors": 0
+          },
+          "local": {
+            "total": 10,
+            "classified": 6,
+            "correct": 6,
+            "wrong_label": 0,
+            "unresolved": 4,
+            "errors": 0
+          },
+          "nonfit": {
+            "total": 10,
+            "classified": 7,
+            "correct": 7,
+            "wrong_label": 0,
+            "unresolved": 3,
+            "errors": 0
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "started_at": "2026-09-30T02:53:59.700Z",
+  "limitations": "Public senior-leader convenience sample, not representative accuracy; role labels audited separately. Fetched quotes still require review of freshness and context.",
+  "results": [
+    {
+      "case_index": 4,
+      "name": "Julie A. Smith",
+      "company": "Bozzuto",
+      "website": "bozzuto.com",
+      "expected_role": "chief administrative officer",
+      "source": "https://www.bozzuto.com/about-us/leadership",
+      "expected": "role",
+      "audited_at": "2026-09-30",
+      "cohort": "executive_baseline",
+      "status": "complete",
+      "match": "name_company_match",
+      "elapsed_ms": 33729,
+      "polls": 3,
+      "current_roles": [
+        "Chief Administrative Officer"
+      ],
+      "outcome": "role_found",
+      "professional_context": {
+        "version": 2,
+        "input_key": "julie a smith|bozzuto|bozzuto.com",
+        "people": [
+          {
+            "url": "https://www.bozzuto.com/about-us/leadership/julie-a-smith",
+            "quote": "Julie A. Smith Chief Administrative Officer",
+            "title": "Julie A. Smith | Leadership | Bozzuto",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T02:52:30.562Z",
+            "recovered": false,
+            "employer_supported": true,
+            "name": "Julie A. Smith",
+            "company": "Bozzuto",
+            "role": "Chief Administrative Officer",
+            "historical": false
+          }
+        ],
+        "insights": [
+          {
+            "url": "https://www.bozzuto.com/news/2026/national-multifamily-housing-council-names-julie-smith-as-2026-2028-chair",
+            "quote": "Washington, D.C. \u2014 January 30, 2026 \u2014 The National Multifamily Housing Council (NMHC) elected Julie Smith, Chief Administrative Officer and Operating Partner at Bozzuto, to serve a two-year term as the Council\u2019s chair at its 2026 annual meeting.",
+            "title": "NMHC Names Julie Smith as Chair 2026-2028 | Bozzuto",
+            "official": true,
+            "published_at": "2026-01-29T05:00:00.000Z",
+            "retrieved_at": "2026-09-30T02:52:30.562Z",
+            "recovered": false,
+            "employer_supported": true,
+            "kind": "activity"
+          }
+        ],
+        "company_facts": [
+          {
+            "url": "https://mwmca.org/multimedias/news/pdf_file3229.pdf",
+            "quote": "With an average annual revenue of $650 million, Bozzuto Construction is an ENR Top 400 Contractor.",
+            "title": "Key Contacts",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T02:52:31.966Z",
+            "basis": "External published source"
+          },
+          {
+            "url": "https://bozzutoftp.com/html/10_October/BCC/4507_BOZ_CorpBroV14.pdf",
+            "quote": "Right, the Bozzuto Group is headquartered in Greenbelt, MD.",
+            "title": "Founded on values. Built on integrity.",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T02:52:31.966Z",
+            "basis": "External published source"
+          }
+        ],
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T02:52:30.562Z",
+        "cost_dollars": 0.037000000000000005,
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "passes": 1
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Chief Administrative Officer, which operational process would you most like to improve?",
+          "source_url": "https://www.bozzuto.com/about-us/leadership/julie-a-smith",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "agent_cost_dollars": 0.025,
+        "content_cost_dollars": 0.005,
+        "external_cost_dollars": 0.007,
+        "cache_fetched_at": "2026-09-30T02:52:32.176Z",
+        "cache_fresh_until": "2026-10-01T02:52:32.176Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "case_index": 6,
+      "name": "Brad Hill",
+      "company": "MAA",
+      "website": "maac.com",
+      "expected_role": "chief executive officer|ceo",
+      "source": "https://ir.maac.com/news-events/press-releases/news-details/2026/MAA-to-Participate-in-the-2026-Citi-Global-Property-CEO-Conference/default.aspx",
+      "expected": "role",
+      "audited_at": "2026-09-30",
+      "cohort": "executive_baseline",
+      "status": "complete",
+      "match": "name_company_match",
+      "elapsed_ms": 35057,
+      "polls": 3,
+      "current_roles": [
+        "President and Chief Executive Officer"
+      ],
+      "outcome": "role_found",
+      "professional_context": {
+        "version": 2,
+        "input_key": "brad hill|maa|maac.com",
+        "people": [
+          {
+            "url": "https://ir.maac.com/news-events/press-releases/news-details/2026/MAA-REPORTS-SECOND-QUARTER-2026-RESULTS/default.aspx",
+            "quote": "Brad Hill, President and Chief Executive Officer",
+            "title": "MAA REPORTS SECOND QUARTER 2026 RESULTS MAA | Luxury Apartment Rentals",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T02:52:31.271Z",
+            "recovered": false,
+            "employer_supported": true,
+            "name": "Brad Hill",
+            "company": "MAA",
+            "role": "President and Chief Executive Officer",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1581776/000095017025016287/maa-20241231.htm",
+            "quote": "enhances investors\u2019 understanding of MAA and the Operating Partnership by enabling investors to view the business as a whole in the same manner that management views and operates the business;",
+            "title": "10-K",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T02:52:33.251Z",
+            "basis": "Company announcement on an external site"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/912595/000119312526251471/maa-ex99_1.htm",
+            "quote": "MAA believes Net Debt is a helpful tool in evaluating its debt position.",
+            "title": "Maa ex99 1.htm",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T02:52:33.251Z",
+            "basis": "Company announcement on an external site"
+          }
+        ],
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T02:52:31.271Z",
+        "cost_dollars": 0.036000000000000004,
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [
+            {
+              "reason": "excerpt_not_on_page",
+              "url": "https://ir.maac.com/news-events/press-releases/news-details/2026/MAA-REPORTS-FIRST-QUARTER-2026-RESULTS/default.aspx",
+              "role": ""
+            },
+            {
+              "reason": "excerpt_not_on_page",
+              "url": "https://ir.maac.com/news-events/press-releases/news-details/2023/MAA-Appoints-Brad-Hill-to-President-and-Chief-Investment-Officer/default.aspx",
+              "role": ""
+            },
+            {
+              "reason": "excerpt_not_on_page",
+              "url": "https://ir.maac.com/corporate-profile/default.aspx",
+              "role": ""
+            }
+          ],
+          "passes": 1
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as President and Chief Executive Officer, which operational process would you most like to improve?",
+          "source_url": "https://ir.maac.com/news-events/press-releases/news-details/2026/MAA-REPORTS-SECOND-QUARTER-2026-RESULTS/default.aspx",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "agent_cost_dollars": 0.025,
+        "content_cost_dollars": 0.004,
+        "external_cost_dollars": 0.007,
+        "cache_fetched_at": "2026-09-30T02:52:33.478Z",
+        "cache_fresh_until": "2026-10-01T02:52:33.478Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "case_index": 15,
+      "name": "Aggie Woods",
+      "company": "Flaherty & Collins Properties",
+      "website": "flco.com",
+      "expected_role": "regional\\s+property\\s+manager",
+      "expected": "role",
+      "source": "https://flco.com/our-company/ourteam/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Regional Property Manager",
+      "status": "complete",
+      "match": "historical",
+      "elapsed_ms": 64341,
+      "polls": 5,
+      "current_roles": [],
+      "outcome": "unresolved",
+      "professional_context": {
+        "version": 2,
+        "input_key": "aggie woods|flaherty and collins properties|flco.com",
+        "people": [
+          {
+            "url": "https://flco.com/our-company/ourteam/",
+            "quote": "Aggie Woods Regional Property Manager",
+            "title": "Our Team - Flaherty & Collins Properties",
+            "official": true,
+            "published_at": "2023-03-27T21:05:22.000Z",
+            "retrieved_at": "2026-09-30T02:53:01.342Z",
+            "recovered": false,
+            "employer_supported": true,
+            "name": "Aggie Woods",
+            "company": "Flaherty & Collins Properties",
+            "role": "Regional Property Manager",
+            "historical": true
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T02:53:01.342Z",
+        "cost_dollars": 0.138,
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "passes": 2,
+          "initial": {
+            "candidates": 1,
+            "accepted": 1,
+            "rejections": [
+              {
+                "reason": "excerpt_not_on_page",
+                "url": "https://flco.com/flaherty-collins-properties-gives-back-indianapolis-area-youth-groups/",
+                "role": ""
+              }
+            ]
+          }
+        },
+        "match": "historical",
+        "agent_cost_dollars": 0.125,
+        "content_cost_dollars": 0.006,
+        "external_cost_dollars": 0.007,
+        "cache_fetched_at": "2026-09-30T02:53:02.882Z",
+        "cache_fresh_until": "2026-10-01T02:53:02.882Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "case_index": 28,
+      "name": "Cheka White",
+      "company": "Atlantic Residential",
+      "website": "atlanticresi.com",
+      "expected_role": "regional\\s+manager",
+      "expected": "role",
+      "source": "https://atlanticresi.com/leadership/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Regional Manager",
+      "status": "complete",
+      "match": "historical",
+      "elapsed_ms": 94857,
+      "polls": 6,
+      "current_roles": [],
+      "outcome": "unresolved",
+      "professional_context": {
+        "version": 2,
+        "input_key": "cheka white|atlantic residential|atlanticresi.com",
+        "people": [
+          {
+            "url": "https://atlanticresi.com/leadership/",
+            "quote": "Cheka White Regional Manager Atlanta",
+            "title": "Leadership -Atlantic Residential",
+            "official": true,
+            "published_at": "2019-07-03T21:33:58.000Z",
+            "retrieved_at": "2026-09-30T02:53:33.263Z",
+            "recovered": false,
+            "employer_supported": true,
+            "name": "Cheka White",
+            "company": "Atlantic Residential",
+            "role": "Regional Manager",
+            "historical": true
+          }
+        ],
+        "insights": [],
+        "company_facts": [
+          {
+            "url": "https://www.datanyze.com/companies/atlantic-residential/9588199",
+            "quote": "From the beginning, Atlantic Residential has been a family company. Founded by brothers Richard and Andrew in 1995, weve since overseen the construction of over $1.5 Billion of institutional quality residential and mixed-use projects, containing over 7,000 residential units.",
+            "title": "Atlantic Residential Company Profile | Management and Employees List",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T02:53:33.263Z",
+            "recovered": false,
+            "employer_supported": true,
+            "basis": "External published source"
+          }
+        ],
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T02:53:33.263Z",
+        "cost_dollars": 0.134,
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "passes": 2,
+          "initial": {
+            "candidates": 1,
+            "accepted": 0,
+            "rejections": [
+              {
+                "reason": "excerpt_not_on_page",
+                "url": "https://www.linkedin.com/in/cheka-white-29938771",
+                "role": "Regional Property Manager"
+              },
+              {
+                "reason": "excerpt_not_on_page",
+                "url": "https://www.datanyze.com/companies/atlantic-residential/9588199",
+                "role": ""
+              },
+              {
+                "reason": "excerpt_not_on_page",
+                "url": "https://www.datanyze.com/companies/atlantic-residential/9588199",
+                "role": ""
+              }
+            ]
+          }
+        },
+        "match": "historical",
+        "agent_cost_dollars": 0.125,
+        "content_cost_dollars": 0.009000000000000001,
+        "external_cost_dollars": 0,
+        "cache_fetched_at": "2026-09-30T02:53:33.397Z",
+        "cache_fresh_until": "2026-10-01T02:53:33.397Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "case_index": 50,
+      "name": "Bob Faith",
+      "company": "MAA",
+      "website": "maac.com",
+      "expected_role": "",
+      "expected": "abstain",
+      "source": "https://www.greystar.com/contact-us/our-people/bob-faith",
+      "audited_at": "2026-09-30",
+      "cohort": "wrong_employer",
+      "actual_company": "Greystar",
+      "status": "complete",
+      "match": "unresolved",
+      "elapsed_ms": 87140,
+      "polls": 6,
+      "current_roles": [],
+      "outcome": "correct_abstention",
+      "professional_context": {
+        "version": 2,
+        "input_key": "bob faith|maa|maac.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1581776/000095017025016287/maa-20241231.htm",
+            "quote": "enhances investors\u2019 understanding of MAA and the Operating Partnership by enabling investors to view the business as a whole in the same manner that management views and operates the business;",
+            "title": "10-K",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T02:52:33.251Z",
+            "basis": "Company announcement on an external site"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/912595/000119312526251471/maa-ex99_1.htm",
+            "quote": "MAA believes Net Debt is a helpful tool in evaluating its debt position.",
+            "title": "Maa ex99 1.htm",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T02:52:33.251Z",
+            "basis": "Company announcement on an external site"
+          }
+        ],
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T02:53:59.271Z",
+        "cost_dollars": 0.133,
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "employer_mismatch",
+              "url": "https://www.greystar.com/business/about-greystar/our-leadership",
+              "role": "Founder, Chairman, and CEO"
+            }
+          ],
+          "passes": 2,
+          "initial": {
+            "candidates": 1,
+            "accepted": 0,
+            "rejections": [
+              {
+                "reason": "excerpt_not_on_page",
+                "url": "https://www.greystar.com/business/about-greystar/our-leadership",
+                "role": "Founder, Chairman, and CEO"
+              }
+            ]
+          }
+        },
+        "match": "unresolved",
+        "agent_cost_dollars": 0.125,
+        "content_cost_dollars": 0.008,
+        "external_cost_dollars": 0,
+        "cache_fetched_at": "2026-09-30T02:53:59.439Z",
+        "cache_fresh_until": "2026-10-01T02:53:59.439Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    }
+  ],
+  "release": 38,
+  "purpose": "Pilot before separating directory creation dates from role recency; not final benchmark results."
+}

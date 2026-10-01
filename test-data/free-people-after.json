@@ -1,0 +1,854 @@
+{
+  "at": "2026-09-30T03:49:39.368Z",
+  "limitations": "Small public-biography convenience sample, not representative inbound accuracy. Expected labels and source URLs are not passed to research. Separate runs can encounter different availability. No paid endpoints or authorization permitted.",
+  "results": [
+    {
+      "name": "Toby Bozzuto",
+      "company": "Bozzuto",
+      "website": "bozzuto.com",
+      "expected_role": "chief executive officer|ceo",
+      "source": "https://www.bozzuto.com/about-us/leadership",
+      "expected": "role",
+      "audited_at": "2026-09-30",
+      "cohort": "executive_baseline",
+      "outcome": "role_found",
+      "elapsed_ms": 659,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=bozzuto.com&type=A",
+          "at": "2026-09-30T03:49:09.156Z"
+        },
+        {
+          "url": "https://dns.google/resolve?name=bozzuto.com&type=AAAA",
+          "at": "2026-09-30T03:49:09.160Z"
+        },
+        {
+          "url": "https://bozzuto.com/robots.txt",
+          "at": "2026-09-30T03:49:09.241Z"
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.bozzuto.com&type=A",
+          "at": "2026-09-30T03:49:09.331Z"
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.bozzuto.com&type=AAAA",
+          "at": "2026-09-30T03:49:09.332Z"
+        },
+        {
+          "url": "https://www.bozzuto.com/robots.txt",
+          "at": "2026-09-30T03:49:09.369Z"
+        },
+        {
+          "url": "https://bozzuto.com/",
+          "at": "2026-09-30T03:49:09.474Z"
+        },
+        {
+          "url": "https://www.bozzuto.com/robots.txt",
+          "at": "2026-09-30T03:49:09.497Z"
+        },
+        {
+          "url": "https://www.bozzuto.com/",
+          "at": "2026-09-30T03:49:09.522Z"
+        },
+        {
+          "url": "https://www.bozzuto.com/about-us/leadership",
+          "at": "2026-09-30T03:49:09.576Z"
+        }
+      ],
+      "professional_context": {
+        "version": 5,
+        "input_key": "toby bozzuto|bozzuto|bozzuto.com",
+        "people": [
+          {
+            "url": "https://www.bozzuto.com/about-us/leadership",
+            "quote": "Toby Bozzuto President & Chief Executive Officer",
+            "title": "The Bozzuto Group Leadership | Bozzuto",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T03:49:09.799Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Toby Bozzuto",
+            "company": "Bozzuto",
+            "role": "President & Chief Executive Officer",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T03:49:09.805Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 0,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as President & Chief Executive Officer, which operational process would you most like to improve?",
+          "source_url": "https://www.bozzuto.com/about-us/leadership",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fetched_at": "2026-09-30T03:49:09.805Z",
+        "cache_fresh_until": "2026-10-01T03:49:09.805Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Courtney Whitear",
+      "company": "Flaherty & Collins Properties",
+      "website": "flco.com",
+      "expected_role": "director\\s+of\\s+business\\s+operations",
+      "expected": "role",
+      "source": "https://flco.com/our-company/ourteam/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Director of Business Operations",
+      "outcome": "role_found",
+      "elapsed_ms": 1918,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=flco.com&type=A",
+          "at": "2026-09-30T03:49:09.818Z"
+        },
+        {
+          "url": "https://dns.google/resolve?name=flco.com&type=AAAA",
+          "at": "2026-09-30T03:49:09.819Z"
+        },
+        {
+          "url": "https://flco.com/robots.txt",
+          "at": "2026-09-30T03:49:09.854Z"
+        },
+        {
+          "url": "https://flco.com/",
+          "at": "2026-09-30T03:49:10.615Z"
+        },
+        {
+          "url": "https://flco.com/our-company/ourteam/",
+          "at": "2026-09-30T03:49:11.137Z"
+        }
+      ],
+      "professional_context": {
+        "version": 5,
+        "input_key": "courtney whitear|flaherty and collins properties|flco.com",
+        "people": [
+          {
+            "url": "https://flco.com/our-company/ourteam/",
+            "quote": "Courtney Whitear Director of Business Operations",
+            "title": "Our Team - Flaherty & Collins Properties",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T03:49:11.725Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Courtney Whitear",
+            "company": "Flaherty & Collins Properties",
+            "role": "Director of Business Operations",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T03:49:11.730Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 0,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Director of Business Operations, which operational process would you most like to improve?",
+          "source_url": "https://flco.com/our-company/ourteam/",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fetched_at": "2026-09-30T03:49:11.730Z",
+        "cache_fresh_until": "2026-10-01T03:49:11.730Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Amber Hildebrand",
+      "company": "RedPeak",
+      "website": "redpeak.com",
+      "expected_role": "property\\s+account\\s+manager",
+      "expected": "role",
+      "source": "https://redpeak.com/our-team/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Property Account Manager",
+      "outcome": "role_found",
+      "elapsed_ms": 792,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=redpeak.com&type=A",
+          "at": "2026-09-30T03:49:11.738Z"
+        },
+        {
+          "url": "https://dns.google/resolve?name=redpeak.com&type=AAAA",
+          "at": "2026-09-30T03:49:11.738Z"
+        },
+        {
+          "url": "https://redpeak.com/robots.txt",
+          "at": "2026-09-30T03:49:11.778Z"
+        },
+        {
+          "url": "https://redpeak.com/",
+          "at": "2026-09-30T03:49:12.029Z"
+        },
+        {
+          "url": "https://redpeak.com/our-team/",
+          "at": "2026-09-30T03:49:12.320Z"
+        }
+      ],
+      "professional_context": {
+        "version": 5,
+        "input_key": "amber hildebrand|redpeak|redpeak.com",
+        "people": [
+          {
+            "url": "https://redpeak.com/our-team/",
+            "quote": "Amber Hildebrand Property Account Manager",
+            "title": "Leadership Team | Denver Area Apartments | RedPeak Properties",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T03:49:12.514Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Amber Hildebrand",
+            "company": "RedPeak",
+            "role": "Property Account Manager",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T03:49:12.523Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 0,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Property Account Manager, which operational process would you most like to improve?",
+          "source_url": "https://redpeak.com/our-team/",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fetched_at": "2026-09-30T03:49:12.524Z",
+        "cache_fresh_until": "2026-10-01T03:49:12.524Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Debbie Topping",
+      "company": "Atlantic Residential",
+      "website": "atlanticresi.com",
+      "expected_role": "(?:senior|sr\\.?)\\s+director\\s+of\\s+property\\s+management",
+      "expected": "role",
+      "source": "https://atlanticresi.com/leadership/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Senior Director of Property Management",
+      "outcome": "role_found",
+      "elapsed_ms": 1235,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=atlanticresi.com&type=A",
+          "at": "2026-09-30T03:49:12.534Z"
+        },
+        {
+          "url": "https://dns.google/resolve?name=atlanticresi.com&type=AAAA",
+          "at": "2026-09-30T03:49:12.534Z"
+        },
+        {
+          "url": "https://atlanticresi.com/robots.txt",
+          "at": "2026-09-30T03:49:12.563Z"
+        },
+        {
+          "url": "https://atlanticresi.com/",
+          "at": "2026-09-30T03:49:13.686Z"
+        },
+        {
+          "url": "https://atlanticresi.com/leadership/",
+          "at": "2026-09-30T03:49:13.727Z"
+        }
+      ],
+      "professional_context": {
+        "version": 5,
+        "input_key": "debbie topping|atlantic residential|atlanticresi.com",
+        "people": [
+          {
+            "url": "https://atlanticresi.com/leadership/",
+            "quote": "Debbie Topping Senior Director of Property Management",
+            "title": "Leadership -Atlantic Residential",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T03:49:13.759Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Debbie Topping",
+            "company": "Atlantic Residential",
+            "role": "Senior Director of Property Management",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T03:49:13.763Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 0,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Senior Director of Property Management, which operational process would you most like to improve?",
+          "source_url": "https://atlanticresi.com/leadership/",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fetched_at": "2026-09-30T03:49:13.763Z",
+        "cache_fresh_until": "2026-10-01T03:49:13.763Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Jessica Werner",
+      "company": "Baceline Group",
+      "website": "bacelinegroup.com",
+      "expected_role": "regional\\s+property\\s+manager",
+      "expected": "role",
+      "source": "https://www.bacelinegroup.com/about/our-team/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Regional Property Manager",
+      "outcome": "unresolved",
+      "elapsed_ms": 12414,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=bacelinegroup.com&type=A",
+          "at": "2026-09-30T03:49:13.773Z"
+        },
+        {
+          "url": "https://dns.google/resolve?name=bacelinegroup.com&type=AAAA",
+          "at": "2026-09-30T03:49:13.773Z"
+        },
+        {
+          "url": "https://bacelinegroup.com/robots.txt",
+          "at": "2026-09-30T03:49:13.812Z"
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.bacelinegroup.com&type=A",
+          "at": "2026-09-30T03:49:13.894Z"
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.bacelinegroup.com&type=AAAA",
+          "at": "2026-09-30T03:49:13.895Z"
+        },
+        {
+          "url": "https://www.bacelinegroup.com/robots.txt",
+          "at": "2026-09-30T03:49:13.924Z"
+        },
+        {
+          "url": "https://bacelinegroup.com/",
+          "at": "2026-09-30T03:49:14.011Z"
+        },
+        {
+          "url": "https://www.bacelinegroup.com/robots.txt",
+          "at": "2026-09-30T03:49:15.041Z"
+        },
+        {
+          "url": "https://www.bacelinegroup.com/",
+          "at": "2026-09-30T03:49:15.072Z"
+        },
+        {
+          "url": "https://www.bacelinegroup.com/about/",
+          "at": "2026-09-30T03:49:15.371Z"
+        },
+        {
+          "url": "https://www.bacelinegroup.com/about/our-team/",
+          "at": "2026-09-30T03:49:15.549Z"
+        },
+        {
+          "url": "https://r.jina.ai/https://www.bacelinegroup.com/about/our-team/",
+          "at": "2026-09-30T03:49:15.704Z"
+        },
+        {
+          "url": "https://bacelinegroup.com/sitemap.xml",
+          "at": "2026-09-30T03:49:17.572Z"
+        },
+        {
+          "url": "https://www.bacelinegroup.com/wp-sitemap.xml",
+          "at": "2026-09-30T03:49:18.363Z"
+        },
+        {
+          "url": "https://www.bacelinegroup.com/wp-sitemap-posts-page-1.xml",
+          "at": "2026-09-30T03:49:18.393Z"
+        },
+        {
+          "url": "https://www.bacelinegroup.com/track-record/",
+          "at": "2026-09-30T03:49:19.235Z"
+        },
+        {
+          "url": "https://www.bacelinegroup.com/contact/",
+          "at": "2026-09-30T03:49:20.439Z"
+        },
+        {
+          "url": "https://bacelinegroup.com/our-team",
+          "at": "2026-09-30T03:49:21.588Z"
+        },
+        {
+          "url": "https://www.bacelinegroup.com/our-team",
+          "at": "2026-09-30T03:49:21.614Z"
+        },
+        {
+          "url": "https://r.jina.ai/https://bacelinegroup.com/our-team",
+          "at": "2026-09-30T03:49:23.712Z"
+        }
+      ],
+      "professional_context": {
+        "version": 5,
+        "input_key": "jessica werner|baceline group|bacelinegroup.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T03:49:26.179Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 6,
+          "pages_reused": 0,
+          "sitemaps_checked": 2,
+          "source_failures": [
+            {
+              "reason": "public_page_unavailable",
+              "url": "https://www.bacelinegroup.com/about/our-team/"
+            },
+            {
+              "reason": "public_page_unavailable",
+              "url": "https://bacelinegroup.com/our-team"
+            }
+          ],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fetched_at": "2026-09-30T03:49:26.179Z",
+        "cache_fresh_until": "2026-10-01T03:49:26.179Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Lori Burger",
+      "company": "EBMC",
+      "website": "ebmc.com",
+      "expected_role": "(?:senior|sr\\.?)\\s+vice\\s+president,?\\s+regional\\s+manager",
+      "expected": "role",
+      "source": "https://www.ebmc.com/about-ebmc/team",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Senior Vice President, Regional Manager",
+      "outcome": "role_found",
+      "elapsed_ms": 762,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=ebmc.com&type=A",
+          "at": "2026-09-30T03:49:26.195Z"
+        },
+        {
+          "url": "https://dns.google/resolve?name=ebmc.com&type=AAAA",
+          "at": "2026-09-30T03:49:26.196Z"
+        },
+        {
+          "url": "https://ebmc.com/robots.txt",
+          "at": "2026-09-30T03:49:26.287Z"
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.ebmc.com&type=A",
+          "at": "2026-09-30T03:49:26.496Z"
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.ebmc.com&type=AAAA",
+          "at": "2026-09-30T03:49:26.497Z"
+        },
+        {
+          "url": "https://www.ebmc.com/robots.txt",
+          "at": "2026-09-30T03:49:26.553Z"
+        },
+        {
+          "url": "https://ebmc.com/",
+          "at": "2026-09-30T03:49:26.664Z"
+        },
+        {
+          "url": "https://www.ebmc.com/robots.txt",
+          "at": "2026-09-30T03:49:26.787Z"
+        },
+        {
+          "url": "https://www.ebmc.com/",
+          "at": "2026-09-30T03:49:26.826Z"
+        },
+        {
+          "url": "https://www.ebmc.com/about-ebmc/team",
+          "at": "2026-09-30T03:49:26.893Z"
+        }
+      ],
+      "professional_context": {
+        "version": 5,
+        "input_key": "lori burger|ebmc|ebmc.com",
+        "people": [
+          {
+            "url": "https://www.ebmc.com/about-ebmc/team",
+            "quote": "Lori Burger Senior Vice President, Regional Manager, Northern Nevada",
+            "title": "Meet the EBMC Leadership Team",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T03:49:26.941Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Lori Burger",
+            "company": "EBMC",
+            "role": "Senior Vice President, Regional Manager, Northern Nevada",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T03:49:26.948Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 0,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Senior Vice President, Regional Manager, Northern Nevada, which operational process would you most like to improve?",
+          "source_url": "https://www.ebmc.com/about-ebmc/team",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fetched_at": "2026-09-30T03:49:26.949Z",
+        "cache_fresh_until": "2026-10-01T03:49:26.949Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Bob Faith",
+      "company": "MAA",
+      "website": "maac.com",
+      "expected_role": "",
+      "expected": "abstain",
+      "source": "https://www.greystar.com/contact-us/our-people/bob-faith",
+      "audited_at": "2026-09-30",
+      "cohort": "wrong_employer",
+      "actual_company": "Greystar",
+      "outcome": "correct_abstention",
+      "elapsed_ms": 6598,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=maac.com&type=A",
+          "at": "2026-09-30T03:49:26.962Z"
+        },
+        {
+          "url": "https://dns.google/resolve?name=maac.com&type=AAAA",
+          "at": "2026-09-30T03:49:26.962Z"
+        },
+        {
+          "url": "https://maac.com/robots.txt",
+          "at": "2026-09-30T03:49:26.997Z"
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.maac.com&type=A",
+          "at": "2026-09-30T03:49:27.150Z"
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.maac.com&type=AAAA",
+          "at": "2026-09-30T03:49:27.150Z"
+        },
+        {
+          "url": "https://www.maac.com/robots.txt",
+          "at": "2026-09-30T03:49:27.185Z"
+        },
+        {
+          "url": "https://maac.com/",
+          "at": "2026-09-30T03:49:27.468Z"
+        },
+        {
+          "url": "https://www.maac.com/robots.txt",
+          "at": "2026-09-30T03:49:27.526Z"
+        },
+        {
+          "url": "https://www.maac.com/",
+          "at": "2026-09-30T03:49:27.684Z"
+        },
+        {
+          "url": "https://dns.google/resolve?name=careers.maac.com&type=A",
+          "at": "2026-09-30T03:49:28.696Z"
+        },
+        {
+          "url": "https://dns.google/resolve?name=careers.maac.com&type=AAAA",
+          "at": "2026-09-30T03:49:28.697Z"
+        },
+        {
+          "url": "https://careers.maac.com/robots.txt",
+          "at": "2026-09-30T03:49:28.749Z"
+        },
+        {
+          "url": "https://careers.maac.com/",
+          "at": "2026-09-30T03:49:28.953Z"
+        },
+        {
+          "url": "https://careers.maac.com/us/en",
+          "at": "2026-09-30T03:49:29.109Z"
+        },
+        {
+          "url": "https://maac.com/sitemap.xml",
+          "at": "2026-09-30T03:49:30.693Z"
+        },
+        {
+          "url": "https://www.maac.com/sitemap.xml",
+          "at": "2026-09-30T03:49:30.741Z"
+        },
+        {
+          "url": "https://www.maac.com/storybook/components/leadership-list/",
+          "at": "2026-09-30T03:49:31.146Z"
+        },
+        {
+          "url": "https://www.maac.com/storybook/components/leadership-list/null",
+          "at": "2026-09-30T03:49:31.976Z"
+        },
+        {
+          "url": "https://r.jina.ai/https://www.maac.com/storybook/components/leadership-list/null",
+          "at": "2026-09-30T03:49:32.453Z"
+        },
+        {
+          "url": "https://www.maac.com/about-us/open-arms-foundation",
+          "at": "2026-09-30T03:49:32.844Z"
+        },
+        {
+          "url": "https://www.maac.com/about-us/",
+          "at": "2026-09-30T03:49:33.247Z"
+        }
+      ],
+      "professional_context": {
+        "version": 5,
+        "input_key": "bob faith|maa|maac.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T03:49:33.552Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 6,
+          "pages_reused": 0,
+          "sitemaps_checked": 1,
+          "source_failures": [
+            {
+              "reason": "public_page_unavailable",
+              "url": "https://www.maac.com/storybook/components/leadership-list/null"
+            }
+          ],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fetched_at": "2026-09-30T03:49:33.552Z",
+        "cache_fresh_until": "2026-10-01T03:49:33.552Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Toby Bozzuto",
+      "company": "Greystar",
+      "website": "greystar.com",
+      "expected_role": "",
+      "expected": "abstain",
+      "source": "https://www.bozzuto.com/about-us/leadership",
+      "audited_at": "2026-09-30",
+      "cohort": "wrong_employer",
+      "actual_company": "Bozzuto",
+      "outcome": "correct_abstention",
+      "elapsed_ms": 5810,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=greystar.com&type=A",
+          "at": "2026-09-30T03:49:33.560Z"
+        },
+        {
+          "url": "https://dns.google/resolve?name=greystar.com&type=AAAA",
+          "at": "2026-09-30T03:49:33.561Z"
+        },
+        {
+          "url": "https://greystar.com/robots.txt",
+          "at": "2026-09-30T03:49:33.646Z"
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.greystar.com&type=A",
+          "at": "2026-09-30T03:49:33.876Z"
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.greystar.com&type=AAAA",
+          "at": "2026-09-30T03:49:33.877Z"
+        },
+        {
+          "url": "https://www.greystar.com/robots.txt",
+          "at": "2026-09-30T03:49:33.911Z"
+        },
+        {
+          "url": "https://greystar.com/",
+          "at": "2026-09-30T03:49:34.114Z"
+        },
+        {
+          "url": "https://www.greystar.com/robots.txt",
+          "at": "2026-09-30T03:49:34.172Z"
+        },
+        {
+          "url": "https://www.greystar.com/",
+          "at": "2026-09-30T03:49:34.320Z"
+        },
+        {
+          "url": "https://www.greystar.com/contact-us",
+          "at": "2026-09-30T03:49:34.715Z"
+        },
+        {
+          "url": "https://greystar.com/sitemap.xml",
+          "at": "2026-09-30T03:49:35.131Z"
+        },
+        {
+          "url": "https://www.greystar.com/sitemap.xml",
+          "at": "2026-09-30T03:49:35.184Z"
+        },
+        {
+          "url": "https://www.greystar.com/blog/3-ways-greystar-supports-team-member-growth",
+          "at": "2026-09-30T03:49:35.726Z"
+        },
+        {
+          "url": "https://www.greystar.com/blog/tips-for-meeting-people",
+          "at": "2026-09-30T03:49:36.328Z"
+        },
+        {
+          "url": "https://www.greystar.com/blog/apartment-living-tips-eight-ways-build-better-relationship-your-apartment-management-team",
+          "at": "2026-09-30T03:49:37.418Z"
+        },
+        {
+          "url": "https://www.greystar.com/blog/everything-you-need-to-know-about-chapter",
+          "at": "2026-09-30T03:49:38.395Z"
+        }
+      ],
+      "professional_context": {
+        "version": 5,
+        "input_key": "toby bozzuto|greystar|greystar.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T03:49:39.365Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 6,
+          "pages_reused": 0,
+          "sitemaps_checked": 1,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fetched_at": "2026-09-30T03:49:39.365Z",
+        "cache_fresh_until": "2026-10-01T03:49:39.365Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    }
+  ]
+}

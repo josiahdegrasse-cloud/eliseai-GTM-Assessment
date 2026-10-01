@@ -1,0 +1,523 @@
+{
+  "frozen_at": "2026-10-01T04:23:43.966823+00:00",
+  "baseline_deployment": "version80",
+  "method": "30 previously unused company cases, 10 per cohort. Labels researched from official sources before processing. Only input is submitted; label sources and expected roles are withheld. Inquiry text and all email addresses are synthetic. 9 publicly named professional contacts are a separate role-coverage subset; 21 TEST names are negative controls. No property is submitted: this measures company classification and limited contact research, not property coverage or real conversion. One attempt per case, fixed sequence, no manual rescue or quota reset. This is a convenience sample, not a random estimate of all leads.",
+  "cases": [
+    {
+      "id": "holdout-01",
+      "cohort": "large",
+      "input": {
+        "name": "Jennifer Staciokas",
+        "email": "benchmark-01@example.invalid",
+        "company": "Willow Bridge Property Company",
+        "website": "https://willowbridgepc.com",
+        "country": "United States",
+        "inquiry": "We would like a demo of after-hours leasing coverage."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://www.willowbridgepc.com/about/our-story",
+      "label_reason": "Residential property manager",
+      "expected_contact": {
+        "name": "Jennifer Staciokas",
+        "role": "Chief Operating Officer",
+        "source": "https://www.willowbridgepc.com/about/leadership"
+      }
+    },
+    {
+      "id": "holdout-02",
+      "cohort": "large",
+      "input": {
+        "name": "Cynthia Miller",
+        "email": "benchmark-02@example.invalid",
+        "company": "RPM Living",
+        "website": "https://rpmliving.com",
+        "country": "United States",
+        "inquiry": "We are learning about your product. Please send an overview."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://rpmliving.com/about-us/",
+      "label_reason": "Residential property manager",
+      "expected_contact": {
+        "name": "Cynthia Miller",
+        "role": "President of National Operations",
+        "source": "https://rpmliving.com/leadership-team/"
+      }
+    },
+    {
+      "id": "holdout-03",
+      "cohort": "large",
+      "input": {
+        "name": "Ryan McGrath",
+        "email": "benchmark-03@example.invalid",
+        "company": "Asset Living",
+        "website": "https://assetliving.com",
+        "country": "United States",
+        "inquiry": "No active project or demo request; just researching options."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://www.assetliving.com/about/overview",
+      "label_reason": "Residential property manager",
+      "expected_contact": {
+        "name": "Ryan McGrath",
+        "role": "CEO & President",
+        "source": "https://www.assetliving.com/leadership/ryan-mcgrath"
+      }
+    },
+    {
+      "id": "holdout-04",
+      "cohort": "large",
+      "input": {
+        "name": "TEST Benchmark 04",
+        "email": "benchmark-04@example.invalid",
+        "company": "UDR",
+        "website": "https://udr.com",
+        "country": "United States",
+        "inquiry": "We would like a demo of after-hours leasing coverage."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://www.udr.com/careers/",
+      "label_reason": "Apartment owner and manager",
+      "expected_contact": null
+    },
+    {
+      "id": "holdout-05",
+      "cohort": "large",
+      "input": {
+        "name": "Walt Smith",
+        "email": "benchmark-05@example.invalid",
+        "company": "Avenue5 Residential",
+        "website": "https://avenue5.com",
+        "country": "United States",
+        "inquiry": "We are learning about your product. Please send an overview."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://www.avenue5.com/our-story",
+      "label_reason": "Multifamily property manager",
+      "expected_contact": {
+        "name": "Walt Smith",
+        "role": "Chief Executive Officer",
+        "source": "https://www.avenue5.com/leadership"
+      }
+    },
+    {
+      "id": "holdout-06",
+      "cohort": "large",
+      "input": {
+        "name": "Steven DeFrancis",
+        "email": "benchmark-06@example.invalid",
+        "company": "Cortland",
+        "website": "https://cortland.com",
+        "country": "United States",
+        "inquiry": "No active project or demo request; just researching options."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://cortland.com/investors/",
+      "label_reason": "Apartment owner and operator",
+      "expected_contact": {
+        "name": "Steven DeFrancis",
+        "role": "Chief Executive Officer",
+        "source": "https://cortland.com/investors/"
+      }
+    },
+    {
+      "id": "holdout-07",
+      "cohort": "large",
+      "input": {
+        "name": "Ed Harrington",
+        "email": "benchmark-07@example.invalid",
+        "company": "Hawthorne Residential Partners",
+        "website": "https://hrpliving.com",
+        "country": "United States",
+        "inquiry": "We would like a demo of after-hours leasing coverage."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://www.hrpliving.com/our-team/",
+      "label_reason": "Apartment property manager",
+      "expected_contact": {
+        "name": "Ed Harrington",
+        "role": "Founding Principal",
+        "source": "https://www.hrpliving.com/blog/executive_leadership/ed-harrington/"
+      }
+    },
+    {
+      "id": "holdout-08",
+      "cohort": "large",
+      "input": {
+        "name": "Lance Goss",
+        "email": "benchmark-08@example.invalid",
+        "company": "HHHunt",
+        "website": "https://hhhunt.com",
+        "country": "United States",
+        "inquiry": "We are learning about your product. Please send an overview."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://www.hhhunt.com/blog-posts/hhhunt-apartment-living-who-we-are",
+      "label_reason": "Apartment developer and manager",
+      "expected_contact": {
+        "name": "Lance Goss",
+        "role": "Senior Vice President HHHunt Apartment Living",
+        "source": "https://www.hhhunt.com/leadership"
+      }
+    },
+    {
+      "id": "holdout-09",
+      "cohort": "large",
+      "input": {
+        "name": "Allison Altobellis",
+        "email": "benchmark-09@example.invalid",
+        "company": "S.L. Nusbaum Realty Co.",
+        "website": "https://slnusbaum.com",
+        "country": "United States",
+        "inquiry": "No active project or demo request; just researching options."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://www.slnusbaum.com/property-management/",
+      "label_reason": "Mixed commercial and multifamily manager",
+      "expected_contact": {
+        "name": "Allison Altobellis",
+        "role": "Regional Property Manager",
+        "source": "https://slnusbaum.com/who-we-are/employee-directory/"
+      }
+    },
+    {
+      "id": "holdout-10",
+      "cohort": "large",
+      "input": {
+        "name": "TEST Benchmark 10",
+        "email": "benchmark-10@example.invalid",
+        "company": "Weidner Apartment Homes",
+        "website": "https://weidner.com",
+        "country": "United States",
+        "inquiry": "We would like a demo of after-hours leasing coverage."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://www.weidner.com/",
+      "label_reason": "Apartment owner and manager",
+      "expected_contact": null
+    },
+    {
+      "id": "holdout-11",
+      "cohort": "local",
+      "input": {
+        "name": "TEST Benchmark 11",
+        "email": "benchmark-11@example.invalid",
+        "company": "Nestwell Property Management",
+        "website": "https://nestwell.com",
+        "country": "United States",
+        "inquiry": "We are learning about your product. Please send an overview."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://nestwell.com/about-nestwell-property-management/",
+      "label_reason": "Residential single-family and multi-unit manager",
+      "expected_contact": null
+    },
+    {
+      "id": "holdout-12",
+      "cohort": "local",
+      "input": {
+        "name": "TEST Benchmark 12",
+        "email": "benchmark-12@example.invalid",
+        "company": "Acorn + Oak",
+        "website": "https://acorn-oak.com",
+        "country": "United States",
+        "inquiry": "No active project or demo request; just researching options."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://www.acorn-oak.com/services",
+      "label_reason": "Residential property manager",
+      "expected_contact": null
+    },
+    {
+      "id": "holdout-13",
+      "cohort": "local",
+      "input": {
+        "name": "TEST Benchmark 13",
+        "email": "benchmark-13@example.invalid",
+        "company": "Oak City Properties",
+        "website": "https://oakcityproperties.com",
+        "country": "United States",
+        "inquiry": "We would like a demo of after-hours leasing coverage."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://www.oakcityproperties.com/about-oak-city-properties/",
+      "label_reason": "Residential rental property manager; similarly named companies exist",
+      "expected_contact": null
+    },
+    {
+      "id": "holdout-14",
+      "cohort": "local",
+      "input": {
+        "name": "Katie Howard",
+        "email": "benchmark-14@example.invalid",
+        "company": "Parkwood Property Management",
+        "website": "https://parkwoodrentals.com",
+        "country": "United States",
+        "inquiry": "We are learning about your product. Please send an overview."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://www.parkwoodrentals.com/our-team",
+      "label_reason": "Residential property manager",
+      "expected_contact": {
+        "name": "Katie Howard",
+        "role": "Managing Broker, Property Manager",
+        "source": "https://www.parkwoodrentals.com/our-team"
+      }
+    },
+    {
+      "id": "holdout-15",
+      "cohort": "local",
+      "input": {
+        "name": "TEST Benchmark 15",
+        "email": "benchmark-15@example.invalid",
+        "company": "Gordon Property Management",
+        "website": "https://gpmsf.com",
+        "country": "United States",
+        "inquiry": "No active project or demo request; just researching options."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://gpmsf.com/about-us/",
+      "label_reason": "San Francisco homes and apartments manager",
+      "expected_contact": null
+    },
+    {
+      "id": "holdout-16",
+      "cohort": "local",
+      "input": {
+        "name": "TEST Benchmark 16",
+        "email": "benchmark-16@example.invalid",
+        "company": "Peabody Residential",
+        "website": "https://peabodyresidential.com",
+        "country": "United States",
+        "inquiry": "We would like a demo of after-hours leasing coverage."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://peabodyresidential.com/client-resources/",
+      "label_reason": "Single-family, townhouse and condo manager; explicitly not large apartments",
+      "expected_contact": null
+    },
+    {
+      "id": "holdout-17",
+      "cohort": "local",
+      "input": {
+        "name": "TEST Benchmark 17",
+        "email": "benchmark-17@example.invalid",
+        "company": "Mavi Unlimited Property Management",
+        "website": "https://maviunlimited.com",
+        "country": "United States",
+        "inquiry": "We are learning about your product. Please send an overview."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://www.maviunlimited.com/",
+      "label_reason": "Residential rental property manager",
+      "expected_contact": null
+    },
+    {
+      "id": "holdout-18",
+      "cohort": "local",
+      "input": {
+        "name": "TEST Benchmark 18",
+        "email": "benchmark-18@example.invalid",
+        "company": "Keyrenter Denver",
+        "website": "https://keyrenterdenver.com",
+        "country": "United States",
+        "inquiry": "No active project or demo request; just researching options."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://keyrenterdenver.com/owners/",
+      "label_reason": "Residential rental property manager",
+      "expected_contact": null
+    },
+    {
+      "id": "holdout-19",
+      "cohort": "local",
+      "input": {
+        "name": "TEST Benchmark 19",
+        "email": "benchmark-19@example.invalid",
+        "company": "EPOC Property Management",
+        "website": "https://epoc.co",
+        "country": "United States",
+        "inquiry": "We would like a demo of after-hours leasing coverage."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://www.epoc.co/",
+      "label_reason": "Single-family and multifamily manager",
+      "expected_contact": null
+    },
+    {
+      "id": "holdout-20",
+      "cohort": "local",
+      "input": {
+        "name": "TEST Benchmark 20",
+        "email": "benchmark-20@example.invalid",
+        "company": "Real Property Management Richmond Metro",
+        "website": "https://rpmrichmondmetro.com",
+        "country": "United States",
+        "inquiry": "We are learning about your product. Please send an overview."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://www.rpmrichmondmetro.com/",
+      "label_reason": "Local residential property manager",
+      "expected_contact": null
+    },
+    {
+      "id": "holdout-21",
+      "cohort": "nonfit",
+      "input": {
+        "name": "TEST Benchmark 21",
+        "email": "benchmark-21@example.invalid",
+        "company": "MRI Software",
+        "website": "https://mrisoftware.com",
+        "country": "United States",
+        "inquiry": "No active project or demo request; just researching options."
+      },
+      "expected": "non_operator",
+      "label_source": "https://www.mrisoftware.com/",
+      "label_reason": "Real estate software vendor",
+      "expected_contact": null
+    },
+    {
+      "id": "holdout-22",
+      "cohort": "nonfit",
+      "input": {
+        "name": "TEST Benchmark 22",
+        "email": "benchmark-22@example.invalid",
+        "company": "ResMan",
+        "website": "https://myresman.com",
+        "country": "United States",
+        "inquiry": "We would like a demo of after-hours leasing coverage."
+      },
+      "expected": "non_operator",
+      "label_source": "https://www.myresman.com/",
+      "label_reason": "Property management software vendor",
+      "expected_contact": null
+    },
+    {
+      "id": "holdout-23",
+      "cohort": "nonfit",
+      "input": {
+        "name": "TEST Benchmark 23",
+        "email": "benchmark-23@example.invalid",
+        "company": "Rentec Direct",
+        "website": "https://rentecdirect.com",
+        "country": "United States",
+        "inquiry": "We are learning about your product. Please send an overview."
+      },
+      "expected": "non_operator",
+      "label_source": "https://www.rentecdirect.com/",
+      "label_reason": "Property management software vendor",
+      "expected_contact": null
+    },
+    {
+      "id": "holdout-24",
+      "cohort": "nonfit",
+      "input": {
+        "name": "TEST Benchmark 24",
+        "email": "benchmark-24@example.invalid",
+        "company": "RentRedi",
+        "website": "https://rentredi.com",
+        "country": "United States",
+        "inquiry": "No active project or demo request; just researching options."
+      },
+      "expected": "non_operator",
+      "label_source": "https://rentredi.com/",
+      "label_reason": "Property management software vendor",
+      "expected_contact": null
+    },
+    {
+      "id": "holdout-25",
+      "cohort": "nonfit",
+      "input": {
+        "name": "TEST Benchmark 25",
+        "email": "benchmark-25@example.invalid",
+        "company": "TurboTenant",
+        "website": "https://turbotenant.com",
+        "country": "United States",
+        "inquiry": "We would like a demo of after-hours leasing coverage."
+      },
+      "expected": "non_operator",
+      "label_source": "https://www.turbotenant.com/",
+      "label_reason": "Property management software vendor",
+      "expected_contact": null
+    },
+    {
+      "id": "holdout-26",
+      "cohort": "nonfit",
+      "input": {
+        "name": "TEST Benchmark 26",
+        "email": "benchmark-26@example.invalid",
+        "company": "HappyCo",
+        "website": "https://happy.co",
+        "country": "United States",
+        "inquiry": "We are learning about your product. Please send an overview."
+      },
+      "expected": "non_operator",
+      "label_source": "https://happy.co/",
+      "label_reason": "Property maintenance software vendor",
+      "expected_contact": null
+    },
+    {
+      "id": "holdout-27",
+      "cohort": "nonfit",
+      "input": {
+        "name": "TEST Benchmark 27",
+        "email": "benchmark-27@example.invalid",
+        "company": "Property Meld",
+        "website": "https://propertymeld.com",
+        "country": "United States",
+        "inquiry": "No active project or demo request; just researching options."
+      },
+      "expected": "non_operator",
+      "label_source": "https://propertymeld.com/",
+      "label_reason": "Property maintenance software vendor",
+      "expected_contact": null
+    },
+    {
+      "id": "holdout-28",
+      "cohort": "nonfit",
+      "input": {
+        "name": "TEST Benchmark 28",
+        "email": "benchmark-28@example.invalid",
+        "company": "STAG Industrial",
+        "website": "https://stagindustrial.com",
+        "country": "United States",
+        "inquiry": "We would like a demo of after-hours leasing coverage."
+      },
+      "expected": "non_operator",
+      "label_source": "https://www.stagindustrial.com/about-us/",
+      "label_reason": "Industrial real estate owner, outside residential focus",
+      "expected_contact": null
+    },
+    {
+      "id": "holdout-29",
+      "cohort": "nonfit",
+      "input": {
+        "name": "TEST Benchmark 29",
+        "email": "benchmark-29@example.invalid",
+        "company": "First Industrial Realty Trust",
+        "website": "https://firstindustrial.com",
+        "country": "United States",
+        "inquiry": "We are learning about your product. Please send an overview."
+      },
+      "expected": "non_operator",
+      "label_source": "https://www.firstindustrial.com/",
+      "label_reason": "Industrial real estate owner, outside residential focus",
+      "expected_contact": null
+    },
+    {
+      "id": "holdout-30",
+      "cohort": "nonfit",
+      "input": {
+        "name": "TEST Benchmark 30",
+        "email": "benchmark-30@example.invalid",
+        "company": "eXp Realty",
+        "website": "https://exprealty.com",
+        "country": "United States",
+        "inquiry": "No active project or demo request; just researching options."
+      },
+      "expected": "non_operator",
+      "label_source": "https://join.exprealty.com/",
+      "label_reason": "Real estate brokerage, not a residential operator",
+      "expected_contact": null
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "frozen_at": "2026-10-01T15:23:57.806844+00:00",
+  "baseline_deployment": "version83 / b68879a3c9bb0f829b23849086d5c2fc59fd1085",
+  "method": "12 previously unused companies: four large operators, four local managers, four software/non-operator cases; labels and sources frozen before any application call. Company-only test: synthetic TEST contacts, reserved example.invalid emails, no property input. Only input is submitted, never label URLs or expected labels. One attempt, no tuning or manual rescue on this set. Convenience sample, not population accuracy.",
+  "cases": [
+    {
+      "id": "fresh-01",
+      "cohort": "large",
+      "input": {
+        "name": "TEST Fresh Contact",
+        "company": "Gables Residential",
+        "website": "https://gables.com",
+        "email": "fresh-01@example.invalid",
+        "country": "United States",
+        "inquiry": "We would like a demo of after-hours leasing coverage."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://www.gables.com/about",
+      "label_reason": "Owns and manages apartment homes.",
+      "expected_contact": null
+    },
+    {
+      "id": "fresh-02",
+      "cohort": "local",
+      "input": {
+        "name": "TEST Fresh Contact",
+        "company": "RedSail Property Management",
+        "website": "https://redsailpm.com",
+        "email": "fresh-02@example.invalid",
+        "country": "United States",
+        "inquiry": "We would like a demo of after-hours leasing coverage."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://www.redsailpm.com/about-us",
+      "label_reason": "Manages single-family residential rental homes.",
+      "expected_contact": null
+    },
+    {
+      "id": "fresh-03",
+      "cohort": "nonfit",
+      "input": {
+        "name": "TEST Fresh Contact",
+        "company": "Rentvine",
+        "website": "https://rentvine.com",
+        "email": "fresh-03@example.invalid",
+        "country": "United States",
+        "inquiry": "We would like a demo of after-hours leasing coverage."
+      },
+      "expected": "non_operator",
+      "label_source": "https://www.rentvine.com/",
+      "label_reason": "Property management software vendor.",
+      "expected_contact": null
+    },
+    {
+      "id": "fresh-04",
+      "cohort": "large",
+      "input": {
+        "name": "TEST Fresh Contact",
+        "company": "Berkshire Residential Investments",
+        "website": "https://berkshireresi.com",
+        "email": "fresh-04@example.invalid",
+        "country": "United States",
+        "inquiry": "We would like a demo of after-hours leasing coverage."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://berkshireresi.com/",
+      "label_reason": "Residential owner-operator and investment management.",
+      "expected_contact": null
+    },
+    {
+      "id": "fresh-05",
+      "cohort": "local",
+      "input": {
+        "name": "TEST Fresh Contact",
+        "company": "RentPros Property Management",
+        "website": "https://rentpros.com",
+        "email": "fresh-05@example.invalid",
+        "country": "United States",
+        "inquiry": "We would like a demo of after-hours leasing coverage."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://www.rentpros.com/",
+      "label_reason": "Manages single-family homes, duplexes and small apartments.",
+      "expected_contact": null
+    },
+    {
+      "id": "fresh-06",
+      "cohort": "nonfit",
+      "input": {
+        "name": "TEST Fresh Contact",
+        "company": "Hemlane",
+        "website": "https://hemlane.com",
+        "email": "fresh-06@example.invalid",
+        "country": "United States",
+        "inquiry": "We would like a demo of after-hours leasing coverage."
+      },
+      "expected": "non_operator",
+      "label_source": "https://www.hemlane.com/",
+      "label_reason": "Software and rental coordination platform supporting property owners.",
+      "expected_contact": null
+    },
+    {
+      "id": "fresh-07",
+      "cohort": "large",
+      "input": {
+        "name": "TEST Fresh Contact",
+        "company": "Mill Creek Residential",
+        "website": "https://millcreekplaces.com",
+        "email": "fresh-07@example.invalid",
+        "country": "United States",
+        "inquiry": "We would like a demo of after-hours leasing coverage."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://millcreekplaces.com/what-we-do/",
+      "label_reason": "Operates rental communities and manages rental homes.",
+      "expected_contact": null
+    },
+    {
+      "id": "fresh-08",
+      "cohort": "local",
+      "input": {
+        "name": "TEST Fresh Contact",
+        "company": "Gulf Coast Property Management",
+        "website": "https://choosegulfcoast.com",
+        "email": "fresh-08@example.invalid",
+        "country": "United States",
+        "inquiry": "We would like a demo of after-hours leasing coverage."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://www.choosegulfcoast.com/about-us",
+      "label_reason": "Certified residential management company matching tenants with rental homes.",
+      "expected_contact": null
+    },
+    {
+      "id": "fresh-09",
+      "cohort": "nonfit",
+      "input": {
+        "name": "TEST Fresh Contact",
+        "company": "VTS",
+        "website": "https://vts.com",
+        "email": "fresh-09@example.invalid",
+        "country": "United States",
+        "inquiry": "We would like a demo of after-hours leasing coverage."
+      },
+      "expected": "non_operator",
+      "label_source": "https://www.vts.com/",
+      "label_reason": "Commercial real estate software vendor.",
+      "expected_contact": null
+    },
+    {
+      "id": "fresh-10",
+      "cohort": "large",
+      "input": {
+        "name": "TEST Fresh Contact",
+        "company": "Monarch Investment and Management Group",
+        "website": "https://mimginvestment.com",
+        "email": "fresh-10@example.invalid",
+        "country": "United States",
+        "inquiry": "We would like a demo of after-hours leasing coverage."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://www.mimginvestment.com/",
+      "label_reason": "Acquires and manages multifamily apartment communities.",
+      "expected_contact": null
+    },
+    {
+      "id": "fresh-11",
+      "cohort": "local",
+      "input": {
+        "name": "TEST Fresh Contact",
+        "company": "Alpine Property Management",
+        "website": "https://indyapm.com",
+        "email": "fresh-11@example.invalid",
+        "country": "United States",
+        "inquiry": "We would like a demo of after-hours leasing coverage."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://www.indyapm.com/",
+      "label_reason": "Residential rental management business in Indianapolis.",
+      "expected_contact": null
+    },
+    {
+      "id": "fresh-12",
+      "cohort": "nonfit",
+      "input": {
+        "name": "TEST Fresh Contact",
+        "company": "Avail",
+        "website": "https://avail.com",
+        "email": "fresh-12@example.invalid",
+        "country": "United States",
+        "inquiry": "We would like a demo of after-hours leasing coverage."
+      },
+      "expected": "non_operator",
+      "label_source": "https://www.avail.com/",
+      "label_reason": "Landlord and property management software.",
+      "expected_contact": null
+    }
+  ]
+}

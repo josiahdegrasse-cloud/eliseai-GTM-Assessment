@@ -1,0 +1,398 @@
+{
+  "mode": "Development replay of previously captured evidence; zero network requests; excludes contact/property correctness and live retrieval coverage.",
+  "captured_at": "2026-09-30T23:22:15.600Z",
+  "replayed_at": "2026-09-30T23:56:25.824Z",
+  "results": [
+    {
+      "id": "Q01",
+      "company": "Bell Partners",
+      "expected": "housing_operator",
+      "before": "housing_operator",
+      "after": "housing_operator",
+      "correct": true,
+      "evidence": [
+        {
+          "kind": "housing_operator",
+          "quote": "Today, we manage a portfolio of approximately 65,000 apartment homes across the United States, with approximately 1,800 associates and nine corporate offices.",
+          "source_id": "S4"
+        },
+        {
+          "kind": "housing_operator",
+          "quote": "Founded in 1976, Bell Partners is one of the nation’s largest apartment investment and property management firms. Today, we manage a portfolio of approximately 65,000 apartment homes across the United States, with approximately 1,800 associates and nine corporate offices.",
+          "source_id": "S4"
+        }
+      ]
+    },
+    {
+      "id": "Q02",
+      "company": "Waterton",
+      "expected": "housing_operator",
+      "before": "unresolved",
+      "after": "housing_operator",
+      "correct": true,
+      "evidence": [
+        {
+          "kind": "housing_operator",
+          "quote": "Waterton is a real estate investment and property management company with a focus on U.S. multifamily and hospitality properties.Waterton executes value add strategies and manages a national portfolio of properties on behalf of institutional investors, family offices and financial institutions.",
+          "source_id": "S2"
+        }
+      ]
+    },
+    {
+      "id": "Q03",
+      "company": "Fogelman",
+      "expected": "housing_operator",
+      "before": "housing_operator",
+      "after": "housing_operator",
+      "correct": true,
+      "evidence": [
+        {
+          "kind": "housing_operator",
+          "quote": "Fogelman reaches a major milestone with more than 100 assets and 30,000 apartment homes under management while earning top accolades, including being recognized among Newsweek's Top 100 Most Loved Workplaces and securing the title of “#1 Best Places to Work in Multifamily.",
+          "source_id": "S3"
+        },
+        {
+          "kind": "housing_operator",
+          "quote": "We manage welcoming apartment communities for thousands of residents and build durable value for our client and investment partners.",
+          "source_id": "S4"
+        },
+        {
+          "kind": "housing_operator",
+          "quote": "With six decades of experience, a team of dynamic associates and expert leaders, and a highly collaborative culture, Fogelman is recognized as a multifamily property management and investment leader. We manage welcoming apartment communities for thousands of residents and build durable value for our client and investment partners.",
+          "source_id": "S4"
+        }
+      ]
+    },
+    {
+      "id": "Q04",
+      "company": "Drucker + Falk",
+      "expected": "housing_operator",
+      "before": "unresolved",
+      "after": "housing_operator",
+      "correct": true,
+      "evidence": [
+        {
+          "kind": "housing_operator",
+          "quote": "Based in Newport News, Virginia, our business has been providing unmatched multifamily and commercial property management services for more than 88 years.",
+          "source_id": "S1"
+        }
+      ]
+    },
+    {
+      "id": "Q05",
+      "company": "ZRS Management",
+      "expected": "housing_operator",
+      "before": "housing_operator",
+      "after": "housing_operator",
+      "correct": true,
+      "evidence": [
+        {
+          "kind": "housing_operator",
+          "quote": "We specialize in apartment & multifamily property management in Florida, Texas, Georgia, South Carolina, North Carolina, Maryland, Virginia, and Tennessee.",
+          "source_id": "S1"
+        },
+        {
+          "kind": "housing_operator",
+          "quote": "ZRS Management, LLC is a Florida Limited Liability Company originally formed in 1991 to manage high-quality, multifamily communities. In 2010, ZRS Management, LLC became a stand-alone, third-party management company. ZRS currently manages over 120,000 units for various institutional clients, partnerships, and individual owners. We specialize in apartment & multifamily property management in Florida, Texas, Georgia, South Carolina, North Carolina, Maryland, Virginia, and Tennessee.",
+          "source_id": "S1"
+        }
+      ]
+    },
+    {
+      "id": "Q06",
+      "company": "Pegasus Residential",
+      "expected": "housing_operator",
+      "before": "unresolved",
+      "after": "unresolved",
+      "correct": false,
+      "evidence": []
+    },
+    {
+      "id": "Q07",
+      "company": "RangeWater Residential",
+      "expected": "housing_operator",
+      "before": "unresolved",
+      "after": "housing_operator",
+      "correct": true,
+      "evidence": [
+        {
+          "kind": "housing_operator",
+          "quote": "We are a national multifamily operator pursuing asset value creation",
+          "source_id": "S1"
+        }
+      ]
+    },
+    {
+      "id": "Q08",
+      "company": "Village Green",
+      "expected": "housing_operator",
+      "before": "housing_operator",
+      "after": "housing_operator",
+      "correct": true,
+      "evidence": [
+        {
+          "kind": "housing_operator",
+          "quote": "Today, we manage approximately 50,000 apartment homes within some 50 cities, along with integrated mixed-use retail spaces that include restaurants, coffee shops and markets.",
+          "source_id": "S1"
+        },
+        {
+          "kind": "housing_operator",
+          "quote": "Village Green became one of the nation’s premier apartment companies by continually innovating to serve the evolving needs of residents and focusing on creating communities of long-term value. Today, we manage approximately 50,000 apartment homes within some 50 cities, along with integrated mixed-use retail spaces that include restaurants, coffee shops and markets.",
+          "source_id": "S1"
+        }
+      ]
+    },
+    {
+      "id": "Q09",
+      "company": "WinnCompanies",
+      "expected": "housing_operator",
+      "before": "unresolved",
+      "after": "housing_operator",
+      "correct": true,
+      "evidence": [
+        {
+          "kind": "housing_operator",
+          "quote": "WinnCompanies is one of the largest managers of affordable housing in the United States",
+          "source_id": "S2"
+        }
+      ]
+    },
+    {
+      "id": "Q10",
+      "company": "Laramar",
+      "expected": "housing_operator",
+      "before": "unresolved",
+      "after": "unresolved",
+      "correct": false,
+      "evidence": []
+    },
+    {
+      "id": "Q11",
+      "company": "Flaherty & Collins Properties",
+      "expected": "housing_operator",
+      "before": "housing_operator",
+      "after": "housing_operator",
+      "correct": true,
+      "evidence": [
+        {
+          "kind": "housing_operator",
+          "quote": "Additionally, we currently manage 108 properties and 18,137 multifamily units in 11 states across the nation.",
+          "source_id": "S1"
+        },
+        {
+          "kind": "housing_operator",
+          "quote": "Flaherty & Collins Properties specializes in both market-rate and affordable housing developments, public/private partnerships, and mixed-use, urban infill developments. Since 1993, Flaherty & Collins Properties has completed over $2 billion in development and has an ongoing pipeline of more than $2 billion in development. Additionally, we currently manage 108 properties and 18,137 multifamily units in 11 states across the nation.",
+          "source_id": "S1"
+        }
+      ]
+    },
+    {
+      "id": "Q12",
+      "company": "AppFolio",
+      "expected": "non_operator",
+      "before": "non_operator",
+      "after": "non_operator",
+      "correct": true,
+      "evidence": [
+        {
+          "kind": "software_vendor",
+          "quote": "AppFolio: Move Beyond Property Management Software",
+          "source_id": "S1"
+        },
+        {
+          "kind": "software_vendor",
+          "quote": "Yesterday’s property management software might solve for your efficiency goals, but faster task execution doesn't equal value.",
+          "source_id": "S1"
+        },
+        {
+          "kind": "software_vendor",
+          "quote": "> “The reason we've stuck with AppFolio is because they’re constantly adding new features and reinvesting in the software to make it cutting-edge for all operators.",
+          "source_id": "S1"
+        },
+        {
+          "kind": "software_vendor",
+          "quote": "We’ve been impressed with how responsive they are to our ideas about how to make the software better for our needs.”",
+          "source_id": "S1"
+        },
+        {
+          "kind": "software_vendor",
+          "quote": "Yesterday’s property management software might solve for your efficiency goals, but faster task execution doesn't equal value. Introducing the AppFolio Performance Platform, built to deliver the outcomes that everyone needs with unified data, native agentic Al, and new revenue streams.",
+          "source_id": "S1"
+        },
+        {
+          "kind": "software_vendor",
+          "quote": "> “The reason we've stuck with AppFolio is because they’re constantly adding new features and reinvesting in the software to make it cutting-edge for all operators. We’ve been impressed with how responsive they are to our ideas about how to make the software better for our needs.”",
+          "source_id": "S1"
+        }
+      ]
+    },
+    {
+      "id": "Q13",
+      "company": "Entrata",
+      "expected": "non_operator",
+      "before": "non_operator",
+      "after": "non_operator",
+      "correct": true,
+      "evidence": [
+        {
+          "kind": "software_vendor",
+          "quote": "Property Management Software | Entrata®",
+          "source_id": "S1"
+        },
+        {
+          "kind": "software_vendor",
+          "quote": "Multifamily Property Management Software | Entrata",
+          "source_id": "S2"
+        }
+      ]
+    },
+    {
+      "id": "Q14",
+      "company": "Yardi",
+      "expected": "non_operator",
+      "before": "non_operator",
+      "after": "non_operator",
+      "correct": true,
+      "evidence": [
+        {
+          "kind": "software_vendor",
+          "quote": "Join thousands of businesses worldwide that choose Yardi property management software and services to optimize every aspect of their operations.",
+          "source_id": "S1"
+        },
+        {
+          "kind": "software_vendor",
+          "quote": "Do more with facility management software that supports all your accounting, operations, marketing and leasing needs.",
+          "source_id": "S1"
+        }
+      ]
+    },
+    {
+      "id": "Q15",
+      "company": "Buildium",
+      "expected": "non_operator",
+      "before": "non_operator",
+      "after": "non_operator",
+      "correct": true,
+      "evidence": [
+        {
+          "kind": "software_vendor",
+          "quote": "Residential Property Management Software | Buildium",
+          "source_id": "S1"
+        },
+        {
+          "kind": "software_vendor",
+          "quote": "Property Accounting Purpose-built property accounting software Collect Rent Online Get paid faster with our online payment platform Maintenance Requests Managing work orders has never been easier 1099 e-Filing Easily create your 1099s and stay organized during tax season Resident Center Rental Listing Syndications Effortlessly advertise your listings Tenant Screening Tenant background checks Property Management Website A free property management website, hosted by Buildium Online Leasing Manage the entire leasing process online Buildium Marketplace An ever-expanding ecosystem of property management apps Open API Free your data to operate more efficiently Maintenance Contact Center Satisfy residents while reducing property risk Customer Success",
+          "source_id": "S1"
+        },
+        {
+          "kind": "software_vendor",
+          "quote": "Multifamily Property Management Software | Buildium",
+          "source_id": "S2"
+        },
+        {
+          "kind": "advisor",
+          "quote": "While the best solution depends on your portfolio size and budget, Buildium provides a robust, all‑in‑one property management platform designed to help multifamily property managers run and scale their business—offering plans that fit companies of all sizes.",
+          "source_id": "S2"
+        },
+        {
+          "kind": "software_vendor",
+          "quote": "Portfolios Multifamily Property Management Software Multifamily Made Easy",
+          "source_id": "S2"
+        },
+        {
+          "kind": "software_vendor",
+          "quote": "Buildium: Property Management Software",
+          "source_id": "S3"
+        },
+        {
+          "kind": "software_vendor",
+          "quote": "For software like Buildium, it gives you a centralized, all-in-one platform for taking on the day-to-day challenges that are unique to property management with features like property accounting, online leasing, resident portals, online payments, maintenance management tools, and reporting plus analytics.",
+          "source_id": "S3"
+        },
+        {
+          "kind": "software_vendor",
+          "quote": "Not all property management software is equal, and the features they offer can vary from basic to comprehensive—like Buildium, which sets you up with everything you need.",
+          "source_id": "S3"
+        }
+      ]
+    },
+    {
+      "id": "Q16",
+      "company": "Bell Partners",
+      "expected": "non_operator",
+      "before": "non_operator",
+      "after": "non_operator",
+      "correct": true,
+      "evidence": [
+        {
+          "kind": "advisor",
+          "quote": "MANAGING DIRECTOR, ACCOUNTING, TAX AND ADVISORY",
+          "source_id": "S1"
+        },
+        {
+          "kind": "advisor",
+          "quote": "Managing Director, Wealth Creation and Financial Advisory",
+          "source_id": "S1"
+        }
+      ]
+    },
+    {
+      "id": "Q17",
+      "company": "Fogelman",
+      "expected": "unresolved",
+      "before": "unresolved",
+      "after": "unresolved",
+      "correct": true,
+      "evidence": []
+    },
+    {
+      "id": "Q18",
+      "company": "Waterton",
+      "expected": "unresolved",
+      "before": "unresolved",
+      "after": "unresolved",
+      "correct": true,
+      "evidence": []
+    },
+    {
+      "id": "Q19",
+      "company": "Fogelman",
+      "expected": "housing_operator",
+      "before": "housing_operator",
+      "after": "housing_operator",
+      "correct": true,
+      "evidence": [
+        {
+          "kind": "housing_operator",
+          "quote": "Fogelman reaches a major milestone with more than 100 assets and 30,000 apartment homes under management while earning top accolades, including being recognized among Newsweek's Top 100 Most Loved Workplaces and securing the title of “#1 Best Places to Work in Multifamily.",
+          "source_id": "S3"
+        },
+        {
+          "kind": "housing_operator",
+          "quote": "We manage welcoming apartment communities for thousands of residents and build durable value for our client and investment partners.",
+          "source_id": "S4"
+        },
+        {
+          "kind": "housing_operator",
+          "quote": "With six decades of experience, a team of dynamic associates and expert leaders, and a highly collaborative culture, Fogelman is recognized as a multifamily property management and investment leader. We manage welcoming apartment communities for thousands of residents and build durable value for our client and investment partners.",
+          "source_id": "S4"
+        }
+      ]
+    },
+    {
+      "id": "Q20",
+      "company": "Drucker + Falk",
+      "expected": "housing_operator",
+      "before": "unresolved",
+      "after": "housing_operator",
+      "correct": true,
+      "evidence": [
+        {
+          "kind": "housing_operator",
+          "quote": "Based in Newport News, Virginia, our business has been providing unmatched multifamily and commercial property management services for more than 88 years.",
+          "source_id": "S1"
+        }
+      ]
+    }
+  ]
+}

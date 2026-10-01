@@ -1,0 +1,38 @@
+[
+  {
+    "company": "Herzog Property Management",
+    "domain": "herzogapartments.com",
+    "source_url": "https://www.herzogapartments.com/wp-content/uploads/2024/01/White.png",
+    "page_url": "https://www.herzogapartments.com/",
+    "theme": "dark",
+    "checked_at": "2026-09-30",
+    "method": "Official logo resized to PNG"
+  },
+  {
+    "company": "Trimark Property Management",
+    "domain": "trimarkpm.com",
+    "source_url": "https://www.trimarkpm.com/wp-content/uploads/2017/05/trimark-property-management.png",
+    "page_url": "https://www.trimarkpm.com/",
+    "theme": "light",
+    "checked_at": "2026-09-30",
+    "method": "Official logo resized to PNG"
+  },
+  {
+    "company": "CPManagement",
+    "domain": "cpmanagement.com",
+    "source_url": "https://www.cpmanagement.com/",
+    "page_url": "https://www.cpmanagement.com/",
+    "theme": "light",
+    "checked_at": "2026-09-30",
+    "method": "Official inline SVG rendered to PNG"
+  },
+  {
+    "company": "AAMCI",
+    "domain": "aamci.com",
+    "source_url": "https://aamci.com/wp-content/uploads/AACMI_logo.png",
+    "page_url": "https://aamci.com/",
+    "theme": "light",
+    "checked_at": "2026-09-30",
+    "method": "Official logo resized to PNG"
+  }
+]

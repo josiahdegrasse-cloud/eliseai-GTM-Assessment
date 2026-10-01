@@ -1,0 +1,1190 @@
+{
+  "created_at": "2026-10-01T16:00:17.887Z",
+  "mode": "Archived-evidence development replay; no new retrieval",
+  "independent_first_pass": false,
+  "rules_sha256": "4f6f9d0d6472663194934cf6ee66db031612478e98a7ef0de3a2488f79c10b68",
+  "runs": [
+    {
+      "source": "test-data/holdout-development-recheck-2026-10-01T15-39-21-056Z.json",
+      "source_sha256": "68be6e86822bde70c7bc2258cb522d1cc13f207b27377a1df4d934134eb5764f",
+      "live_deployment": "version 85 / 7d13e21d4ffd7449d44135ee914cfcd0d547c6ac",
+      "total": 30,
+      "correct": 23,
+      "wrong": 0,
+      "unresolved": 7,
+      "changes": [],
+      "rows": [
+        {
+          "id": "holdout-01",
+          "company": "Willow Bridge Property Company",
+          "expected": "housing_operator",
+          "before": "housing_operator",
+          "after": "housing_operator",
+          "correct": true,
+          "classification": {
+            "kind": "housing_operator",
+            "label": "Housing operator",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "housing_operator",
+                "quote": "Willow Bridge Property Company, one of the nation’s leading multifamily property management companies, has announced that Jennifer Staciokas has joined the company as Ch...",
+                "source_id": "S1"
+              }
+            ],
+            "reason": "The company explicitly describes residential ownership, management or operations."
+          }
+        },
+        {
+          "id": "holdout-02",
+          "company": "RPM Living",
+          "expected": "housing_operator",
+          "before": "housing_operator",
+          "after": "housing_operator",
+          "correct": true,
+          "classification": {
+            "kind": "housing_operator",
+            "label": "Housing operator",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "housing_operator",
+                "quote": "With over 240,000 units under management in 50+ submarkets and counting, RPM Living® is one of the largest and most successful vertically integrated multifamily management and investment firms in the country.",
+                "source_id": "S2"
+              },
+              {
+                "kind": "housing_operator",
+                "quote": "With over 240,000 units under management in 50+ submarkets and counting, RPM Living® is one of the largest and most successful vertically integrated multifamily management and investment firms in the country. The company footprint spans over 25+ states, with strategically placed corporate offices in Austin, Atlanta, and Phoenix.",
+                "source_id": "S2"
+              }
+            ],
+            "reason": "The company explicitly describes residential ownership, management or operations."
+          }
+        },
+        {
+          "id": "holdout-03",
+          "company": "Asset Living",
+          "expected": "housing_operator",
+          "before": "housing_operator",
+          "after": "housing_operator",
+          "correct": true,
+          "classification": {
+            "kind": "housing_operator",
+            "label": "Housing operator",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "housing_operator",
+                "quote": "2010 Team Asset is recognized as an industry leader in property management ranked as No. 1 on SHB’s Top Managers List, No. 34 on NMHC’s Top Managers List, and ending the year with 34,000 units. 2013 Broadened the diversity of our multifamily asset classes following the acquisition of Greystone Asset Management.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "housing_operator",
+                "quote": "2010 Team Asset is recognized as an industry leader in property management ranked as No. 1 on SHB’s Top Managers List, No. 34 on NMHC’s Top Managers List, and ending the year with 34,000 units. 2013 Broadened the diversity of our multifamily asset classes following the acquisition of Greystone Asset Management. In the same year, our new development division was created. 2016 No task is too large or too complicated for team Asset. After being awarded management of the CCG Portfolio, our team seamlessly transitioned 74 properties inclusive of 42,000 beds over a 45-day period. 2018 Asset Living was formed bringing all of the divisions together under one brand name.",
+                "source_id": "S1"
+              }
+            ],
+            "reason": "The company explicitly describes residential ownership, management or operations."
+          }
+        },
+        {
+          "id": "holdout-04",
+          "company": "UDR",
+          "expected": "housing_operator",
+          "before": "housing_operator",
+          "after": "housing_operator",
+          "correct": true,
+          "classification": {
+            "kind": "housing_operator",
+            "label": "Housing operator",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "housing_operator",
+                "quote": "UDR is a leading multifamily REIT that delivers strong shareholder returns through innovation, disciplined capital allocation, and a commitment to valuing its employees.",
+                "source_id": "S4"
+              },
+              {
+                "kind": "housing_operator",
+                "quote": "UDR is a leading multifamily REIT that delivers strong shareholder returns through innovation, disciplined capital allocation, and a commitment to valuing its employees. Recognized as a National Top Workplace, UDR fosters an innovative culture that empowers its team members to drive operational excellence, deliver outstanding value to residents and investors, and unlock their full potential. Community Impact",
+                "source_id": "S4"
+              }
+            ],
+            "reason": "The company explicitly describes residential ownership, management or operations."
+          }
+        },
+        {
+          "id": "holdout-05",
+          "company": "Avenue5 Residential",
+          "expected": "housing_operator",
+          "before": "housing_operator",
+          "after": "housing_operator",
+          "correct": true,
+          "classification": {
+            "kind": "housing_operator",
+            "label": "Housing operator",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "housing_operator",
+                "quote": "Avenue5 provides professional property management services for over 825 multifamily and single-family properties for rent across the United States.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "housing_operator",
+                "quote": "Avenue5 provides professional property management services for over 825 multifamily and single-family properties for rent across the United States. We’re based in Seattle and proud to create warm and inviting living experiences for residents nationwide.",
+                "source_id": "S1"
+              }
+            ],
+            "reason": "The company explicitly describes residential ownership, management or operations."
+          }
+        },
+        {
+          "id": "holdout-06",
+          "company": "Cortland",
+          "expected": "housing_operator",
+          "before": "housing_operator",
+          "after": "housing_operator",
+          "correct": true,
+          "classification": {
+            "kind": "housing_operator",
+            "label": "Housing operator",
+            "conflict": false,
+            "mixed_business": true,
+            "evidence": [
+              {
+                "kind": "housing_operator",
+                "quote": "Overview Our Approach Grow with Cortland Locations Team As a fully integrated multifamily owner and operator, Cortland provides third-party management services grounded in an owner mindset.",
+                "source_id": "S2"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Proprietary data and technology platform In-house Marketing, Communications, Accounting, Training, Talent, Revenue Management, and more Specialized, centralized teams that support leasing, revenue, and resident experience Integrated end-to-end design and construction capabilities to execute comprehensive quality renovations that accelerate value Discipline Strategy, Market-Specific Plans",
+                "source_id": "S2"
+              }
+            ],
+            "reason": "The company explicitly describes residential ownership, management or operations."
+          }
+        },
+        {
+          "id": "holdout-07",
+          "company": "Hawthorne Residential Partners",
+          "expected": "housing_operator",
+          "before": "unresolved",
+          "after": "unresolved",
+          "correct": false,
+          "classification": {
+            "kind": "unclassified",
+            "label": "Operating model unconfirmed",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [],
+            "reason": "No explicit residential operating claim was found."
+          }
+        },
+        {
+          "id": "holdout-08",
+          "company": "HHHunt",
+          "expected": "housing_operator",
+          "before": "unresolved",
+          "after": "unresolved",
+          "correct": false,
+          "classification": {
+            "kind": "unclassified",
+            "label": "Operating model unconfirmed",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [],
+            "reason": "No explicit residential operating claim was found."
+          }
+        },
+        {
+          "id": "holdout-09",
+          "company": "S.L. Nusbaum Realty Co.",
+          "expected": "housing_operator",
+          "before": "housing_operator",
+          "after": "housing_operator",
+          "correct": true,
+          "classification": {
+            "kind": "housing_operator",
+            "label": "Housing operator",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "housing_operator",
+                "quote": "NORFOLK, VA (August 2026) – S.L. Nusbaum Realty Co. is proud to announce that it has been ranked No. 34 nationally in Multi-Housing News’ 2026 ranking of the Top Multifamily Property Management Companies, placing the firm among the largest and most respected multifamily management organizations in the United States. The annual ranking recognizes the country’s leading property management companies based on a range of factors, including units under management, portfolio performance, growth, and market presence.",
+                "source_id": "S1"
+              }
+            ],
+            "reason": "The company explicitly describes residential ownership, management or operations."
+          }
+        },
+        {
+          "id": "holdout-10",
+          "company": "Weidner Apartment Homes",
+          "expected": "housing_operator",
+          "before": "unresolved",
+          "after": "unresolved",
+          "correct": false,
+          "classification": {
+            "kind": "unclassified",
+            "label": "Operating model unconfirmed",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [],
+            "reason": "No explicit residential operating claim was found."
+          }
+        },
+        {
+          "id": "holdout-11",
+          "company": "Nestwell Property Management",
+          "expected": "housing_operator",
+          "before": "housing_operator",
+          "after": "housing_operator",
+          "correct": true,
+          "classification": {
+            "kind": "housing_operator",
+            "label": "Housing operator",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "housing_operator",
+                "quote": "From single-family homes and condos to multi-unit rental properties, we manage every aspect of the rental process with a focus on transparency, responsiveness, and local market expertise.",
+                "source_id": "S1"
+              }
+            ],
+            "reason": "The company explicitly describes residential ownership, management or operations."
+          }
+        },
+        {
+          "id": "holdout-12",
+          "company": "Acorn + Oak",
+          "expected": "housing_operator",
+          "before": "housing_operator",
+          "after": "housing_operator",
+          "correct": true,
+          "classification": {
+            "kind": "housing_operator",
+            "label": "Housing operator",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "housing_operator",
+                "quote": "Today we manage a growing roster of single-family homes and small multi-unit complexes throughout Durham, Raleigh, Chapel Hill and the surrounding cities.",
+                "source_id": "S1"
+              }
+            ],
+            "reason": "The company explicitly describes residential ownership, management or operations."
+          }
+        },
+        {
+          "id": "holdout-13",
+          "company": "Oak City Properties",
+          "expected": "housing_operator",
+          "before": "housing_operator",
+          "after": "housing_operator",
+          "correct": true,
+          "classification": {
+            "kind": "housing_operator",
+            "label": "Housing operator",
+            "conflict": false,
+            "mixed_business": true,
+            "evidence": [
+              {
+                "kind": "housing_operator",
+                "quote": "As a North Carolina licensed real estate professional, she specializes in residential property management and is known for her strong communication, attention to detail, and dependable follow-through.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "advisor",
+                "quote": "I moved here from Long Island NY in May 2009 because on an apartment tour I was asked if I was looking for a job and when I said yes they hired and trained me as a Leasing Consultant and I built up to Property Manager.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "advisor",
+                "quote": "I have been in Property Management over 15 years. I moved here from Long Island NY in May 2009 because on an apartment tour I was asked if I was looking for a job and when I said yes they hired and trained me as a Leasing Consultant and I built up to Property Manager. I was there until 2016 and then joined Oak City Properties. Moving to NC has been rewarding I own a home and share it with my Maltipoo who comes to work with me. Kayla Thompson",
+                "source_id": "S1"
+              }
+            ],
+            "reason": "The company explicitly describes residential ownership, management or operations."
+          }
+        },
+        {
+          "id": "holdout-14",
+          "company": "Parkwood Property Management",
+          "expected": "housing_operator",
+          "before": "housing_operator",
+          "after": "housing_operator",
+          "correct": true,
+          "classification": {
+            "kind": "housing_operator",
+            "label": "Housing operator",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "housing_operator",
+                "quote": "We manage homes for rent in: DuPont, Steilacoom, Lakewood, Fircrest, University Place, Puyallup, Fife, Tacoma, Parkland, Spanaway, Midland and Bonney Lake",
+                "source_id": "S2"
+              }
+            ],
+            "reason": "The company explicitly describes residential ownership, management or operations."
+          }
+        },
+        {
+          "id": "holdout-15",
+          "company": "Gordon Property Management",
+          "expected": "housing_operator",
+          "before": "housing_operator",
+          "after": "housing_operator",
+          "correct": true,
+          "classification": {
+            "kind": "housing_operator",
+            "label": "Housing operator",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "housing_operator",
+                "quote": "We lease homes and apartments, we manage properties, and we consult with owners on how to increase the returns on their investments.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "housing_operator",
+                "quote": "Property management is our only business. We lease homes and apartments, we manage properties, and we consult with owners on how to increase the returns on their investments. You can expect our team to be professional, responsive, and proactive. We bring innovative thinking to every system, and we are constantly improving processes to make them more efficient.",
+                "source_id": "S1"
+              }
+            ],
+            "reason": "The company explicitly describes residential ownership, management or operations."
+          }
+        },
+        {
+          "id": "holdout-16",
+          "company": "Peabody Residential",
+          "expected": "housing_operator",
+          "before": "housing_operator",
+          "after": "housing_operator",
+          "correct": true,
+          "classification": {
+            "kind": "housing_operator",
+            "label": "Housing operator",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "housing_operator",
+                "quote": "With 20+ years of experience and impressive stats like a 98.75% on-time payment rate, Peabody Residential provides full-service Property Management for single-family homes.",
+                "source_id": "S4"
+              }
+            ],
+            "reason": "The company explicitly describes residential ownership, management or operations."
+          }
+        },
+        {
+          "id": "holdout-17",
+          "company": "Mavi Unlimited Property Management",
+          "expected": "housing_operator",
+          "before": "unresolved",
+          "after": "unresolved",
+          "correct": false,
+          "classification": {
+            "kind": "unclassified",
+            "label": "Operating model unconfirmed",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [],
+            "reason": "No explicit residential operating claim was found."
+          }
+        },
+        {
+          "id": "holdout-18",
+          "company": "Keyrenter Denver",
+          "expected": "housing_operator",
+          "before": "unresolved",
+          "after": "unresolved",
+          "correct": false,
+          "classification": {
+            "kind": "unclassified",
+            "label": "Operating model unconfirmed",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [],
+            "reason": "No explicit residential operating claim was found."
+          }
+        },
+        {
+          "id": "holdout-19",
+          "company": "EPOC Property Management",
+          "expected": "housing_operator",
+          "before": "housing_operator",
+          "after": "housing_operator",
+          "correct": true,
+          "classification": {
+            "kind": "housing_operator",
+            "label": "Housing operator",
+            "conflict": false,
+            "mixed_business": true,
+            "evidence": [
+              {
+                "kind": "housing_operator",
+                "quote": "Multi-Family properties are becoming increasingly attractive for investors, so make sure you work with a team that specializes in Multi-Family property management.",
+                "source_id": "S3"
+              },
+              {
+                "kind": "housing_operator",
+                "quote": "A professional property management company can make your multi-unit dwelling a successful investment. Multi-Family properties are becoming increasingly attractive for investors, so make sure you work with a team that specializes in Multi-Family property management. Our services include everything from maintenance repairs to tenant screening, leases, collecting rent, and everything in between. Our management services include:",
+                "source_id": "S3"
+              },
+              {
+                "kind": "advisor",
+                "quote": "Property managers will help you stay in tune with maintenance and renovation needs to ensure that your multi-family property stands out. EPOC Property Management offers multifamily property management services in Greensboro that will put you at ease knowing the property is in good hands. If you own a duplex, townhouse, or any other multi-unit home in Greensboro surrounding communities, contact us today! STRATEGIC CONSULTING",
+                "source_id": "S3"
+              }
+            ],
+            "reason": "The company explicitly describes residential ownership, management or operations."
+          }
+        },
+        {
+          "id": "holdout-20",
+          "company": "Real Property Management Richmond Metro",
+          "expected": "housing_operator",
+          "before": "housing_operator",
+          "after": "housing_operator",
+          "correct": true,
+          "classification": {
+            "kind": "housing_operator",
+            "label": "Housing operator",
+            "conflict": false,
+            "mixed_business": true,
+            "evidence": [
+              {
+                "kind": "housing_operator",
+                "quote": "Real Property Management is the trusted leader in reliable single-family and small multi-family residences. With over 30 years of experience and 250 plus offices nationwide, local expertise and a highly-trained responsive team, Real Property Management manages tens of thousands of properties for individuals, investors and institutions throughout the country.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "housing_operator",
+                "quote": "We are 100% focused on providing quality residential property management service to property owners and residents.",
+                "source_id": "S3"
+              },
+              {
+                "kind": "service_provider",
+                "quote": "As a real estate service provider, we are attuned to the needs of our various clients and customers.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "service_provider",
+                "quote": "As a real estate service provider, we are attuned to the needs of our various clients and customers. Accidental landlords, small and large investors, realtors, and tenants all trust Real Property Management. You should too! Please call or email us to find out more about our services and our current offerings.",
+                "source_id": "S1"
+              }
+            ],
+            "reason": "The company explicitly describes residential ownership, management or operations."
+          }
+        },
+        {
+          "id": "holdout-21",
+          "company": "MRI Software",
+          "expected": "non_operator",
+          "before": "non_operator",
+          "after": "non_operator",
+          "correct": true,
+          "classification": {
+            "kind": "software_vendor",
+            "label": "Software provider",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "software_vendor",
+                "quote": "Multifamily Property Management Software | MRI Software",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Rent Payments Resident rent payments and rewardsID Verification Real-time ID checks across the resident journeyIncome Verification Automated income verification for applicantsManaged Renters Insurance Renters insurance compliance, fully managedILS Syndication Unit pricing and availability, synced everywhereDocument eSignatures Purpose-built signing for real estate documentsEngage Overview Leasing & renter engagement suiteMultifamily CRM Central hub for leads, leasing, and residentsLeasing & Resident Portal Listings, applications, and resident self-serviceFraud & Resident Screening Complete applicant background and credit checksRent Payments Resident rent payments and rewardsID Verification Real-time ID checks across the resident journeyIncome Verification Automated income verification for applicantsManaged Renters Insurance Renters insurance compliance, fully managedILS Syndication Unit pricing and availability, synced everywhereDocument eSignatures Purpose-built signing for real estate documentsEngage Overview Leasing & renter engagement suiteMultifamily CRM Central hub for leads, leasing, and residentsLeasing & Resident Portal Listings, applications, and resident self-serviceFraud & Resident Screening Complete applicant background and credit checksRent Payments Resident rent payments and rewardsID Verification Real-time ID checks across the resident journey MRI ENGAGE · MULTIFAMILY PROPERTY MANAGEMENT SOFTWARE One real estate platform that runs everything and connects to anything.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Rigid software forces multifamily organizations to adapt to it.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Rigid software forces multifamily organizations to adapt to it. Ours adapts to you, built on real estate expertise first. AI is built in, not bolted on, connecting leasing, resident engagement, accounting, property management, and intelligence in one ecosystem.",
+                "source_id": "S1"
+              }
+            ],
+            "reason": "Sources describe services supplied to property companies; this does not establish property operations."
+          }
+        },
+        {
+          "id": "holdout-22",
+          "company": "ResMan",
+          "expected": "non_operator",
+          "before": "non_operator",
+          "after": "non_operator",
+          "correct": true,
+          "classification": {
+            "kind": "software_vendor",
+            "label": "Software provider",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "software_vendor",
+                "quote": "ResMan | Property Management Software Platform",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "\"As we push into a centralized leasing model, we've had to be very intentional about our software stack.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "advisor",
+                "quote": "ResMan’s industry-leading property management platform helps multifamily and affordable housing managers operate more efficiently and deliver higher rates of return to investors.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Multifamily Property Management Software",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "\"As we push into a centralized leasing model, we've had to be very intentional about our software stack. Our decentralized operating model covers 25,000 units. For this, we needed a strong partner who could quickly turn around integrations and essentially be a partner for us as we pioneer this new operating model.”",
+                "source_id": "S1"
+              }
+            ],
+            "reason": "Sources describe services supplied to property companies; this does not establish property operations."
+          }
+        },
+        {
+          "id": "holdout-23",
+          "company": "Rentec Direct",
+          "expected": "non_operator",
+          "before": "non_operator",
+          "after": "non_operator",
+          "correct": true,
+          "classification": {
+            "kind": "software_vendor",
+            "label": "Software provider",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "software_vendor",
+                "quote": "Property Management Software | Rentec Direct®",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Although Rentec Direct includes all major features and functionality available in other software options, Rentec Direct purposefully maintains a lower price point than many competitors because Rentec Direct believes that all landlords and property managers should have access to the best software available regardless of their portfolio size.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Accounting software designed to help you manage your properties and tenants Operations Features",
+                "source_id": "S1"
+              }
+            ],
+            "reason": "Sources describe services supplied to property companies; this does not establish property operations."
+          }
+        },
+        {
+          "id": "holdout-24",
+          "company": "RentRedi",
+          "expected": "non_operator",
+          "before": "non_operator",
+          "after": "non_operator",
+          "correct": true,
+          "classification": {
+            "kind": "software_vendor",
+            "label": "Software provider",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "software_vendor",
+                "quote": "RentRedi – Property Management Software for Landlords | Free to Start",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Everything you need to know about RentRedi’s property management software.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Real Property Management vs. DIY Landlord Software",
+                "source_id": "S1"
+              }
+            ],
+            "reason": "Sources describe services supplied to property companies; this does not establish property operations."
+          }
+        },
+        {
+          "id": "holdout-25",
+          "company": "TurboTenant",
+          "expected": "non_operator",
+          "before": "non_operator",
+          "after": "non_operator",
+          "correct": true,
+          "classification": {
+            "kind": "software_vendor",
+            "label": "Software provider",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "software_vendor",
+                "quote": "TurboTenant: Property Management Software for Landlords",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "FeaturesClose Features Open Features Software Rental Advertising List on 25+ sites and find qualified renters, for freeRental Applications Better applications, better tenantsTenant Screening Free background, credit, and eviction checksRent Collection Automate rent with autopay and late feesLease Agreements Build, e-sign and store state-specific leasesRental Property Maintenance Submit and track repair requests onlineRental Accounting Track income and expenses by property Upgrade to PremiumView all features Services Tenant Placement Services Marketing, showings, and screening done for youProfessional Listing Photos Photos that get your rental noticed faster, includedSelf-Guided Showings Pre-qualified renters tour on their schedule, securelyProperty Management Services Full rental management - one flat fee, not a cut of rentMaintenance Coordination Vendor sourcing and repair coordination, no markupsRenter Communications Every renter touchpoint handled by us, visible to you LandlordsClose Landlords Open Landlords Tools and CalculatorsVideosEducationPodcastsLandlord-Tenant LawsDownload Landlord App View All Education » Free Instant Lease Audit Our free Lease Agreement Audit tool powered by AI analyzes your lease for legal compliance within 15 seconds!",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "TurboTenant is property management services and software for landlords who want more of their time back.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "For the hands-on landlord, TurboTenant puts professional-grade software in their hands to centralize rental marketing, rental applications, tenant screenings, state-specific lease agreements, rent collection and daily landlord workflows without relying on filing cabinets and spreadsheets.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Self-manage with free software, or hand it off for one flat fee.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "TurboTenant is property management services and software for landlords who want more of their time back. For the hands-off landlord, TurboTenant provides comprehensive property management services that help landlords fill vacancies faster, find great tenants, and avoid evictions.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "For the hands-on landlord, TurboTenant puts professional-grade software in their hands to centralize rental marketing, rental applications, tenant screenings, state-specific lease agreements, rent collection and daily landlord workflows without relying on filing cabinets and spreadsheets. Is TurboTenant free?",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Find tenants, manage finances, and stay protected, all in one place. Self-manage with free software, or hand it off for one flat fee.",
+                "source_id": "S1"
+              }
+            ],
+            "reason": "Sources describe services supplied to property companies; this does not establish property operations."
+          }
+        },
+        {
+          "id": "holdout-26",
+          "company": "HappyCo",
+          "expected": "non_operator",
+          "before": "non_operator",
+          "after": "non_operator",
+          "correct": true,
+          "classification": {
+            "kind": "software_vendor",
+            "label": "Software provider",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "software_vendor",
+                "quote": "Serving over 50,000 multifamily property leaders across 5.5 million units, HappyCo integrates with major property management systems, including Yardi, MRI Software, RealPage, Entrata, and ResMan.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "San Diego CA – November 13, 2025 – HappyCo, a leading provider of maintenance operations software for the multifamily real estate sector, today debuted Voice Assist – AI-powered voice capture that transforms field observations into automated workflows and predictive intelligence.‍",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Serving over 50,000 multifamily property leaders across 5.5 million units, HappyCo integrates with major property management systems, including Yardi, MRI Software, RealPage, Entrata, and ResMan. Its open API marketplace enables single-click access to a growing network of prop-tech partners.",
+                "source_id": "S1"
+              }
+            ],
+            "reason": "Sources describe services supplied to property companies; this does not establish property operations."
+          }
+        },
+        {
+          "id": "holdout-27",
+          "company": "Property Meld",
+          "expected": "non_operator",
+          "before": "non_operator",
+          "after": "non_operator",
+          "correct": true,
+          "classification": {
+            "kind": "software_vendor",
+            "label": "Software provider",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "software_vendor",
+                "quote": "Property Meld | Property Maintenance Software",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Read more ## Integration Partners Property Meld integrates with some of property managements’ biggest software.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Introducing a property maintenance software designed for property managers and their teams to kick maintenance in the nuts… and bolts.",
+                "source_id": "S1"
+              }
+            ],
+            "reason": "Sources describe services supplied to property companies; this does not establish property operations."
+          }
+        },
+        {
+          "id": "holdout-28",
+          "company": "STAG Industrial",
+          "expected": "non_operator",
+          "before": "non_operator",
+          "after": "non_operator",
+          "correct": true,
+          "classification": {
+            "kind": "advisor",
+            "label": "Advisor / consultant",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "advisor",
+                "quote": "Weger provides consulting services to real estate and other companies.",
+                "source_id": "S2"
+              },
+              {
+                "kind": "advisor",
+                "quote": "Jacoby served as an independent consultant providing real estate finance, development and disposition related services.",
+                "source_id": "S2"
+              },
+              {
+                "kind": "commercial_operator",
+                "quote": "STAG is a real estate investment company that acquires, develops, owns and manages industrial properties throughout the United States",
+                "source_id": "S4"
+              }
+            ],
+            "reason": "Sources describe services supplied to property companies; this does not establish property operations."
+          }
+        },
+        {
+          "id": "holdout-29",
+          "company": "First Industrial Realty Trust",
+          "expected": "non_operator",
+          "before": "unresolved",
+          "after": "unresolved",
+          "correct": false,
+          "classification": {
+            "kind": "unclassified",
+            "label": "Operating model unconfirmed",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [],
+            "reason": "No explicit residential operating claim was found."
+          }
+        },
+        {
+          "id": "holdout-30",
+          "company": "eXp Realty",
+          "expected": "non_operator",
+          "before": "unresolved",
+          "after": "unresolved",
+          "correct": false,
+          "classification": {
+            "kind": "unclassified",
+            "label": "Operating model unconfirmed",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [],
+            "reason": "No explicit residential operating claim was found."
+          }
+        }
+      ]
+    },
+    {
+      "source": "test-data/fresh-12-first-pass-2026-10-01T15-50-38-510Z.json",
+      "source_sha256": "d760e62c98795ca3e20dd55ffda20f1c3c4ecb69b653848e1d63c65a042a6ac9",
+      "live_deployment": "version 85 / 7d13e21d4ffd7449d44135ee914cfcd0d547c6ac",
+      "total": 12,
+      "correct": 6,
+      "wrong": 0,
+      "unresolved": 6,
+      "changes": [
+        {
+          "id": "fresh-11",
+          "company": "Alpine Property Management",
+          "expected": "housing_operator",
+          "before": "non_operator",
+          "after": "unresolved",
+          "correct": false,
+          "classification": {
+            "kind": "unclassified",
+            "label": "Operating model unconfirmed",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [],
+            "reason": "No explicit residential operating claim was found."
+          }
+        }
+      ],
+      "rows": [
+        {
+          "id": "fresh-01",
+          "company": "Gables Residential",
+          "expected": "housing_operator",
+          "before": "housing_operator",
+          "after": "housing_operator",
+          "correct": true,
+          "classification": {
+            "kind": "housing_operator",
+            "label": "Housing operator",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "housing_operator",
+                "quote": "Established in 1982, Gables Residential is a privately held owner and developer of multifamily and mixed-use communities.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "housing_operator",
+                "quote": "We own or manage nearly 28,000 apartment homes and 750,000 square feet of retail.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "housing_operator",
+                "quote": "Established in 1982, Gables Residential is a privately held owner and developer of multifamily and mixed-use communities. We own or manage nearly 28,000 apartment homes and 750,000 square feet of retail.",
+                "source_id": "S1"
+              }
+            ],
+            "reason": "The company explicitly describes residential ownership, management or operations."
+          }
+        },
+        {
+          "id": "fresh-02",
+          "company": "RedSail Property Management",
+          "expected": "housing_operator",
+          "before": "unresolved",
+          "after": "unresolved",
+          "correct": false,
+          "classification": {
+            "kind": "unclassified",
+            "label": "Operating model unconfirmed",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [],
+            "reason": "No explicit residential operating claim was found."
+          }
+        },
+        {
+          "id": "fresh-03",
+          "company": "Rentvine",
+          "expected": "non_operator",
+          "before": "non_operator",
+          "after": "non_operator",
+          "correct": true,
+          "classification": {
+            "kind": "software_vendor",
+            "label": "Software provider",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "software_vendor",
+                "quote": "Property Management Software | Rentvine",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Rentvine is trust accounting software built for professional property managers running growing residential portfolios, teams who've outgrown Buildium or spreadsheets but aren't ready for enterprise overhead.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "YoutubeTwitterFacebookLinkedInInstagram Property management software worth switching for.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Rentvine is the leader in trust accounting among property management software providers.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "AI Most property management AI got bolted onto software that wasn't built for it.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Rentvine is trust accounting software built for professional property managers running growing residential portfolios, teams who've outgrown Buildium or spreadsheets but aren't ready for enterprise overhead. AI is built into the core workflows, not bolted on: it drafts owner statements, triages work orders, and catches mis-coded transactions before close. Whether you manage single-family, multifamily, or a mixed portfolio, Rentvine scales with you without breaking trust accounting along the way. Can I customize or disable parts of the platform?",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "YoutubeTwitterFacebookLinkedInInstagram Property management software worth switching for. AI built in, trust accounting made easy, and support that actually answers. The #1-rated platform.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Accounting We built trust accounting the hard way, with no plug-ins and no manual fixes papering over broken math. Rentvine is the leader in trust accounting among property management software providers. Explore trust accounting",
+                "source_id": "S1"
+              }
+            ],
+            "reason": "Sources describe services supplied to property companies; this does not establish property operations."
+          }
+        },
+        {
+          "id": "fresh-04",
+          "company": "Berkshire Residential Investments",
+          "expected": "housing_operator",
+          "before": "unresolved",
+          "after": "unresolved",
+          "correct": false,
+          "classification": {
+            "kind": "unclassified",
+            "label": "Operating model unconfirmed",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [],
+            "reason": "No explicit residential operating claim was found."
+          }
+        },
+        {
+          "id": "fresh-05",
+          "company": "RentPros Property Management",
+          "expected": "housing_operator",
+          "before": "unresolved",
+          "after": "unresolved",
+          "correct": false,
+          "classification": {
+            "kind": "unclassified",
+            "label": "Operating model unconfirmed",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [],
+            "reason": "No explicit residential operating claim was found."
+          }
+        },
+        {
+          "id": "fresh-06",
+          "company": "Hemlane",
+          "expected": "non_operator",
+          "before": "non_operator",
+          "after": "non_operator",
+          "correct": true,
+          "classification": {
+            "kind": "software_vendor",
+            "label": "Software provider",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "software_vendor",
+                "quote": "Property Management Software | Hemlane",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Find better tenants, automate the day-to-day, and get help when you need it.### Property Managers Grow your portfolio with the right software and services.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "broker",
+                "quote": "Whether you’re an owner, property manager, real estate agent, or brokerage, Hemlane provides a professional, stress-free way to manage your rentals with AI and real human support.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "With a property management software, like Hemlane, you can manage your rentals for as little as $40/month.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "How does rental property management software simplify financial tracking for landlords?",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Rental property management software simplifies financial tracking for landlords by automating many tasks.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "The online rental property management software generates detailed financial reports, including income statements and cash flow statements, providing insights into rental property performance and aiding in future planning.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Overall, rental property management software helps landlords manage finances more effectively and efficiently.",
+                "source_id": "S1"
+              }
+            ],
+            "reason": "Sources describe services supplied to property companies; this does not establish property operations."
+          }
+        },
+        {
+          "id": "fresh-07",
+          "company": "Mill Creek Residential",
+          "expected": "housing_operator",
+          "before": "housing_operator",
+          "after": "housing_operator",
+          "correct": true,
+          "classification": {
+            "kind": "housing_operator",
+            "label": "Housing operator",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "housing_operator",
+                "quote": "Mill Creek Residential has one of the most experienced and well-respected construction teams in the rental housing industry. Our construction teams live and work in the markets in which we operate, providing unparalleled local expertise, and an extensive network of local contractors, vendors, and suppliers. Additionally, our quality control systems include strict guidelines for budget management, cost control, safety, and communication.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "housing_operator",
+                "quote": "Mill Creek Residential develops, builds, acquires and operates high-quality rental communities in desirable locations, coast to coast.",
+                "source_id": "S3"
+              }
+            ],
+            "reason": "The company explicitly describes residential ownership, management or operations."
+          }
+        },
+        {
+          "id": "fresh-08",
+          "company": "Gulf Coast Property Management",
+          "expected": "housing_operator",
+          "before": "unresolved",
+          "after": "unresolved",
+          "correct": false,
+          "classification": {
+            "kind": "unclassified",
+            "label": "Operating model unconfirmed",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [],
+            "reason": "No explicit residential operating claim was found."
+          }
+        },
+        {
+          "id": "fresh-09",
+          "company": "VTS",
+          "expected": "non_operator",
+          "before": "unresolved",
+          "after": "unresolved",
+          "correct": false,
+          "classification": {
+            "kind": "unclassified",
+            "label": "Operating model unconfirmed",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [],
+            "reason": "No explicit residential operating claim was found."
+          }
+        },
+        {
+          "id": "fresh-10",
+          "company": "Monarch Investment and Management Group",
+          "expected": "housing_operator",
+          "before": "housing_operator",
+          "after": "housing_operator",
+          "correct": true,
+          "classification": {
+            "kind": "housing_operator",
+            "label": "Housing operator",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "housing_operator",
+                "quote": "Monarch specializes in the acquisition and management of income-producing real estate, particularly multifamily apartment communities.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "housing_operator",
+                "quote": "Monarch specializes in the acquisition and management of income-producing real estate, particularly multifamily apartment communities. Through these real estate investment vehicles, we provide investors with the opportunity for quarterly income as well as an excellent long-term return on investment.",
+                "source_id": "S1"
+              }
+            ],
+            "reason": "The company explicitly describes residential ownership, management or operations."
+          }
+        },
+        {
+          "id": "fresh-11",
+          "company": "Alpine Property Management",
+          "expected": "housing_operator",
+          "before": "non_operator",
+          "after": "unresolved",
+          "correct": false,
+          "classification": {
+            "kind": "unclassified",
+            "label": "Operating model unconfirmed",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [],
+            "reason": "No explicit residential operating claim was found."
+          }
+        },
+        {
+          "id": "fresh-12",
+          "company": "Avail",
+          "expected": "non_operator",
+          "before": "non_operator",
+          "after": "non_operator",
+          "correct": true,
+          "classification": {
+            "kind": "software_vendor",
+            "label": "Software provider",
+            "conflict": false,
+            "mixed_business": false,
+            "evidence": [
+              {
+                "kind": "software_vendor",
+                "quote": "Avail | Landlord Software & Property Management Software for Rental Property Management",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Check out the top free property management software platforms.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Log InSign Up Manage your rentals like a pro with all-in-one landlord and property management software.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Looking for tools to streamline rental property management? Check out the top free property management software platforms. Get feature breakdowns, pricing, and more.",
+                "source_id": "S1"
+              },
+              {
+                "kind": "software_vendor",
+                "quote": "Contact Avail | Avail Landlord Software",
+                "source_id": "S2"
+              }
+            ],
+            "reason": "Sources describe services supplied to property companies; this does not establish property operations."
+          }
+        }
+      ]
+    }
+  ]
+}

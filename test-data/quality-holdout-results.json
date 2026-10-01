@@ -1,0 +1,2654 @@
+{
+  "started_at": "2026-09-30T23:22:15.600Z",
+  "updated_at": "2026-09-30T23:30:22.963Z",
+  "mode": "Anonymous first pass; one workspace; no provider-counter resets, keys, manual rescue URLs or retries.",
+  "results": [
+    {
+      "id": "Q01",
+      "company": "Bell Partners",
+      "elapsed_ms": 26309,
+      "expected": {
+        "sector": "housing_operator",
+        "role_contains": "chief operating officer",
+        "role_source": "https://bellpartnersinc.com/senior-leadership/",
+        "source": "https://bellpartnersinc.com/overview/"
+      },
+      "actual": "housing_operator",
+      "classification_correct": true,
+      "abstained": false,
+      "progress": {
+        "kind": "finished",
+        "label": "Research finished",
+        "detail": "Review the sourced facts below. Completed checks do not establish buying intent."
+      },
+      "roles": [
+        {
+          "role": "Chief Operating Officer",
+          "name": "Cindy Clare",
+          "url": "https://bellpartnersinc.com/senior-leadership/",
+          "quote": "Cindy Clare Chief Operating Officer"
+        }
+      ],
+      "role_check": true,
+      "score": 100,
+      "coverage": 100,
+      "source_count": 4,
+      "brief": {
+        "summary": {
+          "text": "Bell Partners Grid $12.1 VALUE OF REALIZED RESIDENTIAL TRANSACTIONS SINCE 2002 $10.5B Gross Asset Value Under Management Bell Partners Headline Analytics Data-Driven Results",
+          "source_ids": [
+            "S1"
+          ]
+        },
+        "portfolio": {
+          "value": "approximately 65,000 apartment homes",
+          "unit": "homes",
+          "quote": "Today, we manage a portfolio of approximately 65,000 apartment homes across the United States, with approximately 1,800 associates and nine corporate offices.",
+          "source_id": "S4",
+          "as_of": null,
+          "rank": 3,
+          "scope": "U.S. company portfolio",
+          "alternatives": []
+        },
+        "footprint": {
+          "value": "United States",
+          "quote": "Today, we manage a portfolio of approximately 65,000 apartment homes across the United States, with approximately 1,800 associates and nine corporate offices.",
+          "source_id": "S4",
+          "as_of": null
+        },
+        "context": []
+      },
+      "draft": "Hi Cindy,\n\nThanks for the context on prospect follow-up.\n\nEliseAI can respond to routine prospect questions and continue the follow-up between conversations with your team.\n\nIs leasing follow-up coordinated centrally, or separately by each property team?\n\nBest,\n[Your name]",
+      "draft_basis": [
+        {
+          "usage": "workflow_context",
+          "source_id": "S4",
+          "quote": "Founded in 1976, Bell Partners is one of the nation’s largest apartment investment and property management firms. Today, we manage a portfolio of approximately 65,000 apartment homes across the United States, with approximately 1,800 associates and nine corporate offices.\n\nSeptember 25, 2026 Management Diaries: Cindy Clare on Smarter Multifamily Budgets\n\nWith a clear strategy, a disciplined focus, and competitive advantages in Investment Management, Property Management and Construction Management, we want to be the long-term partner of choice for multifamily housing. As one of the leading apartment managers in the U.S., we maintain a nationwide geographic footprint with increased focus and scale in our carefully selected target regions.\n\nVIEW ALL NEWS September 25, 2026 Management Diaries: Cindy Clare on Smarter Multifamily Budgets\n\nRead More September 16, 2026 Bell Partners Adds 501 Apartment Homes in the Bay Area and Washington D.C. Metro\n\nSupport Services Construction Management Property Management Investor Relations Investments Overview Overview Investments Investor Relations Property Management Construction Management Support Services\n\nBusiness Services Overview Investments Investor Relations Property Management Construction Services Support Services\n\nTo create value for our residents, partners, and associates by practicing sustainability responsibly, prioritizing belonging, and operating with integrity.",
+          "source": {
+            "id": "S4",
+            "url": "https://bellpartnersinc.com/overview",
+            "host": "bellpartnersinc.com",
+            "title": "Bell Partners Provides High Quality Services With Outstanding Results",
+            "provider": "Jina Reader",
+            "excerpt": "Founded in 1976, Bell Partners is one of the nation’s largest apartment investment and property management firms. Today, we manage a portfolio of approximately 65,000 apartment homes across the United States, with approximately 1,800 associates and nine corporate offices.\n\nSeptember 25, 2026 Management Diaries: Cindy Clare on Smarter Multifamily Budgets\n\nWith a clear strategy, a disciplined focus, and competitive advantages in Investment Management, Property Management and Construction Management, we want to be the long-term partner of choice for multifamily housing. As one of the leading apartment managers in the U.S., we maintain a nationwide geographic footprint with increased focus and scale in our carefully selected target regions.\n\nVIEW ALL NEWS September 25, 2026 Management Diaries: Cindy Clare on Smarter Multifamily Budgets\n\nRead More September 16, 2026 Bell Partners Adds 501 Apartment Homes in the Bay Area and Washington D.C. Metro\n\nSupport Services Construction Management Property Management Investor Relations Investments Overview Overview Investments Investor Relations Property Management Construction Management Support Services\n\nBusiness Services Overview Investments Investor Relations Property Management Construction Services Support Services\n\nTo create value for our residents, partners, and associates by practicing sustainability responsibly, prioritizing belonging, and operating with integrity.",
+            "retrieved_at": "2026-09-30T23:22:42.097Z",
+            "published_at": null,
+            "cached": false,
+            "name_matched": true,
+            "identity": {
+              "version": 1,
+              "status": "confirmed",
+              "reason": "Company name is corroborated on the supplied domain.",
+              "signals": [
+                "supplied_domain",
+                "name_in_page_title",
+                "name_in_source_text",
+                "company_self_description"
+              ]
+            },
+            "focus_quotes": [],
+            "type": "Company website",
+            "rank": 3
+          }
+        },
+        {
+          "usage": "professional_role",
+          "sentence": "Your company’s website lists you as Chief Operating Officer.",
+          "question": "Is leasing follow-up coordinated centrally, or separately by each property team?",
+          "quote": "Cindy Clare Chief Operating Officer",
+          "source": {
+            "url": "https://bellpartnersinc.com/senior-leadership/",
+            "title": "Meet the Senior Management Team Behind Bell Partners",
+            "provider": "Company website",
+            "type": "Professional role",
+            "retrieved_at": "2026-09-30T23:22:18.748Z",
+            "published_at": null,
+            "excerpt": "Cindy Clare Chief Operating Officer"
+          }
+        }
+      ],
+      "words": 39,
+      "questions": 1,
+      "property": {
+        "status": "incomplete",
+        "message": "Paste the full property address to locate it. Company offices are shown separately."
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://bellpartnersinc.com/investor-relations",
+          "host": "bellpartnersinc.com",
+          "title": "Bell Partners Has Aided Property Investors for Over 40 Years",
+          "provider": "Jina Reader",
+          "excerpt": "September 25, 2026 Management Diaries: Cindy Clare on Smarter Multifamily Budgets\n\nBell Partners prides itself on building long-term relationships, delivering great results, and providing transparent communication to investors. Over our 50-year history, we have grown to become one of the largest and most experienced multifamily investment and management platforms in the US. Since creating our fund platform in 2006, Bell Partners has closed nine funds with total equity commitments of $3.5 billion that has been launched and substantially invested on behalf of institutional and high net worth investors. As of June 2026, the Company oversees an investment management portfolio totaling approximately $10.5 billion in gross asset value.\n\nSince 2014 on a quarterly basis, Bell Partners has ranked in the top two Preqin performance quartiles 74% of the time. Bell Partners Grid $12.1 VALUE OF REALIZED RESIDENTIAL TRANSACTIONS SINCE 2002 $10.5B Gross Asset Value Under Management Bell Partners Headline Analytics Data-Driven Results\n\nSupport Services Construction Management Property Management Investor Relations Investments Overview Overview Investments Investor Relations Property Management Construction Management Support Services\n\nBusiness Services Overview Investments Investor Relations Property Management Construction Services Support Services\n\nCareers Contact Us Resident Login Investor Login Bell Partners Header Investor Relations Bell Partners Headline OVERVIEW For 50 years, our people and vertically integrated operating platform have driven performance.\n\nJoe Cannon Chief Investment Management Officer\n\nMeghan Burke Senior Vice President, Investment Management",
+          "retrieved_at": "2026-09-30T23:22:33.855Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Investor relations",
+          "rank": 0
+        },
+        {
+          "id": "S2",
+          "url": "https://bellpartnersinc.com/2026/management-diaries-cindy-clare-on-smarter-multifamily-budgets/",
+          "host": "bellpartnersinc.com",
+          "title": "Management Diaries: Cindy Clare on Smarter Multifamily Budgets | Bell Partners",
+          "provider": "Jina Reader",
+          "excerpt": "September 25, 2026 Management Diaries: Cindy Clare on Smarter Multifamily Budgets\n\nBack To News September 25, 2026 Management Diaries: Cindy Clare on Smarter Multifamily Budgets\n\nIn a podcast published this week, Bell Chief Operating Officer Cindy Clare discusses what makes a budget credible and which expenses owners are likely to scrutinize most. She explains why the strongest budgets start with understanding what the owner is trying to achieve and what to do when their rent-growth expectations are a stretch for the market. Listen to Management Diaries: Cindy Clare on Smarter Multifamily Budgets\n\nSupport Services Construction Management Property Management Investor Relations Investments Overview Overview Investments Investor Relations Property Management Construction Management Support Services\n\nBusiness Services Overview Investments Investor Relations Property Management Construction Services Support Services\n\nBell Partners Recognized as a 2025 Top Employer by National Apartment Association",
+          "retrieved_at": "2026-09-30T23:22:25.509Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company services",
+          "rank": 2
+        },
+        {
+          "id": "S3",
+          "url": "https://bellpartnersinc.com/",
+          "host": "bellpartnersinc.com",
+          "title": "Bell Partners | A Leading Multifamily Asset Management Firm",
+          "provider": "Jina Reader",
+          "excerpt": "September 25, 2026 Management Diaries: Cindy Clare on Smarter Multifamily Budgets\n\nSupport Services Construction Management Property Management Investor Relations Investments Overview Overview Investments Investor Relations Property Management Construction Management Support Services\n\nBusiness Services Overview Investments Investor Relations Property Management Construction Services Support Services\n\nBell Partners Recognized as a 2025 Top Employer by National Apartment Association",
+          "retrieved_at": "2026-09-30T23:22:17.850Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        },
+        {
+          "id": "S4",
+          "url": "https://bellpartnersinc.com/overview",
+          "host": "bellpartnersinc.com",
+          "title": "Bell Partners Provides High Quality Services With Outstanding Results",
+          "provider": "Jina Reader",
+          "excerpt": "Founded in 1976, Bell Partners is one of the nation’s largest apartment investment and property management firms. Today, we manage a portfolio of approximately 65,000 apartment homes across the United States, with approximately 1,800 associates and nine corporate offices.\n\nSeptember 25, 2026 Management Diaries: Cindy Clare on Smarter Multifamily Budgets\n\nWith a clear strategy, a disciplined focus, and competitive advantages in Investment Management, Property Management and Construction Management, we want to be the long-term partner of choice for multifamily housing. As one of the leading apartment managers in the U.S., we maintain a nationwide geographic footprint with increased focus and scale in our carefully selected target regions.\n\nVIEW ALL NEWS September 25, 2026 Management Diaries: Cindy Clare on Smarter Multifamily Budgets\n\nRead More September 16, 2026 Bell Partners Adds 501 Apartment Homes in the Bay Area and Washington D.C. Metro\n\nSupport Services Construction Management Property Management Investor Relations Investments Overview Overview Investments Investor Relations Property Management Construction Management Support Services\n\nBusiness Services Overview Investments Investor Relations Property Management Construction Services Support Services\n\nTo create value for our residents, partners, and associates by practicing sustainability responsibly, prioritizing belonging, and operating with integrity.",
+          "retrieved_at": "2026-09-30T23:22:42.097Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text",
+              "company_self_description"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        }
+      ],
+      "company_stale": false,
+      "retry_code": null,
+      "contact_status": "complete",
+      "diagnostics": {
+        "candidates": 2,
+        "accepted": 2,
+        "rejections": [],
+        "pages_checked": 3,
+        "pages_reused": 0,
+        "sitemaps_checked": 0,
+        "source_failures": [],
+        "paid_requests": 0
+      }
+    },
+    {
+      "id": "Q02",
+      "company": "Waterton",
+      "elapsed_ms": 36694,
+      "expected": {
+        "sector": "housing_operator",
+        "role_contains": "ceo",
+        "role_source": "https://www.waterton.com/managementteam",
+        "source": "https://www.waterton.com/managementteam"
+      },
+      "actual": "unresolved",
+      "classification_correct": false,
+      "abstained": true,
+      "progress": {
+        "kind": "limited",
+        "label": "Research finished · limited evidence",
+        "detail": "Available facts are shown. Still unverified: company detail.",
+        "action": "View research details"
+      },
+      "roles": [
+        {
+          "role": "CEO, Chairman & Co-Founder",
+          "name": "David Schwartz",
+          "url": "https://www.waterton.com/managementteam",
+          "quote": "David Schwartz CEO, Chairman & Co-Founder"
+        }
+      ],
+      "role_check": true,
+      "score": null,
+      "coverage": 0,
+      "source_count": 2,
+      "brief": {
+        "summary": null,
+        "portfolio": null,
+        "footprint": null,
+        "context": []
+      },
+      "draft": "Hi David,\n\nThanks for the context on prospect follow-up.\n\nHow does your team handle prospect follow-up today?\n\nBest,\n[Your name]",
+      "draft_basis": [],
+      "words": 20,
+      "questions": 1,
+      "property": {
+        "status": "incomplete",
+        "message": "Paste the full property address to locate it. Company offices are shown separately."
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.waterton.com/managementteam",
+          "host": "waterton.com",
+          "title": "Waterton Residential | Team Members | MultifamilyTeam MembersEqual housing opportunity",
+          "provider": "Direct company website",
+          "excerpt": "Senior Vice President, Construction Management - Multifamily\n\nThe camaraderie and real estate investment expertise of Waterton’s principals sets the tone for our group of collaborative, experienced professionals. Each member of the senior team, on average, has more than 30 years of real estate investment and management experience.\n\nManaging Partner, Property Management\n\nMs. Brock joined Waterton in 2021 and serves as managing partner, property management. In this role, she leads the firm’s property management opera...\n\nManaging Partner, Chief Investment Officer\n\nMr. Gray joined Waterton in 2025 and serves as managing partner, chief investment officer. In this role he is responsible oversight of the firm’s acqu...\n\nMr. Harris joined Waterton in 2024 and serves as managing partner and general counsel. In this role, he is responsible for leading the legal, risk ...\n\nManaging Partner, Portfolio Management",
+          "retrieved_at": "2026-09-30T23:23:18.815Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company services",
+          "rank": 2
+        },
+        {
+          "id": "S2",
+          "url": "https://www.waterton.com/",
+          "host": "waterton.com",
+          "title": "Waterton Residential, LLC | Apartments in Chicago, IL | RENTCafeEqual housing opportunity",
+          "provider": "Direct company website",
+          "excerpt": "Waterton is a real estate investment and property management company with a focus on U.S. multifamily and hospitality properties.Waterton executes value add strategies and manages a national portfolio of properties on behalf of institutional investors, family offices and financial institutions.\n\nSpecializing in renovations and operational improvements through our vertically integrated platform and hospitality-inspired service culture.\n\nFounded in 1995, our senior management team averages 30+ years of experience.\n\nAs of June 30, 2026, Waterton’s portfolio includes approximately $10 billion in real estate assets.\n\nWe have presence in more than 25 markets across the U.S.\n\nFocusing on multifamily investments in major U.S. markets since 1995, we pride ourselves on successfully evolving our strategy through market cycles.\n\nTerms and Conditions of Waterton Residential, LLC, opens in a new tab",
+          "retrieved_at": "2026-09-30T23:23:14.476Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text",
+              "company_self_description"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        }
+      ],
+      "company_stale": false,
+      "retry_code": null,
+      "contact_status": "complete",
+      "diagnostics": {
+        "candidates": 1,
+        "accepted": 1,
+        "rejections": [],
+        "pages_checked": 2,
+        "pages_reused": 0,
+        "sitemaps_checked": 0,
+        "source_failures": [],
+        "paid_requests": 0
+      }
+    },
+    {
+      "id": "Q03",
+      "company": "Fogelman",
+      "elapsed_ms": 27290,
+      "expected": {
+        "sector": "housing_operator",
+        "role_contains": "co-ceo",
+        "role_source": "https://www.fogelman.com/who-we-are/leadership/mark-fogelman/",
+        "source": "https://www.fogelman.com/who-we-are/"
+      },
+      "actual": "housing_operator",
+      "classification_correct": true,
+      "abstained": false,
+      "progress": {
+        "kind": "finished",
+        "label": "Research finished",
+        "detail": "Review the sourced facts below. Completed checks do not establish buying intent."
+      },
+      "roles": [
+        {
+          "role": "Co-CEO",
+          "name": "Mark Fogelman",
+          "url": "https://www.fogelman.com/who-we-are/leadership/",
+          "quote": "Mark Fogelman Co-CEO"
+        }
+      ],
+      "role_check": true,
+      "score": 100,
+      "coverage": 100,
+      "source_count": 4,
+      "brief": {
+        "summary": {
+          "text": "Fogelman is a multifamily investment and property management firm.",
+          "source_ids": [
+            "S1"
+          ]
+        },
+        "portfolio": {
+          "value": "30,000 apartment homes",
+          "unit": "homes",
+          "quote": "Fogelman reaches a major milestone with more than 100 assets and 30,000 apartment homes under management while earning top accolades, including being recognized among Newsweek's Top 100 Most Loved Workplaces and securing the title of “#1 Best Places to Work in Multifamily.",
+          "source_id": "S3",
+          "as_of": null,
+          "rank": 1,
+          "scope": "Company-wide portfolio",
+          "alternatives": []
+        },
+        "footprint": {
+          "value": "six states",
+          "quote": "The company develops more than 10,000 apartment homes across six states in the Southeast and Midwest.",
+          "source_id": "S3",
+          "as_of": null
+        },
+        "context": []
+      },
+      "draft": "Hi Mark,\n\nThanks for the context on prospect follow-up.\n\nEliseAI can respond to routine prospect questions and continue the follow-up between conversations with your team.\n\nWho oversees leasing operations and would be useful to include in the conversation?\n\nBest,\n[Your name]",
+      "draft_basis": [
+        {
+          "usage": "workflow_context",
+          "source_id": "S3",
+          "quote": "Building new apartments becomes Fogelman’s growth engine during the 1980s. The company develops more than 10,000 apartment homes across six states in the Southeast and Midwest. In 1989, Builder Magazine ranks Fogelman as one of the nation’s top 10 builders of multifamily properties. Expansion into Fee Management\n\nFogelman reaches a major milestone with more than 100 assets and 30,000 apartment homes under management while earning top accolades, including being recognized among Newsweek's Top 100 Most Loved Workplaces and securing the title of “#1 Best Places to Work in Multifamily.\n\nFogelman kicks off its joint venture investment platform in 2002, starting with the acquisition of a $51.9 million multifamily portfolio. Since then, Fogelman’s joint venture investment program has acquired more than 90 multifamily assets. Expansion of Corporate Platform\n\nFogelman is a multifamily investment and property management firm. Learn more LeadershipAn experienced and expert team HistoryThe roots of the Fogelman approach News + InsightsFresh perspective and company activity Giving BackA commitment to our communities\n\nMultifamily Investments and Property Management Learn more InvestmentsFogelman’s focused expertise and collaborative approach builds durable returns and long-term investor relationships. Property ManagementFogelman is one of the nation’s leaders in managing and enhancing apartment communities.\n\nIn 1963, the Fogelman family embarks on the construction and lease-up of their first apartment community, the 11-story “Woodmont Towers” in Memphis, Tenn. Following the success of Woodmont, the company continues to expand its local apartment portfolio throughout the 1960s. Geographic Expansion\n\nFogelman begins offering its property management services to third-party property owners, including pension fund advisors, life insurance companies and private investment groups — many of whom have been Fogelman clients for the past 20+ years! Joint Venture Investment Program Kicks Off\n\nTo further enhance its core competencies in property management and investments, Fogelman expands its corporate platform to include the latest expertise in asset management, construction management, asset redevelopment, digital marketing and property technology. Award-Winning Milestone",
+          "source": {
+            "id": "S3",
+            "url": "https://www.fogelman.com/who-we-are/history/",
+            "host": "fogelman.com",
+            "title": "History | Fogelman",
+            "provider": "Jina Reader",
+            "excerpt": "Building new apartments becomes Fogelman’s growth engine during the 1980s. The company develops more than 10,000 apartment homes across six states in the Southeast and Midwest. In 1989, Builder Magazine ranks Fogelman as one of the nation’s top 10 builders of multifamily properties. Expansion into Fee Management\n\nFogelman reaches a major milestone with more than 100 assets and 30,000 apartment homes under management while earning top accolades, including being recognized among Newsweek's Top 100 Most Loved Workplaces and securing the title of “#1 Best Places to Work in Multifamily.\n\nFogelman kicks off its joint venture investment platform in 2002, starting with the acquisition of a $51.9 million multifamily portfolio. Since then, Fogelman’s joint venture investment program has acquired more than 90 multifamily assets. Expansion of Corporate Platform\n\nFogelman is a multifamily investment and property management firm. Learn more LeadershipAn experienced and expert team HistoryThe roots of the Fogelman approach News + InsightsFresh perspective and company activity Giving BackA commitment to our communities\n\nMultifamily Investments and Property Management Learn more InvestmentsFogelman’s focused expertise and collaborative approach builds durable returns and long-term investor relationships. Property ManagementFogelman is one of the nation’s leaders in managing and enhancing apartment communities.\n\nIn 1963, the Fogelman family embarks on the construction and lease-up of their first apartment community, the 11-story “Woodmont Towers” in Memphis, Tenn. Following the success of Woodmont, the company continues to expand its local apartment portfolio throughout the 1960s. Geographic Expansion\n\nFogelman begins offering its property management services to third-party property owners, including pension fund advisors, life insurance companies and private investment groups — many of whom have been Fogelman clients for the past 20+ years! Joint Venture Investment Program Kicks Off\n\nTo further enhance its core competencies in property management and investments, Fogelman expands its corporate platform to include the latest expertise in asset management, construction management, asset redevelopment, digital marketing and property technology. Award-Winning Milestone",
+            "retrieved_at": "2026-09-30T23:23:46.088Z",
+            "published_at": null,
+            "cached": false,
+            "name_matched": true,
+            "identity": {
+              "version": 1,
+              "status": "confirmed",
+              "reason": "Company name is corroborated on the supplied domain.",
+              "signals": [
+                "supplied_domain",
+                "name_in_page_title",
+                "name_in_source_text",
+                "company_self_description"
+              ]
+            },
+            "focus_quotes": [],
+            "type": "Company overview",
+            "rank": 1
+          }
+        },
+        {
+          "usage": "professional_role",
+          "sentence": "Your company’s website lists you as Co-CEO.",
+          "question": "Who oversees leasing operations and would be useful to include in the conversation?",
+          "quote": "Mark Fogelman Co-CEO",
+          "source": {
+            "url": "https://www.fogelman.com/who-we-are/leadership/",
+            "title": "Leadership | Fogelman",
+            "provider": "Company website",
+            "type": "Professional role",
+            "retrieved_at": "2026-09-30T23:23:22.051Z",
+            "published_at": "2023-05-17T14:22:40.000Z",
+            "excerpt": "Mark Fogelman Co-CEO"
+          }
+        }
+      ],
+      "words": 41,
+      "questions": 1,
+      "property": {
+        "status": "incomplete",
+        "message": "Paste the full property address to locate it. Company offices are shown separately."
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.fogelman.com/who-we-are/",
+          "host": "fogelman.com",
+          "title": "Who We Are | Fogelman",
+          "provider": "Jina Reader",
+          "excerpt": "Fogelman is a multifamily investment and property management firm. We keep it simple — building value for our clients comes from creating welcoming communities that residents seek to live in and our employees take pride in managing. The Fogelman Difference\n\nFogelman is a multifamily investment and property management firm. Learn more LeadershipAn experienced and expert team HistoryThe roots of the Fogelman approach News + InsightsFresh perspective and company activity Giving BackA commitment to our communities\n\nMultifamily Investments and Property Management Learn more InvestmentsFogelman’s focused expertise and collaborative approach builds durable returns and long-term investor relationships. Property ManagementFogelman is one of the nation’s leaders in managing and enhancing apartment communities.\n\nFogelman has been recognized by a number of organizations as being a high-performing multifamily management company, including Best Places to Work in Multifamily, and one of Newsweek’s Top 100 Most Loved companies. Teamwork, experience, and expertise help us build trusted relationships with partners, residents, and associates. Our approach\n\nLong-term relationships with our investment partners and management clients, Talented associates who thrive by working together and bringing out the best in each other, Proven approaches to investment selection and property management, Care for communities we manage and invest in and for the residents who live there.\n\nAugust 14, 2026 Multifamily Reputation Management: The Reset After Takeover\n\nAugust 4, 2026 Q&A: Fogelman’s Justin Marshall on Growth, Talent, and Owner Expectations Learn more about the Fogelman approach.\n\nWe don’t waver from our core areas of expertise. We’ve built a replicable mode for success that carries across communities, clients and partners. Awards and recognitions",
+          "retrieved_at": "2026-09-30T23:23:30.434Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text",
+              "company_self_description"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company overview",
+          "rank": 1
+        },
+        {
+          "id": "S2",
+          "url": "https://www.fogelman.com/who-we-are/leadership/",
+          "host": "fogelman.com",
+          "title": "Leadership | Fogelman",
+          "provider": "Jina Reader",
+          "excerpt": "Fogelman is a multifamily investment and property management firm. Learn more LeadershipAn experienced and expert team HistoryThe roots of the Fogelman approach News + InsightsFresh perspective and company activity Giving BackA commitment to our communities\n\nMultifamily Investments and Property Management Learn more InvestmentsFogelman’s focused expertise and collaborative approach builds durable returns and long-term investor relationships. Property ManagementFogelman is one of the nation’s leaders in managing and enhancing apartment communities.\n\nWith one of the most tenured leadership teams in the multifamily industry, Fogelman brings a wealth of expertise and a deep commitment to a our collaborative culture and valued associates that power our success. Executive team Rick Fogelman Co-CEO Mark Fogelman Co-CEO Kristy Heuberger President, Investment Management Justin Marshall President, Property Services Melissa Smith Chief Administrative Officer Will Drummond Chief Financial Officer Leadership team Mike Aiken SVP - Investments John Barger SVP - Risk Management & Legal Tim Berger SVP - Information Technology Kevin Jackson SVP – Portfolio Management Leah Jensen SVP - Human Resources David Nischwitz SVP - Redevelopment Drew Taylor SVP – Asset Management Debi Wherry SVP - Property Operations Greg Williams SVP - Property Operations Joanna Starling SVP - Property Operations Learn more about the Fogelman culture",
+          "retrieved_at": "2026-09-30T23:23:38.593Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text",
+              "company_self_description"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company overview",
+          "rank": 1
+        },
+        {
+          "id": "S3",
+          "url": "https://www.fogelman.com/who-we-are/history/",
+          "host": "fogelman.com",
+          "title": "History | Fogelman",
+          "provider": "Jina Reader",
+          "excerpt": "Building new apartments becomes Fogelman’s growth engine during the 1980s. The company develops more than 10,000 apartment homes across six states in the Southeast and Midwest. In 1989, Builder Magazine ranks Fogelman as one of the nation’s top 10 builders of multifamily properties. Expansion into Fee Management\n\nFogelman reaches a major milestone with more than 100 assets and 30,000 apartment homes under management while earning top accolades, including being recognized among Newsweek's Top 100 Most Loved Workplaces and securing the title of “#1 Best Places to Work in Multifamily.\n\nFogelman kicks off its joint venture investment platform in 2002, starting with the acquisition of a $51.9 million multifamily portfolio. Since then, Fogelman’s joint venture investment program has acquired more than 90 multifamily assets. Expansion of Corporate Platform\n\nFogelman is a multifamily investment and property management firm. Learn more LeadershipAn experienced and expert team HistoryThe roots of the Fogelman approach News + InsightsFresh perspective and company activity Giving BackA commitment to our communities\n\nMultifamily Investments and Property Management Learn more InvestmentsFogelman’s focused expertise and collaborative approach builds durable returns and long-term investor relationships. Property ManagementFogelman is one of the nation’s leaders in managing and enhancing apartment communities.\n\nIn 1963, the Fogelman family embarks on the construction and lease-up of their first apartment community, the 11-story “Woodmont Towers” in Memphis, Tenn. Following the success of Woodmont, the company continues to expand its local apartment portfolio throughout the 1960s. Geographic Expansion\n\nFogelman begins offering its property management services to third-party property owners, including pension fund advisors, life insurance companies and private investment groups — many of whom have been Fogelman clients for the past 20+ years! Joint Venture Investment Program Kicks Off\n\nTo further enhance its core competencies in property management and investments, Fogelman expands its corporate platform to include the latest expertise in asset management, construction management, asset redevelopment, digital marketing and property technology. Award-Winning Milestone",
+          "retrieved_at": "2026-09-30T23:23:46.088Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text",
+              "company_self_description"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company overview",
+          "rank": 1
+        },
+        {
+          "id": "S4",
+          "url": "https://fogelman.com/",
+          "host": "fogelman.com",
+          "title": "Investment Management and Property Services | Fogelman",
+          "provider": "Jina Reader",
+          "excerpt": "Fogelman is a multifamily investment and property management firm. Learn more LeadershipAn experienced and expert team HistoryThe roots of the Fogelman approach News + InsightsFresh perspective and company activity Giving BackA commitment to our communities\n\nMultifamily Investments and Property Management Learn more InvestmentsFogelman’s focused expertise and collaborative approach builds durable returns and long-term investor relationships. Property ManagementFogelman is one of the nation’s leaders in managing and enhancing apartment communities.\n\nOver 60 years of Multifamily Investments and Property Management Creating community and building value\n\nFogelman is a fully-integrated multifamily real estate company that invests in and manages apartment properties in thriving cities across the United States. We’re focused on creating vibrant communities for our residents and building value for our investment partners.\n\nWith six decades of experience, a team of dynamic associates and expert leaders, and a highly collaborative culture, Fogelman is recognized as a multifamily property management and investment leader. We manage welcoming apartment communities for thousands of residents and build durable value for our client and investment partners.\n\nin total portfolio asset value Discover our apartment communities across 12 states\n\nAt Fogelman, we believe growing careers, encouraging team contributions, and rewarding smart thinking are essential investments in our own performance. We’re proud to be recognized as one of the 2026 Best Places to Work in Multifamily and one of Newsweek’s Top 100 Most Loved Workplaces.\n\nFogelman is one of the nation’s leaders in managing and enhancing apartment communities on behalf of owner clients.",
+          "retrieved_at": "2026-09-30T23:23:24.257Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text",
+              "company_self_description"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        }
+      ],
+      "company_stale": false,
+      "retry_code": null,
+      "contact_status": "complete",
+      "diagnostics": {
+        "candidates": 2,
+        "accepted": 2,
+        "rejections": [],
+        "pages_checked": 3,
+        "pages_reused": 0,
+        "sitemaps_checked": 0,
+        "source_failures": [],
+        "paid_requests": 0
+      }
+    },
+    {
+      "id": "Q04",
+      "company": "Drucker + Falk",
+      "elapsed_ms": 30951,
+      "expected": {
+        "sector": "housing_operator",
+        "role_contains": "managing director",
+        "role_source": "https://www.druckerandfalk.com/leadership",
+        "source": "https://www.druckerandfalk.com/about-us"
+      },
+      "actual": "unresolved",
+      "classification_correct": false,
+      "abstained": true,
+      "progress": {
+        "kind": "interrupted",
+        "label": "Refresh interrupted · saved research available",
+        "detail": "A company lookup did not finish.",
+        "action": "View research status"
+      },
+      "roles": [],
+      "role_check": false,
+      "score": null,
+      "coverage": 0,
+      "source_count": 1,
+      "brief": {
+        "summary": null,
+        "portfolio": null,
+        "footprint": null,
+        "context": [
+          {
+            "key": "markets",
+            "label": "Operating footprint",
+            "text": "Drucker + Falk’s multifamily communities and commercial properties are strategically located in 7 states across the Midwest, Mid-Atlantic, and Southern U.S.",
+            "quote": "Drucker + Falk’s multifamily communities and commercial properties are strategically located in 7 states across the Midwest, Mid-Atlantic, and Southern U.S.",
+            "source_id": "S1",
+            "published_at": null
+          }
+        ]
+      },
+      "draft": "Hi Wendy,\n\nThanks for the context on prospect follow-up.\n\nHow does your team handle prospect follow-up today?\n\nBest,\n[Your name]",
+      "draft_basis": [],
+      "words": 20,
+      "questions": 1,
+      "property": {
+        "status": "incomplete",
+        "message": "Paste the full property address to locate it. Company offices are shown separately."
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://druckerandfalk.com/",
+          "host": "druckerandfalk.com",
+          "title": "Drucker + Falk | Apartments",
+          "provider": "Jina Reader",
+          "excerpt": "“We Aim Higher” at Drucker + Falk. Based in Newport News, Virginia, our business has been providing unmatched multifamily and commercial property management services for more than 88 years. We take pride in being recognized as one of the Top 50 Management Companies by NMHC, where our talented team of superstars has an average tenure of 10 years. With a portfolio of over 43,000 apartment homes across 7 states, Drucker + Falk offers a forward-thinking, people-first approach to management. Whether you are seeking to invest in multifamily, advance your multifamily career, or find a third-party multifamily management partner, you’ve come to the right place. Reach out today to learn more.\n\nDrucker + Falk was engaged to manage a distressed property with 424 units, which had experienced significant operational decline and was placed into receivership. Within 90 days, they implemented a strategic turnaround plan, addressing urgent challenges such as high delinquency rates and low occupancy. Key actions included conducting a resident ledger audit, swift eviction of delinquent tenants, implementing targeted leasing strategies, and restoring financial operations. These efforts resulted in a significant occupancy increase from 75% to 83%, a reduction in delinquency rates to under 1%, and a 13% growth in total revenue within six months. The property has since maintained strong performance, with sustained occupancy, delinquency below 0.5%, and over 34% revenue growth, showcasing Drucker+ Falk's effectiveness in managing complex receiverships and restoring asset value.\n\nThe Lafayette, a 1964 high-rise with 168 units overlooking the Elizabeth River, faced significant challenges, including deferred maintenance, a roach infestation, and poor management, resulting in occupancy below 90%. To revitalize the property, a strategic renovation plan was implemented, leveraging the area's 3%-5% annual rent growth and proximity to downtown Norfolk’s amenities. The renovations included aggressive pest remediation, apartment upgrades, and common area improvements designed to create a coastal community feel. Under Drucker + Falk's management, occupancy rose to consistently 96% or above, and rental income increased by 6%, with projected rent hikes of $250 per renovated unit achieved.\n\nDrucker + Falk’s multifamily communities and commercial properties are strategically located in 7 states across the Midwest, Mid-Atlantic, and Southern U.S. Contact us to learn how our dedicated multifamily and commercial management team can help you reach your ownership goals.\n\nThe Walker, a 153-unit mixed-use development located next to Cary’s new regional library and overlooking a planned 7-acre urban park, aimed to set a new standard for urban living in revitalized Downtown Cary by offering the highest rental rates in the area. From the outset, the Drucker + Falk team collaborated with developers on design, unit mix, and amenities to create a \"lifestyle\" community that emphasized walkability and nearby retail. The marketing strategy focused on building local partnerships, leveraging social media under the theme “Urban Living, Sophisticated Charm,” and implementing pre-CO promotions such as a web-based landing page for lead generation and robust social media engagement. Under DF Management, The Walker achieved stabilized occupancy within a year of its first CO, despite facing construction challenges, and received 5-star Google reviews. During the leasing period, market rents increased by an average of $125 (5.4%) with fewer concessions than projected, making The Walker one of the top-performing developments in the submarket.\n\nThe closing of a big box retail anchor in a major shopping center offered Owners the chance to convert the space into 169 urban luxury apartments in the Hampton West submarket, which houses 80% of the city's multifamily product. Drawing from the success of a sister property, which maintained high occupancy and market-leading rents even during economic downturns, the Owners aimed to enhance urban luxury living with unique amenities, including a dog spa. Despite facing challenges such as a three-month delay in obtaining the COO, a lightning strike, flooding, and the impact of the pandemic, the site team successfully achieved stabilization in just 7 months, averaging 21 leases per month with minimal concessions. The property earned a J Turner Power Ranking Elite 1% ORA score for outstanding online resident reviews and continues to maintain the highest rents in the market, with occupancy consistently above 95%.\n\nWith its close proximity to major retail, dining, and entertainment options, as well as easy access to commuter routes, the property is situated among numerous other apartment communities.",
+          "retrieved_at": "2026-09-30T23:23:53.742Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text",
+              "company_self_description"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        }
+      ],
+      "company_stale": true,
+      "retry_code": "unavailable",
+      "contact_status": "unavailable"
+    },
+    {
+      "id": "Q05",
+      "company": "ZRS Management",
+      "elapsed_ms": 10296,
+      "expected": {
+        "sector": "housing_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://www.zrsmanagement.com/"
+      },
+      "actual": "housing_operator",
+      "classification_correct": true,
+      "abstained": false,
+      "progress": {
+        "kind": "limited",
+        "label": "Research finished · limited evidence",
+        "detail": "Available facts are shown. Still unverified: contact role.",
+        "action": "View research details"
+      },
+      "roles": [],
+      "role_check": null,
+      "score": 50,
+      "coverage": 50,
+      "source_count": 1,
+      "brief": {
+        "summary": {
+          "text": "We specialize in apartment & multifamily property management in Florida, Texas, Georgia, South Carolina, North Carolina, Maryland, Virginia, and Tennessee.",
+          "source_ids": [
+            "S1"
+          ]
+        },
+        "portfolio": {
+          "value": "over 7,000 units",
+          "unit": "homes",
+          "quote": "Our experience with 26 projects and over 7,000 units is unmatched by any other third-party management company.",
+          "source_id": "S1",
+          "as_of": null,
+          "rank": 2,
+          "scope": "Company-wide portfolio",
+          "alternatives": [
+            {
+              "value": "over 120,000 units",
+              "unit": "homes",
+              "quote": "ZRS currently manages over 120,000 units for various institutional clients, partnerships, and individual owners.",
+              "source_id": "S1",
+              "as_of": null,
+              "rank": 2,
+              "scope": "Company-wide portfolio"
+            }
+          ]
+        },
+        "footprint": null,
+        "context": []
+      },
+      "draft": "Hi there,\n\nThanks for the context on prospect follow-up.\n\nEliseAI can respond to routine prospect questions and continue the follow-up between conversations with your team.\n\nWhich communities or properties would you start with?\n\nBest,\n[Your name]",
+      "draft_basis": [
+        {
+          "usage": "workflow_context",
+          "source_id": "S1",
+          "quote": "ZRS is acknowledged as the industry leader for managing high-end, high-rise communities. Our experience with 26 projects and over 7,000 units is unmatched by any other third-party management company.\n\nZRS Management, LLC is a Florida Limited Liability Company originally formed in 1991 to manage high-quality, multifamily communities. In 2010, ZRS Management, LLC became a stand-alone, third-party management company. ZRS currently manages over 120,000 units for various institutional clients, partnerships, and individual owners. We specialize in apartment & multifamily property management in Florida, Texas, Georgia, South Carolina, North Carolina, Maryland, Virginia, and Tennessee.\n\nSearch Apartments by City and State Managing Your Community\n\nSix Property Portfolio Cap L... Read More about Six Property Portfolio Cap High Rise Management Z... Read More about High Rise Management Innovative Marketing P... Read More about Innovative Marketing Comprehensive Due Diligence W... Read More about Comprehensive Due Diligence Our Accounting Department F... Read More about Our Accounting Department\n\nLess is more, especially when talking about your regional manager’s workload. Our competitors typically overburden their regional managers with eight to ten properties. We cap each portfolio at six properties.\n\nFinancial security comes from knowing you have the right people managing all of your accounting requirements. With a CPA-led accounting department, we deliver accurate and on-time financial reporting. ZRS is About People\n\nPartnering with ZRS gives you access to one of the most innovative, technologically advanced marketing departments in the industry. We provide a comprehensive collection of marketing and branding strategies including search engine marketing, social media, and the latest online leasing technologies.\n\nBoca VistaMaitland PointeThe Aston at UptownThe Glades Apartment HomesThe Retreat at Altamonte SpringsTimberlake Apartment Homes",
+          "source": {
+            "id": "S1",
+            "url": "https://zrsmanagement.com/",
+            "host": "zrsmanagement.com",
+            "title": "ZRS Management | Multifamily Property Management",
+            "provider": "Jina Reader",
+            "excerpt": "ZRS is acknowledged as the industry leader for managing high-end, high-rise communities. Our experience with 26 projects and over 7,000 units is unmatched by any other third-party management company.\n\nZRS Management, LLC is a Florida Limited Liability Company originally formed in 1991 to manage high-quality, multifamily communities. In 2010, ZRS Management, LLC became a stand-alone, third-party management company. ZRS currently manages over 120,000 units for various institutional clients, partnerships, and individual owners. We specialize in apartment & multifamily property management in Florida, Texas, Georgia, South Carolina, North Carolina, Maryland, Virginia, and Tennessee.\n\nSearch Apartments by City and State Managing Your Community\n\nSix Property Portfolio Cap L... Read More about Six Property Portfolio Cap High Rise Management Z... Read More about High Rise Management Innovative Marketing P... Read More about Innovative Marketing Comprehensive Due Diligence W... Read More about Comprehensive Due Diligence Our Accounting Department F... Read More about Our Accounting Department\n\nLess is more, especially when talking about your regional manager’s workload. Our competitors typically overburden their regional managers with eight to ten properties. We cap each portfolio at six properties.\n\nFinancial security comes from knowing you have the right people managing all of your accounting requirements. With a CPA-led accounting department, we deliver accurate and on-time financial reporting. ZRS is About People\n\nPartnering with ZRS gives you access to one of the most innovative, technologically advanced marketing departments in the industry. We provide a comprehensive collection of marketing and branding strategies including search engine marketing, social media, and the latest online leasing technologies.\n\nBoca VistaMaitland PointeThe Aston at UptownThe Glades Apartment HomesThe Retreat at Altamonte SpringsTimberlake Apartment Homes",
+            "retrieved_at": "2026-09-30T23:24:27.353Z",
+            "published_at": null,
+            "cached": false,
+            "name_matched": true,
+            "identity": {
+              "version": 1,
+              "status": "confirmed",
+              "reason": "Company name is corroborated on the supplied domain.",
+              "signals": [
+                "supplied_domain",
+                "name_in_page_title",
+                "name_in_source_text",
+                "company_self_description"
+              ]
+            },
+            "focus_quotes": [],
+            "type": "Company services",
+            "rank": 2
+          }
+        }
+      ],
+      "words": 36,
+      "questions": 1,
+      "property": {
+        "provider": "U.S. Census Bureau",
+        "date": "2026-09-30T23:24:17.368Z",
+        "url": "https://geocoding.geo.census.gov/geocoder/geographies/address?street=101+East+Camino+Real&city=Boca+Raton&state=FL&benchmark=Public_AR_Current&vintage=Current_Current&format=json",
+        "cached": false,
+        "status": "matched",
+        "address": "101 E CAM REAL, BOCA RATON, FL, 33432",
+        "city": "BOCA RATON",
+        "state": "FL",
+        "postal_code": "33432",
+        "county": "Palm Beach County",
+        "tract": "12099007505",
+        "coordinates": {
+          "x": -80.086178828726,
+          "y": 26.340976990622
+        },
+        "message": "Address-range match. Does not establish building existence, ownership, unit count, or a link to this company.",
+        "cache_fetched_at": "2026-09-30T23:24:17.368Z",
+        "cache_fresh_until": "2026-10-01T23:24:17.368Z",
+        "retry_after": null,
+        "stale": false
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://zrsmanagement.com/",
+          "host": "zrsmanagement.com",
+          "title": "ZRS Management | Multifamily Property Management",
+          "provider": "Jina Reader",
+          "excerpt": "ZRS is acknowledged as the industry leader for managing high-end, high-rise communities. Our experience with 26 projects and over 7,000 units is unmatched by any other third-party management company.\n\nZRS Management, LLC is a Florida Limited Liability Company originally formed in 1991 to manage high-quality, multifamily communities. In 2010, ZRS Management, LLC became a stand-alone, third-party management company. ZRS currently manages over 120,000 units for various institutional clients, partnerships, and individual owners. We specialize in apartment & multifamily property management in Florida, Texas, Georgia, South Carolina, North Carolina, Maryland, Virginia, and Tennessee.\n\nSearch Apartments by City and State Managing Your Community\n\nSix Property Portfolio Cap L... Read More about Six Property Portfolio Cap High Rise Management Z... Read More about High Rise Management Innovative Marketing P... Read More about Innovative Marketing Comprehensive Due Diligence W... Read More about Comprehensive Due Diligence Our Accounting Department F... Read More about Our Accounting Department\n\nLess is more, especially when talking about your regional manager’s workload. Our competitors typically overburden their regional managers with eight to ten properties. We cap each portfolio at six properties.\n\nFinancial security comes from knowing you have the right people managing all of your accounting requirements. With a CPA-led accounting department, we deliver accurate and on-time financial reporting. ZRS is About People\n\nPartnering with ZRS gives you access to one of the most innovative, technologically advanced marketing departments in the industry. We provide a comprehensive collection of marketing and branding strategies including search engine marketing, social media, and the latest online leasing technologies.\n\nBoca VistaMaitland PointeThe Aston at UptownThe Glades Apartment HomesThe Retreat at Altamonte SpringsTimberlake Apartment Homes",
+          "retrieved_at": "2026-09-30T23:24:27.353Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text",
+              "company_self_description"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company services",
+          "rank": 2
+        }
+      ],
+      "company_stale": false,
+      "retry_code": null,
+      "contact_status": "not_assessed"
+    },
+    {
+      "id": "Q06",
+      "company": "Pegasus Residential",
+      "elapsed_ms": 27595,
+      "expected": {
+        "sector": "housing_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://www.pegasusresidential.com/"
+      },
+      "actual": "unresolved",
+      "classification_correct": false,
+      "abstained": true,
+      "progress": {
+        "kind": "interrupted",
+        "label": "Research interrupted",
+        "detail": "The company page could not be read.",
+        "action": "Try another official page"
+      },
+      "roles": [],
+      "role_check": null,
+      "score": null,
+      "coverage": 0,
+      "source_count": 0,
+      "brief": {
+        "summary": null,
+        "portfolio": null,
+        "footprint": null,
+        "context": []
+      },
+      "draft": "Hi there,\n\nThanks for the context on prospect follow-up.\n\nHow does your team handle prospect follow-up today?\n\nBest,\n[Your name]",
+      "draft_basis": [],
+      "words": 20,
+      "questions": 1,
+      "property": {
+        "status": "incomplete",
+        "message": "Paste the full property address to locate it. Company offices are shown separately."
+      },
+      "sources": [],
+      "company_stale": true,
+      "retry_code": "source_unavailable",
+      "contact_status": "not_assessed"
+    },
+    {
+      "id": "Q07",
+      "company": "RangeWater Residential",
+      "elapsed_ms": 2633,
+      "expected": {
+        "sector": "housing_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://liverangewater.com/our-story"
+      },
+      "actual": "unresolved",
+      "classification_correct": false,
+      "abstained": true,
+      "progress": {
+        "kind": "interrupted",
+        "label": "Refresh interrupted · saved research available",
+        "detail": "A company lookup did not finish.",
+        "action": "View research status"
+      },
+      "roles": [],
+      "role_check": null,
+      "score": null,
+      "coverage": 0,
+      "source_count": 3,
+      "brief": {
+        "summary": null,
+        "portfolio": null,
+        "footprint": null,
+        "context": []
+      },
+      "draft": "Hi there,\n\nThanks for the context on prospect follow-up.\n\nHow does your team handle prospect follow-up today?\n\nBest,\n[Your name]",
+      "draft_basis": [],
+      "words": 20,
+      "questions": 1,
+      "property": {
+        "status": "incomplete",
+        "message": "Paste the full property address to locate it. Company offices are shown separately."
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://liverangewater.com/",
+          "host": "liverangewater.com",
+          "title": "Real Estate Development & Property Management | RangeWater ResidentialGo to our Facebook profileGo to our LinkedIn profileGo to our Instagram profileGo to our Facebook profileGo to our LinkedIn profileGo to our Instagram profile",
+          "provider": "Direct company website",
+          "excerpt": "We are a national multifamily operator pursuing asset value creation\n\nRangeWater utilizes an integrated technology stack to manage the entire leasing lifecycle — from first inquiry through resident services. Through the intersection of data, design, and operational excellence, we drive asset performance and deliver elevated living experiences that stand out in today’s market.\n\nRangeWater Residential delivers financial performance by leveraging data-driven strategy, market expertise, and operational excellence to achieve the goals of each community’s business plan. We align every decision with the unique objectives of the asset, creating tailored strategies that drive performance, enhance value, and deliver long-term results.\n\nRangeWater Business Intelligence gives our teams access to critical, current information about their property and the surrounding market, enabling better-informed, faster decisions and operational recommendations. We collaborate with our partners to develop and execute strategies guided by our experience, data, local market knowledge, and industry expertise.\n\n&copy; 2026 RangeWater Residential, LLC.",
+          "retrieved_at": "2026-09-30T23:24:57.424Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": false,
+          "identity": {
+            "version": 1,
+            "status": "needs_confirmation",
+            "reason": "The company is mentioned, but the page does not establish its identity.",
+            "signals": [
+              "supplied_domain",
+              "name_in_source_text"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        },
+        {
+          "id": "S2",
+          "url": "https://liverangewater.com/contact",
+          "host": "liverangewater.com",
+          "title": "Contact | RangeWater ResidentialGo to our Facebook profileGo to our LinkedIn profileGo to our Instagram profileGo to our Facebook profileGo to our LinkedIn profileGo to our Instagram profile",
+          "provider": "Direct company website",
+          "excerpt": "Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page",
+          "retrieved_at": "2026-09-30T23:24:57.788Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": false,
+          "identity": {
+            "version": 1,
+            "status": "needs_confirmation",
+            "reason": "The page does not corroborate the complete company name.",
+            "signals": [
+              "supplied_domain"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        },
+        {
+          "id": "S3",
+          "url": "https://liverangewater.com/our-story",
+          "host": "liverangewater.com",
+          "title": "Our Story | RangeWater ResidentialGo to our Facebook profileGo to our LinkedIn profileGo to our Instagram profileGo to our Facebook profileGo to our LinkedIn profileGo to our Instagram profile",
+          "provider": "Direct company website",
+          "excerpt": "RangeWater Residential delivers financial performance by leveraging data-driven strategy, market expertise, and operational excellence to achieve the goals of each community’s business plan. We align every decision with the unique objectives of the asset, creating tailored strategies that drive performance, enhance value, and deliver long-term results.\n\nNational supplier scale delivering measurable operating savings and superior service RangeWater Residential isn’t just a property management company—we are stewards of your investment.\n\nRangeWater Residential isn’t just a property management company—we are stewards of your investment. We deliver financial performance by aligning with our clients’ investment goals. Every operational decision is evaluated through its impact on Net Operating Income. We think like an owner, so you can focus on the next investment. Is it easy? No, but we’ve never been an organization to shy away from complexity.",
+          "retrieved_at": "2026-09-30T23:24:59.298Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": false,
+          "identity": {
+            "version": 1,
+            "status": "needs_confirmation",
+            "reason": "The company is mentioned, but the page does not establish its identity.",
+            "signals": [
+              "supplied_domain",
+              "name_in_source_text"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        }
+      ],
+      "company_stale": true,
+      "retry_code": "provider_queue",
+      "contact_status": "not_assessed"
+    },
+    {
+      "id": "Q08",
+      "company": "Village Green",
+      "elapsed_ms": 4819,
+      "expected": {
+        "sector": "housing_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://villagegreen.com/city/dallas/"
+      },
+      "actual": "housing_operator",
+      "classification_correct": true,
+      "abstained": false,
+      "progress": {
+        "kind": "limited",
+        "label": "Research finished · limited evidence",
+        "detail": "Available facts are shown. Still unverified: contact role.",
+        "action": "View research details"
+      },
+      "roles": [],
+      "role_check": null,
+      "score": 80,
+      "coverage": 80,
+      "source_count": 1,
+      "brief": {
+        "summary": {
+          "text": "Our 100-year history makes us one of the oldest and most experienced management companies in the apartment business.",
+          "source_ids": [
+            "S1"
+          ]
+        },
+        "portfolio": {
+          "value": "approximately 50,000 apartment homes",
+          "unit": "homes",
+          "quote": "Today, we manage approximately 50,000 apartment homes within some 50 cities, along with integrated mixed-use retail spaces that include restaurants, coffee shops and markets.",
+          "source_id": "S1",
+          "as_of": null,
+          "rank": 3,
+          "scope": "Company-wide portfolio",
+          "alternatives": []
+        },
+        "footprint": null,
+        "context": []
+      },
+      "draft": "Hi there,\n\nThanks for the context on prospect follow-up.\n\nEliseAI can respond to routine prospect questions and continue the follow-up between conversations with your team.\n\nWhich communities or properties would you start with?\n\nBest,\n[Your name]",
+      "draft_basis": [
+        {
+          "usage": "workflow_context",
+          "source_id": "S1",
+          "quote": "Village Green became one of the nation’s premier apartment companies by continually innovating to serve the evolving needs of residents and focusing on creating communities of long-term value. Today, we manage approximately 50,000 apartment homes within some 50 cities, along with integrated mixed-use retail spaces that include restaurants, coffee shops and markets.\n\nWhen it comes to managing the places where people live, there is no substitute for experience. Our 100-year history makes us one of the oldest and most experienced management companies in the apartment business.\n\nCurrent Promo New Property Picket Fence 455 S 85th St West Des Moines, IA 50266 1-3 Beds 1-2 Baths 12 Units $2,740/mo (MAX) $1,577/mo (MIN)\n\nCurrent Promo New Property New Construction Brixin at Magnolia Heights 5437 155th St Urbandale, IA 50111 3-4 Beds 2.5-2.5 Baths 10 Units $2,395/mo (MAX) $1,929/mo (MIN)\n\nCurrent Promo New Property Element at Valley West 4101 Woodland Plaza West Des Moines, IA 50266 1-3 Beds 1-2 Baths 18 Units $1,610/mo (MAX) $1,085/mo (MIN)\n\nCurrent Promo New Property Element Urbandale 3650 Patricia Drive Urbandale, IA 50322 1-2 Beds 1-2 Baths 9 Units $1,150/mo (MAX) $925/mo (MIN) Featured Locations\n\nFind Your New Apartment... Featured Apartments Near You",
+          "source": {
+            "id": "S1",
+            "url": "https://villagegreen.com/",
+            "host": "villagegreen.com",
+            "title": "Village Green",
+            "provider": "Jina Reader",
+            "excerpt": "Village Green became one of the nation’s premier apartment companies by continually innovating to serve the evolving needs of residents and focusing on creating communities of long-term value. Today, we manage approximately 50,000 apartment homes within some 50 cities, along with integrated mixed-use retail spaces that include restaurants, coffee shops and markets.\n\nWhen it comes to managing the places where people live, there is no substitute for experience. Our 100-year history makes us one of the oldest and most experienced management companies in the apartment business.\n\nCurrent Promo New Property Picket Fence 455 S 85th St West Des Moines, IA 50266 1-3 Beds 1-2 Baths 12 Units $2,740/mo (MAX) $1,577/mo (MIN)\n\nCurrent Promo New Property New Construction Brixin at Magnolia Heights 5437 155th St Urbandale, IA 50111 3-4 Beds 2.5-2.5 Baths 10 Units $2,395/mo (MAX) $1,929/mo (MIN)\n\nCurrent Promo New Property Element at Valley West 4101 Woodland Plaza West Des Moines, IA 50266 1-3 Beds 1-2 Baths 18 Units $1,610/mo (MAX) $1,085/mo (MIN)\n\nCurrent Promo New Property Element Urbandale 3650 Patricia Drive Urbandale, IA 50322 1-2 Beds 1-2 Baths 9 Units $1,150/mo (MAX) $925/mo (MIN) Featured Locations\n\nFind Your New Apartment... Featured Apartments Near You",
+            "retrieved_at": "2026-09-30T23:25:13.479Z",
+            "published_at": null,
+            "cached": false,
+            "name_matched": true,
+            "identity": {
+              "version": 1,
+              "status": "confirmed",
+              "reason": "Company name is corroborated on the supplied domain.",
+              "signals": [
+                "supplied_domain",
+                "name_in_page_title",
+                "name_in_source_text"
+              ]
+            },
+            "focus_quotes": [],
+            "type": "Company website",
+            "rank": 3
+          }
+        }
+      ],
+      "words": 36,
+      "questions": 1,
+      "property": {
+        "status": "incomplete",
+        "message": "Paste the full property address to locate it. Company offices are shown separately."
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://villagegreen.com/",
+          "host": "villagegreen.com",
+          "title": "Village Green",
+          "provider": "Jina Reader",
+          "excerpt": "Village Green became one of the nation’s premier apartment companies by continually innovating to serve the evolving needs of residents and focusing on creating communities of long-term value. Today, we manage approximately 50,000 apartment homes within some 50 cities, along with integrated mixed-use retail spaces that include restaurants, coffee shops and markets.\n\nWhen it comes to managing the places where people live, there is no substitute for experience. Our 100-year history makes us one of the oldest and most experienced management companies in the apartment business.\n\nCurrent Promo New Property Picket Fence 455 S 85th St West Des Moines, IA 50266 1-3 Beds 1-2 Baths 12 Units $2,740/mo (MAX) $1,577/mo (MIN)\n\nCurrent Promo New Property New Construction Brixin at Magnolia Heights 5437 155th St Urbandale, IA 50111 3-4 Beds 2.5-2.5 Baths 10 Units $2,395/mo (MAX) $1,929/mo (MIN)\n\nCurrent Promo New Property Element at Valley West 4101 Woodland Plaza West Des Moines, IA 50266 1-3 Beds 1-2 Baths 18 Units $1,610/mo (MAX) $1,085/mo (MIN)\n\nCurrent Promo New Property Element Urbandale 3650 Patricia Drive Urbandale, IA 50322 1-2 Beds 1-2 Baths 9 Units $1,150/mo (MAX) $925/mo (MIN) Featured Locations\n\nFind Your New Apartment... Featured Apartments Near You",
+          "retrieved_at": "2026-09-30T23:25:13.479Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        }
+      ],
+      "company_stale": false,
+      "retry_code": null,
+      "contact_status": "not_assessed"
+    },
+    {
+      "id": "Q09",
+      "company": "WinnCompanies",
+      "elapsed_ms": 30173,
+      "expected": {
+        "sector": "housing_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://www.winncompanies.com/about"
+      },
+      "actual": "unresolved",
+      "classification_correct": false,
+      "abstained": true,
+      "progress": {
+        "kind": "limited",
+        "label": "Research finished · limited evidence",
+        "detail": "Available facts are shown. Still unverified: contact role.",
+        "action": "View research details"
+      },
+      "roles": [],
+      "role_check": null,
+      "score": null,
+      "coverage": 0,
+      "source_count": 3,
+      "brief": {
+        "summary": null,
+        "portfolio": null,
+        "footprint": null,
+        "context": [
+          {
+            "key": "team",
+            "label": "Team & headquarters",
+            "text": "We pledge to create the safest possible environments for our employees and residents, achieved by fostering a culture focused on awareness, communication, safety education, and safe working methods.",
+            "quote": "We pledge to create the safest possible environments for our employees and residents, achieved by fostering a culture focused on awareness, communication, safety education, and safe working methods.",
+            "source_id": "S1",
+            "published_at": null
+          },
+          {
+            "key": "segments",
+            "label": "Housing focus",
+            "text": "WinnCompanies has transformed 49 historic properties into 5,600 units of mixed-income housing in mixed-use communities.",
+            "quote": "WinnCompanies has transformed 49 historic properties into 5,600 units of mixed-income housing in mixed-use communities.",
+            "source_id": "S1",
+            "published_at": null
+          }
+        ]
+      },
+      "draft": "Hi there,\n\nThanks for the context on prospect follow-up.\n\nHow does your team handle prospect follow-up today?\n\nBest,\n[Your name]",
+      "draft_basis": [],
+      "words": 20,
+      "questions": 1,
+      "property": {
+        "status": "incomplete",
+        "message": "Paste the full property address to locate it. Company offices are shown separately."
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://winncompanies.com/about",
+          "host": "winncompanies.com",
+          "title": "WinnCompanies | Our Company",
+          "provider": "Jina Reader",
+          "excerpt": "WinnResidential is recognized as the 5th largest multi-family property manager in the country by the National Multi-Housing Council, with over 97,000 units managed across 22 states and DC. Connected Communities\n\nBoston community, Mission Main, rebuilt 535 units.HUD Secretary Mel Martinez cites the project as “an example of the type of housing we would like to see all across the country.” Minority & Women-Owned Business Award\n\nAs we develop and operate properties to maximize their use and promote healthy communities, we also ensure the efficient use of natural resources. This goal is critical for the environment and for our business. Team Leadership\n\nWinnCompanies has transformed 49 historic properties into 5,600 units of mixed-income housing in mixed-use communities.\n\nWe pledge to create the safest possible environments for our employees and residents, achieved by fostering a culture focused on awareness, communication, safety education, and safe working methods. Our Team is Reflective of the Communities We Serve\n\nWe operate with integrity and accountability, ensuring that our residents, clients, partners, and team members feel valued and informed.\n\nWinn operates across 30 states,the District of Columbia, and Puerto Rico.\n\nWinnCompanies was founded in 1971 when Arthur Winn recognized the opportunity to develop high quality affordable housing that would be exceptionally well-managed; accepted as community assets by public, private and non-profit stakeholders; and, treated with pride by its residents.\n\nCommemorating its 40th Anniversary, WinnCompanies forms WinningEdge Scholarship program by awarding 40 scholarships to 40 students in their communities.",
+          "retrieved_at": "2026-09-30T23:25:31.990Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company overview",
+          "rank": 1
+        },
+        {
+          "id": "S2",
+          "url": "https://www.winncompanies.com/",
+          "host": "winncompanies.com",
+          "title": "WinnCompanies | Home",
+          "provider": "Direct company website",
+          "excerpt": "WinnCompanies owns more than 150 communities\n\nConnected Communities Foundation, a mission-driven nonprofit and leading provider of community-based social impact services, works in partnership with housing owners & operators and service providers nationwide to connect families with programs and services that deliver measurable and meaningful positive impact.\n\nWinnCompanies is one of the largest managers of affordable housing in the United States\n\nNearly 2400,000 people call Winn-managed properties home\n\nAs the property management division of WinnCompanies, we are driven by a single goal: To significantly raise the standards of property management every day, one interaction at a time.\n\nYour new career starts here. Operations, sales, compliance, maintenance, marketing, IT, HR, accounting and finance. No matter your passion, your work will impact people who are more than just residents to us. Do you want to make a difference?\n\nDiscover how WinnCompanies is making a positive difference for our residents, clients, team members and the communities we serve in our new 2025 Impact Report.\n\nWinnCompanies is dedicated to creating the best living communities for our residents and clients\n\nCompany page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page",
+          "retrieved_at": "2026-09-30T23:25:50.835Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text",
+              "company_self_description"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        },
+        {
+          "id": "S3",
+          "url": "https://winncompanies.com/contact",
+          "host": "winncompanies.com",
+          "title": "WinnCompanies | Contact",
+          "provider": "Jina Reader",
+          "excerpt": "We want all residents to have the best possible living experience.We recommend first contacting your community’s management office (clickhere to search our properties). For additional assistance, please contact the Resident Help Center.\n\nYour new career starts here. Operations, sales, compliance, maintenance, marketing, IT, HR, accounting and finance. No matter your passion, your work will impact people who are more than just residents to us. Do you want to make a difference?\n\nWho We Are Our Team Connected Communities News & Awards Impact Report\n\nResidential Military Find Your Home Work with Winn Benefits FAQ Apply Now\n\nDiscover how WinnCompanies is making a positive difference for our residents, clients, team members and the communities we serve in our new 2025 Impact Report.\n\nWho We Are Who We Are Our Team Connected Communities News & Awards Impact Report\n\nResidential Military Find Your Home Work with Winn Work with Winn Benefits FAQ Apply Now CON TACT\n\nResident Help Center (617) 239-4596 239-4596 \"Call: Resident Help Center\")",
+          "retrieved_at": "2026-09-30T23:25:39.790Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text",
+              "company_self_description"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        }
+      ],
+      "company_stale": false,
+      "retry_code": null,
+      "contact_status": "not_assessed"
+    },
+    {
+      "id": "Q10",
+      "company": "Laramar",
+      "elapsed_ms": 28504,
+      "expected": {
+        "sector": "housing_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://laramar.com/management/"
+      },
+      "actual": "unresolved",
+      "classification_correct": false,
+      "abstained": true,
+      "progress": {
+        "kind": "limited",
+        "label": "Research finished · limited evidence",
+        "detail": "Available facts are shown. Still unverified: contact role.",
+        "action": "View research details"
+      },
+      "roles": [],
+      "role_check": null,
+      "score": null,
+      "coverage": 0,
+      "source_count": 5,
+      "brief": {
+        "summary": null,
+        "portfolio": null,
+        "footprint": null,
+        "context": [
+          {
+            "key": "segments",
+            "label": "Housing focus",
+            "text": "Laramar takes a result-driven approach to investment management, our overall objective is to maximize the value and investment returns for a diverse portfolio of real estate assets that includes multi-family, retail, mixed-use, and healthcare real estate.",
+            "quote": "Laramar takes a result-driven approach to investment management, our overall objective is to maximize the value and investment returns for a diverse portfolio of real estate assets that includes multi-family, retail, mixed-use, and healthcare real estate.",
+            "source_id": "S1",
+            "published_at": null
+          }
+        ]
+      },
+      "draft": "Hi there,\n\nThanks for the context on prospect follow-up.\n\nHow does your team handle prospect follow-up today?\n\nBest,\n[Your name]",
+      "draft_basis": [],
+      "words": 20,
+      "questions": 1,
+      "property": {
+        "status": "incomplete",
+        "message": "Paste the full property address to locate it. Company offices are shown separately."
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://laramar.com/our-company/",
+          "host": "laramar.com",
+          "title": "Our Company | Laramar | Elevate Everyday Living",
+          "provider": "Jina Reader",
+          "excerpt": "Laramar takes a result-driven approach to investment management, our overall objective is to maximize the value and investment returns for a diverse portfolio of real estate assets that includes multi-family, retail, mixed-use, and healthcare real estate. Multifamily Property Management\n\nOur Portfolio Investors Contact Our Company We are a real estate company.\n\nWe’re also a think tank, an idea lab, a creative hub. Open to everything. Stopping at nothing. Always anticipating. Always improving. For more than 35 years, Laramar has delivered quality service to the real estate industry. By constantly pushing ourselves to be better, we’ve built a business that grows and adapts to the market—from investments and asset management to construction and due diligence. Laramar at a Glance\n\nValue-add investments with institutional, family office and private investors. Superior returns, 30+ year track record. Asset Management\n\nOur national operating platform and property management service brings the best talent, the best tech and a multi-decade record of experience spanning all asset classes. In select markets Laramar works with experienced 3rd party property management firms to ensure top performance of our assets. Laramar Construction Services\n\nOne of our largest platforms. We manage each project from start to finish, including budget development and pre-construction through project closeout vendor selection, material procurement, negotiation and contract administration. For our community\n\nPO Box 460129 Denver, CO 80246 View Our Portfolio Connect with us\n\nInnovation & Investment Multifamily Urban Neighborhood Development Medical Properties\n\nLaramar Love is how we support each other and give back to communities across the country.",
+          "retrieved_at": "2026-09-30T23:26:01.592Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company overview",
+          "rank": 1
+        },
+        {
+          "id": "S2",
+          "url": "https://laramar.com/",
+          "host": "laramar.com",
+          "title": "Multifamily Real Estate | Laramar | Apartments Homes",
+          "provider": "Jina Reader",
+          "excerpt": "Specialized investment and asset management platform for small multifamily mixed-used properties in key urban neighborhood markets.\n\nRead More Dan Ruzich Promoted to Assistant Vice President of Asset ManagementRead More Laramar Group to Break Ground on 155-Unit Multifamily Development in Denver\n\nOur Portfolio Investors Contact WHERE OTHERS SEE A SQUARE FOOT WE SEE A STORY 35+ Years in Business### $2.4B Portfolio Value### 368+ Acquisitions### $7.2B+ In Transactions URBAN NEIGHBORHOOD PLATFORM\n\nInvestment platform focused on assembling a portfolio of distinct assets that balance stability with value-add opportunities in select geographies\n\nPO Box 460129 Denver, CO 80246 View Our Portfolio Connect with us\n\nInnovation & Investment Multifamily Urban Neighborhood Development Medical Properties\n\nFeel the love MULTIFAMILY REAL ESTATE\n\nMultifamily and mixed-use properties across 20+ markets. with an emphasis on value add, core+ and core opportunities.\n\nOur Company Our Story Laramar Love Our Team News",
+          "retrieved_at": "2026-09-30T23:25:53.838Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        },
+        {
+          "id": "S3",
+          "url": "https://laramar.com/properties/",
+          "host": "laramar.com",
+          "title": "Apartments for Rent | Laramar | Luxury Rentals",
+          "provider": "Jina Reader",
+          "excerpt": "PO Box 460129 Denver, CO 80246 View Our Portfolio Connect with us\n\nInnovation & Investment Multifamily Urban Neighborhood Development Medical Properties\n\nOur Company Our Story Laramar Love Our Team News",
+          "retrieved_at": "2026-09-30T23:26:11.045Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        },
+        {
+          "id": "S4",
+          "url": "https://laramar.com/our-story/",
+          "host": "laramar.com",
+          "title": "Our Story | Laramar | Mission & Values",
+          "provider": "Jina Reader",
+          "excerpt": "Our Portfolio Investors Contact Our Story ElevatING everyday living.\n\nIn 1989, Jeff Elowe founded a small real estate company that he named Laramar, after his parents Larry and Marlene. 35+ years later, we're an investment and asset management corporation with a multibillion-dollar portfolio. From humble beginnings to nationally recognized, we haven’t forgotten the basic reason for our success: our people and the relationships they nurture. With a demonstrated record of successful investment strategies.\n\nPO Box 460129 Denver, CO 80246 View Our Portfolio Connect with us\n\nInnovation & Investment Multifamily Urban Neighborhood Development Medical Properties\n\nOur Company Our Story Laramar Love Our Team News",
+          "retrieved_at": "2026-09-30T23:26:17.725Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        },
+        {
+          "id": "S5",
+          "url": "https://laramar.com/contact/",
+          "host": "laramar.com",
+          "title": "Contact | Laramar | Opportunity Knocks",
+          "provider": "Direct company website",
+          "excerpt": "If you are a current, previous or prospective resident or partner, we would love to hear from you.\n\nCompany page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page",
+          "retrieved_at": "2026-09-30T23:26:19.339Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        }
+      ],
+      "company_stale": false,
+      "retry_code": null,
+      "contact_status": "not_assessed"
+    },
+    {
+      "id": "Q11",
+      "company": "Flaherty & Collins Properties",
+      "elapsed_ms": 30821,
+      "expected": {
+        "sector": "housing_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://flco.com/"
+      },
+      "actual": "housing_operator",
+      "classification_correct": true,
+      "abstained": false,
+      "progress": {
+        "kind": "limited",
+        "label": "Research finished · limited evidence",
+        "detail": "Available facts are shown. Still unverified: contact role.",
+        "action": "View research details"
+      },
+      "roles": [],
+      "role_check": null,
+      "score": 80,
+      "coverage": 80,
+      "source_count": 2,
+      "brief": {
+        "summary": {
+          "text": "Residential property operations.",
+          "source_ids": [
+            "S1"
+          ]
+        },
+        "portfolio": {
+          "value": "18,137 multifamily units",
+          "unit": "homes",
+          "quote": "Additionally, we currently manage 108 properties and 18,137 multifamily units in 11 states across the nation.",
+          "source_id": "S1",
+          "as_of": null,
+          "rank": 1,
+          "scope": "Company-wide portfolio",
+          "alternatives": []
+        },
+        "footprint": {
+          "value": "11 states",
+          "quote": "Additionally, we currently manage 108 properties and 18,137 multifamily units in 11 states across the nation.",
+          "source_id": "S1",
+          "as_of": null
+        },
+        "context": [
+          {
+            "key": "segments",
+            "label": "Housing focus",
+            "text": "Flaherty & Collins Properties specializes in both market-rate and affordable housing developments, public/private partnerships, and mixed-use, urban infill developments.",
+            "quote": "Flaherty & Collins Properties specializes in both market-rate and affordable housing developments, public/private partnerships, and mixed-use, urban infill developments.",
+            "source_id": "S1",
+            "published_at": null
+          }
+        ]
+      },
+      "draft": "Hi there,\n\nThanks for the context on prospect follow-up.\n\nYour company overview describes housing operations in 11 states.\n\nEliseAI can respond to routine prospect questions and continue the follow-up between conversations with your team.\n\nWhich of your markets would be in scope for an initial rollout?\n\nBest,\n[Your name]",
+      "draft_basis": [
+        {
+          "usage": "company_observation",
+          "source_id": "S1",
+          "quote": "Additionally, we currently manage 108 properties and 18,137 multifamily units in 11 states across the nation.",
+          "source": {
+            "id": "S1",
+            "url": "https://flco.com/our-company/about-us/",
+            "host": "flco.com",
+            "title": "About Us - Flaherty & Collins Properties",
+            "provider": "Direct company website",
+            "excerpt": "Flaherty & Collins Properties specializes in both market-rate and affordable housing developments, public/private partnerships, and mixed-use, urban infill developments. Since 1993, Flaherty & Collins Properties has completed over $2 billion in development and has an ongoing pipeline of more than $2 billion in development. Additionally, we currently manage 108 properties and 18,137 multifamily units in 11 states across the nation.\n\nIn 1993, David Flaherty and Jerry Collins turned a shared vision and belief in real estate’s power to create something lasting into the foundation of Flaherty & Collins Properties. What began as a small operation has grown into a nationally recognized real estate company. Still, the principles that shaped F&C from the beginning remain at its core: entrepreneurial thinking, strong relationships, and a commitment to creating communities where people can live, work, and thrive.\n\nDavid and Jerry brought complementary strengths to the company from day one. David’s vision for development and Jerry’s expertise in property management and operations created a partnership that helped define the F&C approach: looking at real estate not simply as buildings and investments, but as opportunities to strengthen communities and create long-term value. Their legacy lives on in the people, properties, and partnerships that continue to shape F&C today.\n\nAt Flaherty & Collins Properties, we develop relationships, build trust and manage partnerships.\n\nWith headquarters in Indianapolis, Indiana, and Kansas City, Missouri, we have the proven expertise and commitment to guide your mixed-use, multifamily project from start to finish. Our customized and customer-oriented approach leads to projects delivered on time, with unique style and cutting-edge techniques.\n\nCreating Value Through Vibrant Communities",
+            "retrieved_at": "2026-09-30T23:26:50.159Z",
+            "published_at": null,
+            "cached": false,
+            "name_matched": true,
+            "identity": {
+              "version": 1,
+              "status": "confirmed",
+              "reason": "Company name is corroborated on the supplied domain.",
+              "signals": [
+                "supplied_domain",
+                "name_in_page_title",
+                "name_in_source_text",
+                "company_self_description"
+              ]
+            },
+            "focus_quotes": [],
+            "type": "Company overview",
+            "rank": 1
+          },
+          "sentence": "Your company overview describes housing operations in 11 states.",
+          "angle": "Explore whether teams coordinate prospect follow-up across markets.",
+          "question": "Is prospect follow-up shared across your markets or handled by each community?"
+        }
+      ],
+      "words": 49,
+      "questions": 1,
+      "property": {
+        "status": "incomplete",
+        "message": "Paste the full property address to locate it. Company offices are shown separately."
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://flco.com/our-company/about-us/",
+          "host": "flco.com",
+          "title": "About Us - Flaherty & Collins Properties",
+          "provider": "Direct company website",
+          "excerpt": "Flaherty & Collins Properties specializes in both market-rate and affordable housing developments, public/private partnerships, and mixed-use, urban infill developments. Since 1993, Flaherty & Collins Properties has completed over $2 billion in development and has an ongoing pipeline of more than $2 billion in development. Additionally, we currently manage 108 properties and 18,137 multifamily units in 11 states across the nation.\n\nIn 1993, David Flaherty and Jerry Collins turned a shared vision and belief in real estate’s power to create something lasting into the foundation of Flaherty & Collins Properties. What began as a small operation has grown into a nationally recognized real estate company. Still, the principles that shaped F&C from the beginning remain at its core: entrepreneurial thinking, strong relationships, and a commitment to creating communities where people can live, work, and thrive.\n\nDavid and Jerry brought complementary strengths to the company from day one. David’s vision for development and Jerry’s expertise in property management and operations created a partnership that helped define the F&C approach: looking at real estate not simply as buildings and investments, but as opportunities to strengthen communities and create long-term value. Their legacy lives on in the people, properties, and partnerships that continue to shape F&C today.\n\nAt Flaherty & Collins Properties, we develop relationships, build trust and manage partnerships.\n\nWith headquarters in Indianapolis, Indiana, and Kansas City, Missouri, we have the proven expertise and commitment to guide your mixed-use, multifamily project from start to finish. Our customized and customer-oriented approach leads to projects delivered on time, with unique style and cutting-edge techniques.\n\nCreating Value Through Vibrant Communities",
+          "retrieved_at": "2026-09-30T23:26:50.159Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text",
+              "company_self_description"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company overview",
+          "rank": 1
+        },
+        {
+          "id": "S2",
+          "url": "https://flco.com/",
+          "host": "flco.com",
+          "title": "Home - Flaherty & Collins Properties",
+          "provider": "Direct company website",
+          "excerpt": "Exceptional Management. Extraordinary Results.\n\nFlaherty & Collins Properties is a leader in development, construction and property management. We specialize in both market rate and affordable housing developments, public/private partnerships and mixed-use, urban in-fill developments.\n\n\"I wanted to extend my thanks to each of you (and your team) for the outstanding job you've been doing in managing our properties. The tours this week were not only informative to our ownership but highlighted the great work we’ve been doing the past few years. Your dedication to maintaining the properties at such a high standard does not go unnoticed. We appreciate your efforts in ensuring everything runs smoothly, and it's evident that everyone’s hard work contributes significantly to the success of the portfolio. Once again, thank you for your continued excellence and we look forward to our continued partnership with F&C and witnessing more of your exceptional work in the future.\"\n\nBrett Moore Jr., CAIA, Managing Director - Real Estate, PROMUS\n\nDelivering Vibrant Communities Since 1993.\n\nFounded in 1993, Flaherty & Collins Properties is one of the Midwest’s largest and most experienced developers of multifamily properties. Our customized, customer-focused approach means that we consistently deliver unique, cutting-edge projects on time, every time.",
+          "retrieved_at": "2026-09-30T23:26:49.740Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text",
+              "company_self_description"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        }
+      ],
+      "company_stale": false,
+      "retry_code": null,
+      "contact_status": "not_assessed"
+    },
+    {
+      "id": "Q12",
+      "company": "AppFolio",
+      "elapsed_ms": 8138,
+      "expected": {
+        "sector": "non_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://www.appfolio.com/"
+      },
+      "actual": "non_operator",
+      "classification_correct": true,
+      "abstained": false,
+      "progress": {
+        "kind": "limited",
+        "label": "Research finished · limited evidence",
+        "detail": "Available facts are shown. Still unverified: company detail, contact role.",
+        "action": "View research details"
+      },
+      "roles": [],
+      "role_check": null,
+      "score": 0,
+      "coverage": 100,
+      "source_count": 1,
+      "brief": {
+        "summary": {
+          "text": "Software provider.",
+          "source_ids": [
+            "S1"
+          ]
+        },
+        "portfolio": null,
+        "footprint": null,
+        "context": []
+      },
+      "draft": "Hi there,\n\nThanks for the context on prospect follow-up.\n\nAre you exploring EliseAI for housing operations, a partnership, or another use case?\n\nBest,\n[Your name]",
+      "draft_basis": [],
+      "words": 25,
+      "questions": 1,
+      "property": {
+        "status": "incomplete",
+        "message": "Paste the full property address to locate it. Company offices are shown separately."
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://appfolio.com/",
+          "host": "appfolio.com",
+          "title": "AppFolio: Move Beyond Property Management Software",
+          "provider": "Jina Reader",
+          "excerpt": "Yesterday’s property management software might solve for your efficiency goals, but faster task execution doesn't equal value. Introducing the AppFolio Performance Platform, built to deliver the outcomes that everyone needs with unified data, native agentic Al, and new revenue streams.\n\nMarket challenges have made operators focus on efficiency. That’s no longer enough. The AppFolio Performance Platform introduces a new game: real performance for everyone. Our unified experience, powered by agentic AI, takes on busywork and frees your teams to create exceptional client experiences, while convenient services generate new top-line revenue and meet resident and investor needs.\n\n> “Since adopting AppFolio in 2016 with 400 units, we’ve scaled to nearly 14,000 — growth we couldn’t have achieved without their technology and partnership.”\n\n> “The reason we've stuck with AppFolio is because they’re constantly adding new features and reinvesting in the software to make it cutting-edge for all operators. We’ve been impressed with how responsive they are to our ideas about how to make the software better for our needs.”\n\nSingle-Family Multifamily Student Housing Affordable Housing Community Associations Commercial Investment Management Pricing\n\nOverview Workflow Automation Resident Experience Accounting & Reporting Marketing & Leasing Maintenance Communication & Service Integrations & Partnerships More from AppFolio\n\nJoin the industry's most forward-thinking operators, investors, and innovators for four days of bold ideas, big outcomes, and unforgettable experiences. Hands-on trainings included — a $375 value.\n\nAre you juggling multiple log-ins with your data all over the place? Get a unified experience that connects property and investment management operations across your portfolio. You can work from anywhere, on any device, and even integrate your favorite proptech solutions. It's easy for your teams, convenient for residents, and ideal for investors — so everyone wins.",
+          "retrieved_at": "2026-09-30T23:26:58.304Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text",
+              "company_self_description"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        }
+      ],
+      "company_stale": false,
+      "retry_code": null,
+      "contact_status": "not_assessed"
+    },
+    {
+      "id": "Q13",
+      "company": "Entrata",
+      "elapsed_ms": 11440,
+      "expected": {
+        "sector": "non_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://www.entrata.com/"
+      },
+      "actual": "non_operator",
+      "classification_correct": true,
+      "abstained": false,
+      "progress": {
+        "kind": "limited",
+        "label": "Research finished · limited evidence",
+        "detail": "Available facts are shown. Still unverified: company detail, contact role.",
+        "action": "View research details"
+      },
+      "roles": [],
+      "role_check": null,
+      "score": 0,
+      "coverage": 100,
+      "source_count": 2,
+      "brief": {
+        "summary": {
+          "text": "Software provider.",
+          "source_ids": [
+            "S1"
+          ]
+        },
+        "portfolio": null,
+        "footprint": null,
+        "context": []
+      },
+      "draft": "Hi there,\n\nThanks for the context on prospect follow-up.\n\nAre you exploring EliseAI for housing operations, a partnership, or another use case?\n\nBest,\n[Your name]",
+      "draft_basis": [],
+      "words": 25,
+      "questions": 1,
+      "property": {
+        "status": "incomplete",
+        "message": "Paste the full property address to locate it. Company offices are shown separately."
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://entrata.com/",
+          "host": "entrata.com",
+          "title": "Property Management Software | Entrata®",
+          "provider": "Jina Reader",
+          "excerpt": "From leasing to maintenance to renewals, Entrata AI agents intelligently execute tasks, route work, and orchestrate workflows across your operation. Two platforms, one OS\n\nEntrata offers robust tools to enhance operations and efficiency across various property types, from multifamily to military housing. Multifamily Maximize efficiency in leasing, payments, maintenance, renewals, and compliance inside one unified OS. Execute within fair housing and policy guardrails, improving retention, increasing NOI, and scaling with operational leverage.### Student Align leasing cycles, roommate matching, parent guarantees, and turn management in one system built for student housing. Execute high-volume operations with precision and compliance.### Affordable Embedded compliance logic supports regulated workflows and budget constraints. Reduce risk, save time, and protect asset performance within program requirements.### Military Easily manage your military housing portfolio with one easy-to-use operating system. Automate MAC payment processes, simplify reporting and deployment, and more.### Commercial Connect leasing, billing, service, and reporting across office, retail, and mixed-use properties. Operate with real-time visibility to strengthen NOI.### Manufactured Modernize community operations with workflows tailored to manufactured housing. Reduce admin work and improve performance across every site. See Autonomous Property Management in Action\n\nMultifamily Modern tools to simplify operations and enhance resident satisfaction.Military Built for secure, structured, and government-regulated housing needs.\n\nAffordable Compliant, efficient solutions for affordable housing communities.Manufactured Housing Streamlined support for lot management and long-term leasing.\n\nGuides Step-by-step tutorials and strategy docs for better operations and growth.Reports Industry insights, benchmarks, and resident data you can act on.Customer Stories Real customer wins using Entrata to drive results.\n\nWebinars Live and on-demand sessions with experts on trends and best practices.Courses Training modules to level up your Entrata skills at your own pace.Resident Experts Tips and insights from seasoned property management pros.\n\nDiscover how Entrata advances operational work across your portfolio.\n\nOperations Experience PlatformEntrata Layered Intelligence",
+          "retrieved_at": "2026-09-30T23:27:05.934Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text",
+              "company_self_description"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        },
+        {
+          "id": "S2",
+          "url": "https://entrata.com/solutions/multifamily",
+          "host": "entrata.com",
+          "title": "Multifamily Property Management Software | Entrata",
+          "provider": "Jina Reader",
+          "excerpt": "Spend less time dealing with multiple applications and more time building a healthy apartment community. Entrata’s all-in-one operating system streamlines resident relations.\n\nMultifamily Modern tools to simplify operations and enhance resident satisfaction.Military Built for secure, structured, and government-regulated housing needs.\n\nAffordable Compliant, efficient solutions for affordable housing communities.Manufactured Housing Streamlined support for lot management and long-term leasing.\n\nGuides Step-by-step tutorials and strategy docs for better operations and growth.Reports Industry insights, benchmarks, and resident data you can act on.Customer Stories Real customer wins using Entrata to drive results.\n\nWebinars Live and on-demand sessions with experts on trends and best practices.Courses Training modules to level up your Entrata skills at your own pace.Resident Experts Tips and insights from seasoned property management pros.\n\nSolutions Multifamily property management\n\nManage accounting, purchasing, facilities, and leasing for conventional properties—in one operating system.\n\nExplore multifamily operations Make it easy for your onsite teams to get work done Ideal workflows",
+          "retrieved_at": "2026-09-30T23:27:13.603Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        }
+      ],
+      "company_stale": false,
+      "retry_code": null,
+      "contact_status": "not_assessed"
+    },
+    {
+      "id": "Q14",
+      "company": "Yardi",
+      "elapsed_ms": 31965,
+      "expected": {
+        "sector": "non_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://www.yardi.com/company/about-us/"
+      },
+      "actual": "non_operator",
+      "classification_correct": true,
+      "abstained": false,
+      "progress": {
+        "kind": "limited",
+        "label": "Research finished · limited evidence",
+        "detail": "Available facts are shown. Still unverified: company detail, contact role.",
+        "action": "View research details"
+      },
+      "roles": [],
+      "role_check": null,
+      "score": 0,
+      "coverage": 100,
+      "source_count": 3,
+      "brief": {
+        "summary": {
+          "text": "Software provider.",
+          "source_ids": [
+            "S1"
+          ]
+        },
+        "portfolio": null,
+        "footprint": null,
+        "context": []
+      },
+      "draft": "Hi there,\n\nThanks for the context on prospect follow-up.\n\nAre you exploring EliseAI for housing operations, a partnership, or another use case?\n\nBest,\n[Your name]",
+      "draft_basis": [],
+      "words": 25,
+      "questions": 1,
+      "property": {
+        "status": "incomplete",
+        "message": "Paste the full property address to locate it. Company offices are shown separately."
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.yardi.com/suite/elevate-suite-multifamily/",
+          "host": "yardi.com",
+          "title": "Elevate Suite for Multifamily - Yardi",
+          "provider": "Direct company website",
+          "excerpt": "Provide a frictionless customer experience while improving productivity with a connected property management workflow from customer acquisition to resident retention. Yardi’s innovative multifamily products make it happen every step of the way.\n\nChoose from two innovative platforms designed for real estate management: Yardi Voyager and Yardi Breeze. Both include accounting, operations and ancillary solutions for residential and commercial portfolios.\n\nHow does the Yardi Elevate Suite streamline multifamily asset management?\n\nThe Yardi Elevate Suite integrates advanced tools to streamline multifamily asset management. These solutions provide comprehensive support for budget forecasting, asset tracking and revenue optimization, enhancing overall property management efficiency.\n\nThe Yardi Elevate Suite supports property management technology by integrating various tools into a unified platform. This integration ensures seamless management of multifamily properties, from financial planning to asset optimization and revenue management.\n\nJoin thousands of businesses worldwide that choose Yardi property management software and services to optimize every aspect of their operations.\n\nYardi Kube Space Management Yardi Kube Space Management ProYardi Kube IT ManagementCoworkingCafeProcure to Pay Suite\n\nDo more with facility management software that supports all your accounting, operations, marketing and leasing needs.",
+          "retrieved_at": "2026-09-30T23:27:46.141Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        },
+        {
+          "id": "S2",
+          "url": "https://yardi.com/",
+          "host": "yardi.com",
+          "title": "Homepage",
+          "provider": "Jina Reader",
+          "excerpt": "Provide a frictionless customer experience while improving productivity with a connected property management workflow from customer acquisition to resident retention. Yardi’s innovative multifamily products make it happen every step of the way.\n\nChoose from two innovative platforms designed for real estate management: Yardi Voyager and Yardi Breeze. Both include accounting, operations and ancillary solutions for residential and commercial portfolios.\n\nFrom marketing and leasing to maintenance and accounting, Yardi has a solution for every part of your multifamily operation. Built to work together. Scales with your portfolio.\n\nJoin thousands of businesses worldwide that choose Yardi property management software and services to optimize every aspect of their operations.\n\nYardi Kube Space ManagementYardi Kube Space Management ProYardi Kube IT ManagementCoworkingCafeProcure to Pay Suite\n\nDo more with facility management software that supports all your accounting, operations, marketing and leasing needs.\n\nExplore asset management solutions Residential Asset Products\n\nYardi Kube Space ManagementYardi Kube Space Management ProYardi Kube IT ManagementCoworkingCafe",
+          "retrieved_at": "2026-09-30T23:27:22.236Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": false,
+          "identity": {
+            "version": 1,
+            "status": "needs_confirmation",
+            "reason": "The company is mentioned, but the page does not establish its identity.",
+            "signals": [
+              "supplied_domain",
+              "name_in_source_text"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        },
+        {
+          "id": "S3",
+          "url": "https://www.yardi.com/product/voyager-residential/",
+          "host": "yardi.com",
+          "title": "Multifamily Property Management | Voyager Residential",
+          "provider": "Direct company website",
+          "excerpt": "Provide a frictionless customer experience while improving productivity with a connected property management workflow from customer acquisition to resident retention. Yardi’s innovative multifamily products make it happen every step of the way.\n\nChoose from two innovative platforms designed for real estate management: Yardi Voyager and Yardi Breeze. Both include accounting, operations and ancillary solutions for residential and commercial portfolios.\n\nJoin thousands of businesses worldwide that choose Yardi property management software and services to optimize every aspect of their operations.\n\nYardi Kube Space Management Yardi Kube Space Management ProYardi Kube IT ManagementCoworkingCafeProcure to Pay Suite\n\nDo more with facility management software that supports all your accounting, operations, marketing and leasing needs.\n\nYardi Kube Space Management Yardi Kube Space Management ProYardi Kube IT ManagementCoworkingCafe\n\nSave money, improve productivity and mitigate risk when you centralize procurement — from purchasing and invoicing to vendor management.\n\nLearn more about our story, our people and why property managers worldwide trust Yardi to deliver innovative solutions for real estate success.",
+          "retrieved_at": "2026-09-30T23:27:46.007Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": false,
+          "identity": {
+            "version": 1,
+            "status": "needs_confirmation",
+            "reason": "The company is mentioned, but the page does not establish its identity.",
+            "signals": [
+              "supplied_domain",
+              "name_in_source_text"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        }
+      ],
+      "company_stale": false,
+      "retry_code": null,
+      "contact_status": "not_assessed"
+    },
+    {
+      "id": "Q15",
+      "company": "Buildium",
+      "elapsed_ms": 24343,
+      "expected": {
+        "sector": "non_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://www.buildium.com/"
+      },
+      "actual": "non_operator",
+      "classification_correct": true,
+      "abstained": false,
+      "progress": {
+        "kind": "limited",
+        "label": "Research finished · limited evidence",
+        "detail": "Available facts are shown. Still unverified: contact role.",
+        "action": "View research details"
+      },
+      "roles": [],
+      "role_check": null,
+      "score": 0,
+      "coverage": 100,
+      "source_count": 3,
+      "brief": {
+        "summary": {
+          "text": "Software provider.",
+          "source_ids": [
+            "S1"
+          ]
+        },
+        "portfolio": null,
+        "footprint": null,
+        "context": [
+          {
+            "key": "operations",
+            "label": "Operating model",
+            "text": "For software like Buildium, it gives you a centralized, all-in-one platform for taking on the day-to-day challenges that are unique to property management with features like property accounting, online leasing, resident portals, online payments, maintenance management tools, and reporting plus analytics.",
+            "quote": "For software like Buildium, it gives you a centralized, all-in-one platform for taking on the day-to-day challenges that are unique to property management with features like property accounting, online leasing, resident portals, online payments, maintenance management tools, and reporting plus analytics.",
+            "source_id": "S3",
+            "published_at": null
+          },
+          {
+            "key": "workflow",
+            "label": "Leasing & resident services",
+            "text": "Some of the key features of Buildium include rental listings, tenant screening, lease management, rent collection, property accounting, maintenance requests, and communication tools.",
+            "quote": "Some of the key features of Buildium include rental listings, tenant screening, lease management, rent collection, property accounting, maintenance requests, and communication tools.",
+            "source_id": "S3",
+            "published_at": null
+          }
+        ]
+      },
+      "draft": "Hi there,\n\nThanks for the context on prospect follow-up.\n\nAre you exploring EliseAI for housing operations, a partnership, or another use case?\n\nBest,\n[Your name]",
+      "draft_basis": [],
+      "words": 25,
+      "questions": 1,
+      "property": {
+        "status": "incomplete",
+        "message": "Paste the full property address to locate it. Company offices are shown separately."
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.buildium.com/portfolios/residential-property-management/",
+          "host": "buildium.com",
+          "title": "Residential Property Management Software | Buildium",
+          "provider": "Jina Reader",
+          "excerpt": "Intuitive AI Automation Customization Business Operations Leasing Accounting and Payments Resident Experience Portfolio + Revenue Growth Marketing Business Performance Key Features\n\nProperty Accounting Purpose-built property accounting software Collect Rent Online Get paid faster with our online payment platform Maintenance Requests Managing work orders has never been easier 1099 e-Filing Easily create your 1099s and stay organized during tax season Resident Center Rental Listing Syndications Effortlessly advertise your listings Tenant Screening Tenant background checks Property Management Website A free property management website, hosted by Buildium Online Leasing Manage the entire leasing process online Buildium Marketplace An ever-expanding ecosystem of property management apps Open API Free your data to operate more efficiently Maintenance Contact Center Satisfy residents while reducing property risk Customer Success\n\nResidential Properties Community Associations Mixed-Use Properties Single Family Properties Multifamily Properties Commercial Properties Student Housing Enterprise Operations\n\nBuy nowFree Trial Residential Property Management Software Manage operations and communication with applicants, tenants, vendors, and owners using simple-to-use residential property management software. Attract higher quality tenants\n\nUse residential property management software to reduce phone calls and emails by allowing residents to submit maintenance requests and manage payments from their mobile device. Share updates via text and post important notices to the resident portal announcement board. Keep property owners in the loop\n\nProperty Manager Sign InResident Sign In\n\nShare financial statements, leases, and receipts with owners via the owner portal so they can access information at any time. Use email and mailing templates to send notices to owners, or easily create your own. Eliminate vendor paperwork\n\nManage and pay vendor expenses alongside company bills. Track productivity so work orders are assigned to the most efficient vendors. Start your free trial today",
+          "retrieved_at": "2026-09-30T23:28:01.652Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company services",
+          "rank": 2
+        },
+        {
+          "id": "S2",
+          "url": "https://www.buildium.com/portfolios/multifamily-property-management/",
+          "host": "buildium.com",
+          "title": "Multifamily Property Management Software | Buildium",
+          "provider": "Jina Reader",
+          "excerpt": "Buildium’ multifamily management solution provides automated online rent collection via ACH or credit card, recurring payment options, and integrated accounting tools like expense tracking and 1099 e-filling.\n\nWhile the best solution depends on your portfolio size and budget, Buildium provides a robust, all‑in‑one property management platform designed to help multifamily property managers run and scale their business—offering plans that fit companies of all sizes.\n\nIntuitive AI Automation Customization Business Operations Leasing Accounting and Payments Resident Experience Portfolio + Revenue Growth Marketing Business Performance Key Features\n\nProperty Accounting Purpose-built property accounting software Collect Rent Online Get paid faster with our online payment platform Maintenance Requests Managing work orders has never been easier 1099 e-Filing Easily create your 1099s and stay organized during tax season Resident Center Rental Listing Syndications Effortlessly advertise your listings Tenant Screening Tenant background checks Property Management Website A free property management website, hosted by Buildium Online Leasing Manage the entire leasing process online Buildium Marketplace An ever-expanding ecosystem of property management apps Open API Free your data to operate more efficiently Maintenance Contact Center Satisfy residents while reducing property risk Customer Success\n\nResidential Properties Community Associations Mixed-Use Properties Single Family Properties Multifamily Properties Commercial Properties Student Housing Enterprise Operations\n\nPortfolios Multifamily Property Management Software Multifamily Made Easy\n\nManaging multifamily means managing volume—applications, renewals, maintenance requests, move-ins. Buildium handles it all from one platform, so you can keep residents happy, owners informed, and units filled.\n\nExplore Leasing Features Stay ahead with maintenance management for multifamily properties",
+          "retrieved_at": "2026-09-30T23:28:10.470Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text",
+              "company_self_description"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company services",
+          "rank": 2
+        },
+        {
+          "id": "S3",
+          "url": "https://buildium.com/",
+          "host": "buildium.com",
+          "title": "Buildium: Property Management Software",
+          "provider": "Jina Reader",
+          "excerpt": "For software like Buildium, it gives you a centralized, all-in-one platform for taking on the day-to-day challenges that are unique to property management with features like property accounting, online leasing, resident portals, online payments, maintenance management tools, and reporting plus analytics.\n\nNot all property management software is equal, and the features they offer can vary from basic to comprehensive—like Buildium, which sets you up with everything you need. Our centralized platform gives you essential property management tools, such as property accounting, rent collection, maintenance management, resident portals, online leasing, business analytics, and much more.\n\nIntuitive AI Automation Customization Business Operations Leasing Accounting and Payments Resident Experience Portfolio + Revenue Growth Marketing Business Performance Key Features\n\nProperty Accounting Purpose-built property accounting software Collect Rent Online Get paid faster with our online payment platform Maintenance Requests Managing work orders has never been easier 1099 e-Filing Easily create your 1099s and stay organized during tax season Resident Center Rental Listing Syndications Effortlessly advertise your listings Tenant Screening Tenant background checks Property Management Website A free property management website, hosted by Buildium Online Leasing Manage the entire leasing process online Buildium Marketplace An ever-expanding ecosystem of property management apps Open API Free your data to operate more efficiently Maintenance Contact Center Satisfy residents while reducing property risk Customer Success\n\nResidential Properties Community Associations Mixed-Use Properties Single Family Properties Multifamily Properties Commercial Properties Student Housing Enterprise Operations\n\nAccounting Payments Leasing Maintenance Screening Mobile Apps Integrations Purpose-Built Property Management Accounting\n\nView Leasing Features Property Maintenance + Operations\n\nSome of the key features of Buildium include rental listings, tenant screening, lease management, rent collection, property accounting, maintenance requests, and communication tools. With Buildium, users can also access a range of reports and analytics to track their rental income, expenses, and other key metrics.",
+          "retrieved_at": "2026-09-30T23:27:54.020Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        }
+      ],
+      "company_stale": false,
+      "retry_code": null,
+      "contact_status": "not_assessed"
+    },
+    {
+      "id": "Q16",
+      "company": "Bell Partners",
+      "elapsed_ms": 32695,
+      "expected": {
+        "sector": "non_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://www.bellpartners.com/who-we-are/"
+      },
+      "actual": "non_operator",
+      "classification_correct": true,
+      "abstained": false,
+      "progress": {
+        "kind": "limited",
+        "label": "Research finished · limited evidence",
+        "detail": "Available facts are shown. Still unverified: company detail, contact role.",
+        "action": "View research details"
+      },
+      "roles": [],
+      "role_check": null,
+      "score": 0,
+      "coverage": 100,
+      "source_count": 1,
+      "brief": {
+        "summary": {
+          "text": "Advisor / consultant.",
+          "source_ids": [
+            "S1"
+          ]
+        },
+        "portfolio": null,
+        "footprint": null,
+        "context": []
+      },
+      "draft": "Hi there,\n\nThanks for the context on prospect follow-up.\n\nAre you exploring EliseAI for housing operations, a partnership, or another use case?\n\nBest,\n[Your name]",
+      "draft_basis": [],
+      "words": 25,
+      "questions": 1,
+      "property": {
+        "status": "incomplete",
+        "message": "Paste the full property address to locate it. Company offices are shown separately."
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://bellpartners.com/",
+          "host": "bellpartners.com",
+          "title": "Financial & Wealth Creation Advisors | Bell Partners",
+          "provider": "Direct company website",
+          "excerpt": "We also believe it is important to give back to the communities in which we operate and it was for this reason we established the Loyal Foundation in 2009 to raise much needed money for children’s medical equipment.\n\nAs a BRW Award Winning firm, a large part of our service is listening, planning, communicating and solving. Through performance of our engagement we gain an understanding of our clients operations that will allow us to provide a solution based approach to the issues that confront them. We also identify potential improvements relevant to our client’s general business.\n\nMANAGING DIRECTOR, ACCOUNTING, TAX AND ADVISORY\n\nManaging Director, Wealth Creation and Financial Advisory\n\nManaging Director, Norwest Sydney Office\n\nManaging Director, Wealth Creation Newcastle\n\nOwner, Perpetual Loyal, (a competitor in the Sydney to Hobart Yacht Race), 2009-2016. (Winner of the race in 2011 and 2016).\n\nOwner and Managing Director, Bell Partners accounting firm since 1997.",
+          "retrieved_at": "2026-09-30T23:28:43.182Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        }
+      ],
+      "company_stale": false,
+      "retry_code": null,
+      "contact_status": "not_assessed"
+    },
+    {
+      "id": "Q17",
+      "company": "Fogelman",
+      "elapsed_ms": 16811,
+      "expected": {
+        "sector": "unresolved",
+        "source": "Deliberately mismatched company/domain"
+      },
+      "actual": "unresolved",
+      "classification_correct": true,
+      "abstained": true,
+      "progress": {
+        "kind": "interrupted",
+        "label": "Refresh interrupted · saved research available",
+        "detail": "A company lookup did not finish.",
+        "action": "View research status"
+      },
+      "roles": [],
+      "role_check": null,
+      "score": null,
+      "coverage": 0,
+      "source_count": 4,
+      "brief": {
+        "summary": null,
+        "portfolio": null,
+        "footprint": null,
+        "context": []
+      },
+      "draft": "Hi there,\n\nThanks for getting in touch with EliseAI.\n\nWhat kind of properties or services does your team manage?\n\nBest,\n[Your name]",
+      "draft_basis": [],
+      "words": 22,
+      "questions": 1,
+      "property": {
+        "status": "incomplete",
+        "message": "Paste the full property address to locate it. Company offices are shown separately."
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://appfolio.com/company/who-we-are",
+          "host": "appfolio.com",
+          "title": "Who We Are | AppFolio",
+          "provider": "Jina Reader",
+          "excerpt": "Watch Video We Create a World Where Choosing, Investing in, Owning, Living In, and Managing Communities Feels Magical and Effortless\n\nWe’ve grown our footprint by helping real estate operators grow theirs, and in the process, make their lives easier. “Our culture is really the backbone of how we fuel innovation, service, success, and growth at AppFolio.”\n\nSingle-Family Multifamily Student Housing Affordable Housing Community Associations Commercial Investment Management Pricing\n\nOverview Workflow Automation Resident Experience Accounting & Reporting Marketing & Leasing Maintenance Communication & Service Integrations & Partnerships More from AppFolio\n\nNewsroomInvestor RelationsCode of Business Conduct and Ethics Product Property Management\n\nInvestment Management Realm-X AI What’s New Solutions\n\nProperty Management Investment Management Our Company\n\nReal Estate Performance Management Customer Experience Customer Stories Customer Trust Login",
+          "retrieved_at": "2026-09-30T23:28:57.852Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": false,
+          "identity": {
+            "version": 1,
+            "status": "needs_confirmation",
+            "reason": "The page does not corroborate the complete company name.",
+            "signals": [
+              "supplied_domain"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company overview",
+          "rank": 1
+        },
+        {
+          "id": "S2",
+          "url": "https://www.appfolio.com/investment-manager/investment-management",
+          "host": "appfolio.com",
+          "title": "Investment Management & Real Estate Fundraising Software",
+          "provider": "Direct company website",
+          "excerpt": "AppFolio Investment Manager has a complete suite of tools to optimize your fundraising workflow end-to-end, from promoting new offerings to automatically calculating and paying investor distributions.\n\nAppFolio Investment Manager's best-in-class waterfall tool allows you to calculate distributions quickly with an intuitively designed waterfall distributions tool that reduces the risk of error and makes auditing easy — all while having payments processed electronically.\n\n“Using AppFolio Investment Manager to maximize efficiency and productivity means we do more, with a lot less overhead.”\n\nExplore more from AppFolio Investment Manager\n\nAppFolio Alpha™ automatically aggregates, normalizes, and visualizes key property management data, surfaces actionable insights, and enables better decision-making.\n\nDrive operational efficiency to outperform the market\n\nSend communications and track the interest level of prospective investors in real-time. With our all-in-one real estate fundraising software, you can manage investor commitments, get notified when signed documents and capital contributions are received from investors, and easily share wire instructions and record contributions digitally.\n\nInvestor Payments is integrated into your Investment Management workflow so you can easily raise capital, send distributions, and track outgoing & incoming funds within one platform. Payments are executed via ACH or check-mailing, to ensure a smooth and streamlined experience for your investors.\n\nCompany page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page",
+          "retrieved_at": "2026-09-30T23:28:59.981Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": false,
+          "identity": {
+            "version": 1,
+            "status": "needs_confirmation",
+            "reason": "The page does not corroborate the complete company name.",
+            "signals": [
+              "supplied_domain"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company services",
+          "rank": 2
+        },
+        {
+          "id": "S3",
+          "url": "https://appfolio.com/",
+          "host": "appfolio.com",
+          "title": "AppFolio: Move Beyond Property Management Software",
+          "provider": "Jina Reader",
+          "excerpt": "Yesterday’s property management software might solve for your efficiency goals, but faster task execution doesn't equal value. Introducing the AppFolio Performance Platform, built to deliver the outcomes that everyone needs with unified data, native agentic Al, and new revenue streams.\n\nMarket challenges have made operators focus on efficiency. That’s no longer enough. The AppFolio Performance Platform introduces a new game: real performance for everyone. Our unified experience, powered by agentic AI, takes on busywork and frees your teams to create exceptional client experiences, while convenient services generate new top-line revenue and meet resident and investor needs.\n\n> “Since adopting AppFolio in 2016 with 400 units, we’ve scaled to nearly 14,000 — growth we couldn’t have achieved without their technology and partnership.”\n\n> “The reason we've stuck with AppFolio is because they’re constantly adding new features and reinvesting in the software to make it cutting-edge for all operators. We’ve been impressed with how responsive they are to our ideas about how to make the software better for our needs.”\n\nSingle-Family Multifamily Student Housing Affordable Housing Community Associations Commercial Investment Management Pricing\n\nOverview Workflow Automation Resident Experience Accounting & Reporting Marketing & Leasing Maintenance Communication & Service Integrations & Partnerships More from AppFolio\n\nJoin the industry's most forward-thinking operators, investors, and innovators for four days of bold ideas, big outcomes, and unforgettable experiences. Hands-on trainings included — a $375 value.\n\nAre you juggling multiple log-ins with your data all over the place? Get a unified experience that connects property and investment management operations across your portfolio. You can work from anywhere, on any device, and even integrate your favorite proptech solutions. It's easy for your teams, convenient for residents, and ideal for investors — so everyone wins.\n\nFuller Apartment Homes and Presidio Capital Partners",
+          "retrieved_at": "2026-09-30T23:28:50.174Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": false,
+          "identity": {
+            "version": 1,
+            "status": "needs_confirmation",
+            "reason": "The page does not corroborate the complete company name.",
+            "signals": [
+              "supplied_domain"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        },
+        {
+          "id": "S4",
+          "url": "https://www.appfolio.com/investment-manager",
+          "host": "appfolio.com",
+          "title": "Real Estate Investment Management Software & Solutions",
+          "provider": "Direct company website",
+          "excerpt": "Maximize returns, exceed investor expectations, and work efficiently with AppFolio Investment Manager.\n\nHear how firms of all sizes and strategies partner with AppFolio Investment Manager.\n\nAppFolio Alpha™ automatically visualizes critical property management data, surfaces actionable insights, and enables better decision-making.\n\nWe’re proud to share the results from a recent survey with AppFolio Investment Manager customers:\n\nfaster fundraising, on average, for new deals using AppFolio Investment Manager.\n\nResults from 2021-2022 TechValidate Survey of AppFolio Investment Manager customers.\n\nWe’re proud to provide unlimited support and custom live training with an award-winning team that ensures you get the most of AppFolio Investment Manager. You’re not just purchasing real estate investment management software — you’re gaining a technology partner that innovates on your behalf.\n\nExplore more from AppFolio Investment Manager\n\nEfficiently optimize your portfolio and eliminate hours in spreadsheets with:",
+          "retrieved_at": "2026-09-30T23:28:59.629Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": false,
+          "identity": {
+            "version": 1,
+            "status": "needs_confirmation",
+            "reason": "The page does not corroborate the complete company name.",
+            "signals": [
+              "supplied_domain"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        }
+      ],
+      "company_stale": true,
+      "retry_code": "provider_queue",
+      "contact_status": "not_assessed"
+    },
+    {
+      "id": "Q18",
+      "company": "Waterton",
+      "elapsed_ms": 30628,
+      "expected": {
+        "sector": "unresolved",
+        "source": "Deliberately mismatched company/domain"
+      },
+      "actual": "unresolved",
+      "classification_correct": true,
+      "abstained": true,
+      "progress": {
+        "kind": "action",
+        "label": "Company match needs review",
+        "detail": "Check the company name and website before using the research.",
+        "action": "Edit company details"
+      },
+      "roles": [],
+      "role_check": null,
+      "score": null,
+      "coverage": 0,
+      "source_count": 4,
+      "brief": {
+        "summary": null,
+        "portfolio": null,
+        "footprint": null,
+        "context": []
+      },
+      "draft": "Hi there,\n\nThanks for getting in touch with EliseAI.\n\nWhat kind of properties or services does your team manage?\n\nBest,\n[Your name]",
+      "draft_basis": [],
+      "words": 22,
+      "questions": 1,
+      "property": {
+        "status": "incomplete",
+        "message": "Paste the full property address to locate it. Company offices are shown separately."
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.buildium.com/portfolios/residential-property-management/",
+          "host": "buildium.com",
+          "title": "Residential Property Management Software | Buildium",
+          "provider": "Jina Reader",
+          "excerpt": "Intuitive AI Automation Customization Business Operations Leasing Accounting and Payments Resident Experience Portfolio + Revenue Growth Marketing Business Performance Key Features\n\nProperty Accounting Purpose-built property accounting software Collect Rent Online Get paid faster with our online payment platform Maintenance Requests Managing work orders has never been easier 1099 e-Filing Easily create your 1099s and stay organized during tax season Resident Center Rental Listing Syndications Effortlessly advertise your listings Tenant Screening Tenant background checks Property Management Website A free property management website, hosted by Buildium Online Leasing Manage the entire leasing process online Buildium Marketplace An ever-expanding ecosystem of property management apps Open API Free your data to operate more efficiently Maintenance Contact Center Satisfy residents while reducing property risk Customer Success\n\nResidential Properties Community Associations Mixed-Use Properties Single Family Properties Multifamily Properties Commercial Properties Student Housing Enterprise Operations\n\nBuy nowFree Trial Residential Property Management Software Manage operations and communication with applicants, tenants, vendors, and owners using simple-to-use residential property management software. Attract higher quality tenants\n\nUse residential property management software to reduce phone calls and emails by allowing residents to submit maintenance requests and manage payments from their mobile device. Share updates via text and post important notices to the resident portal announcement board. Keep property owners in the loop\n\nProperty Manager Sign InResident Sign In\n\nShare financial statements, leases, and receipts with owners via the owner portal so they can access information at any time. Use email and mailing templates to send notices to owners, or easily create your own. Eliminate vendor paperwork\n\nManage and pay vendor expenses alongside company bills. Track productivity so work orders are assigned to the most efficient vendors. Start your free trial today\n\n©2026 Buildium, A RealPage Company®.",
+          "retrieved_at": "2026-09-30T23:29:13.450Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": false,
+          "identity": {
+            "version": 1,
+            "status": "needs_confirmation",
+            "reason": "The page does not corroborate the complete company name.",
+            "signals": [
+              "supplied_domain"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company services",
+          "rank": 2
+        },
+        {
+          "id": "S2",
+          "url": "https://www.buildium.com/portfolios/multifamily-property-management/",
+          "host": "buildium.com",
+          "title": "Multifamily Property Management Software | Buildium",
+          "provider": "Jina Reader",
+          "excerpt": "Buildium’ multifamily management solution provides automated online rent collection via ACH or credit card, recurring payment options, and integrated accounting tools like expense tracking and 1099 e-filling.\n\nWhile the best solution depends on your portfolio size and budget, Buildium provides a robust, all‑in‑one property management platform designed to help multifamily property managers run and scale their business—offering plans that fit companies of all sizes.\n\nIntuitive AI Automation Customization Business Operations Leasing Accounting and Payments Resident Experience Portfolio + Revenue Growth Marketing Business Performance Key Features\n\nProperty Accounting Purpose-built property accounting software Collect Rent Online Get paid faster with our online payment platform Maintenance Requests Managing work orders has never been easier 1099 e-Filing Easily create your 1099s and stay organized during tax season Resident Center Rental Listing Syndications Effortlessly advertise your listings Tenant Screening Tenant background checks Property Management Website A free property management website, hosted by Buildium Online Leasing Manage the entire leasing process online Buildium Marketplace An ever-expanding ecosystem of property management apps Open API Free your data to operate more efficiently Maintenance Contact Center Satisfy residents while reducing property risk Customer Success\n\nResidential Properties Community Associations Mixed-Use Properties Single Family Properties Multifamily Properties Commercial Properties Student Housing Enterprise Operations\n\nPortfolios Multifamily Property Management Software Multifamily Made Easy\n\nManaging multifamily means managing volume—applications, renewals, maintenance requests, move-ins. Buildium handles it all from one platform, so you can keep residents happy, owners informed, and units filled.\n\nExplore Leasing Features Stay ahead with maintenance management for multifamily properties\n\n“Buildium has done so much for our company.",
+          "retrieved_at": "2026-09-30T23:29:21.755Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": false,
+          "identity": {
+            "version": 1,
+            "status": "needs_confirmation",
+            "reason": "The page does not corroborate the complete company name.",
+            "signals": [
+              "supplied_domain"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company services",
+          "rank": 2
+        },
+        {
+          "id": "S3",
+          "url": "https://www.buildium.com/features/ai-property-management-software/",
+          "host": "buildium.com",
+          "title": "AI Property Management Software | Lumina AI – Buildium",
+          "provider": "Jina Reader",
+          "excerpt": "Intuitive AI Automation Customization Business Operations Leasing Accounting and Payments Resident Experience Portfolio + Revenue Growth Marketing Business Performance Key Features\n\nProperty Accounting Purpose-built property accounting software Collect Rent Online Get paid faster with our online payment platform Maintenance Requests Managing work orders has never been easier 1099 e-Filing Easily create your 1099s and stay organized during tax season Resident Center Rental Listing Syndications Effortlessly advertise your listings Tenant Screening Tenant background checks Property Management Website A free property management website, hosted by Buildium Online Leasing Manage the entire leasing process online Buildium Marketplace An ever-expanding ecosystem of property management apps Open API Free your data to operate more efficiently Maintenance Contact Center Satisfy residents while reducing property risk Customer Success\n\nResidential Properties Community Associations Mixed-Use Properties Single Family Properties Multifamily Properties Commercial Properties Student Housing Enterprise Operations\n\nLumina AI is Buildium’s intelligent automation suite built specifically for property management. It automates billing, communications, leasing, maintenance, and reporting—so property managers can scale, cut manual work, and deliver a standout resident experience.\n\nAI workforce is a team of intelligent agents that work in sync to streamline operations, tackle high-friction processes, and deliver real-time insights—so your staff focuses on what only they can do.\n\nMaintenance Agent Leasing Agent Accounting Agent Resident Experience Agent Business Operations Agent Maintenance Agent\n\nLumina AI is Buildium’s intelligent automation suite designed specifically for property management. It automates time-consuming tasks like billing, communications, leasing, maintenance, and reporting—helping property managers scale operations, reduce manual work, and deliver exceptional service.\n\nLumina AI is designed for property management companies of all sizes—from small teams looking to scale without hiring, to mid-sized companies seeking centralized insights, to large companies needing enterprise-level automation and optimization.",
+          "retrieved_at": "2026-09-30T23:29:29.813Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": false,
+          "identity": {
+            "version": 1,
+            "status": "needs_confirmation",
+            "reason": "The page does not corroborate the complete company name.",
+            "signals": [
+              "supplied_domain"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company services",
+          "rank": 2
+        },
+        {
+          "id": "S4",
+          "url": "https://buildium.com/",
+          "host": "buildium.com",
+          "title": "Buildium: Property Management Software",
+          "provider": "Jina Reader",
+          "excerpt": "For software like Buildium, it gives you a centralized, all-in-one platform for taking on the day-to-day challenges that are unique to property management with features like property accounting, online leasing, resident portals, online payments, maintenance management tools, and reporting plus analytics.\n\nNot all property management software is equal, and the features they offer can vary from basic to comprehensive—like Buildium, which sets you up with everything you need. Our centralized platform gives you essential property management tools, such as property accounting, rent collection, maintenance management, resident portals, online leasing, business analytics, and much more.\n\nIntuitive AI Automation Customization Business Operations Leasing Accounting and Payments Resident Experience Portfolio + Revenue Growth Marketing Business Performance Key Features\n\nProperty Accounting Purpose-built property accounting software Collect Rent Online Get paid faster with our online payment platform Maintenance Requests Managing work orders has never been easier 1099 e-Filing Easily create your 1099s and stay organized during tax season Resident Center Rental Listing Syndications Effortlessly advertise your listings Tenant Screening Tenant background checks Property Management Website A free property management website, hosted by Buildium Online Leasing Manage the entire leasing process online Buildium Marketplace An ever-expanding ecosystem of property management apps Open API Free your data to operate more efficiently Maintenance Contact Center Satisfy residents while reducing property risk Customer Success\n\nResidential Properties Community Associations Mixed-Use Properties Single Family Properties Multifamily Properties Commercial Properties Student Housing Enterprise Operations\n\nAccounting Payments Leasing Maintenance Screening Mobile Apps Integrations Purpose-Built Property Management Accounting\n\nView Leasing Features Property Maintenance + Operations\n\nSome of the key features of Buildium include rental listings, tenant screening, lease management, rent collection, property accounting, maintenance requests, and communication tools. With Buildium, users can also access a range of reports and analytics to track their rental income, expenses, and other key metrics.\n\nOne-touch syndication to market your listings across top rental sites Seamless online rental applications with built-in tenant screening services 100% digital, paper-free leasing process\n\nView Payments Features Rental Listing + Leasing",
+          "retrieved_at": "2026-09-30T23:29:05.824Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": false,
+          "identity": {
+            "version": 1,
+            "status": "needs_confirmation",
+            "reason": "The page does not corroborate the complete company name.",
+            "signals": [
+              "supplied_domain"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        }
+      ],
+      "company_stale": false,
+      "retry_code": null,
+      "contact_status": "not_assessed"
+    },
+    {
+      "id": "Q19",
+      "company": "Fogelman",
+      "elapsed_ms": 4865,
+      "expected": {
+        "sector": "housing_operator",
+        "role_absent": true,
+        "source": "Contact belongs to another company according to Q01/Q02 official leadership references"
+      },
+      "actual": "housing_operator",
+      "classification_correct": true,
+      "abstained": false,
+      "progress": {
+        "kind": "limited",
+        "label": "Research finished · limited evidence",
+        "detail": "Available facts are shown. Still unverified: contact role.",
+        "action": "View research details"
+      },
+      "roles": [],
+      "role_check": true,
+      "score": 80,
+      "coverage": 80,
+      "source_count": 4,
+      "brief": {
+        "summary": {
+          "text": "Fogelman is a multifamily investment and property management firm.",
+          "source_ids": [
+            "S1"
+          ]
+        },
+        "portfolio": {
+          "value": "30,000 apartment homes",
+          "unit": "homes",
+          "quote": "Fogelman reaches a major milestone with more than 100 assets and 30,000 apartment homes under management while earning top accolades, including being recognized among Newsweek's Top 100 Most Loved Workplaces and securing the title of “#1 Best Places to Work in Multifamily.",
+          "source_id": "S3",
+          "as_of": null,
+          "rank": 1,
+          "scope": "Company-wide portfolio",
+          "alternatives": []
+        },
+        "footprint": {
+          "value": "six states",
+          "quote": "The company develops more than 10,000 apartment homes across six states in the Southeast and Midwest.",
+          "source_id": "S3",
+          "as_of": null
+        },
+        "context": []
+      },
+      "draft": "Hi Cindy,\n\nThanks for getting in touch with EliseAI.\n\nEliseAI can answer routine leasing questions and help schedule tours, with your team handling conversations that need a person.\n\nWhich part of your leasing or resident workflow would you most like to improve?\n\nBest,\n[Your name]",
+      "draft_basis": [
+        {
+          "usage": "workflow_context",
+          "source_id": "S3",
+          "quote": "Building new apartments becomes Fogelman’s growth engine during the 1980s. The company develops more than 10,000 apartment homes across six states in the Southeast and Midwest. In 1989, Builder Magazine ranks Fogelman as one of the nation’s top 10 builders of multifamily properties. Expansion into Fee Management\n\nFogelman reaches a major milestone with more than 100 assets and 30,000 apartment homes under management while earning top accolades, including being recognized among Newsweek's Top 100 Most Loved Workplaces and securing the title of “#1 Best Places to Work in Multifamily.\n\nFogelman kicks off its joint venture investment platform in 2002, starting with the acquisition of a $51.9 million multifamily portfolio. Since then, Fogelman’s joint venture investment program has acquired more than 90 multifamily assets. Expansion of Corporate Platform\n\nFogelman is a multifamily investment and property management firm. Learn more LeadershipAn experienced and expert team HistoryThe roots of the Fogelman approach News + InsightsFresh perspective and company activity Giving BackA commitment to our communities\n\nMultifamily Investments and Property Management Learn more InvestmentsFogelman’s focused expertise and collaborative approach builds durable returns and long-term investor relationships. Property ManagementFogelman is one of the nation’s leaders in managing and enhancing apartment communities.\n\nIn 1963, the Fogelman family embarks on the construction and lease-up of their first apartment community, the 11-story “Woodmont Towers” in Memphis, Tenn. Following the success of Woodmont, the company continues to expand its local apartment portfolio throughout the 1960s. Geographic Expansion\n\nFogelman begins offering its property management services to third-party property owners, including pension fund advisors, life insurance companies and private investment groups — many of whom have been Fogelman clients for the past 20+ years! Joint Venture Investment Program Kicks Off\n\nTo further enhance its core competencies in property management and investments, Fogelman expands its corporate platform to include the latest expertise in asset management, construction management, asset redevelopment, digital marketing and property technology. Award-Winning Milestone",
+          "source": {
+            "id": "S3",
+            "url": "https://www.fogelman.com/who-we-are/history/",
+            "host": "fogelman.com",
+            "title": "History | Fogelman",
+            "provider": "Jina Reader",
+            "excerpt": "Building new apartments becomes Fogelman’s growth engine during the 1980s. The company develops more than 10,000 apartment homes across six states in the Southeast and Midwest. In 1989, Builder Magazine ranks Fogelman as one of the nation’s top 10 builders of multifamily properties. Expansion into Fee Management\n\nFogelman reaches a major milestone with more than 100 assets and 30,000 apartment homes under management while earning top accolades, including being recognized among Newsweek's Top 100 Most Loved Workplaces and securing the title of “#1 Best Places to Work in Multifamily.\n\nFogelman kicks off its joint venture investment platform in 2002, starting with the acquisition of a $51.9 million multifamily portfolio. Since then, Fogelman’s joint venture investment program has acquired more than 90 multifamily assets. Expansion of Corporate Platform\n\nFogelman is a multifamily investment and property management firm. Learn more LeadershipAn experienced and expert team HistoryThe roots of the Fogelman approach News + InsightsFresh perspective and company activity Giving BackA commitment to our communities\n\nMultifamily Investments and Property Management Learn more InvestmentsFogelman’s focused expertise and collaborative approach builds durable returns and long-term investor relationships. Property ManagementFogelman is one of the nation’s leaders in managing and enhancing apartment communities.\n\nIn 1963, the Fogelman family embarks on the construction and lease-up of their first apartment community, the 11-story “Woodmont Towers” in Memphis, Tenn. Following the success of Woodmont, the company continues to expand its local apartment portfolio throughout the 1960s. Geographic Expansion\n\nFogelman begins offering its property management services to third-party property owners, including pension fund advisors, life insurance companies and private investment groups — many of whom have been Fogelman clients for the past 20+ years! Joint Venture Investment Program Kicks Off\n\nTo further enhance its core competencies in property management and investments, Fogelman expands its corporate platform to include the latest expertise in asset management, construction management, asset redevelopment, digital marketing and property technology. Award-Winning Milestone",
+            "retrieved_at": "2026-09-30T23:23:46.088Z",
+            "published_at": null,
+            "cached": true,
+            "name_matched": true,
+            "identity": {
+              "version": 1,
+              "status": "confirmed",
+              "reason": "Company name is corroborated on the supplied domain.",
+              "signals": [
+                "supplied_domain",
+                "name_in_page_title",
+                "name_in_source_text",
+                "company_self_description"
+              ]
+            },
+            "focus_quotes": [],
+            "type": "Company overview",
+            "rank": 1
+          }
+        }
+      ],
+      "words": 45,
+      "questions": 1,
+      "property": {
+        "status": "incomplete",
+        "message": "Paste the full property address to locate it. Company offices are shown separately."
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.fogelman.com/who-we-are/",
+          "host": "fogelman.com",
+          "title": "Who We Are | Fogelman",
+          "provider": "Jina Reader",
+          "excerpt": "Fogelman is a multifamily investment and property management firm. We keep it simple — building value for our clients comes from creating welcoming communities that residents seek to live in and our employees take pride in managing. The Fogelman Difference\n\nFogelman is a multifamily investment and property management firm. Learn more LeadershipAn experienced and expert team HistoryThe roots of the Fogelman approach News + InsightsFresh perspective and company activity Giving BackA commitment to our communities\n\nMultifamily Investments and Property Management Learn more InvestmentsFogelman’s focused expertise and collaborative approach builds durable returns and long-term investor relationships. Property ManagementFogelman is one of the nation’s leaders in managing and enhancing apartment communities.\n\nFogelman has been recognized by a number of organizations as being a high-performing multifamily management company, including Best Places to Work in Multifamily, and one of Newsweek’s Top 100 Most Loved companies. Teamwork, experience, and expertise help us build trusted relationships with partners, residents, and associates. Our approach\n\nLong-term relationships with our investment partners and management clients, Talented associates who thrive by working together and bringing out the best in each other, Proven approaches to investment selection and property management, Care for communities we manage and invest in and for the residents who live there.\n\nAugust 14, 2026 Multifamily Reputation Management: The Reset After Takeover\n\nAugust 4, 2026 Q&A: Fogelman’s Justin Marshall on Growth, Talent, and Owner Expectations Learn more about the Fogelman approach.\n\nWe don’t waver from our core areas of expertise. We’ve built a replicable mode for success that carries across communities, clients and partners. Awards and recognitions",
+          "retrieved_at": "2026-09-30T23:23:30.434Z",
+          "published_at": null,
+          "cached": true,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text",
+              "company_self_description"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company overview",
+          "rank": 1
+        },
+        {
+          "id": "S2",
+          "url": "https://www.fogelman.com/who-we-are/leadership/",
+          "host": "fogelman.com",
+          "title": "Leadership | Fogelman",
+          "provider": "Jina Reader",
+          "excerpt": "Fogelman is a multifamily investment and property management firm. Learn more LeadershipAn experienced and expert team HistoryThe roots of the Fogelman approach News + InsightsFresh perspective and company activity Giving BackA commitment to our communities\n\nMultifamily Investments and Property Management Learn more InvestmentsFogelman’s focused expertise and collaborative approach builds durable returns and long-term investor relationships. Property ManagementFogelman is one of the nation’s leaders in managing and enhancing apartment communities.\n\nWith one of the most tenured leadership teams in the multifamily industry, Fogelman brings a wealth of expertise and a deep commitment to a our collaborative culture and valued associates that power our success. Executive team Rick Fogelman Co-CEO Mark Fogelman Co-CEO Kristy Heuberger President, Investment Management Justin Marshall President, Property Services Melissa Smith Chief Administrative Officer Will Drummond Chief Financial Officer Leadership team Mike Aiken SVP - Investments John Barger SVP - Risk Management & Legal Tim Berger SVP - Information Technology Kevin Jackson SVP – Portfolio Management Leah Jensen SVP - Human Resources David Nischwitz SVP - Redevelopment Drew Taylor SVP – Asset Management Debi Wherry SVP - Property Operations Greg Williams SVP - Property Operations Joanna Starling SVP - Property Operations Learn more about the Fogelman culture",
+          "retrieved_at": "2026-09-30T23:23:38.593Z",
+          "published_at": null,
+          "cached": true,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text",
+              "company_self_description"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company overview",
+          "rank": 1
+        },
+        {
+          "id": "S3",
+          "url": "https://www.fogelman.com/who-we-are/history/",
+          "host": "fogelman.com",
+          "title": "History | Fogelman",
+          "provider": "Jina Reader",
+          "excerpt": "Building new apartments becomes Fogelman’s growth engine during the 1980s. The company develops more than 10,000 apartment homes across six states in the Southeast and Midwest. In 1989, Builder Magazine ranks Fogelman as one of the nation’s top 10 builders of multifamily properties. Expansion into Fee Management\n\nFogelman reaches a major milestone with more than 100 assets and 30,000 apartment homes under management while earning top accolades, including being recognized among Newsweek's Top 100 Most Loved Workplaces and securing the title of “#1 Best Places to Work in Multifamily.\n\nFogelman kicks off its joint venture investment platform in 2002, starting with the acquisition of a $51.9 million multifamily portfolio. Since then, Fogelman’s joint venture investment program has acquired more than 90 multifamily assets. Expansion of Corporate Platform\n\nFogelman is a multifamily investment and property management firm. Learn more LeadershipAn experienced and expert team HistoryThe roots of the Fogelman approach News + InsightsFresh perspective and company activity Giving BackA commitment to our communities\n\nMultifamily Investments and Property Management Learn more InvestmentsFogelman’s focused expertise and collaborative approach builds durable returns and long-term investor relationships. Property ManagementFogelman is one of the nation’s leaders in managing and enhancing apartment communities.\n\nIn 1963, the Fogelman family embarks on the construction and lease-up of their first apartment community, the 11-story “Woodmont Towers” in Memphis, Tenn. Following the success of Woodmont, the company continues to expand its local apartment portfolio throughout the 1960s. Geographic Expansion\n\nFogelman begins offering its property management services to third-party property owners, including pension fund advisors, life insurance companies and private investment groups — many of whom have been Fogelman clients for the past 20+ years! Joint Venture Investment Program Kicks Off\n\nTo further enhance its core competencies in property management and investments, Fogelman expands its corporate platform to include the latest expertise in asset management, construction management, asset redevelopment, digital marketing and property technology. Award-Winning Milestone",
+          "retrieved_at": "2026-09-30T23:23:46.088Z",
+          "published_at": null,
+          "cached": true,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text",
+              "company_self_description"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company overview",
+          "rank": 1
+        },
+        {
+          "id": "S4",
+          "url": "https://fogelman.com/",
+          "host": "fogelman.com",
+          "title": "Investment Management and Property Services | Fogelman",
+          "provider": "Jina Reader",
+          "excerpt": "Fogelman is a multifamily investment and property management firm. Learn more LeadershipAn experienced and expert team HistoryThe roots of the Fogelman approach News + InsightsFresh perspective and company activity Giving BackA commitment to our communities\n\nMultifamily Investments and Property Management Learn more InvestmentsFogelman’s focused expertise and collaborative approach builds durable returns and long-term investor relationships. Property ManagementFogelman is one of the nation’s leaders in managing and enhancing apartment communities.\n\nOver 60 years of Multifamily Investments and Property Management Creating community and building value\n\nFogelman is a fully-integrated multifamily real estate company that invests in and manages apartment properties in thriving cities across the United States. We’re focused on creating vibrant communities for our residents and building value for our investment partners.\n\nWith six decades of experience, a team of dynamic associates and expert leaders, and a highly collaborative culture, Fogelman is recognized as a multifamily property management and investment leader. We manage welcoming apartment communities for thousands of residents and build durable value for our client and investment partners.\n\nin total portfolio asset value Discover our apartment communities across 12 states\n\nAt Fogelman, we believe growing careers, encouraging team contributions, and rewarding smart thinking are essential investments in our own performance. We’re proud to be recognized as one of the 2026 Best Places to Work in Multifamily and one of Newsweek’s Top 100 Most Loved Workplaces.\n\nFogelman is one of the nation’s leaders in managing and enhancing apartment communities on behalf of owner clients.",
+          "retrieved_at": "2026-09-30T23:23:24.257Z",
+          "published_at": null,
+          "cached": true,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text",
+              "company_self_description"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        }
+      ],
+      "company_stale": false,
+      "retry_code": null,
+      "contact_status": "complete",
+      "diagnostics": {
+        "candidates": 0,
+        "accepted": 0,
+        "rejections": [
+          {
+            "reason": "no_candidate",
+            "url": "",
+            "role": ""
+          }
+        ],
+        "pages_checked": 8,
+        "pages_reused": 3,
+        "sitemaps_checked": 2,
+        "source_failures": [],
+        "paid_requests": 0
+      }
+    },
+    {
+      "id": "Q20",
+      "company": "Drucker + Falk",
+      "elapsed_ms": 40322,
+      "expected": {
+        "sector": "housing_operator",
+        "role_absent": true,
+        "source": "Contact belongs to another company according to Q01/Q02 official leadership references"
+      },
+      "actual": "unresolved",
+      "classification_correct": false,
+      "abstained": true,
+      "progress": {
+        "kind": "interrupted",
+        "label": "Refresh interrupted · saved research available",
+        "detail": "A company lookup did not finish.",
+        "action": "View research status"
+      },
+      "roles": [],
+      "role_check": true,
+      "score": null,
+      "coverage": 0,
+      "source_count": 1,
+      "brief": {
+        "summary": null,
+        "portfolio": null,
+        "footprint": null,
+        "context": [
+          {
+            "key": "markets",
+            "label": "Operating footprint",
+            "text": "Drucker + Falk’s multifamily communities and commercial properties are strategically located in 7 states across the Midwest, Mid-Atlantic, and Southern U.S.",
+            "quote": "Drucker + Falk’s multifamily communities and commercial properties are strategically located in 7 states across the Midwest, Mid-Atlantic, and Southern U.S.",
+            "source_id": "S1",
+            "published_at": null
+          }
+        ]
+      },
+      "draft": "Hi David,\n\nThanks for getting in touch with EliseAI.\n\nWhat kind of properties or services does your team manage?\n\nBest,\n[Your name]",
+      "draft_basis": [],
+      "words": 22,
+      "questions": 1,
+      "property": {
+        "status": "incomplete",
+        "message": "Paste the full property address to locate it. Company offices are shown separately."
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://druckerandfalk.com/",
+          "host": "druckerandfalk.com",
+          "title": "Drucker + Falk | Apartments",
+          "provider": "Jina Reader",
+          "excerpt": "“We Aim Higher” at Drucker + Falk. Based in Newport News, Virginia, our business has been providing unmatched multifamily and commercial property management services for more than 88 years. We take pride in being recognized as one of the Top 50 Management Companies by NMHC, where our talented team of superstars has an average tenure of 10 years. With a portfolio of over 43,000 apartment homes across 7 states, Drucker + Falk offers a forward-thinking, people-first approach to management. Whether you are seeking to invest in multifamily, advance your multifamily career, or find a third-party multifamily management partner, you’ve come to the right place. Reach out today to learn more.\n\nDrucker + Falk was engaged to manage a distressed property with 424 units, which had experienced significant operational decline and was placed into receivership. Within 90 days, they implemented a strategic turnaround plan, addressing urgent challenges such as high delinquency rates and low occupancy. Key actions included conducting a resident ledger audit, swift eviction of delinquent tenants, implementing targeted leasing strategies, and restoring financial operations. These efforts resulted in a significant occupancy increase from 75% to 83%, a reduction in delinquency rates to under 1%, and a 13% growth in total revenue within six months. The property has since maintained strong performance, with sustained occupancy, delinquency below 0.5%, and over 34% revenue growth, showcasing Drucker+ Falk's effectiveness in managing complex receiverships and restoring asset value.\n\nThe Lafayette, a 1964 high-rise with 168 units overlooking the Elizabeth River, faced significant challenges, including deferred maintenance, a roach infestation, and poor management, resulting in occupancy below 90%. To revitalize the property, a strategic renovation plan was implemented, leveraging the area's 3%-5% annual rent growth and proximity to downtown Norfolk’s amenities. The renovations included aggressive pest remediation, apartment upgrades, and common area improvements designed to create a coastal community feel. Under Drucker + Falk's management, occupancy rose to consistently 96% or above, and rental income increased by 6%, with projected rent hikes of $250 per renovated unit achieved.\n\nDrucker + Falk’s multifamily communities and commercial properties are strategically located in 7 states across the Midwest, Mid-Atlantic, and Southern U.S. Contact us to learn how our dedicated multifamily and commercial management team can help you reach your ownership goals.\n\nThe Walker, a 153-unit mixed-use development located next to Cary’s new regional library and overlooking a planned 7-acre urban park, aimed to set a new standard for urban living in revitalized Downtown Cary by offering the highest rental rates in the area. From the outset, the Drucker + Falk team collaborated with developers on design, unit mix, and amenities to create a \"lifestyle\" community that emphasized walkability and nearby retail. The marketing strategy focused on building local partnerships, leveraging social media under the theme “Urban Living, Sophisticated Charm,” and implementing pre-CO promotions such as a web-based landing page for lead generation and robust social media engagement. Under DF Management, The Walker achieved stabilized occupancy within a year of its first CO, despite facing construction challenges, and received 5-star Google reviews. During the leasing period, market rents increased by an average of $125 (5.4%) with fewer concessions than projected, making The Walker one of the top-performing developments in the submarket.\n\nThe closing of a big box retail anchor in a major shopping center offered Owners the chance to convert the space into 169 urban luxury apartments in the Hampton West submarket, which houses 80% of the city's multifamily product. Drawing from the success of a sister property, which maintained high occupancy and market-leading rents even during economic downturns, the Owners aimed to enhance urban luxury living with unique amenities, including a dog spa. Despite facing challenges such as a three-month delay in obtaining the COO, a lightning strike, flooding, and the impact of the pandemic, the site team successfully achieved stabilization in just 7 months, averaging 21 leases per month with minimal concessions. The property earned a J Turner Power Ranking Elite 1% ORA score for outstanding online resident reviews and continues to maintain the highest rents in the market, with occupancy consistently above 95%.\n\nWith its close proximity to major retail, dining, and entertainment options, as well as easy access to commuter routes, the property is situated among numerous other apartment communities.",
+          "retrieved_at": "2026-09-30T23:23:53.742Z",
+          "published_at": null,
+          "cached": true,
+          "name_matched": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text",
+              "company_self_description"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        }
+      ],
+      "company_stale": true,
+      "retry_code": "unavailable",
+      "contact_status": "complete",
+      "diagnostics": {
+        "candidates": 0,
+        "accepted": 0,
+        "rejections": [
+          {
+            "reason": "no_candidate",
+            "url": "",
+            "role": ""
+          }
+        ],
+        "pages_checked": 6,
+        "pages_reused": 0,
+        "sitemaps_checked": 1,
+        "source_failures": [
+          {
+            "reason": "public_page_unavailable",
+            "url": "https://druckerandfalk.com/leadership"
+          },
+          {
+            "reason": "public_page_unavailable",
+            "url": "https://druckerandfalk.com/about-us"
+          },
+          {
+            "reason": "public_page_unavailable",
+            "url": "https://druckerandfalk.com/news"
+          },
+          {
+            "reason": "public_page_unavailable",
+            "url": "https://druckerandfalk.com/contact-us"
+          },
+          {
+            "reason": "public_page_unavailable",
+            "url": "https://druckerandfalk.com/our-team"
+          }
+        ],
+        "paid_requests": 0
+      }
+    }
+  ]
+}

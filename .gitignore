@@ -1,0 +1,15 @@
+*.sqlite3*
+.env
+__pycache__/
+.venv/
+/node_modules
+dist/
+.wrangler/
+.dev.vars
+*.tar.gz
+.env.*
+!.env.example
+
+.quality-reports/
+
+.venv-gepa/

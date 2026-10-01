@@ -1,0 +1,22 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {performance} from 'node:perf_hooks';
+import {fileURLToPath} from 'node:url';
+import {intake,companyEvidence,qualify,domain} from '../website/domain.mjs';
+import {verifyCompanyIdentity} from '../website/company-identity.mjs';
+import {sourceURL} from '../website/brief.mjs';
+const corpus=JSON.parse(await readFile(new URL('../test-data/identity-benchmark.json',import.meta.url),'utf8'));
+const rows=corpus.cases.map(item=>{
+ const start=performance.now(),lead=intake(item.lead),d=domain(lead),source=item.source;
+ const tokens=(lead.company.match(/[A-Za-z]+/g)||[]).map(t=>t.toLowerCase()).filter(t=>t.length>2&&!['llc','inc','the','group'].includes(t));
+ const legacy=!!sourceURL(source.url,d)&&tokens.length>0&&tokens.every(t=>new RegExp('\\b'+t+'\\b','i').test(source.title+' '+source.text));
+ const identity=verifyCompanyIdentity({...source,company:lead.company,companyDomain:d});
+ const evidence=companyEvidence(lead,{results:[{...source,highlights:[source.text]}]});
+ const result=qualify(lead,evidence,{status:'incomplete'},[]);
+ const leaked=item.expected_identity!=='confirmed'&&(result.priority.fit_assessment.points!==null||result.draft_basis.length>0);
+ return {id:item.id,category:item.category,expected:item.expected_identity,actual:identity.status,pass:identity.status===item.expected_identity&&!leaked,legacy_correct:legacy===(item.expected_identity==='confirmed'),unverified_claim_leak:leaked,source_count:result.research_brief.sources.length,local_ms:Math.round((performance.now()-start)*100)/100};
+});
+const report={generated_at:new Date().toISOString(),mode:'offline controlled fixtures',limitations:'No live provider calls. Does not measure real-world company matching, source coverage, provider latency or cost. Synthetic domains are never fetched.',cases:rows.length,passed:rows.filter(r=>r.pass).length,legacy_identity_correct:rows.filter(r=>r.legacy_correct).length,current_identity_correct:rows.filter(r=>r.expected===r.actual).length,expected_confirmed:rows.filter(r=>r.expected==='confirmed').length,automatically_confirmed:rows.filter(r=>r.actual==='confirmed').length,false_confirmations:rows.filter(r=>r.actual==='confirmed'&&r.expected!=='confirmed').length,unverified_claim_leaks:rows.filter(r=>r.unverified_claim_leak).length,rows};
+const output=new URL('../test-data/identity-benchmark-results.json',import.meta.url);
+await writeFile(output,JSON.stringify(report,null,2)+'\n');
+console.log(JSON.stringify({...report,rows:undefined,report:fileURLToPath(output)},null,2));
+if(report.passed!==report.cases)process.exitCode=1;

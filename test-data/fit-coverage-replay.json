@@ -1,0 +1,84 @@
+{
+  "model": "public-lead-fit-v2",
+  "method": "Replay of saved convenience samples at capture/check time; no live requests, no outcome labels or predictive-accuracy claim.",
+  "companies": [
+    {
+      "company": "Greystar",
+      "operating_model": "housing_operator",
+      "lower": 50,
+      "upper": 100,
+      "coverage": 50,
+      "comparable_scale": false,
+      "detailed_workflow": false
+    },
+    {
+      "company": "Camden Property Trust",
+      "operating_model": "housing_operator",
+      "lower": 80,
+      "upper": 100,
+      "coverage": 80,
+      "comparable_scale": true,
+      "detailed_workflow": false
+    },
+    {
+      "company": "AMLI",
+      "operating_model": "housing_operator",
+      "lower": 80,
+      "upper": 100,
+      "coverage": 80,
+      "comparable_scale": true,
+      "detailed_workflow": false
+    },
+    {
+      "company": "AvalonBay Communities",
+      "operating_model": "housing_operator",
+      "lower": 50,
+      "upper": 100,
+      "coverage": 50,
+      "comparable_scale": false,
+      "detailed_workflow": false
+    },
+    {
+      "company": "Equity Residential",
+      "operating_model": "unclassified",
+      "lower": null,
+      "upper": null,
+      "coverage": 0,
+      "comparable_scale": false,
+      "detailed_workflow": false
+    },
+    {
+      "company": "MAA",
+      "operating_model": "unclassified",
+      "lower": null,
+      "upper": null,
+      "coverage": 0,
+      "comparable_scale": false,
+      "detailed_workflow": false
+    },
+    {
+      "company": "Bozzuto",
+      "operating_model": "housing_operator",
+      "lower": 50,
+      "upper": 100,
+      "coverage": 50,
+      "comparable_scale": false,
+      "detailed_workflow": false
+    },
+    {
+      "company": "RealPage",
+      "operating_model": "software_vendor",
+      "lower": 0,
+      "upper": 0,
+      "coverage": 100,
+      "comparable_scale": false,
+      "detailed_workflow": false
+    }
+  ],
+  "contacts": {
+    "count": 60,
+    "legacy_research_format": 60,
+    "upstream_matched": 47,
+    "strict_scoring_role": 0
+  }
+}

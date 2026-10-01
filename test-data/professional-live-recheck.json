@@ -1,0 +1,303 @@
+{
+  "started_at": "2026-09-30T02:33:28.163Z",
+  "limitations": "Public senior-leader convenience sample, not representative accuracy; role labels audited separately. Fetched quotes still require review of freshness and context.",
+  "results": [
+    {
+      "name": "Bob Faith",
+      "company": "Greystar",
+      "website": "greystar.com",
+      "expected_role": "chief executive officer|ceo",
+      "source": "https://www.greystar.com/contact-us/our-people/bob-faith",
+      "expected": "role",
+      "audited_at": "2026-09-30",
+      "status": "complete",
+      "match": "name_company_match",
+      "elapsed_ms": 33008,
+      "polls": 3,
+      "current_roles": [
+        "Founder, Chairman, and CEO"
+      ],
+      "outcome": "role_found",
+      "professional_context": {
+        "version": 1,
+        "input_key": "bob faith|greystar|greystar.com",
+        "people": [
+          {
+            "url": "https://www.greystar.com/business/about-greystar/our-leadership",
+            "quote": "Bob Faith is the Founder, Chairman, and CEO of Greystar.",
+            "title": "Senior Leadership | Greystar",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T02:32:22.194Z",
+            "name": "Bob Faith",
+            "company": "Greystar",
+            "role": "Founder, Chairman, and CEO",
+            "historical": false
+          }
+        ],
+        "company_facts": [
+          {
+            "url": "https://pitchbook.com/profiles/company/50923-90",
+            "quote": "Search Request a free trial Log in Greystar Real Estate Partners Greystar Real Estate Partners This is a profile preview from the PitchBook Platform.",
+            "title": "Greystar Real Estate Partners 2026 Company Profile: Valuation, Funding & Investors | PitchBook",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T02:32:24.487Z",
+            "basis": "External published source"
+          }
+        ],
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T02:32:22.194Z",
+        "cost_dollars": 0.035,
+        "match": "name_company_match",
+        "agent_cost_dollars": 0.025,
+        "content_cost_dollars": 0.003,
+        "external_cost_dollars": 0.007,
+        "cache_fetched_at": "2026-09-30T02:32:24.621Z",
+        "cache_fresh_until": "2026-10-01T02:32:24.621Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Julie A. Smith",
+      "company": "Bozzuto",
+      "website": "bozzuto.com",
+      "expected_role": "chief administrative officer",
+      "source": "https://www.bozzuto.com/about-us/leadership",
+      "expected": "role",
+      "audited_at": "2026-09-30",
+      "status": "complete",
+      "match": "unresolved",
+      "elapsed_ms": 33385,
+      "polls": 3,
+      "current_roles": [],
+      "outcome": "unresolved",
+      "professional_context": {
+        "version": 1,
+        "input_key": "julie a smith|bozzuto|bozzuto.com",
+        "people": [],
+        "company_facts": [
+          {
+            "url": "https://mwmca.org/multimedias/news/pdf_file3229.pdf",
+            "quote": "With an average annual revenue of $650 million, Bozzuto Construction is an ENR Top 400 Contractor.",
+            "title": "Key Contacts",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T02:32:24.903Z",
+            "basis": "External published source"
+          },
+          {
+            "url": "https://bozzutoftp.com/html/10_October/BCC/4507_BOZ_CorpBroV14.pdf",
+            "quote": "Right, the Bozzuto Group is headquartered in Greenbelt, MD.",
+            "title": "Founded on values. Built on integrity.",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T02:32:24.903Z",
+            "basis": "External published source"
+          }
+        ],
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T02:32:22.826Z",
+        "cost_dollars": 0.035,
+        "match": "unresolved",
+        "agent_cost_dollars": 0.025,
+        "content_cost_dollars": 0.003,
+        "external_cost_dollars": 0.007,
+        "cache_fetched_at": "2026-09-30T02:32:25.035Z",
+        "cache_fresh_until": "2026-10-01T02:32:25.035Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Mark J. Parrell",
+      "company": "Equity Residential",
+      "website": "equityapartments.com",
+      "expected_role": "chief executive officer|ceo",
+      "source": "https://investors.equityapartments.com/overview/officers-and-trustees/person-details/default.aspx?ItemId=8fe766c1-8a8f-42ce-b582-8cb597088a88",
+      "expected": "role",
+      "audited_at": "2026-09-30",
+      "status": "complete",
+      "match": "name_company_match",
+      "elapsed_ms": 36253,
+      "polls": 3,
+      "current_roles": [
+        "President, Chief Executive Officer and member of the Board of Trustees"
+      ],
+      "outcome": "role_found",
+      "professional_context": {
+        "version": 1,
+        "input_key": "mark j parrell|equity residential|equityapartments.com",
+        "people": [
+          {
+            "url": "https://investors.equityapartments.com/overview/officers-and-trustees/person-details/default.aspx?itemid=af18cdf8-1188-4f58-8290-3dd71f294e6d",
+            "quote": "Mark J. Parrell is the President, Chief Executive Officer and member of the Board of Trustees of Equity Residential (NYSE: EQR), a position he has held since January 2019.",
+            "title": "Overview - Officers and Trustees - Person Details | Equity Residential",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T02:32:58.756Z",
+            "name": "Mark J. Parrell",
+            "company": "Equity Residential",
+            "role": "President, Chief Executive Officer and member of the Board of Trustees",
+            "historical": false
+          }
+        ],
+        "company_facts": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/906107/000095017025019894/eqr-20241231.htm",
+            "quote": "At Equity Residential, corporate responsibility is integrated into every aspect of our business, as we aim to minimize environmental impact, manage climate and environmental risks and position the Company as an attractive investment.",
+            "title": "10-K",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T02:33:00.996Z",
+            "basis": "Company announcement on an external site"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/906107/000119312526051433/eqr-20251231.htm",
+            "quote": "Equity Residential\u2019s sustainability program actively manages environmental impacts and utility costs through optimized, financially responsible capital investments and technologies which we believe increases our portfolio value.",
+            "title": "See Item 1,  Business , for discussion regarding the Company\u2019s business objectives and operating and investing strategies.",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T02:33:00.996Z",
+            "basis": "Company announcement on an external site"
+          }
+        ],
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T02:32:58.756Z",
+        "cost_dollars": 0.035,
+        "match": "name_company_match",
+        "agent_cost_dollars": 0.025,
+        "content_cost_dollars": 0.003,
+        "external_cost_dollars": 0.007,
+        "cache_fetched_at": "2026-09-30T02:33:01.151Z",
+        "cache_fresh_until": "2026-10-01T02:33:01.151Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Brad Hill",
+      "company": "MAA",
+      "website": "maac.com",
+      "expected_role": "chief executive officer|ceo",
+      "source": "https://ir.maac.com/news-events/press-releases/news-details/2026/MAA-to-Participate-in-the-2026-Citi-Global-Property-CEO-Conference/default.aspx",
+      "expected": "role",
+      "audited_at": "2026-09-30",
+      "status": "complete",
+      "match": "unresolved",
+      "elapsed_ms": 36561,
+      "polls": 3,
+      "current_roles": [],
+      "outcome": "unresolved",
+      "professional_context": {
+        "version": 1,
+        "input_key": "brad hill|maa|maac.com",
+        "people": [],
+        "company_facts": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1581776/000095017025016287/maa-20241231.htm",
+            "quote": "enhances investors\u2019 understanding of MAA and the Operating Partnership by enabling investors to view the business as a whole in the same manner that management views and operates the business;",
+            "title": "10-K",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T02:33:01.333Z",
+            "basis": "Company announcement on an external site"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/912595/000095017025051199/2024_glossy_annual_repor.pdf",
+            "quote": "MAA, an S&P 500 company, is a multifamily-focused, self-administered and self-managed real estate investment trust, or REIT.",
+            "title": "Gaining Momentum",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T02:33:01.333Z",
+            "basis": "Company announcement on an external site"
+          }
+        ],
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T02:32:58.654Z",
+        "cost_dollars": 0.034,
+        "match": "unresolved",
+        "agent_cost_dollars": 0.025,
+        "content_cost_dollars": 0.002,
+        "external_cost_dollars": 0.007,
+        "cache_fetched_at": "2026-09-30T02:33:01.491Z",
+        "cache_fresh_until": "2026-10-01T02:33:01.491Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Bob Faith",
+      "company": "MAA",
+      "website": "maac.com",
+      "expected_role": "",
+      "source": "https://www.greystar.com/contact-us/our-people/bob-faith",
+      "expected": "no_current_match",
+      "audited_at": "2026-09-30",
+      "note": "Deliberately mismatched employer; source supports the actual role at a different company.",
+      "status": "complete",
+      "match": "unresolved",
+      "elapsed_ms": 26279,
+      "polls": 2,
+      "current_roles": [],
+      "outcome": "correct_abstention",
+      "professional_context": {
+        "version": 1,
+        "input_key": "bob faith|maa|maac.com",
+        "people": [],
+        "company_facts": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1581776/000095017025016287/maa-20241231.htm",
+            "quote": "enhances investors\u2019 understanding of MAA and the Operating Partnership by enabling investors to view the business as a whole in the same manner that management views and operates the business;",
+            "title": "10-K",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T02:33:01.333Z",
+            "basis": "Company announcement on an external site"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/912595/000095017025051199/2024_glossy_annual_repor.pdf",
+            "quote": "MAA, an S&P 500 company, is a multifamily-focused, self-administered and self-managed real estate investment trust, or REIT.",
+            "title": "Gaining Momentum",
+            "official": false,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T02:33:01.333Z",
+            "basis": "Company announcement on an external site"
+          }
+        ],
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T02:33:27.793Z",
+        "cost_dollars": 0.027000000000000003,
+        "match": "unresolved",
+        "agent_cost_dollars": 0.025,
+        "content_cost_dollars": 0.002,
+        "external_cost_dollars": 0,
+        "cache_fetched_at": "2026-09-30T02:33:27.835Z",
+        "cache_fresh_until": "2026-10-01T02:33:27.835Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    }
+  ],
+  "summary": {
+    "release": 36,
+    "commit": "5d01965ce1c22acf56fcc9c2f2eb1c071832ae43",
+    "positive_cases": 4,
+    "roles_found": 2,
+    "previously_unresolved_recovered": 1,
+    "negative_controls": 1,
+    "false_current_matches": 0,
+    "limitation": "Targeted recheck, not a full rerun or representative accuracy score. Raw results include one profile-preview snippet excluded by the subsequent tested filter."
+  }
+}

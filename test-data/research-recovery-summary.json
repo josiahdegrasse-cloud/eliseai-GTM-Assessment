@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-01T15:56:46.374Z",
+  "runs": [
+    {
+      "path": "test-data/holdout-development-recheck-2026-10-01T15-39-21-056Z.json",
+      "deployment": "version 85 / 7d13e21d4ffd7449d44135ee914cfcd0d547c6ac",
+      "independent": false,
+      "total": 30,
+      "correct": 23,
+      "wrong": 0,
+      "unresolved": 7,
+      "company_evidence": 28,
+      "reader_evidence": 22,
+      "roles": 5,
+      "role_denominator": 9,
+      "negative_control_role_claims": 0,
+      "median_seconds": 20,
+      "p90_seconds": 33,
+      "unresolved_companies": [
+        "Hawthorne Residential Partners",
+        "HHHunt",
+        "Weidner Apartment Homes",
+        "Mavi Unlimited Property Management",
+        "Keyrenter Denver",
+        "First Industrial Realty Trust",
+        "eXp Realty"
+      ],
+      "wrong_labels": []
+    },
+    {
+      "path": "test-data/fresh-12-first-pass-2026-10-01T15-50-38-510Z.json",
+      "deployment": "version 85 / 7d13e21d4ffd7449d44135ee914cfcd0d547c6ac",
+      "independent": true,
+      "total": 12,
+      "correct": 6,
+      "wrong": 1,
+      "unresolved": 5,
+      "company_evidence": 11,
+      "reader_evidence": 9,
+      "roles": 0,
+      "role_denominator": 0,
+      "negative_control_role_claims": 0,
+      "median_seconds": 24,
+      "p90_seconds": 42,
+      "unresolved_companies": [
+        "RedSail Property Management",
+        "Berkshire Residential Investments",
+        "RentPros Property Management",
+        "Gulf Coast Property Management",
+        "VTS"
+      ],
+      "wrong_labels": [
+        {
+          "company": "Alpine Property Management",
+          "expected": "housing_operator",
+          "actual": "non_operator"
+        }
+      ]
+    }
+  ],
+  "usage": [
+    {
+      "run": "development30",
+      "before": {
+        "mode": "free_key",
+        "message": "Research uses verified free credits and direct company pages. Reported token usage is tracked; uncertain requests retain their full reservation.",
+        "app_request_limit": null,
+        "app_requests_remaining": null,
+        "provider_balance_known": true,
+        "app_token_limit": 8000000,
+        "app_tokens_remaining": 6083133,
+        "balance_verified_at": "2026-10-01T15:23:06.000Z"
+      },
+      "after": {
+        "mode": "free_key",
+        "message": "Research uses verified free credits and direct company pages. Reported token usage is tracked; uncertain requests retain their full reservation.",
+        "app_request_limit": null,
+        "app_requests_remaining": null,
+        "provider_balance_known": true,
+        "app_token_limit": 8000000,
+        "app_tokens_remaining": 4530559,
+        "balance_verified_at": "2026-10-01T15:23:06.000Z"
+      },
+      "cleanup": "Isolated visitor deleted."
+    },
+    {
+      "run": "untouched12",
+      "before": {
+        "mode": "free_key",
+        "message": "Research uses verified free credits and direct company pages. Reported token usage is tracked; uncertain requests retain their full reservation.",
+        "app_request_limit": null,
+        "app_requests_remaining": null,
+        "provider_balance_known": true,
+        "app_token_limit": 8000000,
+        "app_tokens_remaining": 4530559,
+        "balance_verified_at": "2026-10-01T15:23:06.000Z"
+      },
+      "after": {
+        "mode": "free_key",
+        "message": "Research uses verified free credits and direct company pages. Reported token usage is tracked; uncertain requests retain their full reservation.",
+        "app_request_limit": null,
+        "app_requests_remaining": null,
+        "provider_balance_known": true,
+        "app_token_limit": 8000000,
+        "app_tokens_remaining": 4099174,
+        "balance_verified_at": "2026-10-01T15:23:06.000Z"
+      },
+      "cleanup": "Isolated visitor deleted."
+    }
+  ]
+}

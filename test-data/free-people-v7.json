@@ -1,0 +1,4447 @@
+{
+  "at": "2026-09-30T04:20:52.905Z",
+  "limitations": "Public-biography convenience sample, not representative inbound accuracy. Expected labels and source URLs are not passed to research. Separate runs can encounter different availability. No paid endpoints or authorization permitted.",
+  "results": [
+    {
+      "name": "Bob Faith",
+      "company": "Greystar",
+      "website": "greystar.com",
+      "expected_role": "chief executive officer|ceo",
+      "source": "https://www.greystar.com/contact-us/our-people/bob-faith",
+      "expected": "role",
+      "audited_at": "2026-09-30",
+      "cohort": "executive_baseline",
+      "outcome": "role_found",
+      "elapsed_ms": 3935,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=greystar.com&type=A",
+          "at": "2026-09-30T04:16:34.136Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=greystar.com&type=AAAA",
+          "at": "2026-09-30T04:16:34.141Z",
+          "status": 200
+        },
+        {
+          "url": "https://greystar.com/robots.txt",
+          "at": "2026-09-30T04:16:34.524Z",
+          "status": 301
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.greystar.com&type=A",
+          "at": "2026-09-30T04:16:34.716Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.greystar.com&type=AAAA",
+          "at": "2026-09-30T04:16:34.717Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.greystar.com/robots.txt",
+          "at": "2026-09-30T04:16:34.751Z",
+          "status": 200
+        },
+        {
+          "url": "https://greystar.com/",
+          "at": "2026-09-30T04:16:34.960Z",
+          "status": 301
+        },
+        {
+          "url": "https://www.greystar.com/robots.txt",
+          "at": "2026-09-30T04:16:35.006Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.greystar.com/",
+          "at": "2026-09-30T04:16:35.105Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.greystar.com/business",
+          "at": "2026-09-30T04:16:35.432Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.greystar.com/business/about-greystar/our-leadership",
+          "at": "2026-09-30T04:16:35.963Z",
+          "status": 200
+        }
+      ],
+      "professional_context": {
+        "version": 7,
+        "input_key": "bob faith|greystar|greystar.com",
+        "people": [
+          {
+            "url": "https://www.greystar.com/business/about-greystar/our-leadership",
+            "quote": "Bob Faith is the Founder, Chairman, and CEO of Greystar, a global leader in rental housing investment, development, and management.",
+            "title": "Senior Leadership | Greystar",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:16:36.369Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Bob Faith",
+            "company": "Greystar",
+            "role": "Founder, Chairman, and CEO",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:16:36.381Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 3,
+          "pages_reused": 0,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Founder, Chairman, and CEO, which operational process would you most like to improve?",
+          "source_url": "https://www.greystar.com/business/about-greystar/our-leadership",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:16:36.382Z",
+        "cache_fetched_at": "2026-09-30T04:16:36.382Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Toni Eubanks",
+      "company": "Greystar",
+      "website": "greystar.com",
+      "expected_role": "executive managing director",
+      "source": "https://www.greystar.com/contact-us/our-people/toni-eubanks",
+      "expected": "role",
+      "audited_at": "2026-09-30",
+      "cohort": "executive_baseline",
+      "outcome": "role_found",
+      "elapsed_ms": 626,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=www.greystar.com&type=A",
+          "at": "2026-09-30T04:16:36.404Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.greystar.com&type=AAAA",
+          "at": "2026-09-30T04:16:36.405Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.greystar.com/robots.txt",
+          "at": "2026-09-30T04:16:36.433Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.greystar.com/contact-us/our-people/toni-eubanks",
+          "at": "2026-09-30T04:16:36.623Z",
+          "status": 200
+        }
+      ],
+      "professional_context": {
+        "version": 7,
+        "input_key": "toni eubanks|greystar|greystar.com",
+        "people": [
+          {
+            "url": "https://www.greystar.com/contact-us/our-people/toni-eubanks",
+            "quote": "Toni Eubanks is an Executive Managing Director leading Greystar&rsquo;s Management Services business, where she oversees the company&rsquo;s owned and managed property portfolios throughout the United States and Canada.",
+            "title": "Toni Eubanks | Greystar",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:16:36.992Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Toni Eubanks",
+            "company": "Greystar",
+            "role": "Executive Managing Director",
+            "historical": false
+          }
+        ],
+        "insights": [
+          {
+            "url": "https://www.greystar.com/contact-us/our-people/toni-eubanks",
+            "quote": "Toni Eubanks is an Executive Managing Director leading Greystar&rsquo;s Management Services business, where she oversees the company&rsquo;s owned and managed property portfolios throughout the United States and Canada.",
+            "title": "Toni Eubanks | Greystar",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:16:36.992Z",
+            "recovered": false,
+            "employer_supported": true,
+            "kind": "responsibility"
+          }
+        ],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:16:37.007Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 4,
+          "pages_reused": 3,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Executive Managing Director, which operational process would you most like to improve?",
+          "source_url": "https://www.greystar.com/contact-us/our-people/toni-eubanks",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:16:37.008Z",
+        "cache_fetched_at": "2026-09-30T04:16:37.008Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Derek Ramsey",
+      "company": "Greystar",
+      "website": "greystar.com",
+      "expected_role": "chief financial officer|cfo",
+      "source": "https://www.greystar.com/contact-us/our-people/derek-ramsey",
+      "expected": "role",
+      "audited_at": "2026-09-30",
+      "cohort": "executive_baseline",
+      "outcome": "role_found",
+      "elapsed_ms": 1636,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=www.greystar.com&type=A",
+          "at": "2026-09-30T04:16:38.119Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.greystar.com&type=AAAA",
+          "at": "2026-09-30T04:16:38.119Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.greystar.com/robots.txt",
+          "at": "2026-09-30T04:16:38.158Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.greystar.com/contact-us/our-people/derek-ramsey",
+          "at": "2026-09-30T04:16:38.260Z",
+          "status": 200
+        }
+      ],
+      "professional_context": {
+        "version": 7,
+        "input_key": "derek ramsey|greystar|greystar.com",
+        "people": [
+          {
+            "url": "https://www.greystar.com/contact-us/our-people/derek-ramsey",
+            "quote": "Derek Ramsey is the Chief Financial Officer and leads Greystar&rsquo;s North American Development and Construction business.",
+            "title": "Derek Ramsey | Greystar",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:16:38.629Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Derek Ramsey",
+            "company": "Greystar",
+            "role": "Chief Financial Officer",
+            "historical": false
+          }
+        ],
+        "insights": [
+          {
+            "url": "https://www.greystar.com/contact-us/our-people/derek-ramsey",
+            "quote": "Derek Ramsey is the Chief Financial Officer and leads Greystar&rsquo;s North American Development and Construction business.",
+            "title": "Derek Ramsey | Greystar",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:16:38.629Z",
+            "recovered": false,
+            "employer_supported": true,
+            "kind": "responsibility"
+          }
+        ],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:16:38.643Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 4,
+          "pages_reused": 3,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Chief Financial Officer, which operational process would you most like to improve?",
+          "source_url": "https://www.greystar.com/contact-us/our-people/derek-ramsey",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:16:38.644Z",
+        "cache_fetched_at": "2026-09-30T04:16:38.644Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Toby Bozzuto",
+      "company": "Bozzuto",
+      "website": "bozzuto.com",
+      "expected_role": "chief executive officer|ceo",
+      "source": "https://www.bozzuto.com/about-us/leadership",
+      "expected": "role",
+      "audited_at": "2026-09-30",
+      "cohort": "executive_baseline",
+      "outcome": "role_found",
+      "elapsed_ms": 1599,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=bozzuto.com&type=A",
+          "at": "2026-09-30T04:16:39.802Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=bozzuto.com&type=AAAA",
+          "at": "2026-09-30T04:16:39.802Z",
+          "status": 200
+        },
+        {
+          "url": "https://bozzuto.com/robots.txt",
+          "at": "2026-09-30T04:16:39.838Z",
+          "status": 301
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.bozzuto.com&type=A",
+          "at": "2026-09-30T04:16:39.927Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.bozzuto.com&type=AAAA",
+          "at": "2026-09-30T04:16:39.927Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.bozzuto.com/robots.txt",
+          "at": "2026-09-30T04:16:39.962Z",
+          "status": 200
+        },
+        {
+          "url": "https://bozzuto.com/",
+          "at": "2026-09-30T04:16:40.060Z",
+          "status": 301
+        },
+        {
+          "url": "https://www.bozzuto.com/robots.txt",
+          "at": "2026-09-30T04:16:40.084Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.bozzuto.com/",
+          "at": "2026-09-30T04:16:40.110Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.bozzuto.com/about-us/leadership",
+          "at": "2026-09-30T04:16:40.170Z",
+          "status": 200
+        }
+      ],
+      "professional_context": {
+        "version": 7,
+        "input_key": "toby bozzuto|bozzuto|bozzuto.com",
+        "people": [
+          {
+            "url": "https://www.bozzuto.com/about-us/leadership",
+            "quote": "Toby Bozzuto President & Chief Executive Officer",
+            "title": "The Bozzuto Group Leadership | Bozzuto",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:16:40.242Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Toby Bozzuto",
+            "company": "Bozzuto",
+            "role": "President & Chief Executive Officer",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:16:40.244Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 0,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as President & Chief Executive Officer, which operational process would you most like to improve?",
+          "source_url": "https://www.bozzuto.com/about-us/leadership",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:16:40.244Z",
+        "cache_fetched_at": "2026-09-30T04:16:40.244Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Julie A. Smith",
+      "company": "Bozzuto",
+      "website": "bozzuto.com",
+      "expected_role": "chief administrative officer",
+      "source": "https://www.bozzuto.com/about-us/leadership",
+      "expected": "role",
+      "audited_at": "2026-09-30",
+      "cohort": "executive_baseline",
+      "outcome": "role_found",
+      "elapsed_ms": 1266,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "julie a smith|bozzuto|bozzuto.com",
+        "people": [
+          {
+            "url": "https://www.bozzuto.com/about-us/leadership",
+            "quote": "Julie A. Smith Chief Administrative Officer",
+            "title": "The Bozzuto Group Leadership | Bozzuto",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:16:40.242Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Julie A. Smith",
+            "company": "Bozzuto",
+            "role": "Chief Administrative Officer",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:16:41.509Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Chief Administrative Officer, which operational process would you most like to improve?",
+          "source_url": "https://www.bozzuto.com/about-us/leadership",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:16:41.510Z",
+        "cache_fetched_at": "2026-09-30T04:16:41.510Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Stephanie L. Williams",
+      "company": "Bozzuto",
+      "website": "bozzuto.com",
+      "expected_role": "president",
+      "source": "https://www.bozzuto.com/about-us/leadership",
+      "expected": "role",
+      "audited_at": "2026-09-30",
+      "cohort": "executive_baseline",
+      "outcome": "role_found",
+      "elapsed_ms": 1698,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "stephanie l williams|bozzuto|bozzuto.com",
+        "people": [
+          {
+            "url": "https://www.bozzuto.com/about-us/leadership",
+            "quote": "Stephanie L. Williams President",
+            "title": "The Bozzuto Group Leadership | Bozzuto",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:16:40.242Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Stephanie L. Williams",
+            "company": "Bozzuto",
+            "role": "President",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:16:43.209Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as President, which operational process would you most like to improve?",
+          "source_url": "https://www.bozzuto.com/about-us/leadership",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:16:43.209Z",
+        "cache_fetched_at": "2026-09-30T04:16:43.209Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Brad Hill",
+      "company": "MAA",
+      "website": "maac.com",
+      "expected_role": "chief executive officer|ceo",
+      "source": "https://ir.maac.com/news-events/press-releases/news-details/2026/MAA-to-Participate-in-the-2026-Citi-Global-Property-CEO-Conference/default.aspx",
+      "expected": "role",
+      "audited_at": "2026-09-30",
+      "cohort": "executive_baseline",
+      "outcome": "unresolved",
+      "elapsed_ms": 43705,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=maac.com&type=A",
+          "at": "2026-09-30T04:16:44.908Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=maac.com&type=AAAA",
+          "at": "2026-09-30T04:16:44.910Z",
+          "status": 200
+        },
+        {
+          "url": "https://maac.com/robots.txt",
+          "at": "2026-09-30T04:16:44.993Z",
+          "status": 302
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.maac.com&type=A",
+          "at": "2026-09-30T04:16:45.151Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.maac.com&type=AAAA",
+          "at": "2026-09-30T04:16:45.152Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.maac.com/robots.txt",
+          "at": "2026-09-30T04:16:45.183Z",
+          "status": 200
+        },
+        {
+          "url": "https://maac.com/",
+          "at": "2026-09-30T04:16:45.407Z",
+          "status": 302
+        },
+        {
+          "url": "https://www.maac.com/robots.txt",
+          "at": "2026-09-30T04:16:45.484Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.maac.com/",
+          "at": "2026-09-30T04:16:45.596Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=ir.maac.com&type=A",
+          "at": "2026-09-30T04:16:46.640Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=ir.maac.com&type=AAAA",
+          "at": "2026-09-30T04:16:46.640Z",
+          "status": 200
+        },
+        {
+          "url": "https://ir.maac.com/robots.txt",
+          "at": "2026-09-30T04:16:46.692Z",
+          "status": 200
+        },
+        {
+          "url": "https://ir.maac.com/corporate-profile/default.aspx",
+          "at": "2026-09-30T04:16:46.860Z",
+          "status": 403
+        },
+        {
+          "url": "https://r.jina.ai/https://ir.maac.com/corporate-profile/default.aspx",
+          "at": "2026-09-30T04:16:46.901Z",
+          "status": 200
+        },
+        {
+          "url": "https://ir.maac.com/overview/directors-and-management/default.aspx",
+          "at": "2026-09-30T04:16:47.519Z",
+          "status": 403
+        },
+        {
+          "url": "https://r.jina.ai/https://ir.maac.com/overview/directors-and-management/default.aspx",
+          "at": "2026-09-30T04:16:54.904Z",
+          "status": 200
+        },
+        {
+          "url": "https://maac.com/sitemap.xml",
+          "at": "2026-09-30T04:16:55.496Z",
+          "status": 302
+        },
+        {
+          "url": "https://www.maac.com/sitemap.xml",
+          "at": "2026-09-30T04:16:55.642Z",
+          "status": 200
+        },
+        {
+          "url": "https://ir.maac.com/overview/committee-composition/default.aspx",
+          "at": "2026-09-30T04:16:56.168Z",
+          "status": 403
+        },
+        {
+          "url": "https://r.jina.ai/https://ir.maac.com/overview/committee-composition/default.aspx",
+          "at": "2026-09-30T04:17:02.903Z",
+          "status": 200
+        },
+        {
+          "url": "https://ir.maac.com/overview/corporate-governance/default.aspx",
+          "at": "2026-09-30T04:17:03.512Z",
+          "status": 403
+        },
+        {
+          "url": "https://r.jina.ai/https://ir.maac.com/overview/corporate-governance/default.aspx",
+          "at": "2026-09-30T04:17:10.907Z",
+          "status": 200
+        },
+        {
+          "url": "https://ir.maac.com/overview/Sustainability/default.aspx",
+          "at": "2026-09-30T04:17:11.453Z",
+          "status": 403
+        },
+        {
+          "url": "https://r.jina.ai/https://ir.maac.com/overview/Sustainability/default.aspx",
+          "at": "2026-09-30T04:17:18.907Z",
+          "status": 200
+        },
+        {
+          "url": "https://ir.maac.com/stock-information/stock-quote/default.aspx",
+          "at": "2026-09-30T04:17:19.413Z",
+          "status": 403
+        }
+      ],
+      "professional_context": {
+        "version": 7,
+        "input_key": "brad hill|maa|maac.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:17:26.915Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 7,
+          "pages_reused": 0,
+          "sitemaps_checked": 1,
+          "source_failures": [
+            {
+              "reason": "public_page_unavailable",
+              "url": "https://ir.maac.com/stock-information/stock-quote/default.aspx"
+            }
+          ],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fresh_until": "2026-09-30T05:17:26.915Z",
+        "cache_fetched_at": "2026-09-30T04:17:26.915Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Alexander J. Jessett",
+      "company": "Camden Property Trust",
+      "website": "camdenliving.com",
+      "expected_role": "chief executive officer|ceo",
+      "source": "https://www.sec.gov/Archives/edgar/data/906345/000119312526127725/d55686dex995.htm",
+      "expected": "role",
+      "audited_at": "2026-09-30",
+      "cohort": "executive_baseline",
+      "outcome": "unresolved",
+      "elapsed_ms": 40005,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=camdenliving.com&type=A",
+          "at": "2026-09-30T04:17:26.940Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=camdenliving.com&type=AAAA",
+          "at": "2026-09-30T04:17:26.941Z",
+          "status": 200
+        },
+        {
+          "url": "https://camdenliving.com/robots.txt",
+          "at": "2026-09-30T04:17:27.022Z",
+          "status": 302
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.camdenliving.com&type=A",
+          "at": "2026-09-30T04:17:27.141Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.camdenliving.com&type=AAAA",
+          "at": "2026-09-30T04:17:27.141Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.camdenliving.com/robots.txt",
+          "at": "2026-09-30T04:17:27.173Z",
+          "status": 200
+        },
+        {
+          "url": "https://camdenliving.com/",
+          "at": "2026-09-30T04:17:27.292Z",
+          "status": 302
+        },
+        {
+          "url": "https://www.camdenliving.com/robots.txt",
+          "at": "2026-09-30T04:17:27.315Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.camdenliving.com/",
+          "at": "2026-09-30T04:17:27.343Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.camdenliving.com/leadership",
+          "at": "2026-09-30T04:17:27.455Z",
+          "status": 200
+        },
+        {
+          "url": "https://camdenliving.com/sitemap.xml",
+          "at": "2026-09-30T04:17:27.565Z",
+          "status": 302
+        },
+        {
+          "url": "https://www.camdenliving.com/sitemap.xml",
+          "at": "2026-09-30T04:17:27.588Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.camdenliving.com/sitemap/corporate-pages.xml",
+          "at": "2026-09-30T04:17:27.623Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.camdenliving.com/corporate-responsibility",
+          "at": "2026-09-30T04:17:27.659Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=investors.camdenliving.com&type=A",
+          "at": "2026-09-30T04:17:27.731Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=investors.camdenliving.com&type=AAAA",
+          "at": "2026-09-30T04:17:27.731Z",
+          "status": 200
+        },
+        {
+          "url": "https://investors.camdenliving.com/robots.txt",
+          "at": "2026-09-30T04:17:27.771Z",
+          "status": 200
+        },
+        {
+          "url": "https://investors.camdenliving.com/investors/corporate-overview/corporate-profile/default.aspx",
+          "at": "2026-09-30T04:17:27.941Z",
+          "status": 403
+        },
+        {
+          "url": "https://r.jina.ai/https://investors.camdenliving.com/investors/corporate-overview/corporate-profile/default.aspx",
+          "at": "2026-09-30T04:17:34.911Z",
+          "status": 200
+        },
+        {
+          "url": "https://investors.camdenliving.com/investors/governance/management-team/default.aspx",
+          "at": "2026-09-30T04:17:35.458Z",
+          "status": 403
+        },
+        {
+          "url": "https://r.jina.ai/https://investors.camdenliving.com/investors/governance/management-team/default.aspx",
+          "at": "2026-09-30T04:17:42.904Z",
+          "status": 200
+        },
+        {
+          "url": "https://investors.camdenliving.com/home/default.aspx",
+          "at": "2026-09-30T04:17:43.451Z",
+          "status": 403
+        },
+        {
+          "url": "https://r.jina.ai/https://investors.camdenliving.com/home/default.aspx",
+          "at": "2026-09-30T04:17:50.904Z",
+          "status": 200
+        },
+        {
+          "url": "https://investors.camdenliving.com/About/default.aspx",
+          "at": "2026-09-30T04:17:56.911Z",
+          "status": 403
+        },
+        {
+          "url": "https://r.jina.ai/https://investors.camdenliving.com/About/default.aspx",
+          "at": "2026-09-30T04:17:58.908Z",
+          "status": 200
+        },
+        {
+          "url": "https://investors.camdenliving.com/investors/default.aspx",
+          "at": "2026-09-30T04:18:03.402Z",
+          "status": 403
+        }
+      ],
+      "professional_context": {
+        "version": 7,
+        "input_key": "alexander j jessett|camden property trust|camdenliving.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:18:06.919Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 8,
+          "pages_reused": 0,
+          "sitemaps_checked": 2,
+          "source_failures": [
+            {
+              "reason": "public_page_unavailable",
+              "url": "https://investors.camdenliving.com/home/default.aspx"
+            },
+            {
+              "reason": "public_page_unavailable",
+              "url": "https://investors.camdenliving.com/investors/default.aspx"
+            }
+          ],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fresh_until": "2026-09-30T05:18:06.919Z",
+        "cache_fetched_at": "2026-09-30T04:18:06.919Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Richard J. Campo",
+      "company": "Camden Property Trust",
+      "website": "camdenliving.com",
+      "expected_role": "executive chairman",
+      "source": "https://www.sec.gov/Archives/edgar/data/906345/000119312526127725/d55686dex995.htm",
+      "expected": "role",
+      "audited_at": "2026-09-30",
+      "cohort": "executive_baseline",
+      "outcome": "unresolved",
+      "elapsed_ms": 40,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "richard j campo|camden property trust|camdenliving.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:18:06.962Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 8,
+          "pages_reused": 6,
+          "sitemaps_checked": 2,
+          "source_failures": [
+            {
+              "reason": "public_page_unavailable",
+              "url": "https://investors.camdenliving.com/home/default.aspx"
+            },
+            {
+              "reason": "public_page_unavailable",
+              "url": "https://investors.camdenliving.com/investors/default.aspx"
+            }
+          ],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fresh_until": "2026-09-30T05:18:06.962Z",
+        "cache_fetched_at": "2026-09-30T04:18:06.962Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Laurie A. Baker",
+      "company": "Camden Property Trust",
+      "website": "camdenliving.com",
+      "expected_role": "president|chief operating officer",
+      "source": "https://www.sec.gov/Archives/edgar/data/906345/000119312526127725/d55686dex995.htm",
+      "expected": "role",
+      "audited_at": "2026-09-30",
+      "cohort": "executive_baseline",
+      "outcome": "role_found",
+      "elapsed_ms": 1683,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "laurie a baker|camden property trust|camdenliving.com",
+        "people": [
+          {
+            "url": "https://www.camdenliving.com/leadership",
+            "quote": "Laurie Baker President - Chief Operating Officer",
+            "title": "Leadership | camdenliving.com",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:17:27.559Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Laurie A. Baker",
+            "company": "Camden Property Trust",
+            "role": "President - Chief Operating Officer",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:18:08.643Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as President - Chief Operating Officer, which operational process would you most like to improve?",
+          "source_url": "https://www.camdenliving.com/leadership",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:18:08.644Z",
+        "cache_fetched_at": "2026-09-30T04:18:08.644Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Mark J. Parrell",
+      "company": "Equity Residential",
+      "website": "equityapartments.com",
+      "expected_role": "chief executive officer|ceo",
+      "source": "https://investors.equityapartments.com/overview/officers-and-trustees/person-details/default.aspx?ItemId=8fe766c1-8a8f-42ce-b582-8cb597088a88",
+      "expected": "role",
+      "audited_at": "2026-09-30",
+      "cohort": "executive_baseline",
+      "outcome": "unresolved",
+      "elapsed_ms": 46275,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=equityapartments.com&type=A",
+          "at": "2026-09-30T04:18:10.341Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=equityapartments.com&type=AAAA",
+          "at": "2026-09-30T04:18:10.341Z",
+          "status": 200
+        },
+        {
+          "url": "https://equityapartments.com/robots.txt",
+          "at": "2026-09-30T04:18:10.427Z",
+          "status": 200
+        },
+        {
+          "url": "https://equityapartments.com/",
+          "at": "2026-09-30T04:18:10.738Z",
+          "status": 403
+        },
+        {
+          "url": "https://r.jina.ai/https://equityapartments.com/",
+          "at": "2026-09-30T04:18:14.907Z",
+          "status": 200
+        },
+        {
+          "url": "https://equityapartments.com/investors",
+          "at": "2026-09-30T04:18:15.359Z",
+          "status": 403
+        },
+        {
+          "url": "https://r.jina.ai/https://equityapartments.com/investors",
+          "at": "2026-09-30T04:18:22.907Z",
+          "status": 200
+        },
+        {
+          "url": "https://equityapartments.com/sitemap.xml",
+          "at": "2026-09-30T04:18:23.321Z",
+          "status": 403
+        },
+        {
+          "url": "https://equityapartments.com/corporate-governance",
+          "at": "2026-09-30T04:18:23.415Z",
+          "status": 403
+        },
+        {
+          "url": "https://r.jina.ai/https://equityapartments.com/corporate-governance",
+          "at": "2026-09-30T04:18:30.907Z",
+          "status": 200
+        },
+        {
+          "url": "https://equityapartments.com/corporate-governance/governance-documents",
+          "at": "2026-09-30T04:18:31.543Z",
+          "status": 403
+        },
+        {
+          "url": "https://r.jina.ai/https://equityapartments.com/corporate-governance/governance-documents",
+          "at": "2026-09-30T04:18:38.909Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.equityapartments.com&type=A",
+          "at": "2026-09-30T04:18:39.427Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.equityapartments.com&type=AAAA",
+          "at": "2026-09-30T04:18:39.428Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.equityapartments.com/robots.txt",
+          "at": "2026-09-30T04:18:39.510Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.equityapartments.com/about",
+          "at": "2026-09-30T04:18:39.917Z",
+          "status": 403
+        },
+        {
+          "url": "https://r.jina.ai/https://www.equityapartments.com/about",
+          "at": "2026-09-30T04:18:46.905Z",
+          "status": 200
+        },
+        {
+          "url": "https://equityapartments.com/Contact",
+          "at": "2026-09-30T04:18:47.733Z",
+          "status": 403
+        }
+      ],
+      "professional_context": {
+        "version": 7,
+        "input_key": "mark j parrell|equity residential|equityapartments.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:18:54.917Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 6,
+          "pages_reused": 0,
+          "sitemaps_checked": 1,
+          "source_failures": [
+            {
+              "reason": "public_page_unavailable",
+              "url": "https://equityapartments.com/Contact"
+            }
+          ],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fresh_until": "2026-09-30T05:18:54.917Z",
+        "cache_fetched_at": "2026-09-30T04:18:54.917Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Michael L. Manelis",
+      "company": "Equity Residential",
+      "website": "equityapartments.com",
+      "expected_role": "chief operating officer|coo",
+      "source": "https://investors.equityapartments.com/overview/officers-and-trustees/person-details/default.aspx?itemid=c5becd8c-fb4b-4155-a3f0-552c8d5b208d",
+      "expected": "role",
+      "audited_at": "2026-09-30",
+      "cohort": "executive_baseline",
+      "outcome": "unresolved",
+      "elapsed_ms": 19126,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=equityapartments.com&type=A",
+          "at": "2026-09-30T04:18:54.946Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=equityapartments.com&type=AAAA",
+          "at": "2026-09-30T04:18:54.947Z",
+          "status": 200
+        },
+        {
+          "url": "https://equityapartments.com/robots.txt",
+          "at": "2026-09-30T04:18:55.034Z",
+          "status": 200
+        },
+        {
+          "url": "https://equityapartments.com/contact",
+          "at": "2026-09-30T04:18:55.178Z",
+          "status": 403
+        },
+        {
+          "url": "https://r.jina.ai/https://equityapartments.com/contact",
+          "at": "2026-09-30T04:19:02.906Z",
+          "status": 200
+        },
+        {
+          "url": "https://equityapartments.com/company-information/contacts",
+          "at": "2026-09-30T04:19:03.494Z",
+          "status": 403
+        },
+        {
+          "url": "https://r.jina.ai/https://equityapartments.com/company-information/contacts",
+          "at": "2026-09-30T04:19:10.905Z",
+          "status": 200
+        }
+      ],
+      "professional_context": {
+        "version": 7,
+        "input_key": "michael l manelis|equity residential|equityapartments.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:14.046Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 8,
+          "pages_reused": 5,
+          "sitemaps_checked": 1,
+          "source_failures": [
+            {
+              "reason": "public_page_unavailable",
+              "url": "https://equityapartments.com/Contact"
+            }
+          ],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fresh_until": "2026-09-30T05:19:14.046Z",
+        "cache_fetched_at": "2026-09-30T04:19:14.046Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Courtney Whitear",
+      "company": "Flaherty & Collins Properties",
+      "website": "flco.com",
+      "expected_role": "director\\s+of\\s+business\\s+operations",
+      "expected": "role",
+      "source": "https://flco.com/our-company/ourteam/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Director of Business Operations",
+      "outcome": "role_found",
+      "elapsed_ms": 3551,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=flco.com&type=A",
+          "at": "2026-09-30T04:19:14.058Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=flco.com&type=AAAA",
+          "at": "2026-09-30T04:19:14.058Z",
+          "status": 200
+        },
+        {
+          "url": "https://flco.com/robots.txt",
+          "at": "2026-09-30T04:19:14.135Z",
+          "status": 200
+        },
+        {
+          "url": "https://flco.com/",
+          "at": "2026-09-30T04:19:16.576Z",
+          "status": 200
+        },
+        {
+          "url": "https://flco.com/our-company/ourteam/",
+          "at": "2026-09-30T04:19:17.071Z",
+          "status": 200
+        }
+      ],
+      "professional_context": {
+        "version": 7,
+        "input_key": "courtney whitear|flaherty and collins properties|flco.com",
+        "people": [
+          {
+            "url": "https://flco.com/our-company/ourteam/",
+            "quote": "Courtney Whitear Director of Business Operations",
+            "title": "Our Team - Flaherty & Collins Properties",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:17.592Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Courtney Whitear",
+            "company": "Flaherty & Collins Properties",
+            "role": "Director of Business Operations",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:17.599Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 0,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Director of Business Operations, which operational process would you most like to improve?",
+          "source_url": "https://flco.com/our-company/ourteam/",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:17.599Z",
+        "cache_fetched_at": "2026-09-30T04:19:17.599Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Kate Bell",
+      "company": "Flaherty & Collins Properties",
+      "website": "flco.com",
+      "expected_role": "director\\s+of\\s+client\\s+relationships",
+      "expected": "role",
+      "source": "https://flco.com/our-company/ourteam/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Director of Client Relationships",
+      "outcome": "role_found",
+      "elapsed_ms": 13,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "kate bell|flaherty and collins properties|flco.com",
+        "people": [
+          {
+            "url": "https://flco.com/our-company/ourteam/",
+            "quote": "Kate Bell Director of Client Relationships",
+            "title": "Our Team - Flaherty & Collins Properties",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:17.592Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Kate Bell",
+            "company": "Flaherty & Collins Properties",
+            "role": "Director of Client Relationships",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:17.612Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Director of Client Relationships, which operational process would you most like to improve?",
+          "source_url": "https://flco.com/our-company/ourteam/",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:17.612Z",
+        "cache_fetched_at": "2026-09-30T04:19:17.612Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Sarah Dassylva",
+      "company": "Flaherty & Collins Properties",
+      "website": "flco.com",
+      "expected_role": "vice\\s+president,?\\s+property\\s+management",
+      "expected": "role",
+      "source": "https://flco.com/our-company/ourteam/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Vice President, Property Management",
+      "outcome": "role_found",
+      "elapsed_ms": 1715,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "sarah dassylva|flaherty and collins properties|flco.com",
+        "people": [
+          {
+            "url": "https://flco.com/our-company/ourteam/",
+            "quote": "Sarah Dassylva Vice President, Property Management",
+            "title": "Our Team - Flaherty & Collins Properties",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:17.592Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Sarah Dassylva",
+            "company": "Flaherty & Collins Properties",
+            "role": "Vice President, Property Management",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:19.325Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Vice President, Property Management, which operational process would you most like to improve?",
+          "source_url": "https://flco.com/our-company/ourteam/",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:19.325Z",
+        "cache_fetched_at": "2026-09-30T04:19:19.325Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Aggie Woods",
+      "company": "Flaherty & Collins Properties",
+      "website": "flco.com",
+      "expected_role": "regional\\s+property\\s+manager",
+      "expected": "role",
+      "source": "https://flco.com/our-company/ourteam/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Regional Property Manager",
+      "outcome": "role_found",
+      "elapsed_ms": 1695,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "aggie woods|flaherty and collins properties|flco.com",
+        "people": [
+          {
+            "url": "https://flco.com/our-company/ourteam/",
+            "quote": "Aggie Woods Regional Property Manager",
+            "title": "Our Team - Flaherty & Collins Properties",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:17.592Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Aggie Woods",
+            "company": "Flaherty & Collins Properties",
+            "role": "Regional Property Manager",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:21.022Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Regional Property Manager, which operational process would you most like to improve?",
+          "source_url": "https://flco.com/our-company/ourteam/",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:21.022Z",
+        "cache_fetched_at": "2026-09-30T04:19:21.022Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Melissa Barrett",
+      "company": "Flaherty & Collins Properties",
+      "website": "flco.com",
+      "expected_role": "regional\\s+property\\s+manager",
+      "expected": "role",
+      "source": "https://flco.com/our-company/ourteam/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Regional Property Manager",
+      "outcome": "role_found",
+      "elapsed_ms": 1710,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "melissa barrett|flaherty and collins properties|flco.com",
+        "people": [
+          {
+            "url": "https://flco.com/our-company/ourteam/",
+            "quote": "Melissa Barrett Regional Property Manager",
+            "title": "Our Team - Flaherty & Collins Properties",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:17.592Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Melissa Barrett",
+            "company": "Flaherty & Collins Properties",
+            "role": "Regional Property Manager",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:22.731Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Regional Property Manager, which operational process would you most like to improve?",
+          "source_url": "https://flco.com/our-company/ourteam/",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:22.731Z",
+        "cache_fetched_at": "2026-09-30T04:19:22.731Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Angela Smith",
+      "company": "Flaherty & Collins Properties",
+      "website": "flco.com",
+      "expected_role": "regional\\s+property\\s+manager",
+      "expected": "role",
+      "source": "https://flco.com/our-company/ourteam/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Regional Property Manager",
+      "outcome": "role_found",
+      "elapsed_ms": 1696,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "angela smith|flaherty and collins properties|flco.com",
+        "people": [
+          {
+            "url": "https://flco.com/our-company/ourteam/",
+            "quote": "Angela Smith Regional Property Manager",
+            "title": "Our Team - Flaherty & Collins Properties",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:17.592Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Angela Smith",
+            "company": "Flaherty & Collins Properties",
+            "role": "Regional Property Manager",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:24.429Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Regional Property Manager, which operational process would you most like to improve?",
+          "source_url": "https://flco.com/our-company/ourteam/",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:24.429Z",
+        "cache_fetched_at": "2026-09-30T04:19:24.429Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Karen Adams",
+      "company": "Flaherty & Collins Properties",
+      "website": "flco.com",
+      "expected_role": "regional\\s+property\\s+manager",
+      "expected": "role",
+      "source": "https://flco.com/our-company/ourteam/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Regional Property Manager",
+      "outcome": "role_found",
+      "elapsed_ms": 1706,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "karen adams|flaherty and collins properties|flco.com",
+        "people": [
+          {
+            "url": "https://flco.com/our-company/ourteam/",
+            "quote": "Karen Adams Regional Property Manager",
+            "title": "Our Team - Flaherty & Collins Properties",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:17.592Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Karen Adams",
+            "company": "Flaherty & Collins Properties",
+            "role": "Regional Property Manager",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:26.134Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Regional Property Manager, which operational process would you most like to improve?",
+          "source_url": "https://flco.com/our-company/ourteam/",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:26.134Z",
+        "cache_fetched_at": "2026-09-30T04:19:26.134Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Kent Reckelhoff",
+      "company": "Flaherty & Collins Properties",
+      "website": "flco.com",
+      "expected_role": "director\\s+of\\s+facilities",
+      "expected": "role",
+      "source": "https://flco.com/our-company/ourteam/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Director of Facilities",
+      "outcome": "role_found",
+      "elapsed_ms": 1696,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "kent reckelhoff|flaherty and collins properties|flco.com",
+        "people": [
+          {
+            "url": "https://flco.com/our-company/ourteam/",
+            "quote": "Kent Reckelhoff Director of Facilities",
+            "title": "Our Team - Flaherty & Collins Properties",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:17.592Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Kent Reckelhoff",
+            "company": "Flaherty & Collins Properties",
+            "role": "Director of Facilities",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:27.832Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Director of Facilities, which operational process would you most like to improve?",
+          "source_url": "https://flco.com/our-company/ourteam/",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:27.832Z",
+        "cache_fetched_at": "2026-09-30T04:19:27.832Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Amber Hildebrand",
+      "company": "RedPeak",
+      "website": "redpeak.com",
+      "expected_role": "property\\s+account\\s+manager",
+      "expected": "role",
+      "source": "https://redpeak.com/our-team/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Property Account Manager",
+      "outcome": "role_found",
+      "elapsed_ms": 2636,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=redpeak.com&type=A",
+          "at": "2026-09-30T04:19:29.532Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=redpeak.com&type=AAAA",
+          "at": "2026-09-30T04:19:29.533Z",
+          "status": 200
+        },
+        {
+          "url": "https://redpeak.com/robots.txt",
+          "at": "2026-09-30T04:19:29.628Z",
+          "status": 200
+        },
+        {
+          "url": "https://redpeak.com/",
+          "at": "2026-09-30T04:19:29.904Z",
+          "status": 200
+        },
+        {
+          "url": "https://redpeak.com/our-team/",
+          "at": "2026-09-30T04:19:30.243Z",
+          "status": 200
+        }
+      ],
+      "professional_context": {
+        "version": 7,
+        "input_key": "amber hildebrand|redpeak|redpeak.com",
+        "people": [
+          {
+            "url": "https://redpeak.com/our-team/",
+            "quote": "Amber Hildebrand Property Account Manager",
+            "title": "Leadership Team | Denver Area Apartments | RedPeak Properties",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:30.459Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Amber Hildebrand",
+            "company": "RedPeak",
+            "role": "Property Account Manager",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:30.468Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 0,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Property Account Manager, which operational process would you most like to improve?",
+          "source_url": "https://redpeak.com/our-team/",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:30.469Z",
+        "cache_fetched_at": "2026-09-30T04:19:30.469Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Jammie Bandor",
+      "company": "RedPeak",
+      "website": "redpeak.com",
+      "expected_role": "portfolio\\s+director",
+      "expected": "role",
+      "source": "https://redpeak.com/our-team/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Portfolio Director",
+      "outcome": "role_found",
+      "elapsed_ms": 776,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "jammie bandor|redpeak|redpeak.com",
+        "people": [
+          {
+            "url": "https://redpeak.com/our-team/",
+            "quote": "Jammie Bandor Portfolio Director",
+            "title": "Leadership Team | Denver Area Apartments | RedPeak Properties",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:30.459Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Jammie Bandor",
+            "company": "RedPeak",
+            "role": "Portfolio Director",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:31.243Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Portfolio Director, which operational process would you most like to improve?",
+          "source_url": "https://redpeak.com/our-team/",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:31.244Z",
+        "cache_fetched_at": "2026-09-30T04:19:31.244Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Kailey Hassan-Wolff",
+      "company": "RedPeak",
+      "website": "redpeak.com",
+      "expected_role": "regional\\s+manager",
+      "expected": "role",
+      "source": "https://redpeak.com/our-team/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Regional Manager",
+      "outcome": "role_found",
+      "elapsed_ms": 1701,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "kailey hassan wolff|redpeak|redpeak.com",
+        "people": [
+          {
+            "url": "https://redpeak.com/our-team/",
+            "quote": "Kailey Hassan-Wolff Regional Manager",
+            "title": "Leadership Team | Denver Area Apartments | RedPeak Properties",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:30.459Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Kailey Hassan-Wolff",
+            "company": "RedPeak",
+            "role": "Regional Manager",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:32.945Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Regional Manager, which operational process would you most like to improve?",
+          "source_url": "https://redpeak.com/our-team/",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:32.946Z",
+        "cache_fetched_at": "2026-09-30T04:19:32.946Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Jayde Kelley",
+      "company": "RedPeak",
+      "website": "redpeak.com",
+      "expected_role": "director\\s+of\\s+innovation",
+      "expected": "role",
+      "source": "https://redpeak.com/our-team/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Director of Innovation",
+      "outcome": "role_found",
+      "elapsed_ms": 1708,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "jayde kelley|redpeak|redpeak.com",
+        "people": [
+          {
+            "url": "https://redpeak.com/our-team/",
+            "quote": "Jayde Kelley Director of Innovation",
+            "title": "Leadership Team | Denver Area Apartments | RedPeak Properties",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:30.459Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Jayde Kelley",
+            "company": "RedPeak",
+            "role": "Director of Innovation",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:34.654Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Director of Innovation, which operational process would you most like to improve?",
+          "source_url": "https://redpeak.com/our-team/",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:34.655Z",
+        "cache_fetched_at": "2026-09-30T04:19:34.655Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Lori Snider",
+      "company": "RedPeak",
+      "website": "redpeak.com",
+      "expected_role": "director\\s+of\\s+people\\s+operations",
+      "expected": "role",
+      "source": "https://redpeak.com/our-team/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Director of People Operations",
+      "outcome": "role_found",
+      "elapsed_ms": 1696,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "lori snider|redpeak|redpeak.com",
+        "people": [
+          {
+            "url": "https://redpeak.com/our-team/",
+            "quote": "Lori Snider Director of People Operations",
+            "title": "Leadership Team | Denver Area Apartments | RedPeak Properties",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:30.459Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Lori Snider",
+            "company": "RedPeak",
+            "role": "Director of People Operations",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:36.351Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Director of People Operations, which operational process would you most like to improve?",
+          "source_url": "https://redpeak.com/our-team/",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:36.352Z",
+        "cache_fetched_at": "2026-09-30T04:19:36.352Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Mariah Cue",
+      "company": "RedPeak",
+      "website": "redpeak.com",
+      "expected_role": "pricing\\s+(?:and|&)\\s+systems\\s+manager",
+      "expected": "role",
+      "source": "https://redpeak.com/our-team/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Pricing and Systems Manager",
+      "outcome": "role_found",
+      "elapsed_ms": 1702,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "mariah cue|redpeak|redpeak.com",
+        "people": [
+          {
+            "url": "https://redpeak.com/our-team/",
+            "quote": "Mariah Cue Pricing and Systems Manager",
+            "title": "Leadership Team | Denver Area Apartments | RedPeak Properties",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:30.459Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Mariah Cue",
+            "company": "RedPeak",
+            "role": "Pricing and Systems Manager",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:38.054Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Pricing and Systems Manager, which operational process would you most like to improve?",
+          "source_url": "https://redpeak.com/our-team/",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:38.055Z",
+        "cache_fetched_at": "2026-09-30T04:19:38.055Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Debbie Topping",
+      "company": "Atlantic Residential",
+      "website": "atlanticresi.com",
+      "expected_role": "(?:senior|sr\\.?)\\s+director\\s+of\\s+property\\s+management",
+      "expected": "role",
+      "source": "https://atlanticresi.com/leadership/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Senior Director of Property Management",
+      "outcome": "role_found",
+      "elapsed_ms": 2489,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=atlanticresi.com&type=A",
+          "at": "2026-09-30T04:19:39.743Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=atlanticresi.com&type=AAAA",
+          "at": "2026-09-30T04:19:39.745Z",
+          "status": 200
+        },
+        {
+          "url": "https://atlanticresi.com/robots.txt",
+          "at": "2026-09-30T04:19:39.869Z",
+          "status": 200
+        },
+        {
+          "url": "https://atlanticresi.com/",
+          "at": "2026-09-30T04:19:40.133Z",
+          "status": 200
+        },
+        {
+          "url": "https://atlanticresi.com/leadership/",
+          "at": "2026-09-30T04:19:40.174Z",
+          "status": 200
+        }
+      ],
+      "professional_context": {
+        "version": 7,
+        "input_key": "debbie topping|atlantic residential|atlanticresi.com",
+        "people": [
+          {
+            "url": "https://atlanticresi.com/leadership/",
+            "quote": "Debbie Topping Senior Director of Property Management",
+            "title": "Leadership -Atlantic Residential",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:40.542Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Debbie Topping",
+            "company": "Atlantic Residential",
+            "role": "Senior Director of Property Management",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:40.544Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 0,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Senior Director of Property Management, which operational process would you most like to improve?",
+          "source_url": "https://atlanticresi.com/leadership/",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:40.545Z",
+        "cache_fetched_at": "2026-09-30T04:19:40.545Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Abby Paul",
+      "company": "Atlantic Residential",
+      "website": "atlanticresi.com",
+      "expected_role": "(?:senior|sr\\.?)\\s+regional\\s+manager",
+      "expected": "role",
+      "source": "https://atlanticresi.com/leadership/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Senior Regional Manager",
+      "outcome": "role_found",
+      "elapsed_ms": 903,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "abby paul|atlantic residential|atlanticresi.com",
+        "people": [
+          {
+            "url": "https://atlanticresi.com/leadership/",
+            "quote": "Abby Paul Senior Regional Manager Milwaukee",
+            "title": "Leadership -Atlantic Residential",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:40.542Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Abby Paul",
+            "company": "Atlantic Residential",
+            "role": "Senior Regional Manager Milwaukee",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:41.446Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Senior Regional Manager Milwaukee, which operational process would you most like to improve?",
+          "source_url": "https://atlanticresi.com/leadership/",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:41.446Z",
+        "cache_fetched_at": "2026-09-30T04:19:41.446Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Cheka White",
+      "company": "Atlantic Residential",
+      "website": "atlanticresi.com",
+      "expected_role": "regional\\s+manager",
+      "expected": "role",
+      "source": "https://atlanticresi.com/leadership/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Regional Manager",
+      "outcome": "role_found",
+      "elapsed_ms": 1700,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "cheka white|atlantic residential|atlanticresi.com",
+        "people": [
+          {
+            "url": "https://atlanticresi.com/leadership/",
+            "quote": "Cheka White Regional Manager Atlanta",
+            "title": "Leadership -Atlantic Residential",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:40.542Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Cheka White",
+            "company": "Atlantic Residential",
+            "role": "Regional Manager Atlanta",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:43.147Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Regional Manager Atlanta, which operational process would you most like to improve?",
+          "source_url": "https://atlanticresi.com/leadership/",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:43.147Z",
+        "cache_fetched_at": "2026-09-30T04:19:43.147Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Justin Strickland",
+      "company": "Atlantic Residential",
+      "website": "atlanticresi.com",
+      "expected_role": "regional\\s+manager",
+      "expected": "role",
+      "source": "https://atlanticresi.com/leadership/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Regional Manager",
+      "outcome": "role_found",
+      "elapsed_ms": 1700,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "justin strickland|atlantic residential|atlanticresi.com",
+        "people": [
+          {
+            "url": "https://atlanticresi.com/leadership/",
+            "quote": "Justin Strickland Regional Manager Atlanta",
+            "title": "Leadership -Atlantic Residential",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:40.542Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Justin Strickland",
+            "company": "Atlantic Residential",
+            "role": "Regional Manager Atlanta",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:44.848Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Regional Manager Atlanta, which operational process would you most like to improve?",
+          "source_url": "https://atlanticresi.com/leadership/",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:44.848Z",
+        "cache_fetched_at": "2026-09-30T04:19:44.848Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Mandy Hendrix",
+      "company": "Atlantic Residential",
+      "website": "atlanticresi.com",
+      "expected_role": "director\\s+of\\s+marketing",
+      "expected": "role",
+      "source": "https://atlanticresi.com/leadership/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Director of Marketing",
+      "outcome": "role_found",
+      "elapsed_ms": 1700,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "mandy hendrix|atlantic residential|atlanticresi.com",
+        "people": [
+          {
+            "url": "https://atlanticresi.com/leadership/",
+            "quote": "Mandy Hendrix Director of Marketing",
+            "title": "Leadership -Atlantic Residential",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:40.542Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Mandy Hendrix",
+            "company": "Atlantic Residential",
+            "role": "Director of Marketing",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:46.549Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Director of Marketing, which operational process would you most like to improve?",
+          "source_url": "https://atlanticresi.com/leadership/",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:46.549Z",
+        "cache_fetched_at": "2026-09-30T04:19:46.549Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Mindy Vandemoore",
+      "company": "Atlantic Residential",
+      "website": "atlanticresi.com",
+      "expected_role": "(?:senior|sr\\.?)\\s+manager\\s+of\\s+software\\s+(?:and|&)\\s+training",
+      "expected": "role",
+      "source": "https://atlanticresi.com/leadership/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Senior Manager of Software and Training",
+      "outcome": "role_found",
+      "elapsed_ms": 1702,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "mindy vandemoore|atlantic residential|atlanticresi.com",
+        "people": [
+          {
+            "url": "https://atlanticresi.com/leadership/",
+            "quote": "Mindy Vandemoore Senior Manager of Software and Training",
+            "title": "Leadership -Atlantic Residential",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:40.542Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Mindy Vandemoore",
+            "company": "Atlantic Residential",
+            "role": "Senior Manager of Software and Training",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:48.251Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Senior Manager of Software and Training, which operational process would you most like to improve?",
+          "source_url": "https://atlanticresi.com/leadership/",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:48.252Z",
+        "cache_fetched_at": "2026-09-30T04:19:48.252Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Tori Casero",
+      "company": "Nxt Property Management",
+      "website": "nxtmgt.com",
+      "expected_role": "regional\\s+vice\\s+president",
+      "expected": "role",
+      "source": "https://www.nxtmgt.com/our-team",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Regional Vice President",
+      "outcome": "role_found",
+      "elapsed_ms": 2627,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=nxtmgt.com&type=A",
+          "at": "2026-09-30T04:19:49.948Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=nxtmgt.com&type=AAAA",
+          "at": "2026-09-30T04:19:49.950Z",
+          "status": 200
+        },
+        {
+          "url": "https://nxtmgt.com/robots.txt",
+          "at": "2026-09-30T04:19:50.046Z",
+          "status": 200
+        },
+        {
+          "url": "https://nxtmgt.com/",
+          "at": "2026-09-30T04:19:50.246Z",
+          "status": 301
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.nxtmgt.com&type=A",
+          "at": "2026-09-30T04:19:50.313Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.nxtmgt.com&type=AAAA",
+          "at": "2026-09-30T04:19:50.313Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.nxtmgt.com/robots.txt",
+          "at": "2026-09-30T04:19:50.344Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.nxtmgt.com/",
+          "at": "2026-09-30T04:19:50.547Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.nxtmgt.com/our-team",
+          "at": "2026-09-30T04:19:50.742Z",
+          "status": 200
+        }
+      ],
+      "professional_context": {
+        "version": 7,
+        "input_key": "tori casero|nxt property management|nxtmgt.com",
+        "people": [
+          {
+            "url": "https://www.nxtmgt.com/our-team",
+            "quote": "TORI CASERO REGIONAL VICE PRESIDENT",
+            "title": "Our Team &mdash; Nxt Property Management",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:50.875Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Tori Casero",
+            "company": "Nxt Property Management",
+            "role": "REGIONAL VICE PRESIDENT",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:50.879Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 0,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as REGIONAL VICE PRESIDENT, which operational process would you most like to improve?",
+          "source_url": "https://www.nxtmgt.com/our-team",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:50.879Z",
+        "cache_fetched_at": "2026-09-30T04:19:50.879Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Candice Salazar",
+      "company": "Nxt Property Management",
+      "website": "nxtmgt.com",
+      "expected_role": "regional\\s+property\\s+manager",
+      "expected": "role",
+      "source": "https://www.nxtmgt.com/our-team",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Regional Property Manager",
+      "outcome": "role_found",
+      "elapsed_ms": 772,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "candice salazar|nxt property management|nxtmgt.com",
+        "people": [
+          {
+            "url": "https://www.nxtmgt.com/our-team",
+            "quote": "CANDICE SALAZAR REGIONAL PROPERTY MANAGER",
+            "title": "Our Team &mdash; Nxt Property Management",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:50.875Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Candice Salazar",
+            "company": "Nxt Property Management",
+            "role": "REGIONAL PROPERTY MANAGER",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:51.653Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as REGIONAL PROPERTY MANAGER, which operational process would you most like to improve?",
+          "source_url": "https://www.nxtmgt.com/our-team",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:51.654Z",
+        "cache_fetched_at": "2026-09-30T04:19:51.654Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Natalie Ward",
+      "company": "Nxt Property Management",
+      "website": "nxtmgt.com",
+      "expected_role": "regional\\s+property\\s+manager",
+      "expected": "role",
+      "source": "https://www.nxtmgt.com/our-team",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Regional Property Manager",
+      "outcome": "role_found",
+      "elapsed_ms": 1699,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "natalie ward|nxt property management|nxtmgt.com",
+        "people": [
+          {
+            "url": "https://www.nxtmgt.com/our-team",
+            "quote": "NATALIE WARD REGIONAL PROPERTY MANAGER",
+            "title": "Our Team &mdash; Nxt Property Management",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:50.875Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Natalie Ward",
+            "company": "Nxt Property Management",
+            "role": "REGIONAL PROPERTY MANAGER",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:53.352Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as REGIONAL PROPERTY MANAGER, which operational process would you most like to improve?",
+          "source_url": "https://www.nxtmgt.com/our-team",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:53.352Z",
+        "cache_fetched_at": "2026-09-30T04:19:53.352Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Nik Putnam",
+      "company": "Nxt Property Management",
+      "website": "nxtmgt.com",
+      "expected_role": "regional\\s+property\\s+manager",
+      "expected": "role",
+      "source": "https://www.nxtmgt.com/our-team",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Regional Property Manager",
+      "outcome": "role_found",
+      "elapsed_ms": 1704,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "nik putnam|nxt property management|nxtmgt.com",
+        "people": [
+          {
+            "url": "https://www.nxtmgt.com/our-team",
+            "quote": "NIK PUTNAM REGIONAL PROPERTY MANAGER",
+            "title": "Our Team &mdash; Nxt Property Management",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:50.875Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Nik Putnam",
+            "company": "Nxt Property Management",
+            "role": "REGIONAL PROPERTY MANAGER",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:55.059Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as REGIONAL PROPERTY MANAGER, which operational process would you most like to improve?",
+          "source_url": "https://www.nxtmgt.com/our-team",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:55.059Z",
+        "cache_fetched_at": "2026-09-30T04:19:55.059Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Sydnee Burns",
+      "company": "Nxt Property Management",
+      "website": "nxtmgt.com",
+      "expected_role": "regional\\s+property\\s+manager",
+      "expected": "role",
+      "source": "https://www.nxtmgt.com/our-team",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Regional Property Manager",
+      "outcome": "role_found",
+      "elapsed_ms": 1701,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "sydnee burns|nxt property management|nxtmgt.com",
+        "people": [
+          {
+            "url": "https://www.nxtmgt.com/our-team",
+            "quote": "SYDNEE BURNS REGIONAL PROPERTY MANAGER",
+            "title": "Our Team &mdash; Nxt Property Management",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:50.875Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Sydnee Burns",
+            "company": "Nxt Property Management",
+            "role": "REGIONAL PROPERTY MANAGER",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:56.759Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as REGIONAL PROPERTY MANAGER, which operational process would you most like to improve?",
+          "source_url": "https://www.nxtmgt.com/our-team",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:56.759Z",
+        "cache_fetched_at": "2026-09-30T04:19:56.759Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Chris McDonald",
+      "company": "Nxt Property Management",
+      "website": "nxtmgt.com",
+      "expected_role": "director\\s+of\\s+facilities",
+      "expected": "role",
+      "source": "https://www.nxtmgt.com/our-team",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Director of Facilities",
+      "outcome": "role_found",
+      "elapsed_ms": 1695,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "chris mcdonald|nxt property management|nxtmgt.com",
+        "people": [
+          {
+            "url": "https://www.nxtmgt.com/our-team",
+            "quote": "CHRIS MCDONALD DIRECTOR OF FACILITIES",
+            "title": "Our Team &mdash; Nxt Property Management",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:19:50.875Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Chris McDonald",
+            "company": "Nxt Property Management",
+            "role": "DIRECTOR OF FACILITIES",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:19:58.456Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as DIRECTOR OF FACILITIES, which operational process would you most like to improve?",
+          "source_url": "https://www.nxtmgt.com/our-team",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:19:58.456Z",
+        "cache_fetched_at": "2026-09-30T04:19:58.456Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Jessica Werner",
+      "company": "Baceline Group",
+      "website": "bacelinegroup.com",
+      "expected_role": "regional\\s+property\\s+manager",
+      "expected": "role",
+      "source": "https://www.bacelinegroup.com/about/our-team/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Regional Property Manager",
+      "outcome": "unresolved",
+      "elapsed_ms": 17441,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=bacelinegroup.com&type=A",
+          "at": "2026-09-30T04:20:00.160Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=bacelinegroup.com&type=AAAA",
+          "at": "2026-09-30T04:20:00.161Z",
+          "status": 200
+        },
+        {
+          "url": "https://bacelinegroup.com/robots.txt",
+          "at": "2026-09-30T04:20:00.250Z",
+          "status": 301
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.bacelinegroup.com&type=A",
+          "at": "2026-09-30T04:20:01.149Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.bacelinegroup.com&type=AAAA",
+          "at": "2026-09-30T04:20:01.150Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.bacelinegroup.com/robots.txt",
+          "at": "2026-09-30T04:20:01.216Z",
+          "status": 200
+        },
+        {
+          "url": "https://bacelinegroup.com/",
+          "at": "2026-09-30T04:20:03.170Z",
+          "status": 301
+        },
+        {
+          "url": "https://www.bacelinegroup.com/robots.txt",
+          "at": "2026-09-30T04:20:03.203Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.bacelinegroup.com/",
+          "at": "2026-09-30T04:20:03.228Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.bacelinegroup.com/category/investor-relations/",
+          "at": "2026-09-30T04:20:03.524Z",
+          "status": 200
+        },
+        {
+          "url": "https://bacelinegroup.com/sitemap.xml",
+          "at": "2026-09-30T04:20:05.729Z",
+          "status": 301
+        },
+        {
+          "url": "https://www.bacelinegroup.com/wp-sitemap.xml",
+          "at": "2026-09-30T04:20:05.754Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.bacelinegroup.com/wp-sitemap-posts-page-1.xml",
+          "at": "2026-09-30T04:20:05.785Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.bacelinegroup.com/investor-services/",
+          "at": "2026-09-30T04:20:05.814Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.bacelinegroup.com/about/",
+          "at": "2026-09-30T04:20:07.494Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.bacelinegroup.com/about/our-team/",
+          "at": "2026-09-30T04:20:07.682Z",
+          "status": 404
+        },
+        {
+          "url": "https://r.jina.ai/https://www.bacelinegroup.com/about/our-team/",
+          "at": "2026-09-30T04:20:09.225Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.bacelinegroup.com/small-business-hub/",
+          "at": "2026-09-30T04:20:11.575Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.bacelinegroup.com/category/small-business/",
+          "at": "2026-09-30T04:20:13.134Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.bacelinegroup.com/small-business-hub-tenant-resource-questionnaire/",
+          "at": "2026-09-30T04:20:14.439Z",
+          "status": 200
+        }
+      ],
+      "professional_context": {
+        "version": 7,
+        "input_key": "jessica werner|baceline group|bacelinegroup.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:20:15.897Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 8,
+          "pages_reused": 0,
+          "sitemaps_checked": 2,
+          "source_failures": [
+            {
+              "reason": "public_page_unavailable",
+              "url": "https://www.bacelinegroup.com/about/our-team/"
+            }
+          ],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fresh_until": "2026-09-30T05:20:15.897Z",
+        "cache_fetched_at": "2026-09-30T04:20:15.897Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Michelle Montgomery",
+      "company": "Baceline Group",
+      "website": "bacelinegroup.com",
+      "expected_role": "(?:senior|sr\\.?)\\s+regional\\s+property\\s+manager",
+      "expected": "role",
+      "source": "https://www.bacelinegroup.com/about/our-team/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Senior Regional Property Manager",
+      "outcome": "unresolved",
+      "elapsed_ms": 28,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "michelle montgomery|baceline group|bacelinegroup.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:20:15.926Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 8,
+          "pages_reused": 7,
+          "sitemaps_checked": 2,
+          "source_failures": [
+            {
+              "reason": "public_page_unavailable",
+              "url": "https://www.bacelinegroup.com/about/our-team/"
+            }
+          ],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fresh_until": "2026-09-30T05:20:15.926Z",
+        "cache_fetched_at": "2026-09-30T04:20:15.927Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Claudia Walker",
+      "company": "Baceline Group",
+      "website": "bacelinegroup.com",
+      "expected_role": "property\\s+manager",
+      "expected": "role",
+      "source": "https://www.bacelinegroup.com/about/our-team/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Property Manager",
+      "outcome": "unresolved",
+      "elapsed_ms": 1719,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "claudia walker|baceline group|bacelinegroup.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:20:17.646Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 8,
+          "pages_reused": 7,
+          "sitemaps_checked": 2,
+          "source_failures": [
+            {
+              "reason": "public_page_unavailable",
+              "url": "https://www.bacelinegroup.com/about/our-team/"
+            }
+          ],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fresh_until": "2026-09-30T05:20:17.646Z",
+        "cache_fetched_at": "2026-09-30T04:20:17.646Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Cole Proctor",
+      "company": "Baceline Group",
+      "website": "bacelinegroup.com",
+      "expected_role": "regional\\s+operations\\s+manager",
+      "expected": "role",
+      "source": "https://www.bacelinegroup.com/about/our-team/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Regional Operations Manager",
+      "outcome": "unresolved",
+      "elapsed_ms": 1699,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "cole proctor|baceline group|bacelinegroup.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:20:19.346Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 8,
+          "pages_reused": 7,
+          "sitemaps_checked": 2,
+          "source_failures": [
+            {
+              "reason": "public_page_unavailable",
+              "url": "https://www.bacelinegroup.com/about/our-team/"
+            }
+          ],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fresh_until": "2026-09-30T05:20:19.346Z",
+        "cache_fetched_at": "2026-09-30T04:20:19.346Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Jessica Daniels",
+      "company": "Baceline Group",
+      "website": "bacelinegroup.com",
+      "expected_role": "regional\\s+property\\s+manager",
+      "expected": "role",
+      "source": "https://www.bacelinegroup.com/about/our-team/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Regional Property Manager",
+      "outcome": "unresolved",
+      "elapsed_ms": 1703,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "jessica daniels|baceline group|bacelinegroup.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:20:21.049Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 8,
+          "pages_reused": 7,
+          "sitemaps_checked": 2,
+          "source_failures": [
+            {
+              "reason": "public_page_unavailable",
+              "url": "https://www.bacelinegroup.com/about/our-team/"
+            }
+          ],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fresh_until": "2026-09-30T05:20:21.049Z",
+        "cache_fetched_at": "2026-09-30T04:20:21.049Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Layla Vossoughi",
+      "company": "Baceline Group",
+      "website": "bacelinegroup.com",
+      "expected_role": "property\\s+manager",
+      "expected": "role",
+      "source": "https://www.bacelinegroup.com/about/our-team/",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Property Manager",
+      "outcome": "unresolved",
+      "elapsed_ms": 1700,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "layla vossoughi|baceline group|bacelinegroup.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:20:22.749Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 8,
+          "pages_reused": 7,
+          "sitemaps_checked": 2,
+          "source_failures": [
+            {
+              "reason": "public_page_unavailable",
+              "url": "https://www.bacelinegroup.com/about/our-team/"
+            }
+          ],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fresh_until": "2026-09-30T05:20:22.749Z",
+        "cache_fetched_at": "2026-09-30T04:20:22.749Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Lori Burger",
+      "company": "EBMC",
+      "website": "ebmc.com",
+      "expected_role": "(?:senior|sr\\.?)\\s+vice\\s+president,?\\s+regional\\s+manager",
+      "expected": "role",
+      "source": "https://www.ebmc.com/about-ebmc/team",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Senior Vice President, Regional Manager",
+      "outcome": "role_found",
+      "elapsed_ms": 2443,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=ebmc.com&type=A",
+          "at": "2026-09-30T04:20:24.424Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=ebmc.com&type=AAAA",
+          "at": "2026-09-30T04:20:24.425Z",
+          "status": 200
+        },
+        {
+          "url": "https://ebmc.com/robots.txt",
+          "at": "2026-09-30T04:20:24.521Z",
+          "status": 301
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.ebmc.com&type=A",
+          "at": "2026-09-30T04:20:24.661Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.ebmc.com&type=AAAA",
+          "at": "2026-09-30T04:20:24.661Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.ebmc.com/robots.txt",
+          "at": "2026-09-30T04:20:24.694Z",
+          "status": 200
+        },
+        {
+          "url": "https://ebmc.com/",
+          "at": "2026-09-30T04:20:24.841Z",
+          "status": 301
+        },
+        {
+          "url": "https://www.ebmc.com/robots.txt",
+          "at": "2026-09-30T04:20:24.920Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.ebmc.com/",
+          "at": "2026-09-30T04:20:24.977Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.ebmc.com/about-ebmc/team",
+          "at": "2026-09-30T04:20:25.114Z",
+          "status": 200
+        }
+      ],
+      "professional_context": {
+        "version": 7,
+        "input_key": "lori burger|ebmc|ebmc.com",
+        "people": [
+          {
+            "url": "https://www.ebmc.com/about-ebmc/team",
+            "quote": "Lori Burger Senior Vice President, Regional Manager, Northern Nevada",
+            "title": "Meet the EBMC Leadership Team",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:20:25.183Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Lori Burger",
+            "company": "EBMC",
+            "role": "Senior Vice President, Regional Manager, Northern Nevada",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:20:25.191Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 0,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Senior Vice President, Regional Manager, Northern Nevada, which operational process would you most like to improve?",
+          "source_url": "https://www.ebmc.com/about-ebmc/team",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:20:25.191Z",
+        "cache_fetched_at": "2026-09-30T04:20:25.191Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Karen Brigg",
+      "company": "EBMC",
+      "website": "ebmc.com",
+      "expected_role": "(?:senior|sr\\.?)\\s+vice\\s+president,?\\s+regional\\s+manager",
+      "expected": "role",
+      "source": "https://www.ebmc.com/about-ebmc/team",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Senior Vice President, Regional Manager",
+      "outcome": "role_found",
+      "elapsed_ms": 943,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "karen brigg|ebmc|ebmc.com",
+        "people": [
+          {
+            "url": "https://www.ebmc.com/about-ebmc/team",
+            "quote": "Karen Brigg Senior Vice President, Regional Manager, Placer County",
+            "title": "Meet the EBMC Leadership Team",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:20:25.183Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Karen Brigg",
+            "company": "EBMC",
+            "role": "Senior Vice President, Regional Manager, Placer County",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:20:26.134Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Senior Vice President, Regional Manager, Placer County, which operational process would you most like to improve?",
+          "source_url": "https://www.ebmc.com/about-ebmc/team",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:20:26.135Z",
+        "cache_fetched_at": "2026-09-30T04:20:26.135Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Josh Meyers",
+      "company": "EBMC",
+      "website": "ebmc.com",
+      "expected_role": "residential\\s+property\\s+supervisor",
+      "expected": "role",
+      "source": "https://www.ebmc.com/about-ebmc/team",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Residential Property Supervisor",
+      "outcome": "role_found",
+      "elapsed_ms": 1701,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "josh meyers|ebmc|ebmc.com",
+        "people": [
+          {
+            "url": "https://www.ebmc.com/about-ebmc/team",
+            "quote": "Josh Meyers Residential Property Supervisor",
+            "title": "Meet the EBMC Leadership Team",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:20:25.183Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Josh Meyers",
+            "company": "EBMC",
+            "role": "Residential Property Supervisor",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:20:27.835Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Residential Property Supervisor, which operational process would you most like to improve?",
+          "source_url": "https://www.ebmc.com/about-ebmc/team",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:20:27.835Z",
+        "cache_fetched_at": "2026-09-30T04:20:27.835Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Gabrielle Baum",
+      "company": "EBMC",
+      "website": "ebmc.com",
+      "expected_role": "director\\s+of\\s+leasing\\s+(?:and|&)\\s+management",
+      "expected": "role",
+      "source": "https://www.ebmc.com/about-ebmc/team",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Director of Leasing and Management",
+      "outcome": "role_found",
+      "elapsed_ms": 1700,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "gabrielle baum|ebmc|ebmc.com",
+        "people": [
+          {
+            "url": "https://www.ebmc.com/about-ebmc/team",
+            "quote": "Gabrielle Baum Director of Leasing and Management, North Bay Service Area",
+            "title": "Meet the EBMC Leadership Team",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:20:25.183Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Gabrielle Baum",
+            "company": "EBMC",
+            "role": "Director of Leasing and Management, North Bay Service Area",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:20:29.538Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Director of Leasing and Management, North Bay Service Area, which operational process would you most like to improve?",
+          "source_url": "https://www.ebmc.com/about-ebmc/team",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:20:29.538Z",
+        "cache_fetched_at": "2026-09-30T04:20:29.538Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Stefan Calic",
+      "company": "EBMC",
+      "website": "ebmc.com",
+      "expected_role": "vice\\s+president\\s+(?:and|&)\\s+director\\s+of\\s+property\\s+management",
+      "expected": "role",
+      "source": "https://www.ebmc.com/about-ebmc/team",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Vice President and Director of Property Management",
+      "outcome": "role_found",
+      "elapsed_ms": 1695,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "stefan calic|ebmc|ebmc.com",
+        "people": [
+          {
+            "url": "https://www.ebmc.com/about-ebmc/team",
+            "quote": "Stefan Calic Vice President and Director of Property Management",
+            "title": "Meet the EBMC Leadership Team",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:20:25.183Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Stefan Calic",
+            "company": "EBMC",
+            "role": "Vice President and Director of Property Management",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:20:31.234Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Vice President and Director of Property Management, which operational process would you most like to improve?",
+          "source_url": "https://www.ebmc.com/about-ebmc/team",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:20:31.234Z",
+        "cache_fetched_at": "2026-09-30T04:20:31.234Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Ruby Abraham",
+      "company": "EBMC",
+      "website": "ebmc.com",
+      "expected_role": "regional\\s+manager",
+      "expected": "role",
+      "source": "https://www.ebmc.com/about-ebmc/team",
+      "audited_at": "2026-09-30",
+      "cohort": "operations_and_management",
+      "source_role": "Regional Manager",
+      "outcome": "role_found",
+      "elapsed_ms": 1704,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "ruby abraham|ebmc|ebmc.com",
+        "people": [
+          {
+            "url": "https://www.ebmc.com/about-ebmc/team",
+            "quote": "Ruby Abraham Regional Manager, Southern Nevada Managing Broker",
+            "title": "Meet the EBMC Leadership Team",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T04:20:25.183Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Current official directory listing; page publication date may predate this role",
+            "name": "Ruby Abraham",
+            "company": "EBMC",
+            "role": "Regional Manager, Southern Nevada Managing Broker",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:20:32.939Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 2,
+          "pages_reused": 2,
+          "sitemaps_checked": 0,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as Regional Manager, Southern Nevada Managing Broker, which operational process would you most like to improve?",
+          "source_url": "https://www.ebmc.com/about-ebmc/team",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T04:20:32.939Z",
+        "cache_fetched_at": "2026-09-30T04:20:32.939Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Bob Faith",
+      "company": "MAA",
+      "website": "maac.com",
+      "expected_role": "",
+      "expected": "abstain",
+      "source": "https://www.greystar.com/contact-us/our-people/bob-faith",
+      "audited_at": "2026-09-30",
+      "cohort": "wrong_employer",
+      "actual_company": "Greystar",
+      "outcome": "correct_abstention",
+      "elapsed_ms": 5531,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=ir.maac.com&type=A",
+          "at": "2026-09-30T04:20:34.668Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=ir.maac.com&type=AAAA",
+          "at": "2026-09-30T04:20:34.668Z",
+          "status": 200
+        },
+        {
+          "url": "https://ir.maac.com/robots.txt",
+          "at": "2026-09-30T04:20:34.753Z",
+          "status": 200
+        },
+        {
+          "url": "https://ir.maac.com/stock-information/historic-prices/default.aspx",
+          "at": "2026-09-30T04:20:34.988Z",
+          "status": 403
+        },
+        {
+          "url": "https://r.jina.ai/https://ir.maac.com/stock-information/historic-prices/default.aspx",
+          "at": "2026-09-30T04:20:35.036Z",
+          "status": 200
+        }
+      ],
+      "professional_context": {
+        "version": 7,
+        "input_key": "bob faith|maa|maac.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:20:38.473Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 8,
+          "pages_reused": 6,
+          "sitemaps_checked": 1,
+          "source_failures": [
+            {
+              "reason": "public_page_unavailable",
+              "url": "https://ir.maac.com/stock-information/stock-quote/default.aspx"
+            }
+          ],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fresh_until": "2026-09-30T05:20:38.473Z",
+        "cache_fetched_at": "2026-09-30T04:20:38.473Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Toby Bozzuto",
+      "company": "Greystar",
+      "website": "greystar.com",
+      "expected_role": "",
+      "expected": "abstain",
+      "source": "https://www.bozzuto.com/about-us/leadership",
+      "audited_at": "2026-09-30",
+      "cohort": "wrong_employer",
+      "actual_company": "Bozzuto",
+      "outcome": "correct_abstention",
+      "elapsed_ms": 2447,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=www.greystar.com&type=A",
+          "at": "2026-09-30T04:20:38.494Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.greystar.com&type=AAAA",
+          "at": "2026-09-30T04:20:38.494Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.greystar.com/robots.txt",
+          "at": "2026-09-30T04:20:38.527Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.greystar.com/contact-us/our-people/bob-faith",
+          "at": "2026-09-30T04:20:38.712Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=greystar.com&type=A",
+          "at": "2026-09-30T04:20:39.206Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=greystar.com&type=AAAA",
+          "at": "2026-09-30T04:20:39.206Z",
+          "status": 200
+        },
+        {
+          "url": "https://greystar.com/robots.txt",
+          "at": "2026-09-30T04:20:39.246Z",
+          "status": 301
+        },
+        {
+          "url": "https://www.greystar.com/robots.txt",
+          "at": "2026-09-30T04:20:39.509Z",
+          "status": 200
+        },
+        {
+          "url": "https://greystar.com/sitemap.xml",
+          "at": "2026-09-30T04:20:39.616Z",
+          "status": 301
+        },
+        {
+          "url": "https://www.greystar.com/sitemap.xml",
+          "at": "2026-09-30T04:20:39.666Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.greystar.com/contact-us/our-people/wes-fuller",
+          "at": "2026-09-30T04:20:40.155Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.greystar.com/contact-us/our-people/david-koysza",
+          "at": "2026-09-30T04:20:40.490Z",
+          "status": 200
+        }
+      ],
+      "professional_context": {
+        "version": 7,
+        "input_key": "toby bozzuto|greystar|greystar.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:20:40.920Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 8,
+          "pages_reused": 5,
+          "sitemaps_checked": 1,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fresh_until": "2026-09-30T05:20:40.920Z",
+        "cache_fetched_at": "2026-09-30T04:20:40.920Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Mark J. Parrell",
+      "company": "Greystar",
+      "website": "greystar.com",
+      "expected_role": "",
+      "expected": "abstain",
+      "source": "https://investors.equityapartments.com/overview/officers-and-trustees/person-details/default.aspx?ItemId=8fe766c1-8a8f-42ce-b582-8cb597088a88",
+      "audited_at": "2026-09-30",
+      "cohort": "wrong_employer",
+      "actual_company": "Equity Residential",
+      "outcome": "correct_abstention",
+      "elapsed_ms": 55,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "mark j parrell|greystar|greystar.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:20:40.977Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 8,
+          "pages_reused": 8,
+          "sitemaps_checked": 1,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fresh_until": "2026-09-30T05:20:40.977Z",
+        "cache_fetched_at": "2026-09-30T04:20:40.977Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Courtney Whitear",
+      "company": "Greystar",
+      "website": "greystar.com",
+      "expected_role": "",
+      "expected": "abstain",
+      "source": "https://flco.com/our-company/ourteam/",
+      "audited_at": "2026-09-30",
+      "cohort": "wrong_employer",
+      "actual_company": "Flaherty & Collins Properties",
+      "outcome": "correct_abstention",
+      "elapsed_ms": 1721,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "courtney whitear|greystar|greystar.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:20:42.698Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 8,
+          "pages_reused": 8,
+          "sitemaps_checked": 1,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fresh_until": "2026-09-30T05:20:42.698Z",
+        "cache_fetched_at": "2026-09-30T04:20:42.698Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Aggie Woods",
+      "company": "Greystar",
+      "website": "greystar.com",
+      "expected_role": "",
+      "expected": "abstain",
+      "source": "https://flco.com/our-company/ourteam/",
+      "audited_at": "2026-09-30",
+      "cohort": "wrong_employer",
+      "actual_company": "Flaherty & Collins Properties",
+      "outcome": "correct_abstention",
+      "elapsed_ms": 1689,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "aggie woods|greystar|greystar.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:20:44.387Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 8,
+          "pages_reused": 8,
+          "sitemaps_checked": 1,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fresh_until": "2026-09-30T05:20:44.387Z",
+        "cache_fetched_at": "2026-09-30T04:20:44.387Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Amber Hildebrand",
+      "company": "Greystar",
+      "website": "greystar.com",
+      "expected_role": "",
+      "expected": "abstain",
+      "source": "https://redpeak.com/our-team/",
+      "audited_at": "2026-09-30",
+      "cohort": "wrong_employer",
+      "actual_company": "RedPeak",
+      "outcome": "correct_abstention",
+      "elapsed_ms": 1708,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "amber hildebrand|greystar|greystar.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:20:46.096Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 8,
+          "pages_reused": 8,
+          "sitemaps_checked": 1,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fresh_until": "2026-09-30T05:20:46.096Z",
+        "cache_fetched_at": "2026-09-30T04:20:46.096Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Mariah Cue",
+      "company": "Greystar",
+      "website": "greystar.com",
+      "expected_role": "",
+      "expected": "abstain",
+      "source": "https://redpeak.com/our-team/",
+      "audited_at": "2026-09-30",
+      "cohort": "wrong_employer",
+      "actual_company": "RedPeak",
+      "outcome": "correct_abstention",
+      "elapsed_ms": 1704,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "mariah cue|greystar|greystar.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:20:47.801Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 8,
+          "pages_reused": 8,
+          "sitemaps_checked": 1,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fresh_until": "2026-09-30T05:20:47.801Z",
+        "cache_fetched_at": "2026-09-30T04:20:47.801Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Mindy Vandemoore",
+      "company": "Greystar",
+      "website": "greystar.com",
+      "expected_role": "",
+      "expected": "abstain",
+      "source": "https://atlanticresi.com/leadership/",
+      "audited_at": "2026-09-30",
+      "cohort": "wrong_employer",
+      "actual_company": "Atlantic Residential",
+      "outcome": "correct_abstention",
+      "elapsed_ms": 1698,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "mindy vandemoore|greystar|greystar.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:20:49.499Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 8,
+          "pages_reused": 8,
+          "sitemaps_checked": 1,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fresh_until": "2026-09-30T05:20:49.499Z",
+        "cache_fetched_at": "2026-09-30T04:20:49.499Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Jessica Werner",
+      "company": "Greystar",
+      "website": "greystar.com",
+      "expected_role": "",
+      "expected": "abstain",
+      "source": "https://www.bacelinegroup.com/about/our-team/",
+      "audited_at": "2026-09-30",
+      "cohort": "wrong_employer",
+      "actual_company": "Baceline Group",
+      "outcome": "correct_abstention",
+      "elapsed_ms": 1702,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "jessica werner|greystar|greystar.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:20:51.202Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 8,
+          "pages_reused": 8,
+          "sitemaps_checked": 1,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fresh_until": "2026-09-30T05:20:51.202Z",
+        "cache_fetched_at": "2026-09-30T04:20:51.202Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    },
+    {
+      "name": "Gabrielle Baum",
+      "company": "Greystar",
+      "website": "greystar.com",
+      "expected_role": "",
+      "expected": "abstain",
+      "source": "https://www.ebmc.com/about-ebmc/team",
+      "audited_at": "2026-09-30",
+      "cohort": "wrong_employer",
+      "actual_company": "EBMC",
+      "outcome": "correct_abstention",
+      "elapsed_ms": 1700,
+      "requests": [],
+      "professional_context": {
+        "version": 7,
+        "input_key": "gabrielle baum|greystar|greystar.com",
+        "people": [],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T04:20:52.902Z",
+        "research_diagnostics": {
+          "candidates": 0,
+          "accepted": 0,
+          "rejections": [
+            {
+              "reason": "no_candidate",
+              "url": "",
+              "role": ""
+            }
+          ],
+          "pages_checked": 8,
+          "pages_reused": 8,
+          "sitemaps_checked": 1,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "unresolved",
+        "cache_fresh_until": "2026-09-30T05:20:52.902Z",
+        "cache_fetched_at": "2026-09-30T04:20:52.902Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    }
+  ]
+}

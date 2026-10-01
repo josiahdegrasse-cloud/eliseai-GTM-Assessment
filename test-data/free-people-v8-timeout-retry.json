@@ -1,0 +1,199 @@
+{
+  "at": "2026-09-30T13:48:29.295Z",
+  "limitations": "Public-biography convenience sample, not representative inbound accuracy. Expected labels and source URLs are not passed to research. Separate runs can encounter different availability. No paid endpoints or authorization permitted.",
+  "results": [
+    {
+      "name": "Brad Hill",
+      "company": "MAA",
+      "website": "maac.com",
+      "expected_role": "chief executive officer|ceo",
+      "source": "https://ir.maac.com/news-events/press-releases/news-details/2026/MAA-to-Participate-in-the-2026-Citi-Global-Property-CEO-Conference/default.aspx",
+      "expected": "role",
+      "audited_at": "2026-09-30",
+      "cohort": "executive_baseline",
+      "outcome": "role_found",
+      "elapsed_ms": 24137,
+      "requests": [
+        {
+          "url": "https://dns.google/resolve?name=maac.com&type=A",
+          "at": "2026-09-30T13:48:06.865Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=maac.com&type=AAAA",
+          "at": "2026-09-30T13:48:06.870Z",
+          "status": 200
+        },
+        {
+          "url": "https://maac.com/robots.txt",
+          "at": "2026-09-30T13:48:07.083Z",
+          "status": 302
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.maac.com&type=A",
+          "at": "2026-09-30T13:48:07.515Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=www.maac.com&type=AAAA",
+          "at": "2026-09-30T13:48:07.516Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.maac.com/robots.txt",
+          "at": "2026-09-30T13:48:07.547Z",
+          "status": 200
+        },
+        {
+          "url": "https://maac.com/",
+          "at": "2026-09-30T13:48:08.023Z",
+          "status": 302
+        },
+        {
+          "url": "https://www.maac.com/robots.txt",
+          "at": "2026-09-30T13:48:08.178Z",
+          "status": 200
+        },
+        {
+          "url": "https://www.maac.com/",
+          "at": "2026-09-30T13:48:08.479Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=ir.maac.com&type=A",
+          "at": "2026-09-30T13:48:09.531Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=ir.maac.com&type=AAAA",
+          "at": "2026-09-30T13:48:09.531Z",
+          "status": 200
+        },
+        {
+          "url": "https://ir.maac.com/robots.txt",
+          "at": "2026-09-30T13:48:09.572Z",
+          "status": 200
+        },
+        {
+          "url": "https://ir.maac.com/corporate-profile/default.aspx",
+          "at": "2026-09-30T13:48:09.730Z",
+          "status": 403
+        },
+        {
+          "url": "https://r.jina.ai/https://ir.maac.com/corporate-profile/default.aspx",
+          "at": "2026-09-30T13:48:09.773Z",
+          "status": 200
+        },
+        {
+          "url": "https://ir.maac.com/overview/directors-and-management/default.aspx",
+          "at": "2026-09-30T13:48:10.354Z",
+          "status": 403
+        },
+        {
+          "url": "https://r.jina.ai/https://ir.maac.com/overview/directors-and-management/default.aspx",
+          "at": "2026-09-30T13:48:17.778Z",
+          "status": 200
+        },
+        {
+          "url": "https://ir.maac.com/news-events/press-releases/default.aspx",
+          "at": "2026-09-30T13:48:19.951Z",
+          "status": 403
+        },
+        {
+          "url": "https://r.jina.ai/https://ir.maac.com/news-events/press-releases/default.aspx",
+          "at": "2026-09-30T13:48:25.777Z",
+          "status": 200
+        },
+        {
+          "url": "https://maac.com/sitemap.xml",
+          "at": "2026-09-30T13:48:26.368Z",
+          "status": 302
+        },
+        {
+          "url": "https://www.maac.com/sitemap.xml",
+          "at": "2026-09-30T13:48:26.550Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=careers.maac.com&type=A",
+          "at": "2026-09-30T13:48:27.019Z",
+          "status": 200
+        },
+        {
+          "url": "https://dns.google/resolve?name=careers.maac.com&type=AAAA",
+          "at": "2026-09-30T13:48:27.020Z",
+          "status": 200
+        },
+        {
+          "url": "https://careers.maac.com/robots.txt",
+          "at": "2026-09-30T13:48:27.136Z",
+          "status": 200
+        },
+        {
+          "url": "https://careers.maac.com/",
+          "at": "2026-09-30T13:48:27.309Z",
+          "status": 303
+        },
+        {
+          "url": "https://careers.maac.com/us/en",
+          "at": "2026-09-30T13:48:27.478Z",
+          "status": 200
+        },
+        {
+          "url": "https://careers.maac.com/us/en/inclusion",
+          "at": "2026-09-30T13:48:28.968Z",
+          "status": 200
+        }
+      ],
+      "professional_context": {
+        "version": 8,
+        "input_key": "brad hill|maa|maac.com",
+        "people": [
+          {
+            "url": "https://careers.maac.com/us/en/inclusion",
+            "quote": "From our President & CEO, Brad Hill",
+            "title": "Inclusion & Belonging",
+            "official": true,
+            "published_at": null,
+            "retrieved_at": "2026-09-30T13:48:29.269Z",
+            "recovered": false,
+            "employer_supported": true,
+            "freshness_basis": "Source publication date and wording",
+            "name": "Brad Hill",
+            "company": "MAA",
+            "role": "President & CEO",
+            "historical": false
+          }
+        ],
+        "insights": [],
+        "company_facts": [],
+        "provider": "Free public-source research",
+        "cost_dollars": 0,
+        "status": "complete",
+        "partial": false,
+        "checked_at": "2026-09-30T13:48:29.291Z",
+        "research_diagnostics": {
+          "candidates": 1,
+          "accepted": 1,
+          "rejections": [],
+          "pages_checked": 6,
+          "pages_reused": 0,
+          "sitemaps_checked": 1,
+          "source_failures": [],
+          "paid_requests": 0
+        },
+        "match": "name_company_match",
+        "conversation_starter": {
+          "text": "In your role as President & CEO, which operational process would you most like to improve?",
+          "source_url": "https://careers.maac.com/us/en/inclusion",
+          "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+        },
+        "cache_fresh_until": "2026-10-01T13:48:29.292Z",
+        "cache_fetched_at": "2026-09-30T13:48:29.292Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "description": "Classification replay of captured live company evidence after the REIT statement fix; not another live retrieval run.",
+  "rows": [
+    {
+      "company": "Greystar",
+      "before": "Strong fit",
+      "after": "Strong fit",
+      "kind": "housing_operator",
+      "identity": "confirmed",
+      "sources": 2,
+      "census": "matched",
+      "repeat_provider_calls": 0,
+      "elapsed_ms": 10394
+    },
+    {
+      "company": "Camden Property Trust",
+      "before": "Strong fit",
+      "after": "Strong fit",
+      "kind": "housing_operator",
+      "identity": "confirmed",
+      "sources": 3,
+      "census": "matched",
+      "repeat_provider_calls": 0,
+      "elapsed_ms": 17245
+    },
+    {
+      "company": "AMLI",
+      "before": "Strong fit",
+      "after": "Strong fit",
+      "kind": "housing_operator",
+      "identity": "confirmed",
+      "sources": 2,
+      "census": "matched",
+      "repeat_provider_calls": 0,
+      "elapsed_ms": 24483
+    },
+    {
+      "company": "AvalonBay Communities",
+      "before": "Fit not established",
+      "after": "Strong fit",
+      "kind": "housing_operator",
+      "identity": "confirmed",
+      "sources": 4,
+      "census": "incomplete",
+      "repeat_provider_calls": 0,
+      "elapsed_ms": 36202
+    },
+    {
+      "company": "Equity Residential",
+      "before": "Check company",
+      "after": "Check company",
+      "kind": "unclassified",
+      "identity": "needs_confirmation",
+      "sources": 3,
+      "census": "incomplete",
+      "repeat_provider_calls": 0,
+      "elapsed_ms": 37134
+    },
+    {
+      "company": "MAA",
+      "before": "Fit not established",
+      "after": "Fit not established",
+      "kind": "unclassified",
+      "identity": "confirmed",
+      "sources": 2,
+      "census": "incomplete",
+      "repeat_provider_calls": 0,
+      "elapsed_ms": 37176
+    },
+    {
+      "company": "Bozzuto",
+      "before": "Strong fit",
+      "after": "Strong fit",
+      "kind": "housing_operator",
+      "identity": "confirmed",
+      "sources": 4,
+      "census": "incomplete",
+      "repeat_provider_calls": 0,
+      "elapsed_ms": 37273
+    },
+    {
+      "company": "RealPage",
+      "before": "Fit not established",
+      "after": "Fit not established",
+      "kind": "software_vendor",
+      "identity": "confirmed",
+      "sources": 4,
+      "census": "incomplete",
+      "repeat_provider_calls": 0,
+      "elapsed_ms": 36337
+    }
+  ]
+}

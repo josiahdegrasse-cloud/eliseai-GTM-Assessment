@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "note": "Existing golden cases are development data, including validation. No representative accuracy claim.",
+  "train": ["G01","G03","G04","G06","G07","G08","G10","G12","G14","G15","G17","G19","G20","G22","G23","G25","G26","G27","G28","G30"],
+  "validation": ["G02","G05","G09","G11","G13","G16","G18","G21","G24","G29"]
+}

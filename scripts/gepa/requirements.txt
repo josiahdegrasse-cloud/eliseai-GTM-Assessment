@@ -1,0 +1,2 @@
+# Official GEPA package, without paid-model or remote-tracking extras.
+gepa==0.1.4

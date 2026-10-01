@@ -1,0 +1,96 @@
+{
+  "method": "Frozen before execution. Seven new cases: three housing operators, three software vendors, one wrong-domain control. Selected convenience sample, not representative. TEST names intentionally skip contact research; emails and inquiry are synthetic. Sector labels checked on official pages, not supplied to the app. Measures classification only, not property/contact accuracy.",
+  "cases": [
+    {
+      "id": "F01",
+      "input": {
+        "name": "TEST Coverage 1",
+        "email": "coverage.1@example.invalid",
+        "company": "Towne Properties",
+        "website": "towneproperties.com",
+        "country": "US",
+        "inquiry": "Demo prospect; no inbound inquiry."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://www.towneproperties.com/index"
+    },
+    {
+      "id": "F02",
+      "input": {
+        "name": "TEST Coverage 2",
+        "email": "coverage.2@example.invalid",
+        "company": "Morgan Properties",
+        "website": "morgan-properties.com",
+        "country": "US",
+        "inquiry": "Demo prospect; no inbound inquiry."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://www.morgan-properties.com/about-us"
+    },
+    {
+      "id": "F03",
+      "input": {
+        "name": "TEST Coverage 3",
+        "email": "coverage.3@example.invalid",
+        "company": "Venterra",
+        "website": "venterra.com",
+        "country": "US",
+        "inquiry": "Demo prospect; no inbound inquiry."
+      },
+      "expected": "housing_operator",
+      "label_source": "https://venterra.com/"
+    },
+    {
+      "id": "F04",
+      "input": {
+        "name": "TEST Coverage 4",
+        "email": "coverage.4@example.invalid",
+        "company": "Rent Manager",
+        "website": "rentmanager.com",
+        "country": "US",
+        "inquiry": "Demo prospect; no inbound inquiry."
+      },
+      "expected": "non_operator",
+      "label_source": "https://www.rentmanager.com/"
+    },
+    {
+      "id": "F05",
+      "input": {
+        "name": "TEST Coverage 5",
+        "email": "coverage.5@example.invalid",
+        "company": "DoorLoop",
+        "website": "doorloop.com",
+        "country": "US",
+        "inquiry": "Demo prospect; no inbound inquiry."
+      },
+      "expected": "non_operator",
+      "label_source": "https://www.doorloop.com/ai-property-management-software"
+    },
+    {
+      "id": "F06",
+      "input": {
+        "name": "TEST Coverage 6",
+        "email": "coverage.6@example.invalid",
+        "company": "TenantCloud",
+        "website": "tenantcloud.com",
+        "country": "US",
+        "inquiry": "Demo prospect; no inbound inquiry."
+      },
+      "expected": "non_operator",
+      "label_source": "https://www.tenantcloud.com/"
+    },
+    {
+      "id": "F07",
+      "input": {
+        "name": "TEST Coverage 7",
+        "email": "coverage.7@example.invalid",
+        "company": "Morgan Properties",
+        "website": "doorloop.com",
+        "country": "US",
+        "inquiry": "Demo prospect; no inbound inquiry."
+      },
+      "expected": "unresolved",
+      "label_source": "https://www.doorloop.com/ai-property-management-software"
+    }
+  ]
+}

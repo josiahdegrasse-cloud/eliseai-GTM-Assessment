@@ -1,0 +1,2519 @@
+<!doctype html><meta charset="utf-8"><title>Inbound Desk · GEPA experiment</title><style>body{font:16px/1.5 system-ui;max-width:1100px;margin:40px auto;padding:0 20px;color:#243141}table{width:100%;border-collapse:collapse}td,th{vertical-align:top;text-align:left;border-bottom:1px solid #ddd;padding:12px}pre{white-space:pre-wrap;background:#f2f5f8;padding:16px}summary{cursor:pointer}</style><h1>GEPA experiment</h1><p>Baseline retained: no measured improvement on the selected development objective.</p><p>Mode: library · GEPA 0.1.4 · No automatic publication</p><p>Automated checks measure structural and grounding requirements. They do not measure SDR preference or sales conversion.</p><pre>{
+  &quot;gepa_version&quot;: &quot;0.1.4&quot;,
+  &quot;mode&quot;: &quot;library&quot;,
+  &quot;reflection_model&quot;: null,
+  &quot;evaluated_at&quot;: &quot;2026-10-01T02:18:07.517290+00:00&quot;,
+  &quot;rules_sha256&quot;: &quot;5c276b4aee6296356e38fa9603a3263782b5f3f13ba87d4d5bbd6d79e0936a12&quot;,
+  &quot;golden_sha256&quot;: &quot;0a3d9511da53d7711deea9fa115709d88ce7049c23cf1f782d6be0905312810d&quot;,
+  &quot;release_cases_sha256&quot;: &quot;a378f39a19890a1d2e2caa91fb92768cd05ca3bbb192954d32adc36288a58b1c&quot;,
+  &quot;split&quot;: {
+    &quot;version&quot;: 1,
+    &quot;note&quot;: &quot;Existing golden cases are development data, including validation. No representative accuracy claim.&quot;,
+    &quot;train&quot;: [
+      &quot;G01&quot;,
+      &quot;G03&quot;,
+      &quot;G04&quot;,
+      &quot;G06&quot;,
+      &quot;G07&quot;,
+      &quot;G08&quot;,
+      &quot;G10&quot;,
+      &quot;G12&quot;,
+      &quot;G14&quot;,
+      &quot;G15&quot;,
+      &quot;G17&quot;,
+      &quot;G19&quot;,
+      &quot;G20&quot;,
+      &quot;G22&quot;,
+      &quot;G23&quot;,
+      &quot;G25&quot;,
+      &quot;G26&quot;,
+      &quot;G27&quot;,
+      &quot;G28&quot;,
+      &quot;G30&quot;
+    ],
+    &quot;validation&quot;: [
+      &quot;G02&quot;,
+      &quot;G05&quot;,
+      &quot;G09&quot;,
+      &quot;G11&quot;,
+      &quot;G13&quot;,
+      &quot;G16&quot;,
+      &quot;G18&quot;,
+      &quot;G21&quot;,
+      &quot;G24&quot;,
+      &quot;G29&quot;
+    ]
+  },
+  &quot;seed&quot;: 17,
+  &quot;requested_metric_budget&quot;: 200,
+  &quot;engine_metric_calls&quot;: 130,
+  &quot;review_validation_case_evaluations&quot;: 0,
+  &quot;review_file_sha256&quot;: null,
+  &quot;objective&quot;: &quot;required checks only&quot;,
+  &quot;post_search_case_evaluations&quot;: 132,
+  &quot;proposals_tested&quot;: 3,
+  &quot;validation_scores&quot;: [
+    1.0
+  ],
+  &quot;selected_policy&quot;: {
+    &quot;ask_style&quot;: &quot;walkthrough&quot;,
+    &quot;subject_style&quot;: &quot;original&quot;
+  },
+  &quot;selected_golden_passes&quot;: 30,
+  &quot;release_baseline_passes&quot;: 12,
+  &quot;release_selected_passes&quot;: 12,
+  &quot;release_cases&quot;: 12,
+  &quot;release_failures&quot;: [],
+  &quot;human_quality&quot;: &quot;Unmeasured \u2014 independent would-send review required.&quot;,
+  &quot;paid_api_requests&quot;: 0,
+  &quot;production_changed&quot;: false,
+  &quot;conclusion&quot;: &quot;Baseline retained: no measured improvement on the selected development objective.&quot;
+}</pre><h2>{&#x27;ask_style&#x27;: &#x27;walkthrough&#x27;, &#x27;subject_style&#x27;: &#x27;original&#x27;}</h2><p>30/30 automated cases pass. Unmeasured — independent would-send review required.</p><table><tr><th>Case</th><th>Fit/checks</th><th>Email comparison</th></tr><tr><td>G01 · Small operator</td><td>High fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G02 · Large operator</td><td>High fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G03 · Qualified market count</td><td>High fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+I noticed Acme Housing operates across approximately 20 U.S. markets.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+I noticed Acme Housing operates across approximately 20 U.S. markets.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G04 · Student housing</td><td>High fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+I noticed Acme Housing manages student housing.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+I noticed Acme Housing manages student housing.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G05 · Affordable housing</td><td>High fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+I noticed Acme Housing manages affordable housing.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+I noticed Acme Housing manages affordable housing.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G06 · Mixed business</td><td>High fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G07 · Software vendor</td><td>Low fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G08 · Advisor</td><td>Low fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G09 · Brokerage</td><td>Low fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G10 · Contractor</td><td>Low fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G11 · Commercial only</td><td>Low fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G12 · No sources</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G13 · Thin page</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G14 · Other company on page</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G15 · Customer claim</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G16 · Explicit denial</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G17 · Conflicting operations</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G18 · Wrong domain</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G19 · After-hours inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Leasing support after hours
+
+Hi Jordan,
+
+Thanks for reaching out about after-hours leasing coverage.
+
+EliseAI can answer leasing questions and help prospects book tours outside office hours.
+
+Would a quick walkthrough of after-hours leasing coverage be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support after hours
+
+Hi Jordan,
+
+Thanks for reaching out about after-hours leasing coverage.
+
+EliseAI can answer leasing questions and help prospects book tours outside office hours.
+
+Would a quick walkthrough of after-hours leasing coverage be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G20 · Maintenance inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A simpler maintenance handoff
+
+Hi Jordan,
+
+Thanks for reaching out about maintenance requests.
+
+EliseAI can capture maintenance requests and route them to your team.
+
+Would a quick walkthrough of maintenance requests be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A simpler maintenance handoff
+
+Hi Jordan,
+
+Thanks for reaching out about maintenance requests.
+
+EliseAI can capture maintenance requests and route them to your team.
+
+Would a quick walkthrough of maintenance requests be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G21 · Renewals inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Keeping renewal conversations moving
+
+Hi Jordan,
+
+Thanks for reaching out about renewal follow-up.
+
+EliseAI can handle routine renewal follow-ups, with your team handling questions that need personal attention.
+
+Would a quick walkthrough of renewal follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Keeping renewal conversations moving
+
+Hi Jordan,
+
+Thanks for reaching out about renewal follow-up.
+
+EliseAI can handle routine renewal follow-ups, with your team handling questions that need personal attention.
+
+Would a quick walkthrough of renewal follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G22 · Payments inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Supporting your payment follow-up
+
+Hi Jordan,
+
+Thanks for reaching out about payment follow-up.
+
+EliseAI can help with payment reminders and resident follow-up, with your team handling sensitive situations.
+
+Would a quick walkthrough of payment follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Supporting your payment follow-up
+
+Hi Jordan,
+
+Thanks for reaching out about payment follow-up.
+
+EliseAI can help with payment reminders and resident follow-up, with your team handling sensitive situations.
+
+Would a quick walkthrough of payment follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G23 · Voice inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Covering missed calls
+
+Hi Jordan,
+
+Thanks for reaching out about missed calls.
+
+EliseAI can answer routine prospect and resident calls when your team is unavailable.
+
+Would a quick walkthrough of missed calls be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Covering missed calls
+
+Hi Jordan,
+
+Thanks for reaching out about missed calls.
+
+EliseAI can answer routine prospect and resident calls when your team is unavailable.
+
+Would a quick walkthrough of missed calls be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G24 · Tours inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Making tour coordination easier
+
+Hi Jordan,
+
+Thanks for reaching out about tour coordination.
+
+EliseAI can answer prospect questions and coordinate tour scheduling.
+
+Would a quick walkthrough of tour coordination be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Making tour coordination easier
+
+Hi Jordan,
+
+Thanks for reaching out about tour coordination.
+
+EliseAI can answer prospect questions and coordinate tour scheduling.
+
+Would a quick walkthrough of tour coordination be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G25 · Response inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Following up on your leasing inquiry
+
+Hi Jordan,
+
+Thanks for reaching out about prospect follow-up.
+
+EliseAI can answer prospect questions and keep inquiry follow-up moving between conversations with your team.
+
+Would a quick walkthrough of prospect follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Following up on your leasing inquiry
+
+Hi Jordan,
+
+Thanks for reaching out about prospect follow-up.
+
+EliseAI can answer prospect questions and keep inquiry follow-up moving between conversations with your team.
+
+Would a quick walkthrough of prospect follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G26 · Negated need</td><td>High fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+I’d be happy to share information relevant to your priorities.
+
+What would be useful for you to know?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+I’d be happy to share information relevant to your priorities.
+
+What would be useful for you to know?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G27 · Injected instructions</td><td>High fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G28 · No inferred building relationship</td><td>High fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G29 · Stale company facts</td><td>High fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G30 · Specific inquiry beats footprint</td><td>High fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A simpler maintenance handoff
+
+Hi Jordan,
+
+Thanks for reaching out about maintenance requests.
+
+EliseAI can capture maintenance requests and route them to your team.
+
+Would a quick walkthrough of maintenance requests be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A simpler maintenance handoff
+
+Hi Jordan,
+
+Thanks for reaching out about maintenance requests.
+
+EliseAI can capture maintenance requests and route them to your team.
+
+Would a quick walkthrough of maintenance requests be useful?
+
+Best,
+[Your name]</pre></details></td></tr></table><h2>{&#x27;ask_style&#x27;: &#x27;overview&#x27;, &#x27;subject_style&#x27;: &#x27;original&#x27;}</h2><p>30/30 automated cases pass. Unmeasured — independent would-send review required.</p><table><tr><th>Case</th><th>Fit/checks</th><th>Email comparison</th></tr><tr><td>G01 · Small operator</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a short overview of leasing follow-up help?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G02 · Large operator</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a short overview of leasing follow-up help?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G03 · Qualified market count</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+I noticed Acme Housing operates across approximately 20 U.S. markets.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+I noticed Acme Housing operates across approximately 20 U.S. markets.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a short overview of leasing follow-up help?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G04 · Student housing</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+I noticed Acme Housing manages student housing.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+I noticed Acme Housing manages student housing.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a short overview of leasing follow-up help?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G05 · Affordable housing</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+I noticed Acme Housing manages affordable housing.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+I noticed Acme Housing manages affordable housing.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a short overview of leasing follow-up help?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G06 · Mixed business</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a short overview of leasing follow-up help?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G07 · Software vendor</td><td>Low fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G08 · Advisor</td><td>Low fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G09 · Brokerage</td><td>Low fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G10 · Contractor</td><td>Low fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G11 · Commercial only</td><td>Low fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G12 · No sources</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G13 · Thin page</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G14 · Other company on page</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G15 · Customer claim</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G16 · Explicit denial</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G17 · Conflicting operations</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G18 · Wrong domain</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G19 · After-hours inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Leasing support after hours
+
+Hi Jordan,
+
+Thanks for reaching out about after-hours leasing coverage.
+
+EliseAI can answer leasing questions and help prospects book tours outside office hours.
+
+Would a quick walkthrough of after-hours leasing coverage be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support after hours
+
+Hi Jordan,
+
+Thanks for reaching out about after-hours leasing coverage.
+
+EliseAI can answer leasing questions and help prospects book tours outside office hours.
+
+Would a short overview of after-hours leasing coverage help?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G20 · Maintenance inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>A simpler maintenance handoff
+
+Hi Jordan,
+
+Thanks for reaching out about maintenance requests.
+
+EliseAI can capture maintenance requests and route them to your team.
+
+Would a quick walkthrough of maintenance requests be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A simpler maintenance handoff
+
+Hi Jordan,
+
+Thanks for reaching out about maintenance requests.
+
+EliseAI can capture maintenance requests and route them to your team.
+
+Would a short overview of maintenance requests help?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G21 · Renewals inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Keeping renewal conversations moving
+
+Hi Jordan,
+
+Thanks for reaching out about renewal follow-up.
+
+EliseAI can handle routine renewal follow-ups, with your team handling questions that need personal attention.
+
+Would a quick walkthrough of renewal follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Keeping renewal conversations moving
+
+Hi Jordan,
+
+Thanks for reaching out about renewal follow-up.
+
+EliseAI can handle routine renewal follow-ups, with your team handling questions that need personal attention.
+
+Would a short overview of renewal follow-up help?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G22 · Payments inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Supporting your payment follow-up
+
+Hi Jordan,
+
+Thanks for reaching out about payment follow-up.
+
+EliseAI can help with payment reminders and resident follow-up, with your team handling sensitive situations.
+
+Would a quick walkthrough of payment follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Supporting your payment follow-up
+
+Hi Jordan,
+
+Thanks for reaching out about payment follow-up.
+
+EliseAI can help with payment reminders and resident follow-up, with your team handling sensitive situations.
+
+Would a short overview of payment follow-up help?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G23 · Voice inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Covering missed calls
+
+Hi Jordan,
+
+Thanks for reaching out about missed calls.
+
+EliseAI can answer routine prospect and resident calls when your team is unavailable.
+
+Would a quick walkthrough of missed calls be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Covering missed calls
+
+Hi Jordan,
+
+Thanks for reaching out about missed calls.
+
+EliseAI can answer routine prospect and resident calls when your team is unavailable.
+
+Would a short overview of missed calls help?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G24 · Tours inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Making tour coordination easier
+
+Hi Jordan,
+
+Thanks for reaching out about tour coordination.
+
+EliseAI can answer prospect questions and coordinate tour scheduling.
+
+Would a quick walkthrough of tour coordination be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Making tour coordination easier
+
+Hi Jordan,
+
+Thanks for reaching out about tour coordination.
+
+EliseAI can answer prospect questions and coordinate tour scheduling.
+
+Would a short overview of tour coordination help?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G25 · Response inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Following up on your leasing inquiry
+
+Hi Jordan,
+
+Thanks for reaching out about prospect follow-up.
+
+EliseAI can answer prospect questions and keep inquiry follow-up moving between conversations with your team.
+
+Would a quick walkthrough of prospect follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Following up on your leasing inquiry
+
+Hi Jordan,
+
+Thanks for reaching out about prospect follow-up.
+
+EliseAI can answer prospect questions and keep inquiry follow-up moving between conversations with your team.
+
+Would a short overview of prospect follow-up help?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G26 · Negated need</td><td>High fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+I’d be happy to share information relevant to your priorities.
+
+What would be useful for you to know?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+I’d be happy to share information relevant to your priorities.
+
+What would be useful for you to know?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G27 · Injected instructions</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a short overview of leasing follow-up help?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G28 · No inferred building relationship</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a short overview of leasing follow-up help?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G29 · Stale company facts</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a short overview of leasing follow-up help?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G30 · Specific inquiry beats footprint</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>A simpler maintenance handoff
+
+Hi Jordan,
+
+Thanks for reaching out about maintenance requests.
+
+EliseAI can capture maintenance requests and route them to your team.
+
+Would a quick walkthrough of maintenance requests be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A simpler maintenance handoff
+
+Hi Jordan,
+
+Thanks for reaching out about maintenance requests.
+
+EliseAI can capture maintenance requests and route them to your team.
+
+Would a short overview of maintenance requests help?
+
+Best,
+[Your name]</pre></details></td></tr></table><h2>{&#x27;ask_style&#x27;: &#x27;conversation&#x27;, &#x27;subject_style&#x27;: &#x27;original&#x27;}</h2><p>30/30 automated cases pass. Unmeasured — independent would-send review required.</p><table><tr><th>Case</th><th>Fit/checks</th><th>Email comparison</th></tr><tr><td>G01 · Small operator</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Open to a brief conversation about leasing follow-up?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G02 · Large operator</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Open to a brief conversation about leasing follow-up?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G03 · Qualified market count</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+I noticed Acme Housing operates across approximately 20 U.S. markets.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+I noticed Acme Housing operates across approximately 20 U.S. markets.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Open to a brief conversation about leasing follow-up?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G04 · Student housing</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+I noticed Acme Housing manages student housing.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+I noticed Acme Housing manages student housing.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Open to a brief conversation about leasing follow-up?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G05 · Affordable housing</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+I noticed Acme Housing manages affordable housing.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+I noticed Acme Housing manages affordable housing.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Open to a brief conversation about leasing follow-up?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G06 · Mixed business</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Open to a brief conversation about leasing follow-up?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G07 · Software vendor</td><td>Low fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G08 · Advisor</td><td>Low fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G09 · Brokerage</td><td>Low fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G10 · Contractor</td><td>Low fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G11 · Commercial only</td><td>Low fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G12 · No sources</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G13 · Thin page</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G14 · Other company on page</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G15 · Customer claim</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G16 · Explicit denial</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G17 · Conflicting operations</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G18 · Wrong domain</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G19 · After-hours inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Leasing support after hours
+
+Hi Jordan,
+
+Thanks for reaching out about after-hours leasing coverage.
+
+EliseAI can answer leasing questions and help prospects book tours outside office hours.
+
+Would a quick walkthrough of after-hours leasing coverage be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support after hours
+
+Hi Jordan,
+
+Thanks for reaching out about after-hours leasing coverage.
+
+EliseAI can answer leasing questions and help prospects book tours outside office hours.
+
+Open to a brief conversation about after-hours leasing coverage?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G20 · Maintenance inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>A simpler maintenance handoff
+
+Hi Jordan,
+
+Thanks for reaching out about maintenance requests.
+
+EliseAI can capture maintenance requests and route them to your team.
+
+Would a quick walkthrough of maintenance requests be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A simpler maintenance handoff
+
+Hi Jordan,
+
+Thanks for reaching out about maintenance requests.
+
+EliseAI can capture maintenance requests and route them to your team.
+
+Open to a brief conversation about maintenance requests?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G21 · Renewals inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Keeping renewal conversations moving
+
+Hi Jordan,
+
+Thanks for reaching out about renewal follow-up.
+
+EliseAI can handle routine renewal follow-ups, with your team handling questions that need personal attention.
+
+Would a quick walkthrough of renewal follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Keeping renewal conversations moving
+
+Hi Jordan,
+
+Thanks for reaching out about renewal follow-up.
+
+EliseAI can handle routine renewal follow-ups, with your team handling questions that need personal attention.
+
+Open to a brief conversation about renewal follow-up?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G22 · Payments inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Supporting your payment follow-up
+
+Hi Jordan,
+
+Thanks for reaching out about payment follow-up.
+
+EliseAI can help with payment reminders and resident follow-up, with your team handling sensitive situations.
+
+Would a quick walkthrough of payment follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Supporting your payment follow-up
+
+Hi Jordan,
+
+Thanks for reaching out about payment follow-up.
+
+EliseAI can help with payment reminders and resident follow-up, with your team handling sensitive situations.
+
+Open to a brief conversation about payment follow-up?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G23 · Voice inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Covering missed calls
+
+Hi Jordan,
+
+Thanks for reaching out about missed calls.
+
+EliseAI can answer routine prospect and resident calls when your team is unavailable.
+
+Would a quick walkthrough of missed calls be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Covering missed calls
+
+Hi Jordan,
+
+Thanks for reaching out about missed calls.
+
+EliseAI can answer routine prospect and resident calls when your team is unavailable.
+
+Open to a brief conversation about missed calls?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G24 · Tours inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Making tour coordination easier
+
+Hi Jordan,
+
+Thanks for reaching out about tour coordination.
+
+EliseAI can answer prospect questions and coordinate tour scheduling.
+
+Would a quick walkthrough of tour coordination be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Making tour coordination easier
+
+Hi Jordan,
+
+Thanks for reaching out about tour coordination.
+
+EliseAI can answer prospect questions and coordinate tour scheduling.
+
+Open to a brief conversation about tour coordination?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G25 · Response inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Following up on your leasing inquiry
+
+Hi Jordan,
+
+Thanks for reaching out about prospect follow-up.
+
+EliseAI can answer prospect questions and keep inquiry follow-up moving between conversations with your team.
+
+Would a quick walkthrough of prospect follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Following up on your leasing inquiry
+
+Hi Jordan,
+
+Thanks for reaching out about prospect follow-up.
+
+EliseAI can answer prospect questions and keep inquiry follow-up moving between conversations with your team.
+
+Open to a brief conversation about prospect follow-up?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G26 · Negated need</td><td>High fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+I’d be happy to share information relevant to your priorities.
+
+What would be useful for you to know?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+I’d be happy to share information relevant to your priorities.
+
+What would be useful for you to know?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G27 · Injected instructions</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Open to a brief conversation about leasing follow-up?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G28 · No inferred building relationship</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Open to a brief conversation about leasing follow-up?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G29 · Stale company facts</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Open to a brief conversation about leasing follow-up?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G30 · Specific inquiry beats footprint</td><td>High fit<br>All required checks pass</td><td><details><summary>email</summary><b>Baseline</b><pre>A simpler maintenance handoff
+
+Hi Jordan,
+
+Thanks for reaching out about maintenance requests.
+
+EliseAI can capture maintenance requests and route them to your team.
+
+Would a quick walkthrough of maintenance requests be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A simpler maintenance handoff
+
+Hi Jordan,
+
+Thanks for reaching out about maintenance requests.
+
+EliseAI can capture maintenance requests and route them to your team.
+
+Open to a brief conversation about maintenance requests?
+
+Best,
+[Your name]</pre></details></td></tr></table><h2>{&#x27;ask_style&#x27;: &#x27;walkthrough&#x27;, &#x27;subject_style&#x27;: &#x27;topic&#x27;}</h2><p>30/30 automated cases pass. Unmeasured — independent would-send review required.</p><table><tr><th>Case</th><th>Fit/checks</th><th>Email comparison</th></tr><tr><td>G01 · Small operator</td><td>High fit<br>All required checks pass</td><td><details><summary>subject</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A question about leasing follow-up
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G02 · Large operator</td><td>High fit<br>All required checks pass</td><td><details><summary>subject</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A question about leasing follow-up
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G03 · Qualified market count</td><td>High fit<br>All required checks pass</td><td><details><summary>subject</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+I noticed Acme Housing operates across approximately 20 U.S. markets.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A question about leasing follow-up
+
+Hi Jordan,
+
+I noticed Acme Housing operates across approximately 20 U.S. markets.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G04 · Student housing</td><td>High fit<br>All required checks pass</td><td><details><summary>subject</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+I noticed Acme Housing manages student housing.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A question about leasing follow-up
+
+Hi Jordan,
+
+I noticed Acme Housing manages student housing.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G05 · Affordable housing</td><td>High fit<br>All required checks pass</td><td><details><summary>subject</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+I noticed Acme Housing manages affordable housing.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A question about leasing follow-up
+
+Hi Jordan,
+
+I noticed Acme Housing manages affordable housing.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G06 · Mixed business</td><td>High fit<br>All required checks pass</td><td><details><summary>subject</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A question about leasing follow-up
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G07 · Software vendor</td><td>Low fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G08 · Advisor</td><td>Low fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G09 · Brokerage</td><td>Low fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G10 · Contractor</td><td>Low fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G11 · Commercial only</td><td>Low fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Clarifying your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+Are you exploring EliseAI for housing operations, a partnership, or another use case?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G12 · No sources</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G13 · Thin page</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G14 · Other company on page</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G15 · Customer claim</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G16 · Explicit denial</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G17 · Conflicting operations</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G18 · Wrong domain</td><td>Fit unclear<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A quick question about your inquiry
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+What prompted your inquiry?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G19 · After-hours inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>subject</summary><b>Baseline</b><pre>Leasing support after hours
+
+Hi Jordan,
+
+Thanks for reaching out about after-hours leasing coverage.
+
+EliseAI can answer leasing questions and help prospects book tours outside office hours.
+
+Would a quick walkthrough of after-hours leasing coverage be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A question about after-hours leasing coverage
+
+Hi Jordan,
+
+Thanks for reaching out about after-hours leasing coverage.
+
+EliseAI can answer leasing questions and help prospects book tours outside office hours.
+
+Would a quick walkthrough of after-hours leasing coverage be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G20 · Maintenance inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>subject</summary><b>Baseline</b><pre>A simpler maintenance handoff
+
+Hi Jordan,
+
+Thanks for reaching out about maintenance requests.
+
+EliseAI can capture maintenance requests and route them to your team.
+
+Would a quick walkthrough of maintenance requests be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A question about maintenance requests
+
+Hi Jordan,
+
+Thanks for reaching out about maintenance requests.
+
+EliseAI can capture maintenance requests and route them to your team.
+
+Would a quick walkthrough of maintenance requests be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G21 · Renewals inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>subject</summary><b>Baseline</b><pre>Keeping renewal conversations moving
+
+Hi Jordan,
+
+Thanks for reaching out about renewal follow-up.
+
+EliseAI can handle routine renewal follow-ups, with your team handling questions that need personal attention.
+
+Would a quick walkthrough of renewal follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A question about renewal follow-up
+
+Hi Jordan,
+
+Thanks for reaching out about renewal follow-up.
+
+EliseAI can handle routine renewal follow-ups, with your team handling questions that need personal attention.
+
+Would a quick walkthrough of renewal follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G22 · Payments inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>subject</summary><b>Baseline</b><pre>Supporting your payment follow-up
+
+Hi Jordan,
+
+Thanks for reaching out about payment follow-up.
+
+EliseAI can help with payment reminders and resident follow-up, with your team handling sensitive situations.
+
+Would a quick walkthrough of payment follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A question about payment follow-up
+
+Hi Jordan,
+
+Thanks for reaching out about payment follow-up.
+
+EliseAI can help with payment reminders and resident follow-up, with your team handling sensitive situations.
+
+Would a quick walkthrough of payment follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G23 · Voice inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>subject</summary><b>Baseline</b><pre>Covering missed calls
+
+Hi Jordan,
+
+Thanks for reaching out about missed calls.
+
+EliseAI can answer routine prospect and resident calls when your team is unavailable.
+
+Would a quick walkthrough of missed calls be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A question about missed calls
+
+Hi Jordan,
+
+Thanks for reaching out about missed calls.
+
+EliseAI can answer routine prospect and resident calls when your team is unavailable.
+
+Would a quick walkthrough of missed calls be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G24 · Tours inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>subject</summary><b>Baseline</b><pre>Making tour coordination easier
+
+Hi Jordan,
+
+Thanks for reaching out about tour coordination.
+
+EliseAI can answer prospect questions and coordinate tour scheduling.
+
+Would a quick walkthrough of tour coordination be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A question about tour coordination
+
+Hi Jordan,
+
+Thanks for reaching out about tour coordination.
+
+EliseAI can answer prospect questions and coordinate tour scheduling.
+
+Would a quick walkthrough of tour coordination be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G25 · Response inquiry</td><td>High fit<br>All required checks pass</td><td><details><summary>subject</summary><b>Baseline</b><pre>Following up on your leasing inquiry
+
+Hi Jordan,
+
+Thanks for reaching out about prospect follow-up.
+
+EliseAI can answer prospect questions and keep inquiry follow-up moving between conversations with your team.
+
+Would a quick walkthrough of prospect follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A question about prospect follow-up
+
+Hi Jordan,
+
+Thanks for reaching out about prospect follow-up.
+
+EliseAI can answer prospect questions and keep inquiry follow-up moving between conversations with your team.
+
+Would a quick walkthrough of prospect follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G26 · Negated need</td><td>High fit<br>All required checks pass</td><td><details><summary>Unchanged</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+I’d be happy to share information relevant to your priorities.
+
+What would be useful for you to know?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+I’d be happy to share information relevant to your priorities.
+
+What would be useful for you to know?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G27 · Injected instructions</td><td>High fit<br>All required checks pass</td><td><details><summary>subject</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A question about leasing follow-up
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G28 · No inferred building relationship</td><td>High fit<br>All required checks pass</td><td><details><summary>subject</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A question about leasing follow-up
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G29 · Stale company facts</td><td>High fit<br>All required checks pass</td><td><details><summary>subject</summary><b>Baseline</b><pre>Leasing support for Acme Housing
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A question about leasing follow-up
+
+Hi Jordan,
+
+Thanks for getting in touch with EliseAI.
+
+EliseAI can answer leasing questions and help prospects book tours, with your team handling conversations that need a person.
+
+Would a quick walkthrough of leasing follow-up be useful?
+
+Best,
+[Your name]</pre></details></td></tr><tr><td>G30 · Specific inquiry beats footprint</td><td>High fit<br>All required checks pass</td><td><details><summary>subject</summary><b>Baseline</b><pre>A simpler maintenance handoff
+
+Hi Jordan,
+
+Thanks for reaching out about maintenance requests.
+
+EliseAI can capture maintenance requests and route them to your team.
+
+Would a quick walkthrough of maintenance requests be useful?
+
+Best,
+[Your name]</pre><b>Candidate</b><pre>A question about maintenance requests
+
+Hi Jordan,
+
+Thanks for reaching out about maintenance requests.
+
+EliseAI can capture maintenance requests and route them to your team.
+
+Would a quick walkthrough of maintenance requests be useful?
+
+Best,
+[Your name]</pre></details></td></tr></table>

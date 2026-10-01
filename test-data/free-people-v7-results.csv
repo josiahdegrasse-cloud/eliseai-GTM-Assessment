@@ -1,0 +1,61 @@
+name,company,expected,outcome,returned_roles,source_urls,elapsed_ms
+Bob Faith,Greystar,role,role_found,"Founder, Chairman, and CEO",https://www.greystar.com/business/about-greystar/our-leadership,3935
+Toni Eubanks,Greystar,role,role_found,Executive Managing Director,https://www.greystar.com/contact-us/our-people/toni-eubanks,626
+Derek Ramsey,Greystar,role,role_found,Chief Financial Officer,https://www.greystar.com/contact-us/our-people/derek-ramsey,1636
+Toby Bozzuto,Bozzuto,role,role_found,President & Chief Executive Officer,https://www.bozzuto.com/about-us/leadership,1599
+Julie A. Smith,Bozzuto,role,role_found,Chief Administrative Officer,https://www.bozzuto.com/about-us/leadership,1266
+Stephanie L. Williams,Bozzuto,role,role_found,President,https://www.bozzuto.com/about-us/leadership,1698
+Brad Hill,MAA,role,unresolved,,,43705
+Alexander J. Jessett,Camden Property Trust,role,unresolved,,,40005
+Richard J. Campo,Camden Property Trust,role,unresolved,,,40
+Laurie A. Baker,Camden Property Trust,role,role_found,President - Chief Operating Officer,https://www.camdenliving.com/leadership,1683
+Mark J. Parrell,Equity Residential,role,unresolved,,,46275
+Michael L. Manelis,Equity Residential,role,unresolved,,,19126
+Courtney Whitear,Flaherty & Collins Properties,role,role_found,Director of Business Operations,https://flco.com/our-company/ourteam/,3551
+Kate Bell,Flaherty & Collins Properties,role,role_found,Director of Client Relationships,https://flco.com/our-company/ourteam/,13
+Sarah Dassylva,Flaherty & Collins Properties,role,role_found,"Vice President, Property Management",https://flco.com/our-company/ourteam/,1715
+Aggie Woods,Flaherty & Collins Properties,role,role_found,Regional Property Manager,https://flco.com/our-company/ourteam/,1695
+Melissa Barrett,Flaherty & Collins Properties,role,role_found,Regional Property Manager,https://flco.com/our-company/ourteam/,1710
+Angela Smith,Flaherty & Collins Properties,role,role_found,Regional Property Manager,https://flco.com/our-company/ourteam/,1696
+Karen Adams,Flaherty & Collins Properties,role,role_found,Regional Property Manager,https://flco.com/our-company/ourteam/,1706
+Kent Reckelhoff,Flaherty & Collins Properties,role,role_found,Director of Facilities,https://flco.com/our-company/ourteam/,1696
+Amber Hildebrand,RedPeak,role,role_found,Property Account Manager,https://redpeak.com/our-team/,2636
+Jammie Bandor,RedPeak,role,role_found,Portfolio Director,https://redpeak.com/our-team/,776
+Kailey Hassan-Wolff,RedPeak,role,role_found,Regional Manager,https://redpeak.com/our-team/,1701
+Jayde Kelley,RedPeak,role,role_found,Director of Innovation,https://redpeak.com/our-team/,1708
+Lori Snider,RedPeak,role,role_found,Director of People Operations,https://redpeak.com/our-team/,1696
+Mariah Cue,RedPeak,role,role_found,Pricing and Systems Manager,https://redpeak.com/our-team/,1702
+Debbie Topping,Atlantic Residential,role,role_found,Senior Director of Property Management,https://atlanticresi.com/leadership/,2489
+Abby Paul,Atlantic Residential,role,role_found,Senior Regional Manager Milwaukee,https://atlanticresi.com/leadership/,903
+Cheka White,Atlantic Residential,role,role_found,Regional Manager Atlanta,https://atlanticresi.com/leadership/,1700
+Justin Strickland,Atlantic Residential,role,role_found,Regional Manager Atlanta,https://atlanticresi.com/leadership/,1700
+Mandy Hendrix,Atlantic Residential,role,role_found,Director of Marketing,https://atlanticresi.com/leadership/,1700
+Mindy Vandemoore,Atlantic Residential,role,role_found,Senior Manager of Software and Training,https://atlanticresi.com/leadership/,1702
+Tori Casero,Nxt Property Management,role,role_found,REGIONAL VICE PRESIDENT,https://www.nxtmgt.com/our-team,2627
+Candice Salazar,Nxt Property Management,role,role_found,REGIONAL PROPERTY MANAGER,https://www.nxtmgt.com/our-team,772
+Natalie Ward,Nxt Property Management,role,role_found,REGIONAL PROPERTY MANAGER,https://www.nxtmgt.com/our-team,1699
+Nik Putnam,Nxt Property Management,role,role_found,REGIONAL PROPERTY MANAGER,https://www.nxtmgt.com/our-team,1704
+Sydnee Burns,Nxt Property Management,role,role_found,REGIONAL PROPERTY MANAGER,https://www.nxtmgt.com/our-team,1701
+Chris McDonald,Nxt Property Management,role,role_found,DIRECTOR OF FACILITIES,https://www.nxtmgt.com/our-team,1695
+Jessica Werner,Baceline Group,role,unresolved,,,17441
+Michelle Montgomery,Baceline Group,role,unresolved,,,28
+Claudia Walker,Baceline Group,role,unresolved,,,1719
+Cole Proctor,Baceline Group,role,unresolved,,,1699
+Jessica Daniels,Baceline Group,role,unresolved,,,1703
+Layla Vossoughi,Baceline Group,role,unresolved,,,1700
+Lori Burger,EBMC,role,role_found,"Senior Vice President, Regional Manager, Northern Nevada",https://www.ebmc.com/about-ebmc/team,2443
+Karen Brigg,EBMC,role,role_found,"Senior Vice President, Regional Manager, Placer County",https://www.ebmc.com/about-ebmc/team,943
+Josh Meyers,EBMC,role,role_found,Residential Property Supervisor,https://www.ebmc.com/about-ebmc/team,1701
+Gabrielle Baum,EBMC,role,role_found,"Director of Leasing and Management, North Bay Service Area",https://www.ebmc.com/about-ebmc/team,1700
+Stefan Calic,EBMC,role,role_found,Vice President and Director of Property Management,https://www.ebmc.com/about-ebmc/team,1695
+Ruby Abraham,EBMC,role,role_found,"Regional Manager, Southern Nevada Managing Broker",https://www.ebmc.com/about-ebmc/team,1704
+Bob Faith,MAA,abstain,correct_abstention,,,5531
+Toby Bozzuto,Greystar,abstain,correct_abstention,,,2447
+Mark J. Parrell,Greystar,abstain,correct_abstention,,,55
+Courtney Whitear,Greystar,abstain,correct_abstention,,,1721
+Aggie Woods,Greystar,abstain,correct_abstention,,,1689
+Amber Hildebrand,Greystar,abstain,correct_abstention,,,1708
+Mariah Cue,Greystar,abstain,correct_abstention,,,1704
+Mindy Vandemoore,Greystar,abstain,correct_abstention,,,1698
+Jessica Werner,Greystar,abstain,correct_abstention,,,1702
+Gabrielle Baum,Greystar,abstain,correct_abstention,,,1700

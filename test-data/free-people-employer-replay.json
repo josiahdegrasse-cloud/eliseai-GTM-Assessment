@@ -1,0 +1,250 @@
+{
+  "description": "Replay of the new employer-conflict filters over accepted excerpts from the expanded live run. Does not rerun retrieval or verify current employment.",
+  "rows": [
+    {
+      "name": "Toby Bozzuto",
+      "company": "Bozzuto",
+      "role": "President & Chief Executive Officer",
+      "source": "https://www.bozzuto.com/about-us/leadership",
+      "rejection": null
+    },
+    {
+      "name": "Julie A. Smith",
+      "company": "Bozzuto",
+      "role": "Chief Administrative Officer",
+      "source": "https://www.bozzuto.com/about-us/leadership",
+      "rejection": null
+    },
+    {
+      "name": "Stephanie L. Williams",
+      "company": "Bozzuto",
+      "role": "President",
+      "source": "https://www.bozzuto.com/about-us/leadership",
+      "rejection": null
+    },
+    {
+      "name": "Courtney Whitear",
+      "company": "Flaherty & Collins Properties",
+      "role": "Director of Business Operations",
+      "source": "https://flco.com/our-company/ourteam/",
+      "rejection": null
+    },
+    {
+      "name": "Kate Bell",
+      "company": "Flaherty & Collins Properties",
+      "role": "Director of Client Relationships",
+      "source": "https://flco.com/our-company/ourteam/",
+      "rejection": null
+    },
+    {
+      "name": "Sarah Dassylva",
+      "company": "Flaherty & Collins Properties",
+      "role": "Vice President, Property Management",
+      "source": "https://flco.com/our-company/ourteam/",
+      "rejection": null
+    },
+    {
+      "name": "Aggie Woods",
+      "company": "Flaherty & Collins Properties",
+      "role": "Regional Property Manager",
+      "source": "https://flco.com/our-company/ourteam/",
+      "rejection": null
+    },
+    {
+      "name": "Melissa Barrett",
+      "company": "Flaherty & Collins Properties",
+      "role": "Regional Property Manager",
+      "source": "https://flco.com/our-company/ourteam/",
+      "rejection": null
+    },
+    {
+      "name": "Angela Smith",
+      "company": "Flaherty & Collins Properties",
+      "role": "Regional Property Manager",
+      "source": "https://flco.com/our-company/ourteam/",
+      "rejection": null
+    },
+    {
+      "name": "Karen Adams",
+      "company": "Flaherty & Collins Properties",
+      "role": "Regional Property Manager",
+      "source": "https://flco.com/our-company/ourteam/",
+      "rejection": null
+    },
+    {
+      "name": "Kent Reckelhoff",
+      "company": "Flaherty & Collins Properties",
+      "role": "Director of Facilities",
+      "source": "https://flco.com/our-company/ourteam/",
+      "rejection": null
+    },
+    {
+      "name": "Amber Hildebrand",
+      "company": "RedPeak",
+      "role": "Property Account Manager",
+      "source": "https://redpeak.com/our-team/",
+      "rejection": null
+    },
+    {
+      "name": "Jammie Bandor",
+      "company": "RedPeak",
+      "role": "Portfolio Director",
+      "source": "https://redpeak.com/our-team/",
+      "rejection": null
+    },
+    {
+      "name": "Kailey Hassan-Wolff",
+      "company": "RedPeak",
+      "role": "Regional Manager",
+      "source": "https://redpeak.com/our-team/",
+      "rejection": null
+    },
+    {
+      "name": "Jayde Kelley",
+      "company": "RedPeak",
+      "role": "Director of Innovation",
+      "source": "https://redpeak.com/our-team/",
+      "rejection": null
+    },
+    {
+      "name": "Lori Snider",
+      "company": "RedPeak",
+      "role": "Director of People Operations",
+      "source": "https://redpeak.com/our-team/",
+      "rejection": null
+    },
+    {
+      "name": "Mariah Cue",
+      "company": "RedPeak",
+      "role": "Pricing and Systems Manager",
+      "source": "https://redpeak.com/our-team/",
+      "rejection": null
+    },
+    {
+      "name": "Debbie Topping",
+      "company": "Atlantic Residential",
+      "role": "Senior Director of Property Management",
+      "source": "https://atlanticresi.com/leadership/",
+      "rejection": null
+    },
+    {
+      "name": "Abby Paul",
+      "company": "Atlantic Residential",
+      "role": "Senior Regional Manager Milwaukee",
+      "source": "https://atlanticresi.com/leadership/",
+      "rejection": null
+    },
+    {
+      "name": "Cheka White",
+      "company": "Atlantic Residential",
+      "role": "Regional Manager Atlanta",
+      "source": "https://atlanticresi.com/leadership/",
+      "rejection": null
+    },
+    {
+      "name": "Justin Strickland",
+      "company": "Atlantic Residential",
+      "role": "Regional Manager Atlanta",
+      "source": "https://atlanticresi.com/leadership/",
+      "rejection": null
+    },
+    {
+      "name": "Mandy Hendrix",
+      "company": "Atlantic Residential",
+      "role": "Director of Marketing",
+      "source": "https://atlanticresi.com/leadership/",
+      "rejection": null
+    },
+    {
+      "name": "Mindy Vandemoore",
+      "company": "Atlantic Residential",
+      "role": "Senior Manager of Software and Training",
+      "source": "https://atlanticresi.com/leadership/",
+      "rejection": null
+    },
+    {
+      "name": "Tori Casero",
+      "company": "Nxt Property Management",
+      "role": "REGIONAL VICE PRESIDENT",
+      "source": "https://www.nxtmgt.com/our-team",
+      "rejection": null
+    },
+    {
+      "name": "Candice Salazar",
+      "company": "Nxt Property Management",
+      "role": "REGIONAL PROPERTY MANAGER",
+      "source": "https://www.nxtmgt.com/our-team",
+      "rejection": null
+    },
+    {
+      "name": "Natalie Ward",
+      "company": "Nxt Property Management",
+      "role": "REGIONAL PROPERTY MANAGER",
+      "source": "https://www.nxtmgt.com/our-team",
+      "rejection": null
+    },
+    {
+      "name": "Nik Putnam",
+      "company": "Nxt Property Management",
+      "role": "REGIONAL PROPERTY MANAGER",
+      "source": "https://www.nxtmgt.com/our-team",
+      "rejection": null
+    },
+    {
+      "name": "Sydnee Burns",
+      "company": "Nxt Property Management",
+      "role": "REGIONAL PROPERTY MANAGER",
+      "source": "https://www.nxtmgt.com/our-team",
+      "rejection": null
+    },
+    {
+      "name": "Chris McDonald",
+      "company": "Nxt Property Management",
+      "role": "DIRECTOR OF FACILITIES",
+      "source": "https://www.nxtmgt.com/our-team",
+      "rejection": null
+    },
+    {
+      "name": "Lori Burger",
+      "company": "EBMC",
+      "role": "Senior Vice President, Regional Manager, Northern Nevada",
+      "source": "https://www.ebmc.com/about-ebmc/team",
+      "rejection": null
+    },
+    {
+      "name": "Karen Brigg",
+      "company": "EBMC",
+      "role": "Senior Vice President, Regional Manager, Placer County",
+      "source": "https://www.ebmc.com/about-ebmc/team",
+      "rejection": null
+    },
+    {
+      "name": "Josh Meyers",
+      "company": "EBMC",
+      "role": "Residential Property Supervisor",
+      "source": "https://www.ebmc.com/about-ebmc/team",
+      "rejection": null
+    },
+    {
+      "name": "Gabrielle Baum",
+      "company": "EBMC",
+      "role": "Director of Leasing and Management, North Bay Service Area",
+      "source": "https://www.ebmc.com/about-ebmc/team",
+      "rejection": null
+    },
+    {
+      "name": "Stefan Calic",
+      "company": "EBMC",
+      "role": "Vice President and Director of Property Management",
+      "source": "https://www.ebmc.com/about-ebmc/team",
+      "rejection": null
+    },
+    {
+      "name": "Ruby Abraham",
+      "company": "EBMC",
+      "role": "Regional Manager, Southern Nevada Managing Broker",
+      "source": "https://www.ebmc.com/about-ebmc/team",
+      "rejection": null
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="An inbound qualification workspace for researching accounts and preparing thoughtful replies.">
+<title>Inbound Desk · EliseAI</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%237638fa'/%3E%3Cpath d='M8 11h16M8 16h12M8 21h16' stroke='white' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<svg class="icon-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+<symbol id="i-inbox" viewBox="0 0 24 24"><path d="M4 4h16v16H4zM4 14h5l2 3h2l2-3h5M8 8h8M8 11h5"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
+<symbol id="i-plug" viewBox="0 0 24 24"><path d="M8 3v5m8-5v5M6 8h12v4a6 6 0 0 1-12 0V8zm6 10v4"/></symbol>
+<symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 4v16h16M8 16v-5m5 5V7m5 9v-7"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+<symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 16V3m-5 5 5-5 5 5M4 15v6h16v-6"/></symbol>
+<symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v13m-5-5 5 5 5-5M4 16v5h16v-5"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+<symbol id="i-link" viewBox="0 0 24 24"><path d="M14 4h6v6m0-6L10 14M10 4H4v16h16v-6"/></symbol>
+<symbol id="i-document" viewBox="0 0 24 24"><path d="M5 3h9l5 5v13H5zM14 3v6h5M8 13h8M8 17h6"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6zM8 12l3 3 5-6"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+<symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M15 8V3H3v13h5"/></symbol>
+</defs></svg>
+<header class="masthead">
+<div class="brand"><span class="wordmark">Elise<span>AI</span></span><span class="product-name">Inbound Desk</span></div>
+<span class="workspace-meta"><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg>Saved locally</span>
+</header>
+<main>
+<section id="inbox">
+<aside id="assessment-info" class="assessment-info" hidden><div><strong>Try the assessment</strong><p>Ten sourced examples: high, medium, low and unresolved priority. Illustrative inquiries, public research and engine-generated drafts.</p></div><div class="assessment-actions"><button id="try-samples">Try 10 researched examples</button><button id="clear-session" class="quiet">Clear my data</button></div></aside>
+<div class="pagehead"><div><h1>Inbound leads</h1></div><button id="add" class="primary"><svg class="icon"><use href="#i-plus"/></svg>Add lead manually</button></div>
+<div class="workbench" id="workbench"><div class="listpane">
+<div class="panelhead lead-list-heading"><h2>Your leads</h2><button id="import" class="quiet"><svg class="icon" aria-hidden="true"><use href="#i-upload"/></svg>Import leads</button></div>
+<div class="filters"><label class="search"><svg class="icon"><use href="#i-search"/></svg><input id="search" placeholder="Search your leads" aria-label="Search your leads"></label><select id="filter" aria-label="Filter leads"><option>All leads</option><option>Researched examples</option><option>New</option><option value="Draft to review">Email · Review draft</option><option value="Recheck draft">Email · Recheck</option><option value="Draft reviewed">Email · Reviewed</option></select><button id="reset-search" class="textbutton" hidden>Clear filters</button></div>
+<div class="sort-control"><label for="sort">Sort by</label><select id="sort"><option value="lead-priority" selected>Priority: high to low</option><option value="name-asc">Name: A–Z</option><option value="name-desc">Name: Z–A</option><option value="newest">Newest first</option></select></div><div class="listtools"><span id="visiblecount" hidden>0 leads</span><button id="process" class="textbutton">Research all new leads</button></div>
+<div id="leadlist"></div>
+</div><div id="detail" class="detail" tabindex="-1"></div></div>
+</section>
+</main>
+<div id="toast" role="status" aria-live="polite"></div>
+<input type="file" id="csvfile" accept=".csv,.tsv,.xlsx,.xls" hidden>
+<dialog id="adddialog"><form id="addform"><div class="panelhead"><div><div class="eyebrow">LEAD DETAILS</div><h2 id="form-title">Add lead manually</h2></div><button type="button" id="close" class="iconbutton" aria-label="Close"><svg class="icon"><use href="#i-close"/></svg></button></div><p class="form-help">Enter a contact and company. Research starts automatically after you save. Add its website if the contact uses a personal email.</p><div class="formgrid" id="fields"></div><div class="dialogactions"><span>Saved locally. Nothing is sent.</span><button type="submit" id="submit-lead" class="primary">Add &amp; open lead</button></div></form></dialog>
+<dialog id="sheetsdialog"><div class="panelhead"><h2>Connect Google Sheets</h2><button id="close-sheets" class="iconbutton" aria-label="Close Google Sheets setup">×</button></div><div class="importbody"><p>One free Apps Script setup. Existing complete rows import once; new rows sync after edits or within about five minutes. Research continues when this page is closed.</p><form id="sheets-form"><label for="sheets-url">Google Sheets link</label><input id="sheets-url" type="url" placeholder="https://docs.google.com/spreadsheets/d/…" required><label for="sheets-tab">Worksheet tab name</label><input id="sheets-tab" placeholder="Leads" maxlength="100" required><p class="fine">Use Name, Email and Company headers. Website, address and inquiry columns are optional. Up to 100 leads in this workspace.</p><button id="sheets-create" type="submit">Create setup script</button></form><p id="sheets-live-status" role="status"></p><section id="sheets-setup" hidden><ol><li>In your sheet, open <b>Extensions → Apps Script</b>.</li><li>Paste this script into the editor and save.</li><li>Select <b>installInboundDesk</b>, click <b>Run</b>, and approve Google’s permissions.</li></ol><div class="sheet-script-actions"><button id="sheets-copy">Copy setup script</button><button id="sheets-download" class="quiet">Download script</button></div><details><summary>View setup script</summary><textarea id="sheets-script" readonly aria-label="Google Sheets setup script" spellcheck="false"></textarea></details></section><p class="fine">This connects only the selected tab. Leads are added, not overwritten. The connection and this browser’s workspace last 90 days; clearing browser cookies removes access to this workspace. Google’s free usage limits apply.</p><button id="sheets-upgrade" class="quiet" hidden>Update script for draft reviews</button><button id="sheets-disconnect" class="quiet" hidden>Disconnect sheet</button><p class="fine">After disconnecting, run <b>disconnectInboundDeskTriggers</b> in Apps Script to remove its triggers.</p></div></dialog>
+<dialog id="importdialog"><div class="panelhead"><div><div class="eyebrow">BATCH INTAKE</div><h2>Import your lead list</h2></div><button id="close-import" class="iconbutton" aria-label="Close import"><svg class="icon"><use href="#i-close"/></svg></button></div><div class="importbody"><p>Upload Excel (.xlsx, .xls), CSV or TSV files with up to 100 leads. Repeated email, company and property combinations are skipped.</p><div class="column-list">name · email · company<br><span>Optional: website · inquiry · property_address · city · state · postal_code · country</span></div><a class="inline-link" href="/template.csv" download>Download a blank CSV template</a><div class="upload-box"><svg class="icon"><use href="#i-upload"/></svg><h3>Bring your inquiries into one place</h3><p>Research starts after import. Keep this workspace open while the queue runs.</p><button id="choose-csv" class="primary">Choose spreadsheet</button></div><p id="import-filename" class="fine"></p><label id="import-sheet-wrap" hidden>Worksheet<select id="import-sheet"></select></label><div id="import-preview" hidden><div class="import-table-wrap"><table><thead><tr><th>Name</th><th>Email</th><th>Company</th></tr></thead><tbody id="import-preview-body"></tbody></table></div><button id="confirm-import" disabled>Import leads</button></div><p id="import-status" class="fine" role="status"></p><section class="sheets-connect"><h3>Keep a Google Sheet connected</h3><p id="sheets-status">New rows can arrive even while this page is closed.</p><button id="sheets-open" class="quiet">Connect Google Sheets</button></section></div></dialog>
+<dialog id="activity-dialog" class="evidence-drawer" aria-label="Research activity"><div class="evidence-header"><h2>Research activity</h2><button id="close-activity" class="iconbutton" aria-label="Close activity">×</button></div><div id="activity-content" class="evidence-content"></div></dialog>
+<dialog id="source-dialog" class="evidence-drawer" aria-labelledby="evidence-title"><div id="source-panel"></div></dialog>
+<script type="module" src="/app.js"></script>
+</body></html>

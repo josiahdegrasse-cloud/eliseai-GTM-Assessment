@@ -1,0 +1,745 @@
+[
+  {
+    "area_status": "no_geography",
+    "priority": {
+      "model": "housing-balanced-v3",
+      "total": 0,
+      "fit": 0,
+      "readiness": 0,
+      "unassessed": 100,
+      "assessed_weight": 0,
+      "provisional": false,
+      "tier": "Confirm operating model",
+      "rank": 1,
+      "reason": "Sources do not yet establish residential operations.",
+      "criteria": [
+        {
+          "key": "housing",
+          "label": "Housing operator",
+          "max": 25,
+          "points": null,
+          "status": "unknown",
+          "reason": "Housing operations are not established.",
+          "source_ids": [],
+          "basis": "Company sources",
+          "sources": []
+        },
+        {
+          "key": "workflow",
+          "label": "Relevant operating workflow",
+          "max": 15,
+          "points": null,
+          "status": "unknown",
+          "reason": "Confirm the leasing or resident workflow.",
+          "source_ids": [],
+          "basis": "Company sources",
+          "sources": []
+        },
+        {
+          "key": "scale",
+          "label": "Reported apartment-home scale",
+          "max": 10,
+          "points": null,
+          "status": "unknown",
+          "reason": "Establish housing operations before assigning size points.",
+          "source_ids": [],
+          "basis": "Company sources",
+          "sources": []
+        },
+        {
+          "key": "need",
+          "label": "Buyer-confirmed need",
+          "max": 20,
+          "points": null,
+          "status": "unknown",
+          "reason": "Confirm the need and record the buyer’s words.",
+          "source_ids": [],
+          "basis": "Rep assessment",
+          "note": "",
+          "evidence": {
+            "status": "undated",
+            "recorded_at": null,
+            "basis": "Rep assessment",
+            "review_days": 30
+          }
+        },
+        {
+          "key": "timing",
+          "label": "Buying timeline",
+          "max": 15,
+          "points": null,
+          "status": "unknown",
+          "reason": "Confirm timing with the buyer.",
+          "source_ids": [],
+          "basis": "Rep assessment",
+          "note": "",
+          "evidence": {
+            "status": "undated",
+            "recorded_at": null,
+            "basis": "Rep assessment",
+            "review_days": 30
+          }
+        },
+        {
+          "key": "role",
+          "label": "Decision involvement",
+          "max": 10,
+          "points": null,
+          "status": "unknown",
+          "reason": "Confirm who is involved in the decision.",
+          "source_ids": [],
+          "basis": "Rep assessment",
+          "note": "",
+          "evidence": {
+            "status": "undated",
+            "recorded_at": null,
+            "basis": "Rep assessment",
+            "review_days": 90
+          }
+        },
+        {
+          "key": "scope",
+          "label": "Agreed starting scope",
+          "max": 5,
+          "points": null,
+          "status": "unknown",
+          "reason": "Agree on the first properties or communities.",
+          "source_ids": [],
+          "basis": "Rep assessment",
+          "note": "",
+          "evidence": {
+            "status": "undated",
+            "recorded_at": null,
+            "basis": "Rep assessment",
+            "review_days": 30
+          }
+        }
+      ],
+      "fit_assessment": {
+        "points": 0,
+        "max": 50,
+        "assessed": 0,
+        "label": "Not established"
+      },
+      "readiness_assessment": {
+        "points": null,
+        "max": 50,
+        "assessed": 0,
+        "label": "Needs qualification"
+      }
+    },
+    "contact": "Morgan Davis (TEST)",
+    "company": "MAA",
+    "greeting": "Hi Morgan,",
+    "initial_provider_calls": 7,
+    "elapsed_ms": 26214,
+    "engine": "reader-v2",
+    "company_stale": false,
+    "sample_snapshot": false,
+    "sources": [
+      {
+        "url": "https://www.maac.com/about-us",
+        "provider": "Direct company website"
+      },
+      {
+        "url": "https://www.maac.com/",
+        "provider": "Direct company website"
+      }
+    ],
+    "fit": "Fit not established",
+    "portfolio": null,
+    "footprint": null,
+    "registry_status": "unmatched",
+    "census_status": "incomplete",
+    "census_stale": false,
+    "repeat_provider_calls": 0,
+    "lead": {
+      "name": "Morgan Davis (TEST)",
+      "email": "maa.qa@example.invalid",
+      "company": "MAA",
+      "city": "",
+      "state": "",
+      "property_address": "",
+      "country": "US",
+      "website": "maac.com",
+      "inquiry": "",
+      "postal_code": "",
+      "research_url": "",
+      "id": "1384a997-451e-481e-bb14-65a99f9ed0e7",
+      "demo": false,
+      "status": "Draft to review",
+      "score": 0,
+      "evidence": [
+        {
+          "title": "About MAA | Luxury Apartment Rentals",
+          "text": "Based in Memphis, TN, MAA owns and operates nearly 300 properties in 16 states and D.C. Even with significant growth, MAA remains committed to exceptional service and value.\n\nMAA proudly owns and operates its properties, making continuous improvements, from updating common areas to adding smart home technology.\n\nAs of June 30, 2024, MAA owns or has ownership interest in:\n\nFor over 40 years, MAA has provided high-quality apartment homes across the Southeast, Southwest, and Mid-Atlantic regions.\n\nMAA is an S&P 500 company and real estate investment trust (REIT).\n\nOver 2,500 associates bring our communities to life, creating welcoming environments that exceed residents’ expectations.\n\nWe have an average rating of 4.5 out of 5 stars on Google, the highest rating among public apartment companies of our size.\n\nMAA properties are beautifully maintained, rich in amenities, and located in vibrant communities where people want to live, work, and play. We are passionate about our commitment to delivering exceptional service to our residents.",
+          "url": "https://www.maac.com/about-us",
+          "date": "2026-09-30T01:59:38.863Z",
+          "published_date": null,
+          "verified": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text",
+              "company_self_description"
+            ]
+          },
+          "kind": "Company website",
+          "provider": "Direct company website"
+        },
+        {
+          "title": "MAA - Apartment Communities in the Southeast & Southwest",
+          "text": "Sparkling pools, smart home technology, community events, and dog parks at select communities create a world of convenience and luxury.\n\nOur newest communities promise innovative and sustainable living environments, catering to the evolving needs of modern residents.\n\nNone in your list. Add communities to compare them.\n\nThe most recent 20 Communities you've viewed will appear here.",
+          "url": "https://www.maac.com/",
+          "date": "2026-09-30T01:59:39.359Z",
+          "published_date": null,
+          "verified": true,
+          "identity": {
+            "version": 1,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title"
+            ]
+          },
+          "kind": "Company website",
+          "provider": "Direct company website"
+        }
+      ],
+      "issues": [
+        "Missing city",
+        "Missing state",
+        "Missing property address"
+      ],
+      "notes": "",
+      "feedback": "",
+      "reviewed": false,
+      "created_at": "2026-09-30T01:59:13.152Z",
+      "automation_pending": false,
+      "research_state": "complete",
+      "research_note": "Company name and domain corroborated. Property relationship remains unverified.",
+      "confidence": "Name + domain match",
+      "subject": "A quick question about your inquiry",
+      "question": "What prompted your inquiry?",
+      "theme": "operating_context",
+      "uses_fact": false,
+      "draft_method": "Rules v9 · Sourced context, relevant capability, one next question",
+      "draft_strategy": "discovery",
+      "draft_rationale": "Confirms context before making a specific recommendation.",
+      "draft": "Hi Morgan,\n\nThanks for getting in touch with EliseAI.\n\nWhat prompted your inquiry?\n\nBest,\n[Your name]",
+      "draft_basis": [],
+      "draft_version": 9,
+      "draft_stale": false,
+      "draft_edited": false,
+      "draft_research_signature": "[9,\"operating_model\",\"Does this company own or operate residential housing?\",\"Morgan Davis (TEST)\",\"maa.qa@example.invalid\",\"MAA\",\"maac.com\",[[\"https://www.maac.com/about-us\",\"Based in Memphis, TN, MAA owns and operates nearly 300 properties in 16 states and D.C. Even with significant growth, MAA remains committed to exceptional service and value.\\n\\nMAA proudly owns and operates its properties, making continuous improvements, from updating common areas to adding smart home technology.\\n\\nAs of June 30, 2024, MAA owns or has ownership interest in:\\n\\nFor over 40 years, MAA has provided high-quality apartment homes across the Southeast, Southwest, and Mid-Atlantic regions.\\n\\nMAA is an S&P 500 company and real estate investment trust (REIT).\\n\\nOver 2,500 associates bring our communities to life, creating welcoming environments that exceed residents’ expectations.\\n\\nWe have an average rating of 4.5 out of 5 stars on Google, the highest rating among public apartment companies of our size.\\n\\nMAA properties are beautifully maintained, rich in amenities, and located in vibrant communities where people want to live, work, and play. We are passionate about our commitment to delivering exceptional service to our residents.\",\"2026-09-30T01:59:38.863Z\",null,true,1],[\"https://www.maac.com/\",\"Sparkling pools, smart home technology, community events, and dog parks at select communities create a world of convenience and luxury.\\n\\nOur newest communities promise innovative and sustainable living environments, catering to the evolving needs of modern residents.\\n\\nNone in your list. Add communities to compare them.\\n\\nThe most recent 20 Communities you've viewed will appear here.\",\"2026-09-30T01:59:39.359Z\",null,true,1]],\"\",{\"scope\":\"\",\"process\":\"\",\"timing\":\"\",\"role\":\"\",\"process_timing\":\"\",\"workflow_note\":\"\",\"impact_note\":\"\",\"pms_name\":\"\",\"pms_edition\":\"\",\"integration_note\":\"\",\"account_note\":\"\",\"trigger_note\":\"\",\"owner\":\"\",\"next_step\":\"\",\"need_status\":\"unknown\",\"scope_status\":\"unknown\",\"timing_status\":\"unknown\",\"role_status\":\"unknown\",\"workflow_key\":\"unknown\",\"impact_metric\":\"unknown\",\"integration_status\":\"unknown\",\"account_status\":\"unknown\",\"impact_value\":\"\",\"integration_source_url\":\"\",\"trigger_date\":\"\",\"next_due\":\"\"},\"What prompted your inquiry, and what would you most like to improve?\",[\"undated\",\"undated\",\"undated\",\"undated\",\"undated\",\"undated\",\"undated\",\"undated\",\"undated\",\"undated\"]]",
+      "context_pending_until": null,
+      "registry_context": {
+        "status": "unmatched",
+        "provider": "GLEIF",
+        "message": "No unique exact legal-name match.",
+        "cache_fetched_at": "2026-09-30T01:59:13.825Z",
+        "cache_fresh_until": "2026-10-01T01:59:13.825Z",
+        "retry_after": null,
+        "stale": false,
+        "cached": false
+      },
+      "area_context": {
+        "version": 1,
+        "status": "no_geography"
+      },
+      "property_context": {
+        "status": "incomplete",
+        "message": "Paste the full property address to locate it. Company offices are shown separately."
+      },
+      "processed_at": "2026-09-30T01:59:39.364Z",
+      "cached": false,
+      "company_stale": false,
+      "company_snapshot": false,
+      "company_locations": [
+        {
+          "kind": "Company base",
+          "precision": "city",
+          "address": "Memphis, TN",
+          "street": "",
+          "city": "Memphis",
+          "region": "TN",
+          "postal_code": "",
+          "country": "",
+          "source_url": "https://www.maac.com/about-us",
+          "source_title": "About MAA | Luxury Apartment Rentals",
+          "method": "Company website",
+          "quote": "Based in Memphis, TN",
+          "retrieved_at": "2026-09-30T01:59:38.862Z"
+        },
+        {
+          "kind": "Headquarters",
+          "address": "6815 Poplar Avenue, Suite 500, Germantown, TN 38138",
+          "street": "6815 Poplar Avenue, Suite 500",
+          "city": "Germantown",
+          "region": "TN",
+          "postal_code": "38138",
+          "country": "",
+          "source_url": "https://www.maac.com/about-us",
+          "source_title": "About MAA | Luxury Apartment Rentals",
+          "method": "Company website",
+          "quote": "Corporate Headquarters MAA 6815 Poplar Avenue Suite 500 Germantown TN 38138",
+          "retrieved_at": "2026-09-30T01:59:38.863Z"
+        }
+      ],
+      "company_location_version": 1,
+      "company_recovery_version": 1,
+      "company_engine": "reader-v2",
+      "company_fetched_at": "2026-09-30T01:59:38.863Z",
+      "company_fresh_until": "2026-10-01T01:59:38.863Z",
+      "company_retry_after": null,
+      "company_retry_code": null,
+      "company_error": null,
+      "needs_location_refresh": false,
+      "needs_area_refresh": false,
+      "research_brief": {
+        "version": 3,
+        "company_kind": "unclassified",
+        "classification": {
+          "kind": "unclassified",
+          "label": "Operating model unconfirmed",
+          "conflict": false,
+          "evidence": [],
+          "reason": "No explicit residential operating claim was found."
+        },
+        "sources": [
+          {
+            "id": "S1",
+            "url": "https://www.maac.com/about-us",
+            "host": "maac.com",
+            "title": "About MAA | Luxury Apartment Rentals",
+            "provider": "Direct company website",
+            "excerpt": "Based in Memphis, TN, MAA owns and operates nearly 300 properties in 16 states and D.C. Even with significant growth, MAA remains committed to exceptional service and value.\n\nMAA proudly owns and operates its properties, making continuous improvements, from updating common areas to adding smart home technology.\n\nAs of June 30, 2024, MAA owns or has ownership interest in:\n\nFor over 40 years, MAA has provided high-quality apartment homes across the Southeast, Southwest, and Mid-Atlantic regions.\n\nMAA is an S&P 500 company and real estate investment trust (REIT).\n\nOver 2,500 associates bring our communities to life, creating welcoming environments that exceed residents’ expectations.\n\nWe have an average rating of 4.5 out of 5 stars on Google, the highest rating among public apartment companies of our size.\n\nMAA properties are beautifully maintained, rich in amenities, and located in vibrant communities where people want to live, work, and play. We are passionate about our commitment to delivering exceptional service to our residents.",
+            "retrieved_at": "2026-09-30T01:59:38.863Z",
+            "published_at": null,
+            "cached": false,
+            "name_matched": true,
+            "identity": {
+              "version": 1,
+              "status": "confirmed",
+              "reason": "Company name is corroborated on the supplied domain.",
+              "signals": [
+                "supplied_domain",
+                "name_in_page_title",
+                "name_in_source_text",
+                "company_self_description"
+              ]
+            },
+            "focus_quotes": [],
+            "type": "Company overview",
+            "rank": 1
+          },
+          {
+            "id": "S2",
+            "url": "https://www.maac.com/",
+            "host": "maac.com",
+            "title": "MAA - Apartment Communities in the Southeast & Southwest",
+            "provider": "Direct company website",
+            "excerpt": "Sparkling pools, smart home technology, community events, and dog parks at select communities create a world of convenience and luxury.\n\nOur newest communities promise innovative and sustainable living environments, catering to the evolving needs of modern residents.\n\nNone in your list. Add communities to compare them.\n\nThe most recent 20 Communities you've viewed will appear here.",
+            "retrieved_at": "2026-09-30T01:59:39.359Z",
+            "published_at": null,
+            "cached": false,
+            "name_matched": true,
+            "identity": {
+              "version": 1,
+              "status": "confirmed",
+              "reason": "Company name is corroborated on the supplied domain.",
+              "signals": [
+                "supplied_domain",
+                "name_in_page_title"
+              ]
+            },
+            "focus_quotes": [],
+            "type": "Company website",
+            "rank": 3
+          }
+        ],
+        "profile": null,
+        "summary": null,
+        "portfolio": null,
+        "footprint": null,
+        "context": [
+          {
+            "text": "Based in Memphis, TN, MAA owns and operates nearly 300 properties in 16 states and D.C.",
+            "source_id": "S1"
+          },
+          {
+            "text": "For over 40 years, MAA has provided high-quality apartment homes across the Southeast, Southwest, and Mid-Atlantic regions.",
+            "source_id": "S1"
+          },
+          {
+            "text": "MAA is an S&P 500 company and real estate investment trust (REIT).",
+            "source_id": "S1"
+          }
+        ],
+        "signals": [
+          {
+            "key": "residential",
+            "label": "Residential operations",
+            "supported": false,
+            "description": "Residential operations are not established by these sources.",
+            "source_ids": []
+          },
+          {
+            "key": "leasing",
+            "label": "Leasing / community operations",
+            "supported": false,
+            "description": "Leasing activity is not established by these sources.",
+            "source_ids": []
+          }
+        ],
+        "recommendation": {
+          "label": "Outreach hypothesis",
+          "title": "Establish the operating context",
+          "reason": "Start with the contact’s responsibilities and operating model before suggesting a solution.",
+          "question": "What is your role, and what prompted your inquiry?"
+        },
+        "gaps": [
+          {
+            "key": "scope",
+            "label": "Rollout scope",
+            "question": "Which communities or properties would you start with?"
+          },
+          {
+            "key": "process",
+            "label": "Current workflow & tools",
+            "question": "How does your team handle inquiries today, and which tools do you use?"
+          },
+          {
+            "key": "timing",
+            "label": "Timing",
+            "question": "When would you like to have a new approach in place?"
+          },
+          {
+            "key": "role",
+            "label": "Role & decision team",
+            "question": "Who would be involved in evaluating a change with you?"
+          }
+        ],
+        "limitations": [
+          "Company statements are self-reported; a matching name and domain is an identity check, not independent verification.",
+          "Portfolio figures describe the company, not this property or a confirmed sales opportunity.",
+          "No source establishes this contact’s authority, budget, buying intent or connection to the submitted property."
+        ]
+      },
+      "priority": {
+        "model": "housing-balanced-v3",
+        "total": 0,
+        "fit": 0,
+        "readiness": 0,
+        "unassessed": 100,
+        "assessed_weight": 0,
+        "provisional": false,
+        "tier": "Confirm operating model",
+        "rank": 1,
+        "reason": "Sources do not yet establish residential operations.",
+        "criteria": [
+          {
+            "key": "housing",
+            "label": "Housing operator",
+            "max": 25,
+            "points": null,
+            "status": "unknown",
+            "reason": "Housing operations are not established.",
+            "source_ids": [],
+            "basis": "Company sources",
+            "sources": []
+          },
+          {
+            "key": "workflow",
+            "label": "Relevant operating workflow",
+            "max": 15,
+            "points": null,
+            "status": "unknown",
+            "reason": "Confirm the leasing or resident workflow.",
+            "source_ids": [],
+            "basis": "Company sources",
+            "sources": []
+          },
+          {
+            "key": "scale",
+            "label": "Reported apartment-home scale",
+            "max": 10,
+            "points": null,
+            "status": "unknown",
+            "reason": "Establish housing operations before assigning size points.",
+            "source_ids": [],
+            "basis": "Company sources",
+            "sources": []
+          },
+          {
+            "key": "need",
+            "label": "Buyer-confirmed need",
+            "max": 20,
+            "points": null,
+            "status": "unknown",
+            "reason": "Confirm the need and record the buyer’s words.",
+            "source_ids": [],
+            "basis": "Rep assessment",
+            "note": "",
+            "evidence": {
+              "status": "undated",
+              "recorded_at": null,
+              "basis": "Rep assessment",
+              "review_days": 30
+            }
+          },
+          {
+            "key": "timing",
+            "label": "Buying timeline",
+            "max": 15,
+            "points": null,
+            "status": "unknown",
+            "reason": "Confirm timing with the buyer.",
+            "source_ids": [],
+            "basis": "Rep assessment",
+            "note": "",
+            "evidence": {
+              "status": "undated",
+              "recorded_at": null,
+              "basis": "Rep assessment",
+              "review_days": 30
+            }
+          },
+          {
+            "key": "role",
+            "label": "Decision involvement",
+            "max": 10,
+            "points": null,
+            "status": "unknown",
+            "reason": "Confirm who is involved in the decision.",
+            "source_ids": [],
+            "basis": "Rep assessment",
+            "note": "",
+            "evidence": {
+              "status": "undated",
+              "recorded_at": null,
+              "basis": "Rep assessment",
+              "review_days": 90
+            }
+          },
+          {
+            "key": "scope",
+            "label": "Agreed starting scope",
+            "max": 5,
+            "points": null,
+            "status": "unknown",
+            "reason": "Agree on the first properties or communities.",
+            "source_ids": [],
+            "basis": "Rep assessment",
+            "note": "",
+            "evidence": {
+              "status": "undated",
+              "recorded_at": null,
+              "basis": "Rep assessment",
+              "review_days": 30
+            }
+          }
+        ],
+        "fit_assessment": {
+          "points": 0,
+          "max": 50,
+          "assessed": 0,
+          "label": "Not established"
+        },
+        "readiness_assessment": {
+          "points": null,
+          "max": 50,
+          "assessed": 0,
+          "label": "Needs qualification"
+        }
+      },
+      "decision": {
+        "model": "sales-action-v1",
+        "evaluated_at": "2026-09-30T01:59:39.365Z",
+        "action": {
+          "code": "operating_model",
+          "label": "Confirm operating model",
+          "rank": 1,
+          "reason": "Sources do not yet establish residential operations.",
+          "question": "Does this company own or operate residential housing?",
+          "target": "notes",
+          "owner": "Unassigned",
+          "due_date": null,
+          "due_status": "not_set",
+          "timezone": "America/New_York"
+        },
+        "opportunity": {
+          "status": "unassessed",
+          "product": "Confirm the buyer workflow",
+          "reason": "Establish housing operations before recommending a product.",
+          "basis": "No product recommendation yet"
+        },
+        "signals": [
+          {
+            "key": "workflow",
+            "label": "Buyer workflow",
+            "value": "Not assessed",
+            "note": "",
+            "status": "undated",
+            "recorded_at": null,
+            "basis": "Rep assessment",
+            "review_days": 30,
+            "confirmed": false
+          },
+          {
+            "key": "impact",
+            "label": "Operational baseline",
+            "value": "Not assessed",
+            "note": "",
+            "status": "undated",
+            "recorded_at": null,
+            "basis": "Rep assessment",
+            "review_days": 30,
+            "confirmed": false
+          },
+          {
+            "key": "integration",
+            "label": "System compatibility",
+            "value": "Not assessed",
+            "note": "",
+            "status": "undated",
+            "recorded_at": null,
+            "basis": "Rep assessment",
+            "review_days": 30,
+            "confirmed": false
+          },
+          {
+            "key": "account",
+            "label": "Account relationship",
+            "value": "Not assessed",
+            "note": "",
+            "status": "undated",
+            "recorded_at": null,
+            "basis": "Rep assessment",
+            "review_days": 90,
+            "confirmed": false
+          },
+          {
+            "key": "trigger",
+            "label": "Reason to act",
+            "value": "Not assessed",
+            "note": "",
+            "status": "undated",
+            "recorded_at": null,
+            "basis": "Rep assessment",
+            "review_days": 30,
+            "confirmed": false
+          },
+          {
+            "key": "commitment",
+            "label": "Next commitment",
+            "value": "Not assessed",
+            "note": "",
+            "status": "undated",
+            "recorded_at": null,
+            "basis": "Rep assessment",
+            "review_days": 30,
+            "confirmed": false
+          }
+        ],
+        "blockers": [
+          "Check account relationship",
+          "Confirm a buyer workflow",
+          "Check product-specific integration",
+          "Measure the operational baseline",
+          "Buyer-confirmed need",
+          "Buying timeline",
+          "Decision involvement",
+          "Agreed starting scope"
+        ],
+        "system": {
+          "name": "",
+          "edition": "",
+          "source_url": "",
+          "status": "unknown"
+        },
+        "trigger_date": "",
+        "scope": "",
+        "history": []
+      },
+      "sales_insights": {
+        "version": 1,
+        "items": [
+          {
+            "key": "fit",
+            "title": "Establish the operating model",
+            "fact": "Sources do not yet establish residential operations.",
+            "meaning": "Confirm whether this contact represents a residential operator before selecting a housing use case.",
+            "source_ids": [],
+            "basis": "Company research · operating fit not established"
+          },
+          {
+            "key": "readiness",
+            "title": "What is still unknown",
+            "fact": "Confirm the buyer’s need, timing, decision involvement, starting scope.",
+            "meaning": "Ask the buyer before treating this account as an active opportunity. Public company research cannot fill these gaps.",
+            "source_ids": [],
+            "basis": "Buyer qualification"
+          }
+        ],
+        "next_action": "Confirm operating model",
+        "next_question": "Does this company own or operate residential housing?"
+      },
+      "fit": {
+        "label": "Fit not established",
+        "rank": 0,
+        "reason": "These sources do not establish residential operations."
+      },
+      "qualifications": {
+        "scope": "",
+        "process": "",
+        "timing": "",
+        "role": "",
+        "process_timing": "",
+        "workflow_note": "",
+        "impact_note": "",
+        "pms_name": "",
+        "pms_edition": "",
+        "integration_note": "",
+        "account_note": "",
+        "trigger_note": "",
+        "owner": "",
+        "next_step": "",
+        "need_status": "unknown",
+        "scope_status": "unknown",
+        "timing_status": "unknown",
+        "role_status": "unknown",
+        "workflow_key": "unknown",
+        "impact_metric": "unknown",
+        "integration_status": "unknown",
+        "account_status": "unknown",
+        "impact_value": "",
+        "integration_source_url": "",
+        "trigger_date": "",
+        "next_due": ""
+      },
+      "qualification": {
+        "recorded": 0,
+        "total": 4
+      },
+      "next_question": {
+        "key": "inquiry",
+        "label": "Reason for reaching out",
+        "question": "What prompted your inquiry, and what would you most like to improve?"
+      },
+      "company_identity": {
+        "status": "confirmed",
+        "basis": "Company name corroborated on supplied domain",
+        "sources": [
+          "S1",
+          "S2"
+        ]
+      }
+    }
+  }
+]

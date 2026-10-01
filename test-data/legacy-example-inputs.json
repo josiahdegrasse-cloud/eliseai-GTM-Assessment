@@ -1,0 +1,334 @@
+[
+  {
+    "name": "Bob Faith",
+    "email": "bob.faith@example.invalid",
+    "company": "Greystar",
+    "website": "greystar.com",
+    "property_address": "1731 Tupelo Hill Lane",
+    "city": "Raleigh",
+    "state": "NC",
+    "inquiry": "Can you show how leasing inquiries and tour scheduling could be handled across our communities?",
+    "sample_key": "bob.faith",
+    "sample_previous_inquiries": [
+      "Can you show how leasing inquiries and tour scheduling could be handled across our communities?"
+    ]
+  },
+  {
+    "name": "Jammie Bandor",
+    "email": "jammie.bandor@example.invalid",
+    "company": "RedPeak",
+    "website": "redpeak.com",
+    "property_address": "1000 Grant St",
+    "city": "Denver",
+    "state": "CO",
+    "inquiry": "How could routine renewal follow-ups be handled consistently across our property teams?",
+    "sample_key": "jammie.bandor",
+    "sample_previous_inquiries": [
+      "How could routine renewal follow-ups be handled consistently across our property teams?"
+    ]
+  },
+  {
+    "name": "Mandy Hendrix",
+    "email": "mandy.hendrix@example.invalid",
+    "company": "Atlantic Residential",
+    "website": "atlanticresi.com",
+    "property_address": "4256 Tilly Mill Road",
+    "city": "Doraville",
+    "state": "GA",
+    "inquiry": "Our marketing campaigns generate missed calls during apartment lease-ups. Could you show how phone coverage would work?",
+    "sample_key": "mandy.hendrix",
+    "sample_previous_inquiries": [
+      "We are exploring faster follow-up for tour requests during apartment lease-ups."
+    ]
+  },
+  {
+    "name": "Laurie Baker",
+    "email": "laurie.baker@example.invalid",
+    "company": "Camden Property Trust",
+    "website": "camdenliving.com",
+    "property_address": "2600 Glenwood Ave",
+    "city": "Raleigh",
+    "state": "NC",
+    "inquiry": "Can you show how resident maintenance requests could reach the right team?",
+    "sample_key": "laurie.baker",
+    "sample_previous_inquiries": [
+      "Can you show how resident maintenance requests could reach the right team?"
+    ]
+  },
+  {
+    "name": "Stephanie L. Williams",
+    "email": "stephanie.l.williams@example.invalid",
+    "company": "Bozzuto",
+    "website": "bozzuto.com",
+    "property_address": "1331 Maryland Ave SW",
+    "city": "Washington",
+    "state": "DC",
+    "inquiry": "We are evaluating how to respond to after-hours leasing questions across our portfolio.",
+    "sample_key": "stephanie.l.williams",
+    "sample_previous_inquiries": [
+      "We are evaluating how to respond to after-hours leasing questions across our portfolio."
+    ]
+  },
+  {
+    "name": "Rhonda McLendon",
+    "email": "rhonda.mclendon@example.invalid",
+    "company": "Bozzuto",
+    "website": "bozzuto.com",
+    "property_address": "1331 Maryland Ave SW",
+    "city": "Washington",
+    "state": "DC",
+    "inquiry": "We do not have an active need for new leasing tools right now. We would like to pause the conversation for now.",
+    "sample_key": "rhonda.mclendon",
+    "sample_previous_inquiries": [
+      "We do not have an active need for new leasing tools right now. We would like to pause the conversation for now."
+    ],
+    "qualifications": {
+      "scope": "",
+      "process": "",
+      "timing": "",
+      "role": "",
+      "process_timing": "",
+      "workflow_note": "",
+      "impact_note": "",
+      "pms_name": "",
+      "pms_edition": "",
+      "integration_note": "",
+      "account_note": "",
+      "trigger_note": "",
+      "owner": "",
+      "next_step": "",
+      "need_status": "none",
+      "scope_status": "unknown",
+      "timing_status": "unknown",
+      "role_status": "unknown",
+      "workflow_key": "unknown",
+      "impact_metric": "unknown",
+      "integration_status": "unknown",
+      "account_status": "unknown",
+      "impact_value": "",
+      "integration_source_url": "",
+      "trigger_date": "",
+      "next_due": ""
+    }
+  },
+  {
+    "name": "Arjun Rao",
+    "email": "arjun.rao@example.invalid",
+    "company": "Yardi",
+    "website": "yardi.com",
+    "property_address": "",
+    "city": "",
+    "state": "",
+    "inquiry": "We build residential software and would like to discuss a possible technology partnership.",
+    "sample_key": "arjun.rao",
+    "sample_previous_inquiries": [
+      "We build residential software and would like to discuss a possible technology partnership."
+    ]
+  },
+  {
+    "name": "Shane Trigg",
+    "email": "shane.trigg@example.invalid",
+    "company": "AppFolio",
+    "website": "appfolio.com",
+    "property_address": "",
+    "city": "",
+    "state": "",
+    "inquiry": "We are interested in learning about your platform and potential integration opportunities.",
+    "sample_key": "shane.trigg",
+    "sample_previous_inquiries": [
+      "We are interested in learning about your platform and potential integration opportunities."
+    ]
+  },
+  {
+    "name": "Dan Letter",
+    "email": "dan.letter@example.invalid",
+    "company": "Prologis",
+    "website": "prologis.com",
+    "property_address": "",
+    "city": "",
+    "state": "",
+    "inquiry": "Could your leasing assistant support our industrial warehouse portfolio?",
+    "sample_key": "dan.letter",
+    "sample_previous_inquiries": [
+      "Could your leasing assistant support our industrial warehouse portfolio?"
+    ]
+  },
+  {
+    "name": "Hessam Nadji",
+    "email": "hessam.nadji@example.invalid",
+    "company": "Marcus & Millichap",
+    "website": "marcusmillichap.com",
+    "property_address": "",
+    "city": "",
+    "state": "",
+    "inquiry": "Our brokerage team would like to introduce a residential owner who is evaluating leasing support. What information would you need?",
+    "sample_key": "hessam.nadji",
+    "sample_previous_inquiries": [
+      "We would like to learn whether this could help our real estate investment sales brokerage."
+    ]
+  },
+  {
+    "name": "Kevin Morse",
+    "email": "kevin@mgmpmi.com",
+    "company": "MGM Property Management",
+    "website": "https://mgmpmi.com",
+    "property_address": "2601 W. 61st Place",
+    "city": "Merrillville",
+    "state": "IN",
+    "research_url": "https://mgmpmi.com/corporate/",
+    "contact_source": "https://mgmpmi.com/corporate/",
+    "property_name": "Bon Aire Apartments",
+    "property_source": "https://mgmpmi.com/listings/bonaire/",
+    "country": "United States",
+    "inquiry": "",
+    "evidence": [
+      {
+        "title": "Corporate - MGM Property Management",
+        "text": "In 2007 Mr. Morse founded MGM Property Management, L.L.C. to provide management services for apartment communities owned by entities affiliated with MGM.\n\nKevin Morse has been in Real Estate for almost 30 years. In 1989 he graduated from Arizona State University with a BS in Real Estate. Mr. Morse began his Real Estate career in Phoenix, Arizona as a Real Estate Broker providing leasing, sales, and management services for industrial properties.\n\nIn 1997 Mr. Morse relocated to Chicago, Illinois and took a position as Director for an Apartment Community Property Management Company that owned communities in Illinois and Wisconsin.\n\nCertified Apartment Manager (CAM) by the National Apartment Association. Assisted Housing Manager (AHM) requirements of HUD by Quadel Consulting. EIV Basics Certificate, EIV Discrepancies, Certificate EIV Interim, Certification EIV Annual Recertification. TRACS Voucher Submission Requirements Certification.\n\nTiffany Blakemore brings over 20 years of dynamic Property Management experience, leading teams across Conventional, LIHTC, and HUD Section 8 communities. With a strong background in operations, compliance, and training, Tiffany is known for elevating asset performance, strengthening teams, and driving consistent improvement in budget and NOI results.\n\nMGM Property Management, L.L.C. is a full service property management company specializing in management of apartment communities in Indiana, Michigan, Illinois, Arkansas and Louisiana. Our goal is to provide our residents with an exceptional product at an affordable price.\n\nCorporate - MGM Property Management\n\nAssisted Housing Manager (AHM) requirement of HUD by Quadel Consulting",
+        "url": "https://mgmpmi.com/corporate/",
+        "date": "2026-10-01T17:54:04.429845+00:00",
+        "published_date": null,
+        "verified": true,
+        "identity": {
+          "version": 2,
+          "status": "confirmed",
+          "reason": "Company name is corroborated on the supplied domain.",
+          "signals": [
+            "supplied_domain",
+            "name_in_page_title",
+            "name_in_source_text"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      },
+      {
+        "title": "Find Your Home - MGM Property Management",
+        "text": "MGM Property Management, L.L.C. is a full service property management company specializing in management of apartment communities in Indiana, Michigan, Illinois, Arkansas and Louisiana. Our goal is to provide our residents with an exceptional product at an affordable price.\n\nFind Your Home - MGM Property Management\n\n© 2026 MGM Property Management, L.L.C..\n\nExceptional Rental Properties at An Affordable Price\n\nMonroe Park Apartments offers one bedroom apartment homes and two and three bedroom town homes that are equipped with air conditioning, washer and...\n\nVillage Heights Apartments offers 1, 2, 3 and 4 bedroom apartment homes. Stores and restaurants are just around the corner and only...\n\nCOGIC Village Apartments offers spacious 1, 2, and 3 bedroom affordable apartments with washer / dryer hook-ups in the apartment. Located just...",
+        "url": "https://mgmpmi.com/",
+        "date": "2026-10-01T17:54:04.682829+00:00",
+        "published_date": null,
+        "verified": true,
+        "identity": {
+          "version": 2,
+          "status": "confirmed",
+          "reason": "Company name is corroborated on the supplied domain.",
+          "signals": [
+            "supplied_domain",
+            "name_in_page_title",
+            "name_in_source_text"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      },
+      {
+        "title": "2601 W. 61st Place, Merrillville, IN 46410 - MGM Property Management",
+        "text": "MGM Property Management, L.L.C. is a full service property management company specializing in management of apartment communities in Indiana, Michigan, Illinois, Arkansas and Louisiana. Our goal is to provide our residents with an exceptional product at an affordable price.\n\n2601 W. 61st Place, Merrillville, IN 46410 - MGM Property Management\n\n© 2026 MGM Property Management, L.L.C..",
+        "url": "https://mgmpmi.com/listings/bonaire/",
+        "date": "2026-10-01T17:54:04.786529+00:00",
+        "published_date": null,
+        "verified": true,
+        "identity": {
+          "version": 2,
+          "status": "confirmed",
+          "reason": "Company name is corroborated on the supplied domain.",
+          "signals": [
+            "supplied_domain",
+            "name_in_page_title",
+            "name_in_source_text"
+          ]
+        },
+        "kind": "Company website",
+        "provider": "Reviewed official-source snapshot"
+      }
+    ],
+    "professional_context": {
+      "version": 9,
+      "input_key": "kevin morse|mgm property management|mgmpmi.com",
+      "status": "complete",
+      "partial": false,
+      "people": [
+        {
+          "url": "https://mgmpmi.com/corporate/",
+          "quote": "Kevin Morse President",
+          "title": "Corporate - MGM Property Management",
+          "official": true,
+          "published_at": null,
+          "retrieved_at": "2026-10-01T17:54:04.429845+00:00",
+          "recovered": false,
+          "employer_supported": true,
+          "freshness_basis": "Source publication date and wording",
+          "name": "Kevin Morse",
+          "company": "MGM Property Management",
+          "role": "President",
+          "historical": false
+        }
+      ],
+      "insights": [],
+      "company_facts": [],
+      "checked_at": "2026-10-01T17:55:23.875Z",
+      "cost_dollars": null,
+      "research_diagnostics": {
+        "candidates": 1,
+        "accepted": 1,
+        "rejections": []
+      },
+      "match": "name_company_match",
+      "conversation_starter": {
+        "text": "In your role as President, which operational process would you most like to improve?",
+        "source_url": "https://mgmpmi.com/corporate/",
+        "basis": "Suggested question based on the listed role; responsibilities are not assumed."
+      },
+      "snapshot": true
+    },
+    "property_context": {
+      "provider": "U.S. Census Bureau",
+      "date": "2026-10-01T17:55:27.040Z",
+      "url": "https://geocoding.geo.census.gov/geocoder/geographies/address?street=2601+W.+61st+Place&city=Merrillville&state=IN&benchmark=Public_AR_Current&vintage=Current_Current&format=json",
+      "cached": false,
+      "status": "matched",
+      "address": "2601 W 61ST PL, MERRILLVILLE, IN, 46410",
+      "city": "MERRILLVILLE",
+      "state": "IN",
+      "postal_code": "46410",
+      "county": "Lake County",
+      "tract": "18089042401",
+      "coordinates": {
+        "x": -87.36959493869,
+        "y": 41.506390217395
+      },
+      "message": "Address-range match. Does not establish building existence, ownership, unit count, or a link to this company."
+    },
+    "area_context": {
+      "version": 1,
+      "status": "not_assessed"
+    },
+    "processed_at": "2026-10-01T17:55:23.875Z",
+    "company_fetched_at": "2026-10-01T17:54:04.429845+00:00",
+    "company_engine": "reader-v2",
+    "company_location_version": 1,
+    "company_brief_version": 3,
+    "company_locations": [],
+    "sample_lead": true,
+    "sample_key": "sheet-8",
+    "sample_set_version": 5,
+    "sample_retrieved_at": "2026-10-01T17:55:23.875Z",
+    "research_state": "complete",
+    "automation_pending": false,
+    "company_snapshot": true,
+    "company_stale": false,
+    "draft_version": 0,
+    "sample_focus": "No inbound email context",
+    "sample_email_kind": "public_work_contact",
+    "sample_property": {
+      "name": "Bon Aire Apartments",
+      "url": "https://mgmpmi.com/listings/bonaire/",
+      "retrieved_at": "2026-10-01T17:55:23.875Z"
+    },
+    "sample_source": "Google Sheets Leads · matched 2026-10-01",
+    "sample_previous_inquiries": [
+      ""
+    ]
+  }
+]

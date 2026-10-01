@@ -1,0 +1,856 @@
+{
+  "version": 1,
+  "purpose": "Controlled identity and claim-gating regression; not a real-world coverage estimate",
+  "cases": [
+    {
+      "id": "I01",
+      "category": "official_overview",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Acme Housing",
+        "website": "acmehousing.com"
+      },
+      "source": {
+        "url": "https://acmehousing.com/about",
+        "title": "Acme Housing | About us",
+        "text": "Acme Housing manages residential apartments and leasing inquiries. We own 500 apartment homes."
+      },
+      "expected_identity": "confirmed"
+    },
+    {
+      "id": "I02",
+      "category": "legal_suffix",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Acme Housing",
+        "website": "acmehousing.com"
+      },
+      "source": {
+        "url": "https://acmehousing.com/about",
+        "title": "Acme Housing LLC",
+        "text": "Acme Housing LLC manages residential communities and leasing inquiries. We own 200 apartment homes."
+      },
+      "expected_identity": "confirmed"
+    },
+    {
+      "id": "I03",
+      "category": "self_description",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Acme Housing",
+        "website": "acmehousing.com"
+      },
+      "source": {
+        "url": "https://acmehousing.com/company",
+        "title": "Corporate overview",
+        "text": "Acme Housing currently owns and manages residential apartments and leasing inquiries."
+      },
+      "expected_identity": "confirmed"
+    },
+    {
+      "id": "I04",
+      "category": "thin_contact",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Acme Housing",
+        "website": "acmehousing.com"
+      },
+      "source": {
+        "url": "https://acmehousing.com/contact",
+        "title": "Acme Housing | Contact",
+        "text": "Contact Acme Housing for information about our team and services."
+      },
+      "expected_identity": "confirmed"
+    },
+    {
+      "id": "I05",
+      "category": "scattered_words",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Acme Housing",
+        "website": "acmehousing.com"
+      },
+      "source": {
+        "url": "https://acmehousing.com/about",
+        "title": "Business services",
+        "text": "Acme works with enterprises. Our housing services support other businesses across the country."
+      },
+      "expected_identity": "needs_confirmation"
+    },
+    {
+      "id": "I06",
+      "category": "customer_story",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Acme Housing",
+        "website": "acmehousing.com"
+      },
+      "source": {
+        "url": "https://acmehousing.com/case-studies/customer",
+        "title": "Acme Housing customer story",
+        "text": "Acme Housing manages residential apartments. Our software helps their team respond to inquiries."
+      },
+      "expected_identity": "needs_confirmation"
+    },
+    {
+      "id": "I07",
+      "category": "incidental_mention",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Acme Housing",
+        "website": "acmehousing.com"
+      },
+      "source": {
+        "url": "https://acmehousing.com/clients",
+        "title": "Our clients",
+        "text": "Our software is used by Acme Housing and many other property businesses."
+      },
+      "expected_identity": "needs_confirmation"
+    },
+    {
+      "id": "I08",
+      "category": "different_company",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Acme Housing",
+        "website": "acmehousing.com"
+      },
+      "source": {
+        "url": "https://acmehousing.com/about",
+        "title": "Other Operator",
+        "text": "Other Operator owns and manages 500 residential apartment homes and leasing inquiries."
+      },
+      "expected_identity": "needs_confirmation"
+    },
+    {
+      "id": "I09",
+      "category": "unrelated_domain",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Acme Housing",
+        "website": "acmehousing.com"
+      },
+      "source": {
+        "url": "https://unrelated-operator.com/about",
+        "title": "Acme Housing",
+        "text": "Acme Housing owns and manages 500 residential apartments and leasing inquiries."
+      },
+      "expected_identity": "unresolved"
+    },
+    {
+      "id": "I10",
+      "category": "missing_website",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Acme Housing",
+        "website": ""
+      },
+      "source": {
+        "url": "",
+        "title": "",
+        "text": ""
+      },
+      "expected_identity": "unresolved"
+    },
+    {
+      "id": "I11",
+      "category": "official_overview",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Harbor Residential",
+        "website": "harborresidential.com"
+      },
+      "source": {
+        "url": "https://harborresidential.com/about",
+        "title": "Harbor Residential | About us",
+        "text": "Harbor Residential manages residential apartments and leasing inquiries. We own 500 apartment homes."
+      },
+      "expected_identity": "confirmed"
+    },
+    {
+      "id": "I12",
+      "category": "legal_suffix",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Harbor Residential",
+        "website": "harborresidential.com"
+      },
+      "source": {
+        "url": "https://harborresidential.com/about",
+        "title": "Harbor Residential LLC",
+        "text": "Harbor Residential LLC manages residential communities and leasing inquiries. We own 200 apartment homes."
+      },
+      "expected_identity": "confirmed"
+    },
+    {
+      "id": "I13",
+      "category": "self_description",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Harbor Residential",
+        "website": "harborresidential.com"
+      },
+      "source": {
+        "url": "https://harborresidential.com/company",
+        "title": "Corporate overview",
+        "text": "Harbor Residential currently owns and manages residential apartments and leasing inquiries."
+      },
+      "expected_identity": "confirmed"
+    },
+    {
+      "id": "I14",
+      "category": "thin_contact",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Harbor Residential",
+        "website": "harborresidential.com"
+      },
+      "source": {
+        "url": "https://harborresidential.com/contact",
+        "title": "Harbor Residential | Contact",
+        "text": "Contact Harbor Residential for information about our team and services."
+      },
+      "expected_identity": "confirmed"
+    },
+    {
+      "id": "I15",
+      "category": "scattered_words",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Harbor Residential",
+        "website": "harborresidential.com"
+      },
+      "source": {
+        "url": "https://harborresidential.com/about",
+        "title": "Business services",
+        "text": "Harbor works with enterprises. Our residential services support other businesses across the country."
+      },
+      "expected_identity": "needs_confirmation"
+    },
+    {
+      "id": "I16",
+      "category": "customer_story",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Harbor Residential",
+        "website": "harborresidential.com"
+      },
+      "source": {
+        "url": "https://harborresidential.com/case-studies/customer",
+        "title": "Harbor Residential customer story",
+        "text": "Harbor Residential manages residential apartments. Our software helps their team respond to inquiries."
+      },
+      "expected_identity": "needs_confirmation"
+    },
+    {
+      "id": "I17",
+      "category": "incidental_mention",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Harbor Residential",
+        "website": "harborresidential.com"
+      },
+      "source": {
+        "url": "https://harborresidential.com/clients",
+        "title": "Our clients",
+        "text": "Our software is used by Harbor Residential and many other property businesses."
+      },
+      "expected_identity": "needs_confirmation"
+    },
+    {
+      "id": "I18",
+      "category": "different_company",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Harbor Residential",
+        "website": "harborresidential.com"
+      },
+      "source": {
+        "url": "https://harborresidential.com/about",
+        "title": "Other Operator",
+        "text": "Other Operator owns and manages 500 residential apartment homes and leasing inquiries."
+      },
+      "expected_identity": "needs_confirmation"
+    },
+    {
+      "id": "I19",
+      "category": "unrelated_domain",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Harbor Residential",
+        "website": "harborresidential.com"
+      },
+      "source": {
+        "url": "https://unrelated-operator.com/about",
+        "title": "Harbor Residential",
+        "text": "Harbor Residential owns and manages 500 residential apartments and leasing inquiries."
+      },
+      "expected_identity": "unresolved"
+    },
+    {
+      "id": "I20",
+      "category": "missing_website",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Harbor Residential",
+        "website": ""
+      },
+      "source": {
+        "url": "",
+        "title": "",
+        "text": ""
+      },
+      "expected_identity": "unresolved"
+    },
+    {
+      "id": "I21",
+      "category": "official_overview",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Cedar Communities",
+        "website": "cedarcommunities.com"
+      },
+      "source": {
+        "url": "https://cedarcommunities.com/about",
+        "title": "Cedar Communities | About us",
+        "text": "Cedar Communities manages residential apartments and leasing inquiries. We own 500 apartment homes."
+      },
+      "expected_identity": "confirmed"
+    },
+    {
+      "id": "I22",
+      "category": "legal_suffix",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Cedar Communities",
+        "website": "cedarcommunities.com"
+      },
+      "source": {
+        "url": "https://cedarcommunities.com/about",
+        "title": "Cedar Communities LLC",
+        "text": "Cedar Communities LLC manages residential communities and leasing inquiries. We own 200 apartment homes."
+      },
+      "expected_identity": "confirmed"
+    },
+    {
+      "id": "I23",
+      "category": "self_description",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Cedar Communities",
+        "website": "cedarcommunities.com"
+      },
+      "source": {
+        "url": "https://cedarcommunities.com/company",
+        "title": "Corporate overview",
+        "text": "Cedar Communities currently owns and manages residential apartments and leasing inquiries."
+      },
+      "expected_identity": "confirmed"
+    },
+    {
+      "id": "I24",
+      "category": "thin_contact",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Cedar Communities",
+        "website": "cedarcommunities.com"
+      },
+      "source": {
+        "url": "https://cedarcommunities.com/contact",
+        "title": "Cedar Communities | Contact",
+        "text": "Contact Cedar Communities for information about our team and services."
+      },
+      "expected_identity": "confirmed"
+    },
+    {
+      "id": "I25",
+      "category": "scattered_words",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Cedar Communities",
+        "website": "cedarcommunities.com"
+      },
+      "source": {
+        "url": "https://cedarcommunities.com/about",
+        "title": "Business services",
+        "text": "Cedar works with enterprises. Our communities services support other businesses across the country."
+      },
+      "expected_identity": "needs_confirmation"
+    },
+    {
+      "id": "I26",
+      "category": "customer_story",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Cedar Communities",
+        "website": "cedarcommunities.com"
+      },
+      "source": {
+        "url": "https://cedarcommunities.com/case-studies/customer",
+        "title": "Cedar Communities customer story",
+        "text": "Cedar Communities manages residential apartments. Our software helps their team respond to inquiries."
+      },
+      "expected_identity": "needs_confirmation"
+    },
+    {
+      "id": "I27",
+      "category": "incidental_mention",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Cedar Communities",
+        "website": "cedarcommunities.com"
+      },
+      "source": {
+        "url": "https://cedarcommunities.com/clients",
+        "title": "Our clients",
+        "text": "Our software is used by Cedar Communities and many other property businesses."
+      },
+      "expected_identity": "needs_confirmation"
+    },
+    {
+      "id": "I28",
+      "category": "different_company",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Cedar Communities",
+        "website": "cedarcommunities.com"
+      },
+      "source": {
+        "url": "https://cedarcommunities.com/about",
+        "title": "Other Operator",
+        "text": "Other Operator owns and manages 500 residential apartment homes and leasing inquiries."
+      },
+      "expected_identity": "needs_confirmation"
+    },
+    {
+      "id": "I29",
+      "category": "unrelated_domain",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Cedar Communities",
+        "website": "cedarcommunities.com"
+      },
+      "source": {
+        "url": "https://unrelated-operator.com/about",
+        "title": "Cedar Communities",
+        "text": "Cedar Communities owns and manages 500 residential apartments and leasing inquiries."
+      },
+      "expected_identity": "unresolved"
+    },
+    {
+      "id": "I30",
+      "category": "missing_website",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Cedar Communities",
+        "website": ""
+      },
+      "source": {
+        "url": "",
+        "title": "",
+        "text": ""
+      },
+      "expected_identity": "unresolved"
+    },
+    {
+      "id": "I31",
+      "category": "official_overview",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Sierra Living",
+        "website": "sierraliving.com"
+      },
+      "source": {
+        "url": "https://sierraliving.com/about",
+        "title": "Sierra Living | About us",
+        "text": "Sierra Living manages residential apartments and leasing inquiries. We own 500 apartment homes."
+      },
+      "expected_identity": "confirmed"
+    },
+    {
+      "id": "I32",
+      "category": "legal_suffix",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Sierra Living",
+        "website": "sierraliving.com"
+      },
+      "source": {
+        "url": "https://sierraliving.com/about",
+        "title": "Sierra Living LLC",
+        "text": "Sierra Living LLC manages residential communities and leasing inquiries. We own 200 apartment homes."
+      },
+      "expected_identity": "confirmed"
+    },
+    {
+      "id": "I33",
+      "category": "self_description",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Sierra Living",
+        "website": "sierraliving.com"
+      },
+      "source": {
+        "url": "https://sierraliving.com/company",
+        "title": "Corporate overview",
+        "text": "Sierra Living currently owns and manages residential apartments and leasing inquiries."
+      },
+      "expected_identity": "confirmed"
+    },
+    {
+      "id": "I34",
+      "category": "thin_contact",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Sierra Living",
+        "website": "sierraliving.com"
+      },
+      "source": {
+        "url": "https://sierraliving.com/contact",
+        "title": "Sierra Living | Contact",
+        "text": "Contact Sierra Living for information about our team and services."
+      },
+      "expected_identity": "confirmed"
+    },
+    {
+      "id": "I35",
+      "category": "scattered_words",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Sierra Living",
+        "website": "sierraliving.com"
+      },
+      "source": {
+        "url": "https://sierraliving.com/about",
+        "title": "Business services",
+        "text": "Sierra works with enterprises. Our living services support other businesses across the country."
+      },
+      "expected_identity": "needs_confirmation"
+    },
+    {
+      "id": "I36",
+      "category": "customer_story",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Sierra Living",
+        "website": "sierraliving.com"
+      },
+      "source": {
+        "url": "https://sierraliving.com/case-studies/customer",
+        "title": "Sierra Living customer story",
+        "text": "Sierra Living manages residential apartments. Our software helps their team respond to inquiries."
+      },
+      "expected_identity": "needs_confirmation"
+    },
+    {
+      "id": "I37",
+      "category": "incidental_mention",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Sierra Living",
+        "website": "sierraliving.com"
+      },
+      "source": {
+        "url": "https://sierraliving.com/clients",
+        "title": "Our clients",
+        "text": "Our software is used by Sierra Living and many other property businesses."
+      },
+      "expected_identity": "needs_confirmation"
+    },
+    {
+      "id": "I38",
+      "category": "different_company",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Sierra Living",
+        "website": "sierraliving.com"
+      },
+      "source": {
+        "url": "https://sierraliving.com/about",
+        "title": "Other Operator",
+        "text": "Other Operator owns and manages 500 residential apartment homes and leasing inquiries."
+      },
+      "expected_identity": "needs_confirmation"
+    },
+    {
+      "id": "I39",
+      "category": "unrelated_domain",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Sierra Living",
+        "website": "sierraliving.com"
+      },
+      "source": {
+        "url": "https://unrelated-operator.com/about",
+        "title": "Sierra Living",
+        "text": "Sierra Living owns and manages 500 residential apartments and leasing inquiries."
+      },
+      "expected_identity": "unresolved"
+    },
+    {
+      "id": "I40",
+      "category": "missing_website",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Sierra Living",
+        "website": ""
+      },
+      "source": {
+        "url": "",
+        "title": "",
+        "text": ""
+      },
+      "expected_identity": "unresolved"
+    },
+    {
+      "id": "I41",
+      "category": "official_overview",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Willow Properties",
+        "website": "willowproperties.com"
+      },
+      "source": {
+        "url": "https://willowproperties.com/about",
+        "title": "Willow Properties | About us",
+        "text": "Willow Properties manages residential apartments and leasing inquiries. We own 500 apartment homes."
+      },
+      "expected_identity": "confirmed"
+    },
+    {
+      "id": "I42",
+      "category": "legal_suffix",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Willow Properties",
+        "website": "willowproperties.com"
+      },
+      "source": {
+        "url": "https://willowproperties.com/about",
+        "title": "Willow Properties LLC",
+        "text": "Willow Properties LLC manages residential communities and leasing inquiries. We own 200 apartment homes."
+      },
+      "expected_identity": "confirmed"
+    },
+    {
+      "id": "I43",
+      "category": "self_description",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Willow Properties",
+        "website": "willowproperties.com"
+      },
+      "source": {
+        "url": "https://willowproperties.com/company",
+        "title": "Corporate overview",
+        "text": "Willow Properties currently owns and manages residential apartments and leasing inquiries."
+      },
+      "expected_identity": "confirmed"
+    },
+    {
+      "id": "I44",
+      "category": "thin_contact",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Willow Properties",
+        "website": "willowproperties.com"
+      },
+      "source": {
+        "url": "https://willowproperties.com/contact",
+        "title": "Willow Properties | Contact",
+        "text": "Contact Willow Properties for information about our team and services."
+      },
+      "expected_identity": "confirmed"
+    },
+    {
+      "id": "I45",
+      "category": "scattered_words",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Willow Properties",
+        "website": "willowproperties.com"
+      },
+      "source": {
+        "url": "https://willowproperties.com/about",
+        "title": "Business services",
+        "text": "Willow works with enterprises. Our properties services support other businesses across the country."
+      },
+      "expected_identity": "needs_confirmation"
+    },
+    {
+      "id": "I46",
+      "category": "customer_story",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Willow Properties",
+        "website": "willowproperties.com"
+      },
+      "source": {
+        "url": "https://willowproperties.com/case-studies/customer",
+        "title": "Willow Properties customer story",
+        "text": "Willow Properties manages residential apartments. Our software helps their team respond to inquiries."
+      },
+      "expected_identity": "needs_confirmation"
+    },
+    {
+      "id": "I47",
+      "category": "incidental_mention",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Willow Properties",
+        "website": "willowproperties.com"
+      },
+      "source": {
+        "url": "https://willowproperties.com/clients",
+        "title": "Our clients",
+        "text": "Our software is used by Willow Properties and many other property businesses."
+      },
+      "expected_identity": "needs_confirmation"
+    },
+    {
+      "id": "I48",
+      "category": "different_company",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Willow Properties",
+        "website": "willowproperties.com"
+      },
+      "source": {
+        "url": "https://willowproperties.com/about",
+        "title": "Other Operator",
+        "text": "Other Operator owns and manages 500 residential apartment homes and leasing inquiries."
+      },
+      "expected_identity": "needs_confirmation"
+    },
+    {
+      "id": "I49",
+      "category": "unrelated_domain",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Willow Properties",
+        "website": "willowproperties.com"
+      },
+      "source": {
+        "url": "https://unrelated-operator.com/about",
+        "title": "Willow Properties",
+        "text": "Willow Properties owns and manages 500 residential apartments and leasing inquiries."
+      },
+      "expected_identity": "unresolved"
+    },
+    {
+      "id": "I50",
+      "category": "missing_website",
+      "provenance": "synthetic controlled fixture; not live company evidence",
+      "lead": {
+        "name": "TEST Contact",
+        "email": "test@example.invalid",
+        "company": "Willow Properties",
+        "website": ""
+      },
+      "source": {
+        "url": "",
+        "title": "",
+        "text": ""
+      },
+      "expected_identity": "unresolved"
+    }
+  ]
+}

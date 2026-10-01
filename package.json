@@ -1,0 +1,27 @@
+{
+  "name": "inbound-desk-assessment",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/evaluate-golden.mjs && vite build",
+    "test": "node --test tests/*.test.mjs",
+    "db:generate": "drizzle-kit generate",
+    "preview": "node scripts/preview.mjs",
+    "evaluate": "node --test tests/evaluation.test.mjs",
+    "package:submission": "python3 scripts/package-submission.py",
+    "benchmark:identity": "node scripts/benchmark-identity.mjs",
+    "benchmark:professionals": "node scripts/benchmark-professionals.mjs",
+    "eval:golden": "node scripts/evaluate-golden.mjs",
+    "eval:approve": "node scripts/evaluate-golden.mjs --approve",
+    "gepa": ".venv-gepa/bin/python scripts/gepa/run.py",
+    "gepa:test": ".venv-gepa/bin/python -m unittest discover -s scripts/gepa -p test_*.py"
+  },
+  "devDependencies": {
+    "@openai/sites-vite-plugin": "^0.2.0",
+    "drizzle-kit": "^0.31.11",
+    "drizzle-orm": "^0.45.3",
+    "miniflare": "4.20260730.0",
+    "papaparse": "^5.7.0",
+    "vite": "^8.3.1"
+  }
+}

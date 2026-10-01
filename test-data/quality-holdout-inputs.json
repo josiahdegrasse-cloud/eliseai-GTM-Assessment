@@ -1,0 +1,362 @@
+{
+  "method": "New to this evaluation suite. Selected convenience sample, not random or representative. Labels checked from official pages before execution; no tuning to results. Four real public contacts, two wrong-employer controls; all emails/inquiries synthetic. Only Q05 contains an officially listed property address. No known company-contact-property relationship asserted.",
+  "cases": [
+    {
+      "id": "Q01",
+      "input": {
+        "name": "Cindy Clare",
+        "email": "quality.1@example.invalid",
+        "company": "Bell Partners",
+        "website": "bellpartnersinc.com",
+        "country": "US",
+        "inquiry": "Please send information about leasing inquiry follow-up."
+      },
+      "expected": {
+        "sector": "housing_operator",
+        "role_contains": "chief operating officer",
+        "role_source": "https://bellpartnersinc.com/senior-leadership/",
+        "source": "https://bellpartnersinc.com/overview/"
+      },
+      "notes": "Synthetic email and inquiry; public person when named, otherwise TEST contact intentionally skips individual research."
+    },
+    {
+      "id": "Q02",
+      "input": {
+        "name": "David Schwartz",
+        "email": "quality.2@example.invalid",
+        "company": "Waterton",
+        "website": "waterton.com",
+        "country": "US",
+        "inquiry": "Please send information about leasing inquiry follow-up."
+      },
+      "expected": {
+        "sector": "housing_operator",
+        "role_contains": "ceo",
+        "role_source": "https://www.waterton.com/managementteam",
+        "source": "https://www.waterton.com/managementteam"
+      },
+      "notes": "Synthetic email and inquiry; public person when named, otherwise TEST contact intentionally skips individual research."
+    },
+    {
+      "id": "Q03",
+      "input": {
+        "name": "Mark Fogelman",
+        "email": "quality.3@example.invalid",
+        "company": "Fogelman",
+        "website": "fogelman.com",
+        "country": "US",
+        "inquiry": "Please send information about leasing inquiry follow-up."
+      },
+      "expected": {
+        "sector": "housing_operator",
+        "role_contains": "co-ceo",
+        "role_source": "https://www.fogelman.com/who-we-are/leadership/mark-fogelman/",
+        "source": "https://www.fogelman.com/who-we-are/"
+      },
+      "notes": "Synthetic email and inquiry; public person when named, otherwise TEST contact intentionally skips individual research."
+    },
+    {
+      "id": "Q04",
+      "input": {
+        "name": "Wendy Drucker",
+        "email": "quality.4@example.invalid",
+        "company": "Drucker + Falk",
+        "website": "druckerandfalk.com",
+        "country": "US",
+        "inquiry": "Please send information about leasing inquiry follow-up."
+      },
+      "expected": {
+        "sector": "housing_operator",
+        "role_contains": "managing director",
+        "role_source": "https://www.druckerandfalk.com/leadership",
+        "source": "https://www.druckerandfalk.com/about-us"
+      },
+      "notes": "Synthetic email and inquiry; public person when named, otherwise TEST contact intentionally skips individual research."
+    },
+    {
+      "id": "Q05",
+      "input": {
+        "name": "TEST Reviewer 5",
+        "email": "quality.5@example.invalid",
+        "company": "ZRS Management",
+        "website": "zrsmanagement.com",
+        "country": "US",
+        "inquiry": "Please send information about leasing inquiry follow-up.",
+        "property_address": "101 East Camino Real",
+        "city": "Boca Raton",
+        "state": "FL"
+      },
+      "expected": {
+        "sector": "housing_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://www.zrsmanagement.com/"
+      },
+      "notes": "Synthetic email and inquiry; public person when named, otherwise TEST contact intentionally skips individual research."
+    },
+    {
+      "id": "Q06",
+      "input": {
+        "name": "TEST Reviewer 6",
+        "email": "quality.6@example.invalid",
+        "company": "Pegasus Residential",
+        "website": "pegasusresidential.com",
+        "country": "US",
+        "inquiry": "Please send information about leasing inquiry follow-up."
+      },
+      "expected": {
+        "sector": "housing_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://www.pegasusresidential.com/"
+      },
+      "notes": "Synthetic email and inquiry; public person when named, otherwise TEST contact intentionally skips individual research."
+    },
+    {
+      "id": "Q07",
+      "input": {
+        "name": "TEST Reviewer 7",
+        "email": "quality.7@example.invalid",
+        "company": "RangeWater Residential",
+        "website": "liverangewater.com",
+        "country": "US",
+        "inquiry": "Please send information about leasing inquiry follow-up."
+      },
+      "expected": {
+        "sector": "housing_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://liverangewater.com/our-story"
+      },
+      "notes": "Synthetic email and inquiry; public person when named, otherwise TEST contact intentionally skips individual research."
+    },
+    {
+      "id": "Q08",
+      "input": {
+        "name": "TEST Reviewer 8",
+        "email": "quality.8@example.invalid",
+        "company": "Village Green",
+        "website": "villagegreen.com",
+        "country": "US",
+        "inquiry": "Please send information about leasing inquiry follow-up."
+      },
+      "expected": {
+        "sector": "housing_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://villagegreen.com/city/dallas/"
+      },
+      "notes": "Synthetic email and inquiry; public person when named, otherwise TEST contact intentionally skips individual research."
+    },
+    {
+      "id": "Q09",
+      "input": {
+        "name": "TEST Reviewer 9",
+        "email": "quality.9@example.invalid",
+        "company": "WinnCompanies",
+        "website": "winncompanies.com",
+        "country": "US",
+        "inquiry": "Please send information about leasing inquiry follow-up."
+      },
+      "expected": {
+        "sector": "housing_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://www.winncompanies.com/about"
+      },
+      "notes": "Synthetic email and inquiry; public person when named, otherwise TEST contact intentionally skips individual research."
+    },
+    {
+      "id": "Q10",
+      "input": {
+        "name": "TEST Reviewer 10",
+        "email": "quality.10@example.invalid",
+        "company": "Laramar",
+        "website": "laramar.com",
+        "country": "US",
+        "inquiry": "Please send information about leasing inquiry follow-up."
+      },
+      "expected": {
+        "sector": "housing_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://laramar.com/management/"
+      },
+      "notes": "Synthetic email and inquiry; public person when named, otherwise TEST contact intentionally skips individual research."
+    },
+    {
+      "id": "Q11",
+      "input": {
+        "name": "TEST Reviewer 11",
+        "email": "quality.11@example.invalid",
+        "company": "Flaherty & Collins Properties",
+        "website": "flco.com",
+        "country": "US",
+        "inquiry": "Please send information about leasing inquiry follow-up."
+      },
+      "expected": {
+        "sector": "housing_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://flco.com/"
+      },
+      "notes": "Synthetic email and inquiry; public person when named, otherwise TEST contact intentionally skips individual research."
+    },
+    {
+      "id": "Q12",
+      "input": {
+        "name": "TEST Reviewer 12",
+        "email": "quality.12@example.invalid",
+        "company": "AppFolio",
+        "website": "appfolio.com",
+        "country": "US",
+        "inquiry": "Please send information about leasing inquiry follow-up."
+      },
+      "expected": {
+        "sector": "non_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://www.appfolio.com/"
+      },
+      "notes": "Synthetic email and inquiry; public person when named, otherwise TEST contact intentionally skips individual research."
+    },
+    {
+      "id": "Q13",
+      "input": {
+        "name": "TEST Reviewer 13",
+        "email": "quality.13@example.invalid",
+        "company": "Entrata",
+        "website": "entrata.com",
+        "country": "US",
+        "inquiry": "Please send information about leasing inquiry follow-up."
+      },
+      "expected": {
+        "sector": "non_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://www.entrata.com/"
+      },
+      "notes": "Synthetic email and inquiry; public person when named, otherwise TEST contact intentionally skips individual research."
+    },
+    {
+      "id": "Q14",
+      "input": {
+        "name": "TEST Reviewer 14",
+        "email": "quality.14@example.invalid",
+        "company": "Yardi",
+        "website": "yardi.com",
+        "country": "US",
+        "inquiry": "Please send information about leasing inquiry follow-up."
+      },
+      "expected": {
+        "sector": "non_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://www.yardi.com/company/about-us/"
+      },
+      "notes": "Synthetic email and inquiry; public person when named, otherwise TEST contact intentionally skips individual research."
+    },
+    {
+      "id": "Q15",
+      "input": {
+        "name": "TEST Reviewer 15",
+        "email": "quality.15@example.invalid",
+        "company": "Buildium",
+        "website": "buildium.com",
+        "country": "US",
+        "inquiry": "Please send information about leasing inquiry follow-up."
+      },
+      "expected": {
+        "sector": "non_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://www.buildium.com/"
+      },
+      "notes": "Synthetic email and inquiry; public person when named, otherwise TEST contact intentionally skips individual research."
+    },
+    {
+      "id": "Q16",
+      "input": {
+        "name": "TEST Reviewer 16",
+        "email": "quality.16@example.invalid",
+        "company": "Bell Partners",
+        "website": "bellpartners.com",
+        "country": "US",
+        "inquiry": "Please send information about leasing inquiry follow-up."
+      },
+      "expected": {
+        "sector": "non_operator",
+        "role_contains": null,
+        "role_source": null,
+        "source": "https://www.bellpartners.com/who-we-are/"
+      },
+      "notes": "Synthetic email and inquiry; public person when named, otherwise TEST contact intentionally skips individual research."
+    },
+    {
+      "id": "Q17",
+      "input": {
+        "name": "TEST Mismatch 17",
+        "email": "quality.17@example.invalid",
+        "company": "Fogelman",
+        "website": "appfolio.com",
+        "country": "US",
+        "inquiry": "Please send information."
+      },
+      "expected": {
+        "sector": "unresolved",
+        "source": "Deliberately mismatched company/domain"
+      },
+      "notes": "Wrong-domain negative control."
+    },
+    {
+      "id": "Q18",
+      "input": {
+        "name": "TEST Mismatch 18",
+        "email": "quality.18@example.invalid",
+        "company": "Waterton",
+        "website": "buildium.com",
+        "country": "US",
+        "inquiry": "Please send information."
+      },
+      "expected": {
+        "sector": "unresolved",
+        "source": "Deliberately mismatched company/domain"
+      },
+      "notes": "Wrong-domain negative control."
+    },
+    {
+      "id": "Q19",
+      "input": {
+        "name": "Cindy Clare",
+        "email": "quality.19@example.invalid",
+        "company": "Fogelman",
+        "website": "fogelman.com",
+        "country": "US",
+        "inquiry": "Please send information."
+      },
+      "expected": {
+        "sector": "housing_operator",
+        "role_absent": true,
+        "source": "Contact belongs to another company according to Q01/Q02 official leadership references"
+      },
+      "notes": "Wrong-employer negative control."
+    },
+    {
+      "id": "Q20",
+      "input": {
+        "name": "David Schwartz",
+        "email": "quality.20@example.invalid",
+        "company": "Drucker + Falk",
+        "website": "druckerandfalk.com",
+        "country": "US",
+        "inquiry": "Please send information."
+      },
+      "expected": {
+        "sector": "housing_operator",
+        "role_absent": true,
+        "source": "Contact belongs to another company according to Q01/Q02 official leadership references"
+      },
+      "notes": "Wrong-employer negative control."
+    }
+  ]
+}

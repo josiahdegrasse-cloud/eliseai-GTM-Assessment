@@ -1,0 +1,19 @@
+{
+  "rules_sha256": "5442c15690461c02070b14e377821cbbfd07d199d027904bbe1f84c27fff92e0",
+  "files": [
+    "static/company-fit.js",
+    "website/company-classification.mjs",
+    "website/company-identity.mjs",
+    "website/brief.mjs",
+    "website/portfolio-statements.mjs",
+    "website/outreach.mjs",
+    "website/email-policy.mjs",
+    "website/domain.mjs",
+    "website/draft-grounding.mjs",
+    "website/sales-insights.mjs",
+    "website/professional-personalization.mjs",
+    "website/qualification-evidence.mjs",
+    "website/scoring.mjs",
+    "website/decision.mjs"
+  ]
+}

@@ -1,0 +1,523 @@
+{
+  "started_at": "2026-09-30T23:57:49.561Z",
+  "origin": "https://inbound-desk-assessment.henrydegrasse.chatgpt.site",
+  "mode": "Configured production path, isolated visitor; one attempt per case; no manual rescue, quota resets or provider configuration changes.",
+  "cleanup": "Isolated visitor deleted.",
+  "results": [
+    {
+      "id": "F01",
+      "company": "Towne Properties",
+      "expected": "housing_operator",
+      "actual": "unresolved",
+      "correct": false,
+      "elapsed_ms": 21056,
+      "score": null,
+      "progress": {
+        "kind": "interrupted",
+        "label": "Research interrupted",
+        "detail": "The company page could not be read.",
+        "action": "Try another official page"
+      },
+      "retry_code": "source_unavailable",
+      "company_stale": true,
+      "classification": {
+        "kind": "unclassified",
+        "label": "Operating model unconfirmed",
+        "conflict": false,
+        "mixed_business": false,
+        "evidence": [],
+        "reason": "No explicit residential operating claim was found."
+      },
+      "sources": []
+    },
+    {
+      "id": "F02",
+      "company": "Morgan Properties",
+      "expected": "housing_operator",
+      "actual": "unresolved",
+      "correct": false,
+      "elapsed_ms": 46236,
+      "score": null,
+      "progress": {
+        "kind": "interrupted",
+        "label": "Research interrupted",
+        "detail": "A company lookup did not finish.",
+        "action": "View research status"
+      },
+      "retry_code": "unavailable",
+      "company_stale": true,
+      "classification": {
+        "kind": "unclassified",
+        "label": "Operating model unconfirmed",
+        "conflict": false,
+        "mixed_business": false,
+        "evidence": [],
+        "reason": "No explicit residential operating claim was found."
+      },
+      "sources": []
+    },
+    {
+      "id": "F03",
+      "company": "Venterra",
+      "expected": "housing_operator",
+      "actual": "housing_operator",
+      "correct": true,
+      "elapsed_ms": 12067,
+      "score": 60,
+      "progress": {
+        "kind": "limited",
+        "label": "Research finished · limited evidence",
+        "detail": "Available facts are shown. Still unverified: contact role.",
+        "action": "View research details"
+      },
+      "retry_code": null,
+      "company_stale": false,
+      "classification": {
+        "kind": "housing_operator",
+        "label": "Housing operator",
+        "conflict": false,
+        "mixed_business": false,
+        "evidence": [
+          {
+            "kind": "housing_operator",
+            "quote": "In 2001, Venterra managed four communities (about 800 apartment homes) in Austin, and Houston, Texas and had a total of 35 employees.",
+            "source_id": "S1"
+          },
+          {
+            "kind": "housing_operator",
+            "quote": "Today, Venterra develops, owns, and manages apartment communities in 24 major cities across the United States, that provide housing to over 50,000 people and 16,000 pets.",
+            "source_id": "S1"
+          },
+          {
+            "kind": "housing_operator",
+            "quote": "In 2001, Venterra managed four communities (about 800 apartment homes) in Austin, and Houston, Texas and had a total of 35 employees. Today, Venterra develops, owns, and manages apartment communities in 24 major cities across the United States, that provide housing to over 50,000 people and 16,000 pets. We currently manage a portfolio valued at approximately $5.5 billion with a total revenue of approximately $375 million. We haven’t just expanded our size; we’ve grown into a company that is paving a new way in the industry, where our employees can really make a difference, career growth is available and where our residents are provided an amazing living experience!",
+            "source_id": "S1"
+          }
+        ],
+        "reason": "The company explicitly describes residential ownership, management or operations."
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://venterra.com/",
+          "host": "venterra.com",
+          "title": "Home - Venterra.com I Highly Rated Real Estate Company",
+          "provider": "Direct company website",
+          "excerpt": "In 2001, Venterra managed four communities (about 800 apartment homes) in Austin, and Houston, Texas and had a total of 35 employees. Today, Venterra develops, owns, and manages apartment communities in 24 major cities across the United States, that provide housing to over 50,000 people and 16,000 pets. We currently manage a portfolio valued at approximately $5.5 billion with a total revenue of approximately $375 million. We haven’t just expanded our size; we’ve grown into a company that is paving a new way in the industry, where our employees can really make a difference, career growth is available and where our residents are provided an amazing living experience!\n\nOur culture is created and inspired by our employees. As a result we are nationally recognized as a Best Place to Work ®\n\nWho says work can’t be fun!? Venterra offers a truly unique culture that not only motivates employees professionally and personally, but encourages fun.",
+          "retrieved_at": "2026-09-30T23:59:09.881Z",
+          "published_at": "2021-05-26T09:59:47-05:00",
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 2,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text",
+              "company_self_description"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "F04",
+      "company": "Rent Manager",
+      "expected": "non_operator",
+      "actual": "non_operator",
+      "correct": true,
+      "elapsed_ms": 36994,
+      "score": 0,
+      "progress": {
+        "kind": "limited",
+        "label": "Research finished · limited evidence",
+        "detail": "Available facts are shown. Still unverified: company detail, contact role.",
+        "action": "View research details"
+      },
+      "retry_code": null,
+      "company_stale": false,
+      "classification": {
+        "kind": "software_vendor",
+        "label": "Software provider",
+        "conflict": false,
+        "mixed_business": false,
+        "evidence": [
+          {
+            "kind": "software_vendor",
+            "quote": "Rent Manager Property Management Software",
+            "source_id": "S1"
+          },
+          {
+            "kind": "software_vendor",
+            "quote": "Rent Manager is powerful, customizable property management software built to scale with your portfolio.",
+            "source_id": "S1"
+          },
+          {
+            "kind": "software_vendor",
+            "quote": "Property Management Software for Every Portfolio",
+            "source_id": "S1"
+          },
+          {
+            "kind": "software_vendor",
+            "quote": "Rent Manager is proven property management software for companies that handle real estate portfolios of every type and size.",
+            "source_id": "S1"
+          },
+          {
+            "kind": "software_vendor",
+            "quote": "With complete accounting and reporting resources, intuitive marketing and mobile tools, comprehensive work order and management capabilities, and an ever-growing network of integrated technology providers, Rent Manager is the one software you need to continue building your exceptional business.",
+            "source_id": "S1"
+          },
+          {
+            "kind": "software_vendor",
+            "quote": "Rent Manager is powerful, customizable property management software built to scale with your portfolio. From accounting and operations to leasing and maintenance, it unifies every aspect of your business in one fully integrated platform—now enhanced by Orion AI, an evolving technology that introduces smarter automation, deeper insights, and greater efficiency across your organization.",
+            "source_id": "S1"
+          },
+          {
+            "kind": "software_vendor",
+            "quote": "Rent Manager is proven property management software for companies that handle real estate portfolios of every type and size. With complete accounting and reporting resources, intuitive marketing and mobile tools, comprehensive work order and management capabilities, and an ever-growing network of integrated technology providers, Rent Manager is the one software you need to continue building your exceptional business.",
+            "source_id": "S1"
+          }
+        ],
+        "reason": "Sources describe services supplied to property companies; this does not establish property operations."
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.rentmanager.com/",
+          "host": "rentmanager.com",
+          "title": "Rent Manager Property Management Software",
+          "provider": "Direct company website",
+          "excerpt": "Rent Manager is powerful, customizable property management software built to scale with your portfolio. From accounting and operations to leasing and maintenance, it unifies every aspect of your business in one fully integrated platform—now enhanced by Orion AI, an evolving technology that introduces smarter automation, deeper insights, and greater efficiency across your organization.\n\nProperty Management Software for Every Portfolio\n\nAN ALL-IN-ONE SOLUTION FOR SIMPLER PROPERTY MANAGEMENT\n\nRent Manager is proven property management software for companies that handle real estate portfolios of every type and size. With complete accounting and reporting resources, intuitive marketing and mobile tools, comprehensive work order and management capabilities, and an ever-growing network of integrated technology providers, Rent Manager is the one software you need to continue building your exceptional business.\n\nRent Manager’s complete accounting system is equipped to handle every aspect of your finances. Whether you manage a single community or thousands of properties, our customizable system allows you to gain complete control over your accounting data with time-saving accounts payable and receivable processes.\n\nRent Manager functions in cash and accrual accounting simultaneously. Manage everything from one-time transactions to electronic bank reconciliations in a single user-friendly program.\n\nAccess and generate vital business and financial information in seconds with Rent Manager reports. Rent Manager has a robust library of more than 450 comprehensive reports that you can export, download, and email.\n\nFrom accounting staples like the Balance Sheet and Profit & Loss, to property management specifics like Rent Rolls and Vacancy Reports, Rent Manager reports deliver the data you need.",
+          "retrieved_at": "2026-09-30T23:59:46.860Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 2,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text",
+              "company_self_description"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "F05",
+      "company": "DoorLoop",
+      "expected": "non_operator",
+      "actual": "non_operator",
+      "correct": true,
+      "elapsed_ms": 38212,
+      "score": 0,
+      "progress": {
+        "kind": "limited",
+        "label": "Research finished · limited evidence",
+        "detail": "Available facts are shown. Still unverified: company detail, contact role.",
+        "action": "View research details"
+      },
+      "retry_code": null,
+      "company_stale": false,
+      "classification": {
+        "kind": "software_vendor",
+        "label": "Software provider",
+        "conflict": false,
+        "mixed_business": false,
+        "evidence": [
+          {
+            "kind": "software_vendor",
+            "quote": "Residential Property Management Software | DoorLoop",
+            "source_id": "S1"
+          },
+          {
+            "kind": "software_vendor",
+            "quote": "Multifamily Property Management Software | DoorLoop",
+            "source_id": "S2"
+          },
+          {
+            "kind": "software_vendor",
+            "quote": "Property Management Software | DoorLoop",
+            "source_id": "S3"
+          }
+        ],
+        "reason": "Sources describe services supplied to property companies; this does not establish property operations."
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.doorloop.com/portfolios/residential-property-management-software",
+          "host": "doorloop.com",
+          "title": "Residential Property Management Software | DoorLoop",
+          "provider": "Direct company website",
+          "excerpt": "Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page",
+          "retrieved_at": "2026-10-01T00:00:17.083Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 2,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company services",
+          "rank": 2
+        },
+        {
+          "id": "S2",
+          "url": "https://www.doorloop.com/portfolios/multifamily",
+          "host": "doorloop.com",
+          "title": "Multifamily Property Management Software | DoorLoop",
+          "provider": "Direct company website",
+          "excerpt": "Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page",
+          "retrieved_at": "2026-10-01T00:00:17.676Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 2,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company services",
+          "rank": 2
+        },
+        {
+          "id": "S3",
+          "url": "https://www.doorloop.com/",
+          "host": "doorloop.com",
+          "title": "Property Management Software | DoorLoop",
+          "provider": "Direct company website",
+          "excerpt": "Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page\n\nSomething went wrong while submitting the form.",
+          "retrieved_at": "2026-10-01T00:00:16.530Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 2,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "F06",
+      "company": "TenantCloud",
+      "expected": "non_operator",
+      "actual": "non_operator",
+      "correct": true,
+      "elapsed_ms": 9714,
+      "score": 0,
+      "progress": {
+        "kind": "limited",
+        "label": "Research finished · limited evidence",
+        "detail": "Available facts are shown. Still unverified: contact role.",
+        "action": "View research details"
+      },
+      "retry_code": null,
+      "company_stale": false,
+      "classification": {
+        "kind": "software_vendor",
+        "label": "Software provider",
+        "conflict": false,
+        "mixed_business": false,
+        "evidence": [
+          {
+            "kind": "software_vendor",
+            "quote": "TenantCloud: Property Management Software",
+            "source_id": "S1"
+          },
+          {
+            "kind": "software_vendor",
+            "quote": "Property management software is a digital platform that provides a centralized place for landlords and property managers to collect rent online, handle maintenance requests, track finances, create leases, and more.",
+            "source_id": "S1"
+          },
+          {
+            "kind": "software_vendor",
+            "quote": "For landlords and property managers seeking a better way to simplify their rental business, rental management software is an efficient and affordable solution.",
+            "source_id": "S1"
+          },
+          {
+            "kind": "software_vendor",
+            "quote": "If you want to eliminate manual workloads, software streamlines your everyday tasks, saving landlords and property managers both time and money.",
+            "source_id": "S1"
+          },
+          {
+            "kind": "software_vendor",
+            "quote": "Any landlord or property manager who wants to efficiently manage their rental properties and keep tabs on important tasks like accounting may benefit from property management software:",
+            "source_id": "S1"
+          },
+          {
+            "kind": "software_vendor",
+            "quote": "Landlords and Property managers: With rental management software, landlords and property managers can collect rent online, store important rental information, upload property photos, manage maintenance requests, use automatic accounting features, accept online rental applications, sign lease agreements with e-signatures, create financial reports, communicate with tenants and team members, advertise rental vacancies across multiple rental websites, and more.",
+            "source_id": "S1"
+          },
+          {
+            "kind": "software_vendor",
+            "quote": "Property management software is a digital platform that provides a centralized place for landlords and property managers to collect rent online, handle maintenance requests, track finances, create leases, and more. For landlords and property managers seeking a better way to simplify their rental business, rental management software is an efficient and affordable solution.",
+            "source_id": "S1"
+          },
+          {
+            "kind": "software_vendor",
+            "quote": "If you want to eliminate manual workloads, software streamlines your everyday tasks, saving landlords and property managers both time and money. Platforms like TenantCloud simplify administrative, marketing, and rental operations by centralizing tools all in one place. Features like property listings, digital leases, electronic signatures, online rent payments via credit card, debit card, or ACH, and maintenance requests help reduce time spent on manual tasks and boost profitability.",
+            "source_id": "S1"
+          }
+        ],
+        "reason": "Sources describe services supplied to property companies; this does not establish property operations."
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.tenantcloud.com/",
+          "host": "tenantcloud.com",
+          "title": "TenantCloud: Property Management Software",
+          "provider": "Direct company website",
+          "excerpt": "Property management software is a digital platform that provides a centralized place for landlords and property managers to collect rent online, handle maintenance requests, track finances, create leases, and more. For landlords and property managers seeking a better way to simplify their rental business, rental management software is an efficient and affordable solution.\n\nIf you want to eliminate manual workloads, software streamlines your everyday tasks, saving landlords and property managers both time and money. Platforms like TenantCloud simplify administrative, marketing, and rental operations by centralizing tools all in one place. Features like property listings, digital leases, electronic signatures, online rent payments via credit card, debit card, or ACH, and maintenance requests help reduce time spent on manual tasks and boost profitability.\n\nI love that TenantCloud has everything that I need for our small business. For example, I can do tenant screening, list my vacancies on multiple rental websites, collect rent payments, manage maintenance requests, and do reports.\n\nGame changer for managing my rental properties\n\nTake control of your rental management business.\n\nWho can use rental property management software?\n\nAny landlord or property manager who wants to efficiently manage their rental properties and keep tabs on important tasks like accounting may benefit from property management software:\n\nLandlords and Property managers: With rental management software, landlords and property managers can collect rent online, store important rental information, upload property photos, manage maintenance requests, use automatic accounting features, accept online rental applications, sign lease agreements with e-signatures, create financial reports, communicate with tenants and team members, advertise rental vacancies across multiple rental websites, and more. Having the right tools can improve efficiency, whether you manage apartments, single-family houses, or multi-family rentals.",
+          "retrieved_at": "2026-10-01T00:00:34.752Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": true,
+          "identity": {
+            "version": 2,
+            "status": "confirmed",
+            "reason": "Company name is corroborated on the supplied domain.",
+            "signals": [
+              "supplied_domain",
+              "name_in_page_title",
+              "name_in_source_text"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "F07",
+      "company": "Morgan Properties",
+      "expected": "unresolved",
+      "actual": "unresolved",
+      "correct": true,
+      "elapsed_ms": 17086,
+      "score": null,
+      "progress": {
+        "kind": "interrupted",
+        "label": "Refresh interrupted · saved research available",
+        "detail": "The company page could not be read.",
+        "action": "Try another official page"
+      },
+      "retry_code": "source_unavailable",
+      "company_stale": true,
+      "classification": {
+        "kind": "unclassified",
+        "label": "Operating model unconfirmed",
+        "conflict": false,
+        "mixed_business": false,
+        "evidence": [],
+        "reason": "No explicit residential operating claim was found."
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "url": "https://www.doorloop.com/portfolios/residential-property-management-software",
+          "host": "doorloop.com",
+          "title": "Residential Property Management Software | DoorLoop",
+          "provider": "Direct company website",
+          "excerpt": "Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page",
+          "retrieved_at": "2026-10-01T00:00:50.197Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": false,
+          "identity": {
+            "version": 2,
+            "status": "needs_confirmation",
+            "reason": "The page does not corroborate the complete company name.",
+            "signals": [
+              "supplied_domain"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company services",
+          "rank": 2
+        },
+        {
+          "id": "S2",
+          "url": "https://www.doorloop.com/portfolios/multifamily",
+          "host": "doorloop.com",
+          "title": "Multifamily Property Management Software | DoorLoop",
+          "provider": "Direct company website",
+          "excerpt": "Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page",
+          "retrieved_at": "2026-10-01T00:00:50.780Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": false,
+          "identity": {
+            "version": 2,
+            "status": "needs_confirmation",
+            "reason": "The page does not corroborate the complete company name.",
+            "signals": [
+              "supplied_domain"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company services",
+          "rank": 2
+        },
+        {
+          "id": "S3",
+          "url": "https://www.doorloop.com/",
+          "host": "doorloop.com",
+          "title": "Property Management Software | DoorLoop",
+          "provider": "Direct company website",
+          "excerpt": "Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page Company page\n\nSomething went wrong while submitting the form.",
+          "retrieved_at": "2026-10-01T00:00:49.629Z",
+          "published_at": null,
+          "cached": false,
+          "name_matched": false,
+          "identity": {
+            "version": 2,
+            "status": "needs_confirmation",
+            "reason": "The page does not corroborate the complete company name.",
+            "signals": [
+              "supplied_domain"
+            ]
+          },
+          "focus_quotes": [],
+          "type": "Company website",
+          "rank": 3
+        }
+      ]
+    }
+  ],
+  "finished_at": "2026-10-01T00:00:55.212Z"
+}
