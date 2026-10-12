@@ -14,11 +14,23 @@ export function propertyAddress(lead){
  if(!String(lead.property_address||'').trim())return '';
  return [lead.property_address,lead.city,lead.state,lead.postal_code,lead.country].map(v=>String(v??'').trim()).filter(Boolean).join(', ');
 }
+function streetAddressCore(value){
+ // Compare the street itself, not just the house number. Census can normalize
+ // suffixes and append locality fields, so compare the first address segment.
+ return String(value||'').trim().split(',')[0]
+  .replace(/\b(?:apartment|apt|suite|ste|unit)\s*[#-]?\s*[^,]+$/i,'')
+  .replace(/#\s*[A-Za-z0-9-]+$/,'')
+  .toLowerCase().replace(/[.,]/g,' ').replace(/\s+/g,' ').trim()
+  .replace(/\b(street|st)\b/g,'st').replace(/\b(avenue|ave)\b/g,'ave')
+  .replace(/\b(road|rd)\b/g,'rd').replace(/\b(boulevard|blvd)\b/g,'blvd')
+  .replace(/\b(drive|dr)\b/g,'dr').replace(/\b(lane|ln)\b/g,'ln')
+  .replace(/\b(court|ct)\b/g,'ct').replace(/\b(highway|hwy)\b/g,'hwy');
+}
 export function propertyViewLinks(lead){
  const address=propertyAddress(lead);if(!address)return {};
  const p=lead.property_context||{},point=locationPoint(p);
- const streetNumber=value=>String(value||'').trim().match(/^\d+[A-Za-z]?(?:-\d+)?/)?.[0];
- const consistent=!p.address||streetNumber(lead.property_address)===streetNumber(p.address);
+ const submittedStreet=streetAddressCore(lead.property_address),matchedStreet=streetAddressCore(p.address);
+ const consistent=!p.address||(!!submittedStreet&&!!matchedStreet&&submittedStreet===matchedStreet);
  return {...(point&&!p.stale&&consistent?{street:'https://www.google.com/maps/@?'+new URLSearchParams({api:'1',map_action:'pano',viewpoint:point.y+','+point.x})}:{}),search:'https://www.google.com/maps/search/?'+new URLSearchParams({api:'1',query:address})};
 }
 export function streetViewMarkup(lead,{esc}){
