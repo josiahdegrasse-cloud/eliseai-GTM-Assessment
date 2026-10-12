@@ -39,7 +39,7 @@ export function streetViewMarkup(lead,{esc}){
  // Keep Google's hosted, keyless panorama inside its iframe. A fresh Census
  // match locates the street, not proof of the building or ownership.
  const point=links.street?locationPoint(lead.property_context):null;
- const url=saved||(point?'https://www.google.com/maps?'+new URLSearchParams({layer:'c',cbll:point.y+','+point.x,cbp:'12,0,,0,0',source:'embed',output:'svembed'}):'');
+ const url=(links.street&&saved)||(point&&links.street?'https://www.google.com/maps?'+new URLSearchParams({layer:'c',cbll:point.y+','+point.x,cbp:'12,0,,0,0',source:'embed',output:'svembed'}):'');
  if(!url)return `<p class="claim-caption">Street View is not available yet for this address.</p>`;
  return `<figure class="street-view street-view-preview"><iframe src="${esc(url)}" title="${esc('Google Street View near '+address)}" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="fullscreen" allowfullscreen></iframe></figure>`;
 }
