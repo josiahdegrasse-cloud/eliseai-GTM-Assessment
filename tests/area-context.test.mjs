@@ -36,7 +36,10 @@ test('compact market metrics require fresh, matching tract evidence and never bo
  assert.match(render(property,valid),/market-metrics/);
  for(const [p,a] of [
   [property,{...valid,geoid:'14000US53033007302'}],
+  [property,{...valid,tract:'53033007302'}],
   [{...property,tract:'53033007302'},valid],
+  [{...property,sample_snapshot:true},valid],
+  [property,{...valid,sample_snapshot:true}],
   [{...property,stale:true},valid],
   [property,{...valid,stale:true}],
   [{...property,status:'ambiguous'},valid],
