@@ -26,7 +26,7 @@ test('fit explanation escapes source text and never resurrects legacy points',()
 test('compact property uses the pulled address and does not substitute a nearby panorama',()=>{
  const lead=make('Acme Housing manages residential apartment communities.',{property_address:'123 Main Street',city:'Raleigh',state:'NC',property_context:{status:'matched',coordinates:{x:-78.6382,y:35.7796}}});
  const ui={esc:String,icon:()=>'',date:String};
- const html=researchMarkup(lead,ui);assert.match(html,/Google Maps/);assert.match(html,/Confirm the building in Google Maps/);assert.match(html,/Explore Street View/);assert.doesNotMatch(html,/<iframe[^>]+map_action=pano|svembed/);assert.match(html,/<iframe/);assert.doesNotMatch(html,/property-aerial/);
+ const html=researchMarkup(lead,ui);assert.match(html,/Google Maps/);assert.match(html,/Confirm the building in Google Maps/);assert.match(html,/Explore Street View/);assert.doesNotMatch(html,/<iframe[^>]+map_action=pano|svembed/);assert.doesNotMatch(html,/<iframe/);assert.doesNotMatch(html,/property-aerial/);
  const noMatch=researchMarkup({...lead,property_context:{status:'unmatched'}},ui);assert.match(noMatch,/Google Maps/);assert.doesNotMatch(noMatch,/map_action=pano/);
 });
 
