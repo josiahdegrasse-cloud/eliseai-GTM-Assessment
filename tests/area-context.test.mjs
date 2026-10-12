@@ -30,6 +30,22 @@ test('market presentation labels area estimates, restrictions and sampling uncer
  assert.match(source,/90% margin of error/);assert.match(source,/not determined the number of restricted units/);assert.equal(areaMarkup({property_context:{status:'unmatched'}},ui),'');
  assert.doesNotMatch(html,/style=/);assert.match(html,/<svg[^>]+housing-mix-bar/);
 });
+test('compact market metrics require fresh, matching tract evidence and never borrow another tract',()=>{
+ const valid=areaEvidence(fixture,property),uiWithProperty={...ui,property:'<p>Submitted property</p>'};
+ const render=(p,a)=>marketContextMarkup({property_address:'123 Main St',property_context:p,area_context:a},uiWithProperty);
+ assert.match(render(property,valid),/market-metrics/);
+ for(const [p,a] of [
+  [property,{...valid,geoid:'14000US53033007302'}],
+  [{...property,tract:'53033007302'},valid],
+  [{...property,stale:true},valid],
+  [property,{...valid,stale:true}],
+  [{...property,status:'ambiguous'},valid],
+  [property,{...valid,status:'unavailable'}]
+ ]){
+  const html=render(p,a);assert.doesNotMatch(html,/market-metrics/);assert.match(html,/Submitted property/);
+ }
+});
+
 test('area data cannot add score points or rent claims to a generated email',()=>{
  const lead=intake({name:'Jordan',company:'Acme Housing',website:'acmehousing.com',email:'qa@example.invalid'}),company={evidence:[],matched:false,message:'Unknown'};
  const baseline=qualify(lead,company,property,[]),withArea=qualify({...lead,area_context:areaEvidence(fixture,property)},company,property,[]);
