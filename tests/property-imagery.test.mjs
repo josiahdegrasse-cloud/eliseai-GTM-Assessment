@@ -20,6 +20,14 @@ test('Google links retain address search and offer exploration only for current 
  assert.deepEqual(propertyViewLinks({}),{});
  assert.deepEqual(propertyViewLinks({property_context:context}),{});
 });
+test('panorama is suppressed when the matched address has a different street, even with the same house number',()=>{
+ const lead={property_address:'123 Main Street, Apt 4',city:'Raleigh',state:'NC',property_context:{...context,address:'123 Oak Street, Raleigh, NC'}};
+ const links=propertyViewLinks(lead);
+ assert.equal(links.street,undefined);
+ assert.equal(new URL(links.search).searchParams.get('query'),'123 Main Street, Apt 4, Raleigh, NC');
+ const normalized=propertyViewLinks({...lead,property_context:{...context,address:'123 MAIN ST, RALEIGH, NC'}});
+ assert.equal(new URL(normalized.street).searchParams.get('viewpoint'),'35.81,-78.69');
+});
 test('imagery states distinguish coverage, source and approximate location',()=>{
  const ui={esc:v=>String(v||'').replaceAll('"','&quot;')};
  const html=propertyImageryMarkup({id:'test',property_address:'12 Test Street',property_context:context},ui);assert.match(html,/USGS \/ USDA NAIP/);assert.match(html,/Not live/);assert.match(html,/Find address on Google Maps/);assert.doesNotMatch(html,/<iframe|key=/);

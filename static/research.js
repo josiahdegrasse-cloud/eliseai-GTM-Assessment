@@ -91,8 +91,10 @@ export function scoreMarkup(lead,ui){
 }
 
 function propertyMarkup(lead,{esc}){
- const address=propertyAddress(lead);
- return `<section class="property-brief compact-property" aria-label="Submitted property"><p class="property-address">${esc(address)}</p>${streetViewMarkup(lead,{esc})}</section>`;
+ const address=propertyAddress(lead),links=propertyViewLinks(lead);
+ const maps=links.search?`<p><a class="textbutton" href="${esc(links.search)}" target="_blank" rel="noopener noreferrer">Confirm the building in Google Maps</a></p>`:'';
+ const explore=links.street?`<p><a class="textbutton" href="${esc(links.street)}" target="_blank" rel="noopener noreferrer">Explore Street View</a></p>`:'';
+ return `<section class="property-brief compact-property" aria-label="Submitted property"><p class="property-address">${esc(address)}</p>${maps}${explore}${streetViewMarkup(lead,{esc})}</section>`;
 }
 
 export function sourcePanelMarkup(lead,{esc,icon,date},key='all'){

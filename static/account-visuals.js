@@ -14,11 +14,23 @@ export function propertyAddress(lead){
  if(!String(lead.property_address||'').trim())return '';
  return [lead.property_address,lead.city,lead.state,lead.postal_code,lead.country].map(v=>String(v??'').trim()).filter(Boolean).join(', ');
 }
+function streetAddressCore(value){
+ // Compare the street itself, not just the house number. Census can normalize
+ // suffixes and append locality fields, so compare the first address segment.
+ return String(value||'').trim().split(',')[0]
+  .replace(/\b(?:apartment|apt|suite|ste|unit)\s*[#-]?\s*[^,]+$/i,'')
+  .replace(/#\s*[A-Za-z0-9-]+$/,'')
+  .toLowerCase().replace(/[.,]/g,' ').replace(/\s+/g,' ').trim()
+  .replace(/\b(street|st)\b/g,'st').replace(/\b(avenue|ave)\b/g,'ave')
+  .replace(/\b(road|rd)\b/g,'rd').replace(/\b(boulevard|blvd)\b/g,'blvd')
+  .replace(/\b(drive|dr)\b/g,'dr').replace(/\b(lane|ln)\b/g,'ln')
+  .replace(/\b(court|ct)\b/g,'ct').replace(/\b(highway|hwy)\b/g,'hwy');
+}
 export function propertyViewLinks(lead){
  const address=propertyAddress(lead);if(!address)return {};
  const p=lead.property_context||{},point=locationPoint(p);
- const streetNumber=value=>String(value||'').trim().match(/^\d+[A-Za-z]?(?:-\d+)?/)?.[0];
- const consistent=!p.address||streetNumber(lead.property_address)===streetNumber(p.address);
+ const submittedStreet=streetAddressCore(lead.property_address),matchedStreet=streetAddressCore(p.address);
+ const consistent=!p.address||(!!submittedStreet&&!!matchedStreet&&submittedStreet===matchedStreet);
  return {...(point&&!p.stale&&consistent?{street:'https://www.google.com/maps/@?'+new URLSearchParams({api:'1',map_action:'pano',viewpoint:point.y+','+point.x})}:{}),search:'https://www.google.com/maps/search/?'+new URLSearchParams({api:'1',query:address})};
 }
 export function streetViewMarkup(lead,{esc}){
@@ -27,7 +39,9 @@ export function streetViewMarkup(lead,{esc}){
  // Keep Google's hosted, keyless panorama inside its iframe. A fresh Census
  // match locates the street, not proof of the building or ownership.
  const point=links.street?locationPoint(lead.property_context):null;
- const url=saved||(point?'https://www.google.com/maps?'+new URLSearchParams({layer:'c',cbll:point.y+','+point.x,cbp:'12,0,,0,0',source:'embed',output:'svembed'}):'');
+ // Only embed a panorama explicitly saved for this exact submitted address.
+ // Coordinates locate a street; they do not prove an exact building/panorama match.
+ const url=saved&&(!lead.property_context?.address||links.street)?saved:'';
  if(!url)return `<p class="claim-caption">Street View is not available yet for this address.</p>`;
  return `<figure class="street-view street-view-preview"><iframe src="${esc(url)}" title="${esc('Google Street View near '+address)}" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="fullscreen" allowfullscreen></iframe></figure>`;
 }

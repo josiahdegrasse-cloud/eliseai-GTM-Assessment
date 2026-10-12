@@ -5,7 +5,7 @@ export function marketContextMarkup(lead,{esc,property=''}){
  const country=String(lead.country||'US').toUpperCase();
  const supported=['US','USA','UNITED STATES','UNITED STATES OF AMERICA','PR','PUERTO RICO'].includes(country);
  const matched=address&&p.status==='matched'&&!p.stale&&/^\d{11}$/.test(p.tract||'');
- const available=supported&&matched&&a.status==='available'&&!a.stale&&a.geoid==='14000US'+p.tract;
+ const available=supported&&matched&&!p.sample_snapshot&&a.status==='available'&&!a.stale&&!a.sample_snapshot&&(!a.tract||a.tract===p.tract)&&a.geoid==='14000US'+p.tract;
  const share=v=>Number.isFinite(v)&&v>=0&&v<=100;
  const apartment=a.housing_mix?.find(m=>m.key==='apartments')?.share;
  const metrics=available?[share(a.renter_share)&&['Renter households',percent(a.renter_share),'Of occupied homes'],share(apartment)&&['Homes in 5+ unit buildings',percent(apartment),'Of all housing units'],Number.isFinite(a.median_gross_rent)&&a.median_gross_rent>=0&&['Median monthly gross rent',money(a.median_gross_rent),'Includes utilities'+(Number.isFinite(a.rent_moe)?' · ±'+money(a.rent_moe):'')]].filter(Boolean):[];
@@ -15,7 +15,7 @@ export function marketContextMarkup(lead,{esc,property=''}){
 const officialRules={NC:['North Carolina rental statutes','https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByChapter/Chapter_42.html'],WA:['Washington landlord–tenant guidance','https://www.atg.wa.gov/landlord-tenant']};
 export function areaMarkup(lead,{esc}){
  const a=lead.area_context||{},p=lead.property_context||{};
- if(p.status!=='matched'||p.stale||a.status!=='available'||a.stale)return '';
+ if(p.status!=='matched'||p.stale||p.sample_snapshot||a.status!=='available'||a.stale||a.sample_snapshot||!p.tract||(a.tract&&a.tract!==p.tract)||a.geoid!=='14000US'+p.tract)return '';
  const available=a.status==='available',mix=(a.housing_mix||[]).filter(m=>typeof m.share==='number');
  let offset=0;const segments=mix.map(m=>{const x=offset;offset+=m.share;return `<rect class="mix-${m.key}" x="${x}" y="0" width="${m.share}" height="16"/>`}).join('');
  const state=p.state||lead.state,rule=officialRules[String(state).toUpperCase()];
