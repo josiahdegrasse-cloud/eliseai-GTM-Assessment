@@ -15,3 +15,12 @@ test('selected panorama follows only the saved address and never changes to a ne
  const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('"','&quot;');
  const html=streetViewMarkup(lead,{esc});assert.match(html,/street-view-preview/);assert.match(html,/loading="lazy"/);assert.doesNotMatch(html,/Add Street View|Paste Google|Save preview|Remove preview|Address map/);assert.doesNotMatch(html,/embed\/v1|key=/);
 });
+
+test('saved panoramas are suppressed when the current property match points to a different street',()=>{
+ const lead={property_address:'123 Main St',city:'Raleigh',state:'NC',property_context:{status:'matched',coordinates:{x:-78.69,y:35.81},address:'123 Oak St, Raleigh, NC'}};
+ lead.street_view={url,address_key:propertyViewKey(lead)};
+ const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('"','&quot;');
+ const html=streetViewMarkup(lead,{esc});
+ assert.match(html,/Street View is not available yet for this address/);
+ assert.doesNotMatch(html,/street-view-preview|maps\/embed/);
+});
